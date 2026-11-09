@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "find /data/local/tmp/mnn-gate2c4-gpu-evidence-20261109T080311Z-267d0e -maxdepth 2 -type f -name \"*cache*\" -exec ls -l {} \\;"
+  ],
+  "started_at_utc": "2026-11-09T08:03:12.583532+00:00",
+  "ended_at_utc": "2026-11-09T08:03:12.640892+00:00",
+  "elapsed_seconds": 0.05730669992044568,
+  "exit_code": 0
+}

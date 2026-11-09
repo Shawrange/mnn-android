@@ -1,0 +1,19 @@
+{
+  "scope": "Gate2-C0/C1 OpenCL feasibility",
+  "backend_requested": "opencl",
+  "thread_num_requested": 4,
+  "gpu_mode_effective": 580,
+  "cpu_reference_threads": 4,
+  "precision": "low",
+  "memory": "low",
+  "model_revision": "34dfccda1187ded6e07ea06426da576b0b793c6b",
+  "mnn_commit": "7e3c6fb5225d3ccf22807ee641332669df34650d",
+  "test_loads": {
+    "driver_probes": 2,
+    "successful_demo_runs": 2,
+    "demo_prompt_tokens": 21,
+    "demo_generated_tokens": 16,
+    "small_prefill_numerical_cases": 2
+  },
+  "metadata_note": "Original per-session protocol.json reused a Gate1 config container and retains unused CPU/workload/warmup fields. They are inherited metadata, not actual OpenCL test settings. Use per-run command.json and config.opencl.json plus this clarification. Original records preserved. Runner now emits only relevant fields."
+}

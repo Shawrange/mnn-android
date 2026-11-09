@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "mkdir -p /data/local/tmp/mnn-gate2c4-diagnostics-20261109T080327Z-8282cf/cpu/CL013-first-token"
+  ],
+  "started_at_utc": "2026-11-09T08:03:54.168111+00:00",
+  "ended_at_utc": "2026-11-09T08:03:54.202813+00:00",
+  "elapsed_seconds": 0.034520599991083145,
+  "exit_code": 0
+}

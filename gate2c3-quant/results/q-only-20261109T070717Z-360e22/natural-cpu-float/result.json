@@ -1,0 +1,10 @@
+{
+  "kind": "natural",
+  "mode": "cpu-float",
+  "backend": "cpu",
+  "precision": "high",
+  "memory": "high",
+  "trace": false,
+  "exit_code": 0,
+  "valid": true
+}

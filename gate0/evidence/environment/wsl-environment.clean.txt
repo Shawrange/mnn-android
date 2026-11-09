@@ -1,0 +1,70 @@
+PRETTY_NAME="Ubuntu 26.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="26.04"
+VERSION="26.04.1 LTS (Resolute Raccoon)"
+VERSION_CODENAME=resolute
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=resolute
+LOGO=ubuntu-logo
+x86_64
+
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/12761/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell:/mnt/c/Users/12761/.codex/tmp/arg0-windows/codex-arg0pK2lnZ:/mnt/c/Users/12761/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/libheif/libheif/bin:/mnt/c/Users/12761/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/jxrlib/jxrlib/bin:/mnt/c/Users/12761/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/poppler/Library/bin:/mnt/c/Users/12761/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/12761/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell:/mnt/c/Users/12761/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Tencent/QQGameTempest/Hall.58139/:/mnt/e/texlive/texlive/2024/bin/windows:/mnt/e/PyCharm 2024.1/bin:/mnt/e/Microsoft VS Code/bin:/mnt/e/texlive/texlive/2024/bin:/mnt/c/x86_64-14.2.0-release-posix-seh-ucrt-rt_v12-rev0/mingw64/bin:/mnt/e/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/e/matalb2024a/runtime/win64:/mnt/e/matalb2024a/bin:/mnt/e/jdk21:/mnt/e/jdk21/bin:/mnt/e/nodejs/node_global/node_modules:/mnt/e/yarn/bin:/mnt/e/nodejs/node_global/node_modules/yarn/bin:/mnt/e/code/ffmpeg(1)/ffmpeg/bin:/mnt/e/redis:/mnt/c/redis:/mnt/c/Users/12761/AppData/Local/nvm:/mnt/c/Users/12761/Downloads/nodejs:/mnt/e/python:/mnt/e/python/Scripts:/mnt/e/Docker/Docker/resources/bin:/mnt/c/Users/12761/.local/bin:/mnt/e/IntelliJ IDEA 2024.1/bin:/mnt/e/x86_64-14.2.0-release-posix-seh-ucrt-rt_v12-rev0/mingw64/bin:/mnt/e/WebStorm 2025.1/bin:/mnt/e/nodejs/node_global:/mnt/c/Users/12761/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/12761/tools/apache-maven-3.9.16/bin:/mnt/e/Ollama/app:/mnt/e/cursor/resources/app/bin:/mnt/c/Users/12761/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/mnt/c/Users/12761/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin:/mnt/c/Users/12761/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd:/mnt/c/Users/12761/AppData/Local/OpenAI/Codex/bin/85e840bd9ad04c3b:/mnt/c/Users/12761/AppData/Local/OpenAI/Codex/bin/a159911ff70742e9
+
+[git]
+/usr/bin/git
+git version 2.53.0
+
+[cmake]
+/usr/bin/cmake
+cmake version 4.2.3
+
+
+[ninja]
+/usr/bin/ninja
+1.13.2
+
+[make]
+NOT_FOUND
+
+[clang]
+NOT_FOUND
+
+[clang++]
+NOT_FOUND
+
+[g++]
+/usr/bin/g++
+g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+Copyright (C) 2025 Free Software Foundation, Inc.
+
+[python3]
+/usr/bin/python3
+Python 3.14.4
+
+[adb]
+NOT_FOUND
+
+[java]
+NOT_FOUND
+
+[unzip]
+NOT_FOUND
+
+[curl]
+/usr/bin/curl
+curl 8.18.0 (x86_64-pc-linux-gnu) libcurl/8.18.0 OpenSSL/3.5.5 zlib/1.3.1 brotli/1.2.0 zstd/1.5.7 libidn2/2.3.8 libpsl/0.21.2 libssh2/1.11.1 nghttp2/1.68.0 librtmp/2.3 mit-krb5/1.22.1 OpenLDAP/2.6.10
+Release-Date: 2026-01-07, security patched: 8.18.0-1ubuntu2.4
+
+[file]
+/usr/bin/file
+file-5.46
+magic file from /etc/magic:/usr/share/misc/magic
+
+ANDROID_HOME=
+ANDROID_NDK=
+ANDROID_NDK_HOME=

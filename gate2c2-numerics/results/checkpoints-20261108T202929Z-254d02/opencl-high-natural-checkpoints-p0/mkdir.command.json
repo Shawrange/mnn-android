@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "mkdir -p /data/local/tmp/mnn-gate2c2-checkpoints-20261108T202929Z-254d02/opencl-high-natural-checkpoints-p0/out"
+  ],
+  "started_at_utc": "2026-11-08T20:29:47.234977+00:00",
+  "ended_at_utc": "2026-11-08T20:29:47.294309+00:00",
+  "elapsed_seconds": 0.05890399997588247,
+  "exit_code": 0
+}

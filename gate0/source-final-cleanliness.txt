@@ -1,0 +1,2 @@
+unstaged_diff_exit=0
+staged_diff_exit=0

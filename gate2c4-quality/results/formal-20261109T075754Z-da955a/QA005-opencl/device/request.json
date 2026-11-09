@@ -1,0 +1,13 @@
+{
+  "id": "QA005",
+  "split": "formal",
+  "category": "qa",
+  "input": "短文：会议原定周二举行，后来改为周四。问：会议最终在周几举行？只输出“周几”形式。",
+  "gold": "周四",
+  "variants": [
+    "周四"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "周四"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "P09",
+  "split": "pilot",
+  "category": "instruction",
+  "input": "只输出字符串“完成”，不要引号、标点或其他内容。",
+  "gold": "完成",
+  "variants": [
+    "完成"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; strict format; natural EOS required"
+}

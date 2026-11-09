@@ -1,0 +1,42 @@
+{
+  "backend": "cpu",
+  "generated_count": 0,
+  "host_type": "float32",
+  "id": "QA022-first-token",
+  "initial_kv": 0,
+  "input_len": 57,
+  "kv_after": 57,
+  "mode": "logits",
+  "nonfinite": 0,
+  "prompt_len": 57,
+  "read_twice_identical": true,
+  "reference_prompt_prefix_matches": true,
+  "shape": [
+    1,
+    1,
+    151936
+  ],
+  "thinking": false,
+  "top5_text": [
+    {
+      "id": 16,
+      "text": "1"
+    },
+    {
+      "id": 17,
+      "text": "2"
+    },
+    {
+      "id": 24,
+      "text": "9"
+    },
+    {
+      "id": 19,
+      "text": "4"
+    },
+    {
+      "id": 21,
+      "text": "6"
+    }
+  ]
+}

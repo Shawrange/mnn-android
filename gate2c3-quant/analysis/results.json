@@ -1,0 +1,575 @@
+{
+  "primary_session": "results\\q-only-20261109T070717Z-360e22",
+  "decision": "A",
+  "independent_input_cases": 2,
+  "functional_checks": [
+    {
+      "kind": "synthetic",
+      "tokens": 8,
+      "independent_input_case": true,
+      "all_three_executor_entries_match": true,
+      "all_three_quantized_inputs_match": true,
+      "all_three_scales_match": true,
+      "runtime_decoded_weights_and_alpha_match": true,
+      "prepared_scale_offset_match": true,
+      "tracing_on_off_and_archive_output_identical": true,
+      "independent_contract_matches_cpu_all_elements": true,
+      "q_min": -127,
+      "q_max": 113,
+      "qscale_range": [
+        56.83916091918945,
+        56.83916091918945
+      ],
+      "dscale_range": [
+        0.0175935048609972,
+        0.0175935048609972
+      ],
+      "integer_dot_range": [
+        -2682,
+        2106
+      ]
+    },
+    {
+      "kind": "natural",
+      "tokens": 13,
+      "independent_input_case": true,
+      "all_three_executor_entries_match": true,
+      "all_three_quantized_inputs_match": true,
+      "all_three_scales_match": true,
+      "runtime_decoded_weights_and_alpha_match": true,
+      "prepared_scale_offset_match": true,
+      "tracing_on_off_and_archive_output_identical": true,
+      "independent_contract_matches_cpu_all_elements": true,
+      "q_min": -127,
+      "q_max": 127,
+      "qscale_range": [
+        15.408531188964844,
+        69.39594268798828
+      ],
+      "dscale_range": [
+        0.014410063624382019,
+        0.06489911675453186
+      ],
+      "integer_dot_range": [
+        -4730,
+        5099
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "kind": "synthetic",
+      "reference": "A64",
+      "compared": "cpu-float",
+      "elements": 16384,
+      "all_finite": true,
+      "relative_rmse": 4.784551079856194e-07,
+      "cosine": 0.9999999999998854,
+      "max_abs": 3.1303497962653637e-06,
+      "mean_abs": 8.439000609428149e-08,
+      "min_delta": -3.1303497962653637e-06,
+      "max_delta": 3.0173687264323235e-06,
+      "a_min": -4.713257472903933,
+      "a_max": 4.679077945766039,
+      "b_min": -4.7132568359375,
+      "b_max": 4.679080963134766,
+      "exact_elements": 8,
+      "p50_abs": 3.858440322801471e-08,
+      "p99_abs": 7.924390956759453e-07
+    },
+    {
+      "kind": "synthetic",
+      "reference": "A64",
+      "compared": "gpu-high",
+      "elements": 16384,
+      "all_finite": true,
+      "relative_rmse": 5.444396541765563e-08,
+      "cosine": 0.9999999999999984,
+      "max_abs": 3.2049138098955154e-07,
+      "mean_abs": 1.3078867766580515e-08,
+      "min_delta": -3.2049138098955154e-07,
+      "max_delta": 1.8801074475049973e-07,
+      "a_min": -4.713257472903933,
+      "a_max": 4.679077945766039,
+      "b_min": -4.713257789611816,
+      "b_max": 4.679077625274658,
+      "exact_elements": 0,
+      "p50_abs": 9.029463399201632e-09,
+      "p99_abs": 7.718335837125778e-08
+    },
+    {
+      "kind": "synthetic",
+      "reference": "B16_contract",
+      "compared": "cpu-low",
+      "elements": 16384,
+      "all_finite": true,
+      "relative_rmse": 0.0,
+      "cosine": 1.0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "min_delta": 0.0,
+      "max_delta": 0.0,
+      "a_min": -4.71875,
+      "a_max": 4.68359375,
+      "b_min": -4.71875,
+      "b_max": 4.68359375,
+      "exact_elements": 16384,
+      "p50_abs": 0.0,
+      "p99_abs": 0.0
+    },
+    {
+      "kind": "synthetic",
+      "reference": "A64",
+      "compared": "B16_contract",
+      "elements": 16384,
+      "all_finite": true,
+      "relative_rmse": 0.012658438924303685,
+      "cosine": 0.9999202228545558,
+      "max_abs": 0.031396156176924706,
+      "mean_abs": 0.004050299461226814,
+      "min_delta": -0.02790293568978086,
+      "max_delta": 0.031396156176924706,
+      "a_min": -4.713257472903933,
+      "a_max": 4.679077945766039,
+      "b_min": -4.71875,
+      "b_max": 4.68359375,
+      "exact_elements": 0,
+      "p50_abs": 0.0032371503693866543,
+      "p99_abs": 0.01485942822182551
+    },
+    {
+      "kind": "synthetic",
+      "reference": "A64",
+      "compared": "B64_ideal",
+      "elements": 16384,
+      "all_finite": true,
+      "relative_rmse": 0.012674362556114718,
+      "cosine": 0.9999200245877551,
+      "max_abs": 0.03178349800782598,
+      "mean_abs": 0.0040532382182660795,
+      "min_delta": -0.028354639918688918,
+      "max_delta": 0.03178349800782598,
+      "a_min": -4.713257472903933,
+      "a_max": 4.679077945766039,
+      "b_min": -4.718179830403869,
+      "b_max": 4.684981539615137,
+      "exact_elements": 0,
+      "p50_abs": 0.003229843101479446,
+      "p99_abs": 0.014993235309134434
+    },
+    {
+      "kind": "synthetic",
+      "reference": "B64_ideal",
+      "compared": "B32_prehalf",
+      "elements": 16384,
+      "all_finite": true,
+      "relative_rmse": 7.887986535720421e-08,
+      "cosine": 0.9999999999999972,
+      "max_abs": 4.208368409308605e-07,
+      "mean_abs": 2.038844506419002e-08,
+      "min_delta": -4.208368409308605e-07,
+      "max_delta": 3.9514407035312615e-07,
+      "a_min": -4.718179830403869,
+      "a_max": 4.684981539615137,
+      "b_min": -4.718179702758789,
+      "b_max": 4.684981822967529,
+      "exact_elements": 0,
+      "p50_abs": 1.4944475879019592e-08,
+      "p99_abs": 1.276450802834006e-07
+    },
+    {
+      "kind": "synthetic",
+      "reference": "B32_prehalf",
+      "compared": "B16_contract",
+      "elements": 16384,
+      "all_finite": true,
+      "relative_rmse": 0.00019780466519834388,
+      "cosine": 0.9999999804443578,
+      "max_abs": 0.0013880729675292969,
+      "mean_abs": 3.73854080635283e-05,
+      "min_delta": -0.0013880729675292969,
+      "max_delta": 0.000835418701171875,
+      "a_min": -4.718179702758789,
+      "a_max": 4.684981822967529,
+      "b_min": -4.71875,
+      "b_max": 4.68359375,
+      "exact_elements": 0,
+      "p50_abs": 1.598149538040161e-05,
+      "p99_abs": 0.00037550926208496094
+    },
+    {
+      "kind": "natural",
+      "reference": "A64",
+      "compared": "cpu-float",
+      "elements": 26624,
+      "all_finite": true,
+      "relative_rmse": 6.688114977434732e-07,
+      "cosine": 0.9999999999997774,
+      "max_abs": 1.0499876225367188e-05,
+      "mean_abs": 1.3747760500944122e-07,
+      "min_delta": -1.0499876225367188e-05,
+      "max_delta": 7.436479791067541e-06,
+      "a_min": -11.353082672518212,
+      "a_max": 13.195924363157246,
+      "b_min": -11.353083610534668,
+      "b_max": 13.195929527282715,
+      "exact_elements": 4,
+      "p50_abs": 4.936009645462036e-08,
+      "p99_abs": 1.4930847100913525e-06
+    },
+    {
+      "kind": "natural",
+      "reference": "A64",
+      "compared": "gpu-high",
+      "elements": 26624,
+      "all_finite": true,
+      "relative_rmse": 6.308972972482542e-08,
+      "cosine": 0.9999999999999979,
+      "max_abs": 1.2347300071269274e-06,
+      "mean_abs": 1.7463990202688688e-08,
+      "min_delta": -1.2347300071269274e-06,
+      "max_delta": 7.2971306508407e-07,
+      "a_min": -11.353082672518212,
+      "a_max": 13.195924363157246,
+      "b_min": -11.353082656860352,
+      "b_max": 13.195923805236816,
+      "exact_elements": 16,
+      "p50_abs": 1.0317307896912098e-08,
+      "p99_abs": 1.3257202226668637e-07
+    },
+    {
+      "kind": "natural",
+      "reference": "B16_contract",
+      "compared": "cpu-low",
+      "elements": 26624,
+      "all_finite": true,
+      "relative_rmse": 0.0,
+      "cosine": 1.0000000000000002,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "min_delta": 0.0,
+      "max_delta": 0.0,
+      "a_min": -11.390625,
+      "a_max": 13.171875,
+      "b_min": -11.390625,
+      "b_max": 13.171875,
+      "exact_elements": 26624,
+      "p50_abs": 0.0,
+      "p99_abs": 0.0
+    },
+    {
+      "kind": "natural",
+      "reference": "A64",
+      "compared": "B16_contract",
+      "elements": 26624,
+      "all_finite": true,
+      "relative_rmse": 0.017193239157951307,
+      "cosine": 0.9998532687971123,
+      "max_abs": 0.11245557881193236,
+      "mean_abs": 0.006248794392813954,
+      "min_delta": -0.11245557881193236,
+      "max_delta": 0.10514809243613854,
+      "a_min": -11.353082672518212,
+      "a_max": 13.195924363157246,
+      "b_min": -11.390625,
+      "b_max": 13.171875,
+      "exact_elements": 0,
+      "p50_abs": 0.0038467954682346317,
+      "p99_abs": 0.0371406272854074
+    },
+    {
+      "kind": "natural",
+      "reference": "A64",
+      "compared": "B64_ideal",
+      "elements": 26624,
+      "all_finite": true,
+      "relative_rmse": 0.01719046401840026,
+      "cosine": 0.99985328485556,
+      "max_abs": 0.11214654220748344,
+      "mean_abs": 0.006249050406453482,
+      "min_delta": -0.11214654220748344,
+      "max_delta": 0.10509433871084184,
+      "a_min": -11.353082672518212,
+      "a_max": 13.195924363157246,
+      "b_min": -11.388770958456007,
+      "b_max": 13.169046422644897,
+      "exact_elements": 0,
+      "p50_abs": 0.0038463322560460256,
+      "p99_abs": 0.037105462404724676
+    },
+    {
+      "kind": "natural",
+      "reference": "B64_ideal",
+      "compared": "B32_prehalf",
+      "elements": 26624,
+      "all_finite": true,
+      "relative_rmse": 1.0242152293868116e-07,
+      "cosine": 0.9999999999999951,
+      "max_abs": 2.3486136342398822e-06,
+      "mean_abs": 2.574763002351317e-08,
+      "min_delta": -2.0060215319972485e-06,
+      "max_delta": 2.3486136342398822e-06,
+      "a_min": -11.388770958456007,
+      "a_max": 13.169046422644897,
+      "b_min": -11.388772964477539,
+      "b_max": 13.169046401977539,
+      "exact_elements": 0,
+      "p50_abs": 1.5013398524388322e-08,
+      "p99_abs": 1.9396429706830531e-07
+    },
+    {
+      "kind": "natural",
+      "reference": "B32_prehalf",
+      "compared": "B16_contract",
+      "elements": 26624,
+      "all_finite": true,
+      "relative_rmse": 0.00019444129274052014,
+      "cosine": 0.9999999813302927,
+      "max_abs": 0.0030488967895507812,
+      "mean_abs": 4.466332604052398e-05,
+      "min_delta": -0.0018520355224609375,
+      "max_delta": 0.0030488967895507812,
+      "a_min": -11.388772964477539,
+      "a_max": 13.169046401977539,
+      "b_min": -11.390625,
+      "b_max": 13.171875,
+      "exact_elements": 3,
+      "p50_abs": 1.9885599613189697e-05,
+      "p99_abs": 0.00043048381805419964
+    }
+  ],
+  "actual_function_pointers": [
+    {
+      "kind": "synthetic",
+      "field": "MNNAbsMax",
+      "elf_offset_hex": "0x2da2ac",
+      "map_symbols": [
+        "MNN::MNNAbsMaxFP16(float const*, float*, unsigned long, unsigned long, int)"
+      ]
+    },
+    {
+      "kind": "synthetic",
+      "field": "MNNQuantScale",
+      "elf_offset_hex": "0x2fb480",
+      "map_symbols": [
+        "MNNQuantScaleFP16"
+      ]
+    },
+    {
+      "kind": "synthetic",
+      "field": "MNNDynamicQuant",
+      "elf_offset_hex": "0x2dde8c",
+      "map_symbols": [
+        "MNN::MNNDynamicQuantFP16(float const*, signed char*, float const*, unsigned long, unsigned long, int, float const*)"
+      ]
+    },
+    {
+      "kind": "synthetic",
+      "field": "mGemmKernel",
+      "elf_offset_hex": "0x2f9f40",
+      "map_symbols": [
+        "MNNGemmInt8AddBiasScale_ARMV86_w4_Unit_FP16"
+      ]
+    },
+    {
+      "kind": "synthetic",
+      "field": "SumByAxis",
+      "elf_offset_hex": "0x2c5e40",
+      "map_symbols": [
+        "MNNSumByAxisLForMatmul_A_ARM86"
+      ]
+    },
+    {
+      "kind": "natural",
+      "field": "MNNAbsMax",
+      "elf_offset_hex": "0x2da2ac",
+      "map_symbols": [
+        "MNN::MNNAbsMaxFP16(float const*, float*, unsigned long, unsigned long, int)"
+      ]
+    },
+    {
+      "kind": "natural",
+      "field": "MNNQuantScale",
+      "elf_offset_hex": "0x2fb480",
+      "map_symbols": [
+        "MNNQuantScaleFP16"
+      ]
+    },
+    {
+      "kind": "natural",
+      "field": "MNNDynamicQuant",
+      "elf_offset_hex": "0x2dde8c",
+      "map_symbols": [
+        "MNN::MNNDynamicQuantFP16(float const*, signed char*, float const*, unsigned long, unsigned long, int, float const*)"
+      ]
+    },
+    {
+      "kind": "natural",
+      "field": "mGemmKernel",
+      "elf_offset_hex": "0x2f9f40",
+      "map_symbols": [
+        "MNNGemmInt8AddBiasScale_ARMV86_w4_Unit_FP16"
+      ]
+    },
+    {
+      "kind": "natural",
+      "field": "SumByAxis",
+      "elf_offset_hex": "0x2c5e40",
+      "map_symbols": [
+        "MNNSumByAxisLForMatmul_A_ARM86"
+      ]
+    }
+  ],
+  "diagnostic_timings": [
+    {
+      "kind": "synthetic",
+      "mode": "cpu-low",
+      "wall_ms": [
+        0.370156,
+        0.250313,
+        0.241615
+      ],
+      "scope": "host runSessionWithCallBackInfo including callback file copies and, if enabled, runtime tracing; not kernel performance"
+    },
+    {
+      "kind": "synthetic",
+      "mode": "diag-off",
+      "wall_ms": [
+        0.658438,
+        0.538854,
+        0.525885
+      ],
+      "scope": "host runSessionWithCallBackInfo including callback file copies and, if enabled, runtime tracing; not kernel performance"
+    },
+    {
+      "kind": "synthetic",
+      "mode": "diag-on",
+      "wall_ms": [
+        1.932188,
+        1.616562,
+        1.646927
+      ],
+      "scope": "host runSessionWithCallBackInfo including callback file copies and, if enabled, runtime tracing; not kernel performance"
+    },
+    {
+      "kind": "synthetic",
+      "mode": "cpu-float",
+      "wall_ms": [
+        1.554063,
+        1.519427,
+        1.454063
+      ],
+      "scope": "host runSessionWithCallBackInfo including callback file copies and, if enabled, runtime tracing; not kernel performance"
+    },
+    {
+      "kind": "synthetic",
+      "mode": "gpu-high",
+      "wall_ms": [
+        32.238125,
+        1.775052,
+        1.907916
+      ],
+      "scope": "host runSessionWithCallBackInfo including callback file copies and, if enabled, runtime tracing; not kernel performance"
+    },
+    {
+      "kind": "natural",
+      "mode": "cpu-low",
+      "wall_ms": [
+        0.983386,
+        0.883646,
+        0.873177
+      ],
+      "scope": "host runSessionWithCallBackInfo including callback file copies and, if enabled, runtime tracing; not kernel performance"
+    },
+    {
+      "kind": "natural",
+      "mode": "diag-off",
+      "wall_ms": [
+        1.081719,
+        0.905572,
+        0.868854
+      ],
+      "scope": "host runSessionWithCallBackInfo including callback file copies and, if enabled, runtime tracing; not kernel performance"
+    },
+    {
+      "kind": "natural",
+      "mode": "diag-on",
+      "wall_ms": [
+        5.894271,
+        2.018177,
+        2.113906
+      ],
+      "scope": "host runSessionWithCallBackInfo including callback file copies and, if enabled, runtime tracing; not kernel performance"
+    },
+    {
+      "kind": "natural",
+      "mode": "cpu-float",
+      "wall_ms": [
+        2.975677,
+        2.788282,
+        2.873438
+      ],
+      "scope": "host runSessionWithCallBackInfo including callback file copies and, if enabled, runtime tracing; not kernel performance"
+    },
+    {
+      "kind": "natural",
+      "mode": "gpu-high",
+      "wall_ms": [
+        32.766979,
+        2.056927,
+        2.213125
+      ],
+      "scope": "host runSessionWithCallBackInfo including callback file copies and, if enabled, runtime tracing; not kernel performance"
+    }
+  ],
+  "initial_reference_attempt": [
+    {
+      "kind": "synthetic",
+      "mismatch_count": 0,
+      "details": []
+    },
+    {
+      "kind": "natural",
+      "mismatch_count": 6,
+      "details": [
+        {
+          "token": 12,
+          "channel": 72,
+          "initial_reference": 0.00021982192993164062,
+          "cpu": 0.0002199411392211914
+        },
+        {
+          "token": 12,
+          "channel": 169,
+          "initial_reference": -0.001255035400390625,
+          "cpu": -0.0012559890747070312
+        },
+        {
+          "token": 12,
+          "channel": 412,
+          "initial_reference": 0.01461029052734375,
+          "cpu": 0.014617919921875
+        },
+        {
+          "token": 12,
+          "channel": 530,
+          "initial_reference": 0.0001195669174194336,
+          "cpu": 0.00011962652206420898
+        },
+        {
+          "token": 12,
+          "channel": 1317,
+          "initial_reference": -0.09136962890625,
+          "cpu": -0.09130859375
+        },
+        {
+          "token": 12,
+          "channel": 1786,
+          "initial_reference": 0.0012617111206054688,
+          "cpu": 0.0012607574462890625
+        }
+      ]
+    }
+  ],
+  "new_runtime_experiments_required": false
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "synthetic",
+  "mode": "cpu-low",
+  "backend": "cpu",
+  "precision": "low",
+  "memory": "low",
+  "trace": false,
+  "exit_code": 0,
+  "valid": true
+}

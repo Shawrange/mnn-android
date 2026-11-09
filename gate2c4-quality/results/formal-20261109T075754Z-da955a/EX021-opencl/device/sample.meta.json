@@ -1,0 +1,15 @@
+{
+  "backend": "opencl",
+  "gen_seq_len": 21,
+  "generated_count": 21,
+  "id": "EX021",
+  "initial_kv": 0,
+  "input_len": 88,
+  "kv_after": 108,
+  "mode": "generate",
+  "prompt_len": 88,
+  "status": 1,
+  "stop_token": 151645,
+  "stopped": true,
+  "thinking": false
+}

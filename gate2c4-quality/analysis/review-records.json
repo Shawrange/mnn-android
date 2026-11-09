@@ -1,0 +1,106 @@
+{
+  "scope": "Representative objective scoring audit; no subjective or post-hoc primary score changes",
+  "independent_human_review_performed": false,
+  "records": [
+    {
+      "id": "CL010",
+      "reviewer": "Codex evidence inspection; not independent human review",
+      "cpu_text": "咨询,投诉",
+      "gpu_text": "咨询、投诉",
+      "cpu_success_unchanged": false,
+      "gpu_success_unchanged": false,
+      "note": "输出了多个类别；冻结规则要求唯一类别，因此两端均失败。",
+      "changed_primary_score": false
+    },
+    {
+      "id": "CL013",
+      "reviewer": "Codex evidence inspection; not independent human review",
+      "cpu_text": "咨询、投诉、表扬",
+      "gpu_text": "咨询",
+      "cpu_success_unchanged": false,
+      "gpu_success_unchanged": false,
+      "note": "GPU唯一类别仍为错误的咨询；CPU也未给唯一类别，两端失败不能解释为GPU质量下降。",
+      "changed_primary_score": false
+    },
+    {
+      "id": "EX001",
+      "reviewer": "Codex evidence inspection; not independent human review",
+      "cpu_text": "```json\n{\n  \"name\": \"林雪\",\n  \"count\": 3\n}\n```",
+      "gpu_text": "```json\n{\n  \"name\": \"林雪\",\n  \"count\": 3\n}\n```",
+      "cpu_success_unchanged": false,
+      "gpu_success_unchanged": false,
+      "note": "代码块内字段可读，但严格JSON接口拒绝Markdown代码块，主分保持失败。",
+      "changed_primary_score": false
+    },
+    {
+      "id": "EX006",
+      "reviewer": "Codex evidence inspection; not independent human review",
+      "cpu_text": "```json\n{\n  \"place\": \"松柏\",\n  \"time\": \"14:05\"\n}\n```",
+      "gpu_text": "```json\n{\n  \"place\": \"松柏\",\n  \"time\": \"14:05\"\n}\n```",
+      "cpu_success_unchanged": false,
+      "gpu_success_unchanged": false,
+      "note": "除代码块外，地点还丢失了会议室后缀；格式失败之外存在字段内容风险。",
+      "changed_primary_score": false
+    },
+    {
+      "id": "EX022",
+      "reviewer": "Codex evidence inspection; not independent human review",
+      "cpu_text": "```json\n{\n  \"name\": \"叶泽\",\n  \"phone\": \"13800138006\"\n}\n```",
+      "gpu_text": "```json\n{\n  \"name\": \"叶泽\",\n  \"phone\": null\n}\n```",
+      "cpu_success_unchanged": false,
+      "gpu_success_unchanged": false,
+      "note": "CPU输出号码，GPU输出null；两端均因代码块失败，不能在事后去围栏后重算主分。",
+      "changed_primary_score": false
+    },
+    {
+      "id": "IN006",
+      "reviewer": "Codex evidence inspection; not independent human review",
+      "cpu_text": "mNOP",
+      "gpu_text": "MNOP",
+      "cpu_success_unchanged": false,
+      "gpu_success_unchanged": true,
+      "note": "CPU保留首字母小写，GPU全大写；GPU单独正确，复跑确认。",
+      "changed_primary_score": false
+    },
+    {
+      "id": "QA022",
+      "reviewer": "Codex evidence inspection; not independent human review",
+      "cpu_text": "12",
+      "gpu_text": "24",
+      "cpu_success_unchanged": true,
+      "gpu_success_unchanged": false,
+      "note": "CPU12正确，GPU24错误；可重复的个例下降，但不足以支持整体有意义下降。",
+      "changed_primary_score": false
+    },
+    {
+      "id": "QA023",
+      "reviewer": "Codex evidence inspection; not independent human review",
+      "cpu_text": "太阳升起的方向是东边。",
+      "gpu_text": "东",
+      "cpu_success_unchanged": false,
+      "gpu_success_unchanged": true,
+      "note": "CPU句子含东边但未遵守只输出方向；GPU东是预先列出的合法变体，主分有差异，不能称CPU事实知识错误。",
+      "changed_primary_score": false
+    },
+    {
+      "id": "QA011",
+      "reviewer": "Codex evidence inspection; not independent human review",
+      "cpu_text": "7 + 8 = 15\n\n所以答案是：15。",
+      "gpu_text": "25",
+      "cpu_success_unchanged": false,
+      "gpu_success_unchanged": false,
+      "note": "CPU包含正确算式但多余解释，GPU25事实错误；双方主分均失败，原因不同。",
+      "changed_primary_score": false
+    },
+    {
+      "id": "QA003",
+      "reviewer": "Codex evidence inspection; not independent human review",
+      "cpu_text": "公园。",
+      "gpu_text": "公园。",
+      "cpu_success_unchanged": false,
+      "gpu_success_unchanged": false,
+      "note": "公园后的句号导致精确格式失败；评分器content_error表示精确匹配失败，不必然是事实错误。",
+      "changed_primary_score": false
+    }
+  ]
+}

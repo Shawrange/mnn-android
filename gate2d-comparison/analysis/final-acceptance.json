@@ -1,0 +1,13 @@
+{
+  "mnn_commit": "7e3c6fb5225d3ccf22807ee641332669df34650d",
+  "model_revision": "34dfccda1187ded6e07ea06426da576b0b793c6b",
+  "gate2d_formal_runs": 36,
+  "gate2d_clean_cpu_gpu_runs_completed": true,
+  "prior_evidence_unchanged": true,
+  "runtime_optimization_implemented": false,
+  "upstream_pr_claimed": false,
+  "npu_executed": false,
+  "fixed_application_quality_passed": false,
+  "product_performance_acceptance_claimed": false,
+  "further_inference_planned": false
+}

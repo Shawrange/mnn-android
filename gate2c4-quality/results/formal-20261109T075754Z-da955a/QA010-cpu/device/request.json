@@ -1,0 +1,13 @@
+{
+  "id": "QA010",
+  "split": "formal",
+  "category": "qa",
+  "input": "短文：张老师教语文，刘老师教数学。问：谁教语文？只输出称呼。",
+  "gold": "张老师",
+  "variants": [
+    "张老师"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "张老师"
+}

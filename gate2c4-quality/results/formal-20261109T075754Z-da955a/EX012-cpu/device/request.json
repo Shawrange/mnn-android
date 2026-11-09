@@ -1,0 +1,16 @@
+{
+  "id": "EX012",
+  "split": "formal",
+  "category": "extraction",
+  "input": "订单B482的取件日期为2026-07-08。只输出JSON对象，键为code、date，两个值均为原文字符串。",
+  "gold": {
+    "code": "B482",
+    "date": "2026-07-08"
+  },
+  "variants": [
+    "{\"code\":\"B482\",\"date\":\"2026-07-08\"}"
+  ],
+  "rule": "json_exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "{\"code\":\"B482\",\"date\":\"2026-07-08\"}"
+}

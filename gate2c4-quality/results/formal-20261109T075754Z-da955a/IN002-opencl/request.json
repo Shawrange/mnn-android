@@ -1,0 +1,13 @@
+{
+  "id": "IN002",
+  "split": "formal",
+  "category": "instruction",
+  "input": "将数字4、12、7、2按降序排列。只输出一行，用英文逗号分隔，不加空格。",
+  "gold": "12,7,4,2",
+  "variants": [
+    "12,7,4,2"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "12,7,4,2"
+}

@@ -1,0 +1,28 @@
+config path is Qwen3-0.6B-MNN/config.cpu.json
+CPU Group: [ 0  1  2  3  4  5 ], 384000 - 3532800
+CPU Group: [ 6  7 ], 1017600 - 4320000
+(last_midr & (CPUINFO_ARM_MIDR_IMPLEMENTER_MASK | CPUINFO_ARM_MIDR_PART_MASK))=0x 51000010 in _getInfoArm, 1250 
+The device supports: i8sdot:1, fp16:1, i8mm: 1, sve2: 0, sme2: 0, perfCores: 0
+main, 321, cost time: 802.086975 ms
+Prepare for tuning opt Begin
+Prepare for tuning opt End
+main, 330, cost time: 272.907013 ms
+Set not thinking, only valid for Qwen3
+prompt file is prompt.txt
+北京是中国的首都，拥有丰富的文化和历史，是重要的国际城市。
+
+#################################
+prompt tokens num = 18
+decode tokens num = 16
+ vision time = 0.00 s
+ pixels_mp = 0.00 MP
+  audio process time = 0.00 s
+  audio input time = 0.00 s
+prefill time = 0.08 s
+ decode time = 0.19 s
+ sample time = 0.00 s
+prefill speed = 220.56 tok/s
+ decode speed = 85.80 tok/s
+ vision speed = 0.000 MP/s
+ audio RTF = nan 
+##################################

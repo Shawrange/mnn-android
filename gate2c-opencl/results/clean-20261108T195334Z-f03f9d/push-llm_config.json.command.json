@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "push",
+    "E:\\DUANCE\\gate0\\assets\\Qwen3-0.6B-MNN\\llm_config.json",
+    "/data/local/tmp/mnn-gate2c-20261108/clean/llm_config.json"
+  ],
+  "started_at_utc": "2026-11-08T19:53:36.020657+00:00",
+  "ended_at_utc": "2026-11-08T19:53:36.054178+00:00",
+  "elapsed_seconds": 0.03391969995573163,
+  "exit_code": 0
+}

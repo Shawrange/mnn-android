@@ -1,0 +1,13 @@
+{
+  "id": "CL024",
+  "split": "formal",
+  "category": "classification",
+  "input": "将消息分为咨询、投诉、表扬之一。只输出类别，不加标点。消息：餐厅主动照顾老人需求，服务非常周到。",
+  "gold": "表扬",
+  "variants": [
+    "表扬"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "表扬"
+}

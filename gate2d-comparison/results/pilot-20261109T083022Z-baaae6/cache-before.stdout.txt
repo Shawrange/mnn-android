@@ -1,0 +1,11 @@
+-rw-rw-rw- 1 2000 2000 5014312 2026-11-09 16:28 /data/local/tmp/mnn-gate2d-20261109T082806Z-5d76d2/cpu/libMNN.so
+-rwxr-xr-x 1 2000 2000 120944 2026-11-09 16:28 /data/local/tmp/mnn-gate2d-20261109T082806Z-5d76d2/cpu/llm_bench
+-rw-rw-rw- 1 2000 2000 739 2026-11-09 16:28 /data/local/tmp/mnn-gate2d-20261109T082806Z-5d76d2/cpu/config.json
+-rw-rw-rw- 1 2000 2000 324 2026-11-09 16:29 /data/local/tmp/mnn-gate2d-20261109T082806Z-5d76d2/cpu/sample-003.json
+-rw-rw-rw- 1 2000 2000 7627496 2026-11-09 16:28 /data/local/tmp/mnn-gate2d-20261109T082806Z-5d76d2/opencl/libMNN.so
+-rwxr-xr-x 1 2000 2000 120944 2026-11-09 16:28 /data/local/tmp/mnn-gate2d-20261109T082806Z-5d76d2/opencl/llm_bench
+-rw-rw-rw- 1 2000 2000 742 2026-11-09 16:28 /data/local/tmp/mnn-gate2d-20261109T082806Z-5d76d2/opencl/config.json
+-rw-rw-rw- 1 2000 2000 323 2026-11-09 16:28 /data/local/tmp/mnn-gate2d-20261109T082806Z-5d76d2/opencl/sample-001.json
+-rw-rw-rw- 1 2000 2000 707228 2026-11-09 16:28 /data/local/tmp/mnn-gate2d-20261109T082806Z-5d76d2/opencl/tmp/mnn_cachefile.bin
+-rw-rw-rw- 1 2000 2000 329 2026-11-09 16:29 /data/local/tmp/mnn-gate2d-20261109T082806Z-5d76d2/opencl/sample-002.json
+bf4bd3b36abb1ccc127166251449cf7ddb4a3ffcea20fe9f519dc54447b4a84d  /data/local/tmp/mnn-gate2d-20261109T082806Z-5d76d2/opencl/tmp/mnn_cachefile.bin

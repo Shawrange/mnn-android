@@ -1,0 +1,12 @@
+{
+  "id": "P07",
+  "split": "pilot",
+  "category": "instruction",
+  "input": "把数字8、2、5按从小到大排列，只输出一行，用英文逗号分隔。",
+  "gold": "2,5,8",
+  "variants": [
+    "2,5,8"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; strict format; natural EOS required"
+}

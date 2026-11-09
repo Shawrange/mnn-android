@@ -1,0 +1,10 @@
+{
+  "backend": "cpu",
+  "precision": "high",
+  "kind": "synthetic",
+  "mode": "off",
+  "process": 0,
+  "exit_code": 0,
+  "directory": "results\\high-20261108T202908Z-daf046\\cpu-high-synthetic-off-p0",
+  "valid": true
+}

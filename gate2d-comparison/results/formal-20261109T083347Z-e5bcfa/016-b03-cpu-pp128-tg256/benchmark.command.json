@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "cd /data/local/tmp/mnn-gate2d-20261109T082806Z-5d76d2/cpu && LD_LIBRARY_PATH=. /system/bin/time -v ./llm_bench -m ./config.json -a cpu -t 4 -p 0 -n 0 -pg 128,256 -rep 1 -c 2 --memory 2 --power 0 -dyo 0 -mmp 0 -qa 0 -fa 1 -load false -j /data/local/tmp/mnn-gate2d-20261109T082806Z-5d76d2/cpu/sample-016.json"
+  ],
+  "started_at_utc": "2026-11-09T08:39:22.658732+00:00",
+  "ended_at_utc": "2026-11-09T08:39:30.278968+00:00",
+  "elapsed_seconds": 7.61989920004271,
+  "exit_code": 0
+}

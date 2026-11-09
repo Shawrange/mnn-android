@@ -1,0 +1,16 @@
+{
+  "id": "EX007",
+  "split": "formal",
+  "category": "extraction",
+  "input": "安排：陆遥将在08:30到西楼203报到。只提取地点和时间，输出JSON对象，键为place、time，值保持原文字符串，不增加姓名等字段。",
+  "gold": {
+    "place": "西楼203",
+    "time": "08:30"
+  },
+  "variants": [
+    "{\"place\":\"西楼203\",\"time\":\"08:30\"}"
+  ],
+  "rule": "json_exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "{\"place\":\"西楼203\",\"time\":\"08:30\"}"
+}

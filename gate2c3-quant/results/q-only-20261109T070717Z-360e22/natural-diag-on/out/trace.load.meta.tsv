@@ -1,0 +1,9 @@
+ic	1024
+oc	2048
+blockNum	16
+canUseInt4	1
+originBits	4
+asymmetric	1
+alphaSize	65536
+alphaIsFp16	0
+quant_calls	0

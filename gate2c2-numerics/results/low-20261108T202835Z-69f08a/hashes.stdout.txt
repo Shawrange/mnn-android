@@ -1,0 +1,6 @@
+47b5db44b7acdaee876c733473ea9124cf71b645b6e53976d3bfd6ad313d120e  /data/local/tmp/mnn-gate2c2-low-20261108T202835Z-69f08a/cpu/libMNN.so
+2a34055615d6800efa339cec3bc4e53efa9b80e3ae74f71353d0ccda4a403fea  /data/local/tmp/mnn-gate2c2-low-20261108T202835Z-69f08a/cpu/numeric_probe
+4c66c06bbc083f3d123e62cdd6ec62a644e7a120d5a1509f297ffe856efa8f61  /data/local/tmp/mnn-gate2c2-low-20261108T202835Z-69f08a/opencl/libMNN.so
+2a34055615d6800efa339cec3bc4e53efa9b80e3ae74f71353d0ccda4a403fea  /data/local/tmp/mnn-gate2c2-low-20261108T202835Z-69f08a/opencl/numeric_probe
+d426c65a5159c938ccc237cdfbd982137f276804f27b414ca0ecf3fc0a660f8c  /data/local/tmp/mnn-gate0-20261108T134731469951Z/Qwen3-0.6B-MNN/llm.mnn
+953afb7e0165818add34a7a6caf0af5d0ed9428da102eb22c9b98ee9da292e9f  /data/local/tmp/mnn-gate0-20261108T134731469951Z/Qwen3-0.6B-MNN/llm.mnn.weight

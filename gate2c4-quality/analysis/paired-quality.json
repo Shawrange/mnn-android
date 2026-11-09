@@ -1,0 +1,4029 @@
+{
+  "formal_session": "results\\formal-20261109T075754Z-da955a",
+  "freeze_sha256": "44b6fa25d28ac2f8c63f34d1a94a5cb89224b039cb95b1f6a33138800e901462",
+  "independent_cases": 100,
+  "overall": {
+    "n": 100,
+    "cpu_success": 24,
+    "gpu_success": 25,
+    "cpu_rate": 0.24,
+    "gpu_rate": 0.25,
+    "cpu_wilson95": [
+      0.16691325556948772,
+      0.33232336349814473
+    ],
+    "gpu_wilson95": [
+      0.17545211362287672,
+      0.34304463548061603
+    ],
+    "both_correct": 23,
+    "cpu_only": 1,
+    "gpu_only": 2,
+    "both_wrong": 74,
+    "gpu_minus_cpu": 0.01,
+    "paired_normal95": [
+      -0.02406168182985577,
+      0.04406168182985577
+    ],
+    "descriptive_conservative_delta_interval": [
+      -0.06073503703002643,
+      0.07977832396794177
+    ],
+    "mcnemar_exact_two_sided": 1
+  },
+  "categories": {
+    "classification": {
+      "n": 25,
+      "cpu_success": 9,
+      "gpu_success": 9,
+      "cpu_rate": 0.36,
+      "gpu_rate": 0.36,
+      "cpu_wilson95": [
+        0.20247880774458224,
+        0.5548150225183514
+      ],
+      "gpu_wilson95": [
+        0.20247880774458224,
+        0.5548150225183514
+      ],
+      "both_correct": 9,
+      "cpu_only": 0,
+      "gpu_only": 0,
+      "both_wrong": 16,
+      "gpu_minus_cpu": 0.0,
+      "paired_normal95": [
+        0.0,
+        0.0
+      ],
+      "descriptive_conservative_delta_interval": [
+        -0.16732964400316336,
+        0.16732964400316336
+      ],
+      "mcnemar_exact_two_sided": 1
+    },
+    "extraction": {
+      "n": 25,
+      "cpu_success": 0,
+      "gpu_success": 0,
+      "cpu_rate": 0.0,
+      "gpu_rate": 0.0,
+      "cpu_wilson95": [
+        1.3877787807814457e-17,
+        0.13319225093904846
+      ],
+      "gpu_wilson95": [
+        1.3877787807814457e-17,
+        0.13319225093904846
+      ],
+      "both_correct": 0,
+      "cpu_only": 0,
+      "gpu_only": 0,
+      "both_wrong": 25,
+      "gpu_minus_cpu": 0.0,
+      "paired_normal95": [
+        0.0,
+        0.0
+      ],
+      "descriptive_conservative_delta_interval": [
+        -0.16732964400316336,
+        0.16732964400316336
+      ],
+      "mcnemar_exact_two_sided": 1
+    },
+    "instruction": {
+      "n": 25,
+      "cpu_success": 6,
+      "gpu_success": 7,
+      "cpu_rate": 0.24,
+      "gpu_rate": 0.28,
+      "cpu_wilson95": [
+        0.11496313693401444,
+        0.4342968335542908
+      ],
+      "gpu_wilson95": [
+        0.14283853850956563,
+        0.47576605190361576
+      ],
+      "both_correct": 6,
+      "cpu_only": 0,
+      "gpu_only": 1,
+      "both_wrong": 18,
+      "gpu_minus_cpu": 0.04,
+      "paired_normal95": [
+        -0.03839855938160216,
+        0.11839855938160215
+      ],
+      "descriptive_conservative_delta_interval": [
+        -0.1614889715630195,
+        0.22810260004276645
+      ],
+      "mcnemar_exact_two_sided": 1
+    },
+    "qa": {
+      "n": 25,
+      "cpu_success": 9,
+      "gpu_success": 9,
+      "cpu_rate": 0.36,
+      "gpu_rate": 0.36,
+      "cpu_wilson95": [
+        0.20247880774458224,
+        0.5548150225183514
+      ],
+      "gpu_wilson95": [
+        0.20247880774458224,
+        0.5548150225183514
+      ],
+      "both_correct": 8,
+      "cpu_only": 1,
+      "gpu_only": 1,
+      "both_wrong": 15,
+      "gpu_minus_cpu": 0.0,
+      "paired_normal95": [
+        -0.11315857340761717,
+        0.11315857340761717
+      ],
+      "descriptive_conservative_delta_interval": [
+        -0.2222619276026226,
+        0.2222619276026226
+      ],
+      "mcnemar_exact_two_sided": 1
+    }
+  },
+  "quality_gates": {
+    "cpu": {
+      "successes": 24,
+      "category_gate": {
+        "classification": false,
+        "extraction": false,
+        "instruction": false,
+        "qa": false
+      },
+      "extraction_format_valid": 0,
+      "natural_eos": 100,
+      "no_runtime_error": true,
+      "quality_gate_met": false
+    },
+    "opencl": {
+      "successes": 25,
+      "category_gate": {
+        "classification": false,
+        "extraction": false,
+        "instruction": false,
+        "qa": false
+      },
+      "extraction_format_valid": 0,
+      "natural_eos": 100,
+      "no_runtime_error": true,
+      "quality_gate_met": false
+    }
+  },
+  "difference_guards_met": true,
+  "preliminary_decision": "C",
+  "failure_counts": {
+    "cpu": {
+      "format_error": 14,
+      "content_error": 37,
+      "parse_failure": 25
+    },
+    "opencl": {
+      "format_error": 9,
+      "content_error": 41,
+      "parse_failure": 25
+    }
+  },
+  "text_equal_cases": 75,
+  "tokens_equal_cases": 75,
+  "rows": [
+    {
+      "id": "CL001",
+      "category": "classification",
+      "cpu_success": true,
+      "gpu_success": true,
+      "cpu_text": "咨询",
+      "gpu_text": "咨询",
+      "cpu_flags": [],
+      "gpu_flags": [],
+      "cpu_tokens": [
+        100703,
+        151645
+      ],
+      "gpu_tokens": [
+        100703,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "CL002",
+      "category": "classification",
+      "cpu_success": true,
+      "gpu_success": true,
+      "cpu_text": "咨询",
+      "gpu_text": "咨询",
+      "cpu_flags": [],
+      "gpu_flags": [],
+      "cpu_tokens": [
+        100703,
+        151645
+      ],
+      "gpu_tokens": [
+        100703,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "CL003",
+      "category": "classification",
+      "cpu_success": true,
+      "gpu_success": true,
+      "cpu_text": "咨询",
+      "gpu_text": "咨询",
+      "cpu_flags": [],
+      "gpu_flags": [],
+      "cpu_tokens": [
+        100703,
+        151645
+      ],
+      "gpu_tokens": [
+        100703,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "CL004",
+      "category": "classification",
+      "cpu_success": true,
+      "gpu_success": true,
+      "cpu_text": "咨询",
+      "gpu_text": "咨询",
+      "cpu_flags": [],
+      "gpu_flags": [],
+      "cpu_tokens": [
+        100703,
+        151645
+      ],
+      "gpu_tokens": [
+        100703,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "CL005",
+      "category": "classification",
+      "cpu_success": true,
+      "gpu_success": true,
+      "cpu_text": "咨询",
+      "gpu_text": "咨询",
+      "cpu_flags": [],
+      "gpu_flags": [],
+      "cpu_tokens": [
+        100703,
+        151645
+      ],
+      "gpu_tokens": [
+        100703,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "CL006",
+      "category": "classification",
+      "cpu_success": true,
+      "gpu_success": true,
+      "cpu_text": "咨询",
+      "gpu_text": "咨询",
+      "cpu_flags": [],
+      "gpu_flags": [],
+      "cpu_tokens": [
+        100703,
+        151645
+      ],
+      "gpu_tokens": [
+        100703,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "CL007",
+      "category": "classification",
+      "cpu_success": true,
+      "gpu_success": true,
+      "cpu_text": "咨询",
+      "gpu_text": "咨询",
+      "cpu_flags": [],
+      "gpu_flags": [],
+      "cpu_tokens": [
+        100703,
+        151645
+      ],
+      "gpu_tokens": [
+        100703,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "CL008",
+      "category": "classification",
+      "cpu_success": true,
+      "gpu_success": true,
+      "cpu_text": "咨询",
+      "gpu_text": "咨询",
+      "cpu_flags": [],
+      "gpu_flags": [],
+      "cpu_tokens": [
+        100703,
+        151645
+      ],
+      "gpu_tokens": [
+        100703,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "CL009",
+      "category": "classification",
+      "cpu_success": true,
+      "gpu_success": true,
+      "cpu_text": "咨询",
+      "gpu_text": "咨询",
+      "cpu_flags": [],
+      "gpu_flags": [],
+      "cpu_tokens": [
+        100703,
+        151645
+      ],
+      "gpu_tokens": [
+        100703,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "CL010",
+      "category": "classification",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "咨询,投诉",
+      "gpu_text": "咨询、投诉",
+      "cpu_flags": [
+        "format_error"
+      ],
+      "gpu_flags": [
+        "format_error"
+      ],
+      "cpu_tokens": [
+        100703,
+        11,
+        104943,
+        151645
+      ],
+      "gpu_tokens": [
+        100703,
+        5373,
+        104943,
+        151645
+      ],
+      "same_tokens": false,
+      "same_text": false
+    },
+    {
+      "id": "CL011",
+      "category": "classification",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "咨询",
+      "gpu_text": "咨询",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        100703,
+        151645
+      ],
+      "gpu_tokens": [
+        100703,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "CL012",
+      "category": "classification",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "咨询",
+      "gpu_text": "咨询",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        100703,
+        151645
+      ],
+      "gpu_tokens": [
+        100703,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "CL013",
+      "category": "classification",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "咨询、投诉、表扬",
+      "gpu_text": "咨询",
+      "cpu_flags": [
+        "format_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        100703,
+        5373,
+        104943,
+        5373,
+        112339,
+        151645
+      ],
+      "gpu_tokens": [
+        100703,
+        151645
+      ],
+      "same_tokens": false,
+      "same_text": false
+    },
+    {
+      "id": "CL014",
+      "category": "classification",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "咨询",
+      "gpu_text": "咨询",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        100703,
+        151645
+      ],
+      "gpu_tokens": [
+        100703,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "CL015",
+      "category": "classification",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "咨询、投诉、表扬",
+      "gpu_text": "咨询、投诉、表扬",
+      "cpu_flags": [
+        "format_error"
+      ],
+      "gpu_flags": [
+        "format_error"
+      ],
+      "cpu_tokens": [
+        100703,
+        5373,
+        104943,
+        5373,
+        112339,
+        151645
+      ],
+      "gpu_tokens": [
+        100703,
+        5373,
+        104943,
+        5373,
+        112339,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "CL016",
+      "category": "classification",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "咨询",
+      "gpu_text": "咨询",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        100703,
+        151645
+      ],
+      "gpu_tokens": [
+        100703,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "CL017",
+      "category": "classification",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "咨询",
+      "gpu_text": "咨询",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        100703,
+        151645
+      ],
+      "gpu_tokens": [
+        100703,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "CL018",
+      "category": "classification",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "咨询、投诉、表扬",
+      "gpu_text": "咨询",
+      "cpu_flags": [
+        "format_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        100703,
+        5373,
+        104943,
+        5373,
+        112339,
+        151645
+      ],
+      "gpu_tokens": [
+        100703,
+        151645
+      ],
+      "same_tokens": false,
+      "same_text": false
+    },
+    {
+      "id": "CL019",
+      "category": "classification",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "咨询、投诉、表扬。",
+      "gpu_text": "咨询、投诉、表扬",
+      "cpu_flags": [
+        "format_error"
+      ],
+      "gpu_flags": [
+        "format_error"
+      ],
+      "cpu_tokens": [
+        100703,
+        5373,
+        104943,
+        5373,
+        112339,
+        1773,
+        151645
+      ],
+      "gpu_tokens": [
+        100703,
+        5373,
+        104943,
+        5373,
+        112339,
+        151645
+      ],
+      "same_tokens": false,
+      "same_text": false
+    },
+    {
+      "id": "CL020",
+      "category": "classification",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "咨询、投诉、表扬",
+      "gpu_text": "咨询、投诉、表扬",
+      "cpu_flags": [
+        "format_error"
+      ],
+      "gpu_flags": [
+        "format_error"
+      ],
+      "cpu_tokens": [
+        100703,
+        5373,
+        104943,
+        5373,
+        112339,
+        151645
+      ],
+      "gpu_tokens": [
+        100703,
+        5373,
+        104943,
+        5373,
+        112339,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "CL021",
+      "category": "classification",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "咨询、投诉、表扬",
+      "gpu_text": "咨询、投诉、表扬",
+      "cpu_flags": [
+        "format_error"
+      ],
+      "gpu_flags": [
+        "format_error"
+      ],
+      "cpu_tokens": [
+        100703,
+        5373,
+        104943,
+        5373,
+        112339,
+        151645
+      ],
+      "gpu_tokens": [
+        100703,
+        5373,
+        104943,
+        5373,
+        112339,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "CL022",
+      "category": "classification",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "咨询、投诉、表扬。",
+      "gpu_text": "咨询、投诉、表扬",
+      "cpu_flags": [
+        "format_error"
+      ],
+      "gpu_flags": [
+        "format_error"
+      ],
+      "cpu_tokens": [
+        100703,
+        5373,
+        104943,
+        5373,
+        112339,
+        1773,
+        151645
+      ],
+      "gpu_tokens": [
+        100703,
+        5373,
+        104943,
+        5373,
+        112339,
+        151645
+      ],
+      "same_tokens": false,
+      "same_text": false
+    },
+    {
+      "id": "CL023",
+      "category": "classification",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "咨询、投诉、表扬",
+      "gpu_text": "咨询、投诉、表扬",
+      "cpu_flags": [
+        "format_error"
+      ],
+      "gpu_flags": [
+        "format_error"
+      ],
+      "cpu_tokens": [
+        100703,
+        5373,
+        104943,
+        5373,
+        112339,
+        151645
+      ],
+      "gpu_tokens": [
+        100703,
+        5373,
+        104943,
+        5373,
+        112339,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "CL024",
+      "category": "classification",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "咨询、投诉、表扬",
+      "gpu_text": "咨询",
+      "cpu_flags": [
+        "format_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        100703,
+        5373,
+        104943,
+        5373,
+        112339,
+        151645
+      ],
+      "gpu_tokens": [
+        100703,
+        151645
+      ],
+      "same_tokens": false,
+      "same_text": false
+    },
+    {
+      "id": "CL025",
+      "category": "classification",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "咨询、投诉、表扬",
+      "gpu_text": "咨询、投诉、表扬",
+      "cpu_flags": [
+        "format_error"
+      ],
+      "gpu_flags": [
+        "format_error"
+      ],
+      "cpu_tokens": [
+        100703,
+        5373,
+        104943,
+        5373,
+        112339,
+        151645
+      ],
+      "gpu_tokens": [
+        100703,
+        5373,
+        104943,
+        5373,
+        112339,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "EX001",
+      "category": "extraction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "```json\n{\n  \"name\": \"林雪\",\n  \"count\": 3\n}\n```",
+      "gpu_text": "```json\n{\n  \"name\": \"林雪\",\n  \"count\": 3\n}\n```",
+      "cpu_flags": [
+        "parse_failure"
+      ],
+      "gpu_flags": [
+        "parse_failure"
+      ],
+      "cpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        606,
+        788,
+        330,
+        99463,
+        100167,
+        756,
+        220,
+        330,
+        1830,
+        788,
+        220,
+        18,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "gpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        606,
+        788,
+        330,
+        99463,
+        100167,
+        756,
+        220,
+        330,
+        1830,
+        788,
+        220,
+        18,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "EX002",
+      "category": "extraction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "```json\n{\"name\": \"赵航\", \"count\": 12}\n```",
+      "gpu_text": "```json\n{\n  \"name\": \"赵航\",\n  \"count\": 12\n}\n```",
+      "cpu_flags": [
+        "parse_failure"
+      ],
+      "gpu_flags": [
+        "parse_failure"
+      ],
+      "cpu_tokens": [
+        73594,
+        2236,
+        198,
+        4913,
+        606,
+        788,
+        330,
+        103959,
+        99440,
+        497,
+        330,
+        1830,
+        788,
+        220,
+        16,
+        17,
+        532,
+        73594,
+        151645
+      ],
+      "gpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        606,
+        788,
+        330,
+        103959,
+        99440,
+        756,
+        220,
+        330,
+        1830,
+        788,
+        220,
+        16,
+        17,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "same_tokens": false,
+      "same_text": false
+    },
+    {
+      "id": "EX003",
+      "category": "extraction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "```json\n{\"name\": \"许安\", \"count\": 1}\n```",
+      "gpu_text": "```json\n{\n  \"name\": \"许安\",\n  \"count\": 1\n}\n```",
+      "cpu_flags": [
+        "parse_failure"
+      ],
+      "gpu_flags": [
+        "parse_failure"
+      ],
+      "cpu_tokens": [
+        73594,
+        2236,
+        198,
+        4913,
+        606,
+        788,
+        330,
+        99454,
+        50285,
+        497,
+        330,
+        1830,
+        788,
+        220,
+        16,
+        532,
+        73594,
+        151645
+      ],
+      "gpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        606,
+        788,
+        330,
+        99454,
+        50285,
+        756,
+        220,
+        330,
+        1830,
+        788,
+        220,
+        16,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "same_tokens": false,
+      "same_text": false
+    },
+    {
+      "id": "EX004",
+      "category": "extraction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "```json\n{\n  \"name\": \"陈青\",\n  \"count\": 6\n}\n```",
+      "gpu_text": "```json\n{\n  \"name\": \"陈青\",\n  \"count\": 6\n}\n```",
+      "cpu_flags": [
+        "parse_failure"
+      ],
+      "gpu_flags": [
+        "parse_failure"
+      ],
+      "cpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        606,
+        788,
+        330,
+        100348,
+        99467,
+        756,
+        220,
+        330,
+        1830,
+        788,
+        220,
+        21,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "gpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        606,
+        788,
+        330,
+        100348,
+        99467,
+        756,
+        220,
+        330,
+        1830,
+        788,
+        220,
+        21,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "EX005",
+      "category": "extraction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "```json\n{\n  \"name\": \"顾南\",\n  \"count\": 9\n}\n```",
+      "gpu_text": "```json\n{\n  \"name\": \"顾南\",\n  \"count\": 9\n}\n```",
+      "cpu_flags": [
+        "parse_failure"
+      ],
+      "gpu_flags": [
+        "parse_failure"
+      ],
+      "cpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        606,
+        788,
+        330,
+        99846,
+        58463,
+        756,
+        220,
+        330,
+        1830,
+        788,
+        220,
+        24,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "gpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        606,
+        788,
+        330,
+        99846,
+        58463,
+        756,
+        220,
+        330,
+        1830,
+        788,
+        220,
+        24,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "EX006",
+      "category": "extraction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "```json\n{\n  \"place\": \"松柏\",\n  \"time\": \"14:05\"\n}\n```",
+      "gpu_text": "```json\n{\n  \"place\": \"松柏\",\n  \"time\": \"14:05\"\n}\n```",
+      "cpu_flags": [
+        "parse_failure"
+      ],
+      "gpu_flags": [
+        "parse_failure"
+      ],
+      "cpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        2007,
+        788,
+        330,
+        100180,
+        102627,
+        756,
+        220,
+        330,
+        1678,
+        788,
+        330,
+        16,
+        19,
+        25,
+        15,
+        20,
+        698,
+        532,
+        73594,
+        151645
+      ],
+      "gpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        2007,
+        788,
+        330,
+        100180,
+        102627,
+        756,
+        220,
+        330,
+        1678,
+        788,
+        330,
+        16,
+        19,
+        25,
+        15,
+        20,
+        698,
+        532,
+        73594,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "EX007",
+      "category": "extraction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "```json\n{\n  \"place\": \"西楼203\",\n  \"time\": \"08:30\"\n}\n```",
+      "gpu_text": "```json\n{\n  \"place\": \"西楼203\",\n  \"time\": \"08:30\"\n}\n```",
+      "cpu_flags": [
+        "parse_failure"
+      ],
+      "gpu_flags": [
+        "parse_failure"
+      ],
+      "cpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        2007,
+        788,
+        330,
+        60686,
+        99432,
+        17,
+        15,
+        18,
+        756,
+        220,
+        330,
+        1678,
+        788,
+        330,
+        15,
+        23,
+        25,
+        18,
+        15,
+        698,
+        532,
+        73594,
+        151645
+      ],
+      "gpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        2007,
+        788,
+        330,
+        60686,
+        99432,
+        17,
+        15,
+        18,
+        756,
+        220,
+        330,
+        1678,
+        788,
+        330,
+        15,
+        23,
+        25,
+        18,
+        15,
+        698,
+        532,
+        73594,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "EX008",
+      "category": "extraction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "```json\n{\n  \"place\": \"星河展厅\",\n  \"time\": \"16:45\"\n}\n```",
+      "gpu_text": "```json\n{\n  \"place\": \"星河展厅\",\n  \"time\": \"16:45\"\n}\n```",
+      "cpu_flags": [
+        "parse_failure"
+      ],
+      "gpu_flags": [
+        "parse_failure"
+      ],
+      "cpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        2007,
+        788,
+        330,
+        77419,
+        99469,
+        111829,
+        756,
+        220,
+        330,
+        1678,
+        788,
+        330,
+        16,
+        21,
+        25,
+        19,
+        20,
+        698,
+        532,
+        73594,
+        151645
+      ],
+      "gpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        2007,
+        788,
+        330,
+        77419,
+        99469,
+        111829,
+        756,
+        220,
+        330,
+        1678,
+        788,
+        330,
+        16,
+        21,
+        25,
+        19,
+        20,
+        698,
+        532,
+        73594,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "EX009",
+      "category": "extraction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "```json\n{\n  \"place\": \"南门\",\n  \"time\": \"10:15\"\n}\n```",
+      "gpu_text": "```json\n{\n  \"place\": \"南门\",\n  \"time\": \"10:15\"\n}\n```",
+      "cpu_flags": [
+        "parse_failure"
+      ],
+      "gpu_flags": [
+        "parse_failure"
+      ],
+      "cpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        2007,
+        788,
+        330,
+        58463,
+        64689,
+        756,
+        220,
+        330,
+        1678,
+        788,
+        330,
+        16,
+        15,
+        25,
+        16,
+        20,
+        698,
+        532,
+        73594,
+        151645
+      ],
+      "gpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        2007,
+        788,
+        330,
+        58463,
+        64689,
+        756,
+        220,
+        330,
+        1678,
+        788,
+        330,
+        16,
+        15,
+        25,
+        16,
+        20,
+        698,
+        532,
+        73594,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "EX010",
+      "category": "extraction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "```json\n{\n  \"place\": \"海棠教室\",\n  \"time\": \"19:00\"\n}\n```",
+      "gpu_text": "```json\n{\n  \"place\": \"海棠教室\",\n  \"time\": \"19:00\"\n}\n```",
+      "cpu_flags": [
+        "parse_failure"
+      ],
+      "gpu_flags": [
+        "parse_failure"
+      ],
+      "cpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        2007,
+        788,
+        330,
+        118958,
+        106323,
+        756,
+        220,
+        330,
+        1678,
+        788,
+        330,
+        16,
+        24,
+        25,
+        15,
+        15,
+        698,
+        532,
+        73594,
+        151645
+      ],
+      "gpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        2007,
+        788,
+        330,
+        118958,
+        106323,
+        756,
+        220,
+        330,
+        1678,
+        788,
+        330,
+        16,
+        24,
+        25,
+        15,
+        15,
+        698,
+        532,
+        73594,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "EX011",
+      "category": "extraction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "```json\n{\n  \"code\": \"A731\",\n  \"date\": \"2026-03-12\"\n}\n```",
+      "gpu_text": "```json\n{\n  \"code\": \"A731\",\n  \"date\": \"2026-03-12\"\n}\n```",
+      "cpu_flags": [
+        "parse_failure"
+      ],
+      "gpu_flags": [
+        "parse_failure"
+      ],
+      "cpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        1851,
+        788,
+        330,
+        32,
+        22,
+        18,
+        16,
+        756,
+        220,
+        330,
+        1028,
+        788,
+        330,
+        17,
+        15,
+        17,
+        21,
+        12,
+        15,
+        18,
+        12,
+        16,
+        17,
+        698,
+        532,
+        73594,
+        151645
+      ],
+      "gpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        1851,
+        788,
+        330,
+        32,
+        22,
+        18,
+        16,
+        756,
+        220,
+        330,
+        1028,
+        788,
+        330,
+        17,
+        15,
+        17,
+        21,
+        12,
+        15,
+        18,
+        12,
+        16,
+        17,
+        698,
+        532,
+        73594,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "EX012",
+      "category": "extraction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "```json\n{\n  \"code\": \"B482\",\n  \"date\": \"2026-07-08\"\n}\n```",
+      "gpu_text": "```json\n{\n  \"code\": \"B482\",\n  \"date\": \"2026-07-08\"\n}\n```",
+      "cpu_flags": [
+        "parse_failure"
+      ],
+      "gpu_flags": [
+        "parse_failure"
+      ],
+      "cpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        1851,
+        788,
+        330,
+        33,
+        19,
+        23,
+        17,
+        756,
+        220,
+        330,
+        1028,
+        788,
+        330,
+        17,
+        15,
+        17,
+        21,
+        12,
+        15,
+        22,
+        12,
+        15,
+        23,
+        698,
+        532,
+        73594,
+        151645
+      ],
+      "gpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        1851,
+        788,
+        330,
+        33,
+        19,
+        23,
+        17,
+        756,
+        220,
+        330,
+        1028,
+        788,
+        330,
+        17,
+        15,
+        17,
+        21,
+        12,
+        15,
+        22,
+        12,
+        15,
+        23,
+        698,
+        532,
+        73594,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "EX013",
+      "category": "extraction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "```json\n{\n  \"code\": \"C905\",\n  \"date\": \"2026-09-21\"\n}\n```",
+      "gpu_text": "```json\n{\n  \"code\": \"C905\",\n  \"date\": \"2026-09-21\"\n}\n```",
+      "cpu_flags": [
+        "parse_failure"
+      ],
+      "gpu_flags": [
+        "parse_failure"
+      ],
+      "cpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        1851,
+        788,
+        330,
+        34,
+        24,
+        15,
+        20,
+        756,
+        220,
+        330,
+        1028,
+        788,
+        330,
+        17,
+        15,
+        17,
+        21,
+        12,
+        15,
+        24,
+        12,
+        17,
+        16,
+        698,
+        532,
+        73594,
+        151645
+      ],
+      "gpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        1851,
+        788,
+        330,
+        34,
+        24,
+        15,
+        20,
+        756,
+        220,
+        330,
+        1028,
+        788,
+        330,
+        17,
+        15,
+        17,
+        21,
+        12,
+        15,
+        24,
+        12,
+        17,
+        16,
+        698,
+        532,
+        73594,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "EX014",
+      "category": "extraction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "```json\n{\n  \"code\": \"D126\",\n  \"date\": \"2026-12-05\"\n}\n```",
+      "gpu_text": "```json\n{\n  \"code\": \"D126\",\n  \"date\": \"2026-12-05\"\n}\n```",
+      "cpu_flags": [
+        "parse_failure"
+      ],
+      "gpu_flags": [
+        "parse_failure"
+      ],
+      "cpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        1851,
+        788,
+        330,
+        35,
+        16,
+        17,
+        21,
+        756,
+        220,
+        330,
+        1028,
+        788,
+        330,
+        17,
+        15,
+        17,
+        21,
+        12,
+        16,
+        17,
+        12,
+        15,
+        20,
+        698,
+        532,
+        73594,
+        151645
+      ],
+      "gpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        1851,
+        788,
+        330,
+        35,
+        16,
+        17,
+        21,
+        756,
+        220,
+        330,
+        1028,
+        788,
+        330,
+        17,
+        15,
+        17,
+        21,
+        12,
+        16,
+        17,
+        12,
+        15,
+        20,
+        698,
+        532,
+        73594,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "EX015",
+      "category": "extraction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "```json\n{\n  \"code\": \"E364\",\n  \"date\": \"2026-02-18\"\n}\n```",
+      "gpu_text": "```json\n{\n  \"code\": \"E364\",\n  \"date\": \"2026-02-18\"\n}\n```",
+      "cpu_flags": [
+        "parse_failure"
+      ],
+      "gpu_flags": [
+        "parse_failure"
+      ],
+      "cpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        1851,
+        788,
+        330,
+        36,
+        18,
+        21,
+        19,
+        756,
+        220,
+        330,
+        1028,
+        788,
+        330,
+        17,
+        15,
+        17,
+        21,
+        12,
+        15,
+        17,
+        12,
+        16,
+        23,
+        698,
+        532,
+        73594,
+        151645
+      ],
+      "gpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        1851,
+        788,
+        330,
+        36,
+        18,
+        21,
+        19,
+        756,
+        220,
+        330,
+        1028,
+        788,
+        330,
+        17,
+        15,
+        17,
+        21,
+        12,
+        15,
+        17,
+        12,
+        16,
+        23,
+        698,
+        532,
+        73594,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "EX016",
+      "category": "extraction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "```json\n{\n  \"item\": \"商品咖啡\",\n  \"price\": 18\n}\n```",
+      "gpu_text": "```json\n{\n  \"item\": \"商品咖啡\",\n  \"price\": 18\n}\n```",
+      "cpu_flags": [
+        "parse_failure"
+      ],
+      "gpu_flags": [
+        "parse_failure"
+      ],
+      "cpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        1203,
+        788,
+        330,
+        45943,
+        104602,
+        756,
+        220,
+        330,
+        6555,
+        788,
+        220,
+        16,
+        23,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "gpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        1203,
+        788,
+        330,
+        45943,
+        104602,
+        756,
+        220,
+        330,
+        6555,
+        788,
+        220,
+        16,
+        23,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "EX017",
+      "category": "extraction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "```json\n{\n  \"item\": \"商品面包\",\n  \"price\": 7\n}\n```",
+      "gpu_text": "```json\n{\n  \"item\": \"商品面包\",\n  \"price\": 7\n}\n```",
+      "cpu_flags": [
+        "parse_failure"
+      ],
+      "gpu_flags": [
+        "parse_failure"
+      ],
+      "cpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        1203,
+        788,
+        330,
+        45943,
+        107424,
+        756,
+        220,
+        330,
+        6555,
+        788,
+        220,
+        22,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "gpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        1203,
+        788,
+        330,
+        45943,
+        107424,
+        756,
+        220,
+        330,
+        6555,
+        788,
+        220,
+        22,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "EX018",
+      "category": "extraction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "```json\n{\n  \"item\": \"商品车票\",\n  \"price\": 35\n}\n```",
+      "gpu_text": "```json\n{\n  \"item\": \"商品车票\",\n  \"price\": 35\n}\n```",
+      "cpu_flags": [
+        "parse_failure"
+      ],
+      "gpu_flags": [
+        "parse_failure"
+      ],
+      "cpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        1203,
+        788,
+        330,
+        45943,
+        39953,
+        94444,
+        756,
+        220,
+        330,
+        6555,
+        788,
+        220,
+        18,
+        20,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "gpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        1203,
+        788,
+        330,
+        45943,
+        39953,
+        94444,
+        756,
+        220,
+        330,
+        6555,
+        788,
+        220,
+        18,
+        20,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "EX019",
+      "category": "extraction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "```json\n{\n  \"item\": \"商品雨衣\",\n  \"price\": 24\n}\n```",
+      "gpu_text": "```json\n{\n  \"item\": \"商品雨衣\",\n  \"price\": 24\n}\n```",
+      "cpu_flags": [
+        "parse_failure"
+      ],
+      "gpu_flags": [
+        "parse_failure"
+      ],
+      "cpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        1203,
+        788,
+        330,
+        45943,
+        100029,
+        99741,
+        756,
+        220,
+        330,
+        6555,
+        788,
+        220,
+        17,
+        19,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "gpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        1203,
+        788,
+        330,
+        45943,
+        100029,
+        99741,
+        756,
+        220,
+        330,
+        6555,
+        788,
+        220,
+        17,
+        19,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "EX020",
+      "category": "extraction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "```json\n{\n  \"item\": \"商品画册\",\n  \"price\": 49\n}\n```",
+      "gpu_text": "```json\n{\n  \"item\": \"商品画册\",\n  \"price\": 49\n}\n```",
+      "cpu_flags": [
+        "parse_failure"
+      ],
+      "gpu_flags": [
+        "parse_failure"
+      ],
+      "cpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        1203,
+        788,
+        330,
+        45943,
+        54623,
+        49026,
+        756,
+        220,
+        330,
+        6555,
+        788,
+        220,
+        19,
+        24,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "gpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        1203,
+        788,
+        330,
+        45943,
+        54623,
+        49026,
+        756,
+        220,
+        330,
+        6555,
+        788,
+        220,
+        19,
+        24,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "EX021",
+      "category": "extraction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "```json\n{\n  \"name\": \"罗岚\",\n  \"phone\": null\n}\n```",
+      "gpu_text": "```json\n{\n  \"name\": \"罗岚\",\n  \"phone\": null\n}\n```",
+      "cpu_flags": [
+        "parse_failure"
+      ],
+      "gpu_flags": [
+        "parse_failure"
+      ],
+      "cpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        606,
+        788,
+        330,
+        100349,
+        109512,
+        756,
+        220,
+        330,
+        4844,
+        788,
+        845,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "gpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        606,
+        788,
+        330,
+        100349,
+        109512,
+        756,
+        220,
+        330,
+        4844,
+        788,
+        845,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "EX022",
+      "category": "extraction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "```json\n{\n  \"name\": \"叶泽\",\n  \"phone\": \"13800138006\"\n}\n```",
+      "gpu_text": "```json\n{\n  \"name\": \"叶泽\",\n  \"phone\": null\n}\n```",
+      "cpu_flags": [
+        "parse_failure"
+      ],
+      "gpu_flags": [
+        "parse_failure"
+      ],
+      "cpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        606,
+        788,
+        330,
+        100027,
+        100251,
+        756,
+        220,
+        330,
+        4844,
+        788,
+        330,
+        16,
+        18,
+        23,
+        15,
+        15,
+        16,
+        18,
+        23,
+        15,
+        15,
+        21,
+        698,
+        532,
+        73594,
+        151645
+      ],
+      "gpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        606,
+        788,
+        330,
+        100027,
+        100251,
+        756,
+        220,
+        330,
+        4844,
+        788,
+        845,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "same_tokens": false,
+      "same_text": false
+    },
+    {
+      "id": "EX023",
+      "category": "extraction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "```json\n{\n  \"name\": \"苏禾\",\n  \"phone\": null\n}\n```",
+      "gpu_text": "```json\n{\n  \"name\": \"苏禾\",\n  \"phone\": null\n}\n```",
+      "cpu_flags": [
+        "parse_failure"
+      ],
+      "gpu_flags": [
+        "parse_failure"
+      ],
+      "cpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        606,
+        788,
+        330,
+        99908,
+        108252,
+        756,
+        220,
+        330,
+        4844,
+        788,
+        845,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "gpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        606,
+        788,
+        330,
+        99908,
+        108252,
+        756,
+        220,
+        330,
+        4844,
+        788,
+        845,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "EX024",
+      "category": "extraction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "```json\n{\n  \"name\": \"季远\",\n  \"phone\": null\n}\n```",
+      "gpu_text": "```json\n{\n  \"name\": \"季远\",\n  \"phone\": null\n}\n```",
+      "cpu_flags": [
+        "parse_failure"
+      ],
+      "gpu_flags": [
+        "parse_failure"
+      ],
+      "cpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        606,
+        788,
+        330,
+        99377,
+        99427,
+        756,
+        220,
+        330,
+        4844,
+        788,
+        845,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "gpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        606,
+        788,
+        330,
+        99377,
+        99427,
+        756,
+        220,
+        330,
+        4844,
+        788,
+        845,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "EX025",
+      "category": "extraction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "```json\n{\n  \"name\": \"程溪\",\n  \"phone\": null\n}\n```",
+      "gpu_text": "```json\n{\n  \"name\": \"程溪\",\n  \"phone\": null\n}\n```",
+      "cpu_flags": [
+        "parse_failure"
+      ],
+      "gpu_flags": [
+        "parse_failure"
+      ],
+      "cpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        606,
+        788,
+        330,
+        38507,
+        104096,
+        756,
+        220,
+        330,
+        4844,
+        788,
+        845,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "gpu_tokens": [
+        73594,
+        2236,
+        198,
+        515,
+        220,
+        330,
+        606,
+        788,
+        330,
+        38507,
+        104096,
+        756,
+        220,
+        330,
+        4844,
+        788,
+        845,
+        198,
+        532,
+        73594,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "IN001",
+      "category": "instruction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "9,1,6,3",
+      "gpu_text": "6, 9, 1, 3",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        24,
+        11,
+        16,
+        11,
+        21,
+        11,
+        18,
+        151645
+      ],
+      "gpu_tokens": [
+        21,
+        11,
+        220,
+        24,
+        11,
+        220,
+        16,
+        11,
+        220,
+        18,
+        151645
+      ],
+      "same_tokens": false,
+      "same_text": false
+    },
+    {
+      "id": "IN002",
+      "category": "instruction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "7, 12, 2",
+      "gpu_text": "7, 12, 2",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        22,
+        11,
+        220,
+        16,
+        17,
+        11,
+        220,
+        17,
+        151645
+      ],
+      "gpu_tokens": [
+        22,
+        11,
+        220,
+        16,
+        17,
+        11,
+        220,
+        17,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "IN003",
+      "category": "instruction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "10, 15, 5",
+      "gpu_text": "10, 5, 15",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        16,
+        15,
+        11,
+        220,
+        16,
+        20,
+        11,
+        220,
+        20,
+        151645
+      ],
+      "gpu_tokens": [
+        16,
+        15,
+        11,
+        220,
+        20,
+        11,
+        220,
+        16,
+        20,
+        151645
+      ],
+      "same_tokens": false,
+      "same_text": false
+    },
+    {
+      "id": "IN004",
+      "category": "instruction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "2,5,8,11",
+      "gpu_text": "2,5,8,11",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        17,
+        11,
+        20,
+        11,
+        23,
+        11,
+        16,
+        16,
+        151645
+      ],
+      "gpu_tokens": [
+        17,
+        11,
+        20,
+        11,
+        23,
+        11,
+        16,
+        16,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "IN005",
+      "category": "instruction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "6,9",
+      "gpu_text": "9, 6",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        21,
+        11,
+        24,
+        151645
+      ],
+      "gpu_tokens": [
+        24,
+        11,
+        220,
+        21,
+        151645
+      ],
+      "same_tokens": false,
+      "same_text": false
+    },
+    {
+      "id": "IN006",
+      "category": "instruction",
+      "cpu_success": false,
+      "gpu_success": true,
+      "cpu_text": "mNOP",
+      "gpu_text": "MNOP",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [],
+      "cpu_tokens": [
+        76,
+        57556,
+        151645
+      ],
+      "gpu_tokens": [
+        44,
+        57556,
+        151645
+      ],
+      "same_tokens": false,
+      "same_text": false
+    },
+    {
+      "id": "IN007",
+      "category": "instruction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "Abcd",
+      "gpu_text": "Abcd",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        5830,
+        4385,
+        151645
+      ],
+      "gpu_tokens": [
+        5830,
+        4385,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "IN008",
+      "category": "instruction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "红色|蓝色|白色",
+      "gpu_text": "红色|蓝色|白色",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        104165,
+        91,
+        105681,
+        91,
+        102440,
+        151645
+      ],
+      "gpu_tokens": [
+        104165,
+        91,
+        105681,
+        91,
+        102440,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "IN009",
+      "category": "instruction",
+      "cpu_success": true,
+      "gpu_success": true,
+      "cpu_text": "甲乙丙",
+      "gpu_text": "甲乙丙",
+      "cpu_flags": [],
+      "gpu_flags": [],
+      "cpu_tokens": [
+        100043,
+        100916,
+        106980,
+        151645
+      ],
+      "gpu_tokens": [
+        100043,
+        100916,
+        106980,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "IN010",
+      "category": "instruction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "测试成功。",
+      "gpu_text": "测试成功。",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        81705,
+        19108,
+        1773,
+        151645
+      ],
+      "gpu_tokens": [
+        81705,
+        19108,
+        1773,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "IN011",
+      "category": "instruction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "春、夏、秋、冬。",
+      "gpu_text": "春夏秋冬",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        99528,
+        5373,
+        100039,
+        5373,
+        100057,
+        5373,
+        99949,
+        1773,
+        151645
+      ],
+      "gpu_tokens": [
+        117358,
+        113517,
+        151645
+      ],
+      "same_tokens": false,
+      "same_text": false
+    },
+    {
+      "id": "IN012",
+      "category": "instruction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "ABCDEFG",
+      "gpu_text": "ABCDEFG",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        67004,
+        151645
+      ],
+      "gpu_tokens": [
+        67004,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "IN013",
+      "category": "instruction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "123456",
+      "gpu_text": "123",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        151645
+      ],
+      "gpu_tokens": [
+        16,
+        17,
+        18,
+        151645
+      ],
+      "same_tokens": false,
+      "same_text": false
+    },
+    {
+      "id": "IN014",
+      "category": "instruction",
+      "cpu_success": true,
+      "gpu_success": true,
+      "cpu_text": "cat-cat-cat",
+      "gpu_text": "cat-cat-cat",
+      "cpu_flags": [],
+      "gpu_flags": [],
+      "cpu_tokens": [
+        4616,
+        83892,
+        83892,
+        151645
+      ],
+      "gpu_tokens": [
+        4616,
+        83892,
+        83892,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "IN015",
+      "category": "instruction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "“新录备忘”",
+      "gpu_text": "“新录备忘”",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        2073,
+        16628,
+        23656,
+        56278,
+        99980,
+        854,
+        151645
+      ],
+      "gpu_tokens": [
+        2073,
+        16628,
+        23656,
+        56278,
+        99980,
+        854,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "IN016",
+      "category": "instruction",
+      "cpu_success": true,
+      "gpu_success": true,
+      "cpu_text": "YES",
+      "gpu_text": "YES",
+      "cpu_flags": [],
+      "gpu_flags": [],
+      "cpu_tokens": [
+        14004,
+        151645
+      ],
+      "gpu_tokens": [
+        14004,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "IN017",
+      "category": "instruction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "TRUE",
+      "gpu_text": "TRUE",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        20611,
+        151645
+      ],
+      "gpu_tokens": [
+        20611,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "IN018",
+      "category": "instruction",
+      "cpu_success": true,
+      "gpu_success": true,
+      "cpu_text": "苹果",
+      "gpu_text": "苹果",
+      "cpu_flags": [],
+      "gpu_flags": [],
+      "cpu_tokens": [
+        104167,
+        151645
+      ],
+      "gpu_tokens": [
+        104167,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "IN019",
+      "category": "instruction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "A, B, A, C, B",
+      "gpu_text": "A, B, A, C, B",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        32,
+        11,
+        425,
+        11,
+        362,
+        11,
+        356,
+        11,
+        425,
+        151645
+      ],
+      "gpu_tokens": [
+        32,
+        11,
+        425,
+        11,
+        362,
+        11,
+        356,
+        11,
+        425,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "IN020",
+      "category": "instruction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "0",
+      "gpu_text": "0",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        15,
+        151645
+      ],
+      "gpu_tokens": [
+        15,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "IN021",
+      "category": "instruction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "2026/04/09",
+      "gpu_text": "2026/04/09",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        17,
+        15,
+        17,
+        21,
+        14,
+        15,
+        19,
+        14,
+        15,
+        24,
+        151645
+      ],
+      "gpu_tokens": [
+        17,
+        15,
+        17,
+        21,
+        14,
+        15,
+        19,
+        14,
+        15,
+        24,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "IN022",
+      "category": "instruction",
+      "cpu_success": true,
+      "gpu_success": true,
+      "cpu_text": "晚上好",
+      "gpu_text": "晚上好",
+      "cpu_flags": [],
+      "gpu_flags": [],
+      "cpu_tokens": [
+        104030,
+        52801,
+        151645
+      ],
+      "gpu_tokens": [
+        104030,
+        52801,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "IN023",
+      "category": "instruction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "1,4,7,10",
+      "gpu_text": "7,10",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        16,
+        11,
+        19,
+        11,
+        22,
+        11,
+        16,
+        15,
+        151645
+      ],
+      "gpu_tokens": [
+        22,
+        11,
+        16,
+        15,
+        151645
+      ],
+      "same_tokens": false,
+      "same_text": false
+    },
+    {
+      "id": "IN024",
+      "category": "instruction",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "火水",
+      "gpu_text": "火水",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        79599,
+        52510,
+        151645
+      ],
+      "gpu_tokens": [
+        79599,
+        52510,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "IN025",
+      "category": "instruction",
+      "cpu_success": true,
+      "gpu_success": true,
+      "cpu_text": "Z:8",
+      "gpu_text": "Z:8",
+      "cpu_flags": [],
+      "gpu_flags": [],
+      "cpu_tokens": [
+        57,
+        25,
+        23,
+        151645
+      ],
+      "gpu_tokens": [
+        57,
+        25,
+        23,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "QA001",
+      "category": "qa",
+      "cpu_success": true,
+      "gpu_success": true,
+      "cpu_text": "厨房",
+      "gpu_text": "厨房",
+      "cpu_flags": [],
+      "gpu_flags": [],
+      "cpu_tokens": [
+        105010,
+        151645
+      ],
+      "gpu_tokens": [
+        105010,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "QA002",
+      "category": "qa",
+      "cpu_success": true,
+      "gpu_success": true,
+      "cpu_text": "王琳",
+      "gpu_text": "王琳",
+      "cpu_flags": [],
+      "gpu_flags": [],
+      "cpu_tokens": [
+        99445,
+        105115,
+        151645
+      ],
+      "gpu_tokens": [
+        99445,
+        105115,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "QA003",
+      "category": "qa",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "公园。",
+      "gpu_text": "公园。",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        102077,
+        1773,
+        151645
+      ],
+      "gpu_tokens": [
+        102077,
+        1773,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "QA004",
+      "category": "qa",
+      "cpu_success": true,
+      "gpu_success": true,
+      "cpu_text": "地铁",
+      "gpu_text": "地铁",
+      "cpu_flags": [],
+      "gpu_flags": [],
+      "cpu_tokens": [
+        104851,
+        151645
+      ],
+      "gpu_tokens": [
+        104851,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "QA005",
+      "category": "qa",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "周几",
+      "gpu_text": "周几",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        40542,
+        99195,
+        151645
+      ],
+      "gpu_tokens": [
+        40542,
+        99195,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "QA006",
+      "category": "qa",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "R20放在前台。",
+      "gpu_text": "R20放在前台。",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        49,
+        17,
+        15,
+        104132,
+        116061,
+        1773,
+        151645
+      ],
+      "gpu_tokens": [
+        49,
+        17,
+        15,
+        104132,
+        116061,
+        1773,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "QA007",
+      "category": "qa",
+      "cpu_success": true,
+      "gpu_success": true,
+      "cpu_text": "雪球",
+      "gpu_text": "雪球",
+      "cpu_flags": [],
+      "gpu_flags": [],
+      "cpu_tokens": [
+        100167,
+        77959,
+        151645
+      ],
+      "gpu_tokens": [
+        100167,
+        77959,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "QA008",
+      "category": "qa",
+      "cpu_success": true,
+      "gpu_success": true,
+      "cpu_text": "面条",
+      "gpu_text": "面条",
+      "cpu_flags": [],
+      "gpu_flags": [],
+      "cpu_tokens": [
+        116443,
+        151645
+      ],
+      "gpu_tokens": [
+        116443,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "QA009",
+      "category": "qa",
+      "cpu_success": true,
+      "gpu_success": true,
+      "cpu_text": "18:30",
+      "gpu_text": "18:30",
+      "cpu_flags": [],
+      "gpu_flags": [],
+      "cpu_tokens": [
+        16,
+        23,
+        25,
+        18,
+        15,
+        151645
+      ],
+      "gpu_tokens": [
+        16,
+        23,
+        25,
+        18,
+        15,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "QA010",
+      "category": "qa",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "张老师。",
+      "gpu_text": "张老师。",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        86341,
+        101049,
+        1773,
+        151645
+      ],
+      "gpu_tokens": [
+        86341,
+        101049,
+        1773,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "QA011",
+      "category": "qa",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "7 + 8 = 15\n\n所以答案是：15。",
+      "gpu_text": "25",
+      "cpu_flags": [
+        "format_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        22,
+        488,
+        220,
+        23,
+        284,
+        220,
+        16,
+        20,
+        271,
+        99999,
+        102349,
+        20412,
+        5122,
+        16,
+        20,
+        1773,
+        151645
+      ],
+      "gpu_tokens": [
+        17,
+        20,
+        151645
+      ],
+      "same_tokens": false,
+      "same_text": false
+    },
+    {
+      "id": "QA012",
+      "category": "qa",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "20 - 6 = 14\n\n20 - 6 = 14",
+      "gpu_text": "20 - 6 = 14\n\n20 - 6 = 14",
+      "cpu_flags": [
+        "format_error"
+      ],
+      "gpu_flags": [
+        "format_error"
+      ],
+      "cpu_tokens": [
+        17,
+        15,
+        481,
+        220,
+        21,
+        284,
+        220,
+        16,
+        19,
+        271,
+        17,
+        15,
+        481,
+        220,
+        21,
+        284,
+        220,
+        16,
+        19,
+        151645
+      ],
+      "gpu_tokens": [
+        17,
+        15,
+        481,
+        220,
+        21,
+        284,
+        220,
+        16,
+        19,
+        271,
+        17,
+        15,
+        481,
+        220,
+        21,
+        284,
+        220,
+        16,
+        19,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "QA013",
+      "category": "qa",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "9",
+      "gpu_text": "4",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        24,
+        151645
+      ],
+      "gpu_tokens": [
+        19,
+        151645
+      ],
+      "same_tokens": false,
+      "same_text": false
+    },
+    {
+      "id": "QA014",
+      "category": "qa",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "9",
+      "gpu_text": "2",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        24,
+        151645
+      ],
+      "gpu_tokens": [
+        17,
+        151645
+      ],
+      "same_tokens": false,
+      "same_text": false
+    },
+    {
+      "id": "QA015",
+      "category": "qa",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "25",
+      "gpu_text": "20",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        17,
+        20,
+        151645
+      ],
+      "gpu_tokens": [
+        17,
+        15,
+        151645
+      ],
+      "same_tokens": false,
+      "same_text": false
+    },
+    {
+      "id": "QA016",
+      "category": "qa",
+      "cpu_success": true,
+      "gpu_success": true,
+      "cpu_text": "2",
+      "gpu_text": "2",
+      "cpu_flags": [],
+      "gpu_flags": [],
+      "cpu_tokens": [
+        17,
+        151645
+      ],
+      "gpu_tokens": [
+        17,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "QA017",
+      "category": "qa",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "2 + 3 = 5 → 5\n\n5",
+      "gpu_text": "2 + 3 = 5 → 5个水果。",
+      "cpu_flags": [
+        "format_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        17,
+        488,
+        220,
+        18,
+        284,
+        220,
+        20,
+        11397,
+        220,
+        20,
+        271,
+        20,
+        151645
+      ],
+      "gpu_tokens": [
+        17,
+        488,
+        220,
+        18,
+        284,
+        220,
+        20,
+        11397,
+        220,
+        20,
+        18947,
+        104618,
+        1773,
+        151645
+      ],
+      "same_tokens": false,
+      "same_text": false
+    },
+    {
+      "id": "QA018",
+      "category": "qa",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "2",
+      "gpu_text": "2",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        17,
+        151645
+      ],
+      "gpu_tokens": [
+        17,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "QA019",
+      "category": "qa",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "2",
+      "gpu_text": "2",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        17,
+        151645
+      ],
+      "gpu_tokens": [
+        17,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "QA020",
+      "category": "qa",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "20",
+      "gpu_text": "2",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        17,
+        15,
+        151645
+      ],
+      "gpu_tokens": [
+        17,
+        151645
+      ],
+      "same_tokens": false,
+      "same_text": false
+    },
+    {
+      "id": "QA021",
+      "category": "qa",
+      "cpu_success": true,
+      "gpu_success": true,
+      "cpu_text": "北京",
+      "gpu_text": "北京",
+      "cpu_flags": [],
+      "gpu_flags": [],
+      "cpu_tokens": [
+        68990,
+        151645
+      ],
+      "gpu_tokens": [
+        68990,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    },
+    {
+      "id": "QA022",
+      "category": "qa",
+      "cpu_success": true,
+      "gpu_success": false,
+      "cpu_text": "12",
+      "gpu_text": "24",
+      "cpu_flags": [],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        16,
+        17,
+        151645
+      ],
+      "gpu_tokens": [
+        17,
+        19,
+        151645
+      ],
+      "same_tokens": false,
+      "same_text": false
+    },
+    {
+      "id": "QA023",
+      "category": "qa",
+      "cpu_success": false,
+      "gpu_success": true,
+      "cpu_text": "太阳升起的方向是东边。",
+      "gpu_text": "东",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [],
+      "cpu_tokens": [
+        101281,
+        113635,
+        105933,
+        20412,
+        67364,
+        99319,
+        1773,
+        151645
+      ],
+      "gpu_tokens": [
+        67364,
+        151645
+      ],
+      "same_tokens": false,
+      "same_text": false
+    },
+    {
+      "id": "QA024",
+      "category": "qa",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "2.12",
+      "gpu_text": "212.1",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        17,
+        13,
+        16,
+        17,
+        151645
+      ],
+      "gpu_tokens": [
+        17,
+        16,
+        17,
+        13,
+        16,
+        151645
+      ],
+      "same_tokens": false,
+      "same_text": false
+    },
+    {
+      "id": "QA025",
+      "category": "qa",
+      "cpu_success": false,
+      "gpu_success": false,
+      "cpu_text": "上",
+      "gpu_text": "上",
+      "cpu_flags": [
+        "content_error"
+      ],
+      "gpu_flags": [
+        "content_error"
+      ],
+      "cpu_tokens": [
+        17447,
+        151645
+      ],
+      "gpu_tokens": [
+        17447,
+        151645
+      ],
+      "same_tokens": true,
+      "same_text": true
+    }
+  ]
+}

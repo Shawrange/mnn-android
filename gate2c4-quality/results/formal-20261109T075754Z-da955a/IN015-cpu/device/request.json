@@ -1,0 +1,13 @@
+{
+  "id": "IN015",
+  "split": "formal",
+  "category": "instruction",
+  "input": "给字符串“备忘”前面加上“新”，后面加上“录”。只输出结果。",
+  "gold": "新备忘录",
+  "variants": [
+    "新备忘录"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "新备忘录"
+}

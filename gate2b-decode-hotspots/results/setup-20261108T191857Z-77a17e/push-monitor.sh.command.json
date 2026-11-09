@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "push",
+    "E:\\DUANCE\\gate2b-decode-hotspots\\scripts\\monitor.sh",
+    "/data/local/tmp/mnn-gate2b-20261108/monitor.sh"
+  ],
+  "started_at_utc": "2026-11-08T19:18:57.649612+00:00",
+  "ended_at_utc": "2026-11-08T19:18:57.683609+00:00",
+  "elapsed_seconds": 0.03382159990724176,
+  "exit_code": 0
+}

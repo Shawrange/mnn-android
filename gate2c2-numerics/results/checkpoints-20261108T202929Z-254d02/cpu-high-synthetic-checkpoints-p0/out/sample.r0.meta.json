@@ -1,0 +1,365 @@
+{
+  "all_seq_len": 8,
+  "checkpoints": [
+    {
+      "backend_type": 0,
+      "copy_succeeded": true,
+      "host_format": "NCHW",
+      "host_shape": [
+        1,
+        8,
+        1024
+      ],
+      "host_type": "float32",
+      "key": "embedding_on_backend",
+      "nominal_type_bits": 32,
+      "op_name": "/input_layernorm/Mul_1_output_0",
+      "op_type": "LayerNorm",
+      "phase": "before",
+      "source_format": 0,
+      "source_shape": [
+        1,
+        8,
+        1024
+      ],
+      "stats": {
+        "elements": 8192,
+        "exact_half_fraction": 0.0302734375,
+        "max": 0.07470703125,
+        "min": -0.0859375,
+        "nonfinite": 0
+      },
+      "wait_result": 0
+    },
+    {
+      "backend_type": 0,
+      "copy_succeeded": true,
+      "host_format": "NCHW",
+      "host_shape": [
+        1,
+        8,
+        1024
+      ],
+      "host_type": "float32",
+      "key": "_input_layernorm_Mul_1_output_0",
+      "nominal_type_bits": 32,
+      "op_name": "/input_layernorm/Mul_1_output_0",
+      "op_type": "LayerNorm",
+      "phase": "after",
+      "source_format": 0,
+      "source_shape": [
+        1,
+        8,
+        1024
+      ],
+      "stats": {
+        "elements": 8192,
+        "exact_half_fraction": 0.0009765625,
+        "max": 1.9950294494628906,
+        "min": -2.233661413192749,
+        "nonfinite": 0
+      },
+      "wait_result": 0
+    },
+    {
+      "backend_type": 0,
+      "copy_succeeded": true,
+      "host_format": "NCHW",
+      "host_shape": [
+        8,
+        1024,
+        1,
+        1
+      ],
+      "host_type": "float32",
+      "key": "q_input",
+      "nominal_type_bits": 32,
+      "op_name": "/layers.0/self_attn/q_proj/Linear",
+      "op_type": "Convolution",
+      "phase": "before",
+      "source_format": 2,
+      "source_shape": [
+        8,
+        1024,
+        1,
+        1
+      ],
+      "stats": {
+        "elements": 8192,
+        "exact_half_fraction": 0.0009765625,
+        "max": 1.9950294494628906,
+        "min": -2.233661413192749,
+        "nonfinite": 0
+      },
+      "wait_result": 0
+    },
+    {
+      "backend_type": 0,
+      "copy_succeeded": true,
+      "host_format": "NCHW",
+      "host_shape": [
+        8,
+        2048,
+        1,
+        1
+      ],
+      "host_type": "float32",
+      "key": "_layers_0_self_attn_q_proj_Linear",
+      "nominal_type_bits": 32,
+      "op_name": "/layers.0/self_attn/q_proj/Linear",
+      "op_type": "Convolution",
+      "phase": "after",
+      "source_format": 2,
+      "source_shape": [
+        8,
+        2048,
+        1,
+        1
+      ],
+      "stats": {
+        "elements": 16384,
+        "exact_half_fraction": 0.00048828125,
+        "max": 4.683485507965088,
+        "min": -4.716672897338867,
+        "nonfinite": 0
+      },
+      "wait_result": 0
+    },
+    {
+      "backend_type": 0,
+      "copy_succeeded": true,
+      "host_format": "NCHW",
+      "host_shape": [
+        8,
+        1024,
+        1,
+        1
+      ],
+      "host_type": "float32",
+      "key": "_layers_0_self_attn_k_proj_Linear",
+      "nominal_type_bits": 32,
+      "op_name": "/layers.0/self_attn/k_proj/Linear",
+      "op_type": "Convolution",
+      "phase": "after",
+      "source_format": 2,
+      "source_shape": [
+        8,
+        1024,
+        1,
+        1
+      ],
+      "stats": {
+        "elements": 8192,
+        "exact_half_fraction": 0.0,
+        "max": 4.193362712860107,
+        "min": -4.223282814025879,
+        "nonfinite": 0
+      },
+      "wait_result": 0
+    },
+    {
+      "backend_type": 0,
+      "copy_succeeded": true,
+      "host_format": "NCHW",
+      "host_shape": [
+        8,
+        1024,
+        1,
+        1
+      ],
+      "host_type": "float32",
+      "key": "_layers_0_self_attn_v_proj_Linear",
+      "nominal_type_bits": 32,
+      "op_name": "/layers.0/self_attn/v_proj/Linear",
+      "op_type": "Convolution",
+      "phase": "after",
+      "source_format": 2,
+      "source_shape": [
+        8,
+        1024,
+        1,
+        1
+      ],
+      "stats": {
+        "elements": 8192,
+        "exact_half_fraction": 0.0029296875,
+        "max": 1.2468791007995605,
+        "min": -1.8425461053848267,
+        "nonfinite": 0
+      },
+      "wait_result": 0
+    },
+    {
+      "backend_type": 0,
+      "copy_succeeded": true,
+      "host_format": "NCHW",
+      "host_shape": [
+        1,
+        8,
+        2048
+      ],
+      "host_type": "float32",
+      "key": "Attention_Reshape_8_output_0",
+      "nominal_type_bits": 32,
+      "op_name": "Attention/Reshape_8_output_0",
+      "op_type": "Attention",
+      "phase": "after",
+      "source_format": 0,
+      "source_shape": [
+        1,
+        8,
+        2048
+      ],
+      "stats": {
+        "elements": 16384,
+        "exact_half_fraction": 0.001953125,
+        "max": 1.24687922000885,
+        "min": -1.8425462245941162,
+        "nonfinite": 0
+      },
+      "wait_result": 0
+    },
+    {
+      "backend_type": 0,
+      "copy_succeeded": true,
+      "host_format": "NCHW",
+      "host_shape": [
+        1,
+        8,
+        1024
+      ],
+      "host_type": "float32",
+      "key": "_Add_4_output_0",
+      "nominal_type_bits": 32,
+      "op_name": "/Add_4_output_0",
+      "op_type": "BinaryOp",
+      "phase": "after",
+      "source_format": 0,
+      "source_shape": [
+        1,
+        8,
+        1024
+      ],
+      "stats": {
+        "elements": 8192,
+        "exact_half_fraction": 0.000244140625,
+        "max": 4.44498348236084,
+        "min": -1.399924635887146,
+        "nonfinite": 0
+      },
+      "wait_result": 0
+    },
+    {
+      "backend_type": 0,
+      "copy_succeeded": true,
+      "host_format": "NCHW",
+      "host_shape": [
+        1,
+        8,
+        1024
+      ],
+      "host_type": "float32",
+      "key": "hidden_states",
+      "nominal_type_bits": 32,
+      "op_name": "hidden_states",
+      "op_type": "BinaryOp",
+      "phase": "after",
+      "source_format": 0,
+      "source_shape": [
+        1,
+        8,
+        1024
+      ],
+      "stats": {
+        "elements": 8192,
+        "exact_half_fraction": 0.0,
+        "max": 3535.12548828125,
+        "min": -879.7611083984375,
+        "nonfinite": 0
+      },
+      "wait_result": 0
+    },
+    {
+      "backend_type": 0,
+      "copy_succeeded": true,
+      "host_format": "NCHW",
+      "host_shape": [
+        1,
+        1,
+        1024
+      ],
+      "host_type": "float32",
+      "key": "_norm_Mul_1_output_0",
+      "nominal_type_bits": 32,
+      "op_name": "/norm/Mul_1_output_0",
+      "op_type": "LayerNorm",
+      "phase": "after",
+      "source_format": 0,
+      "source_shape": [
+        1,
+        1,
+        1024
+      ],
+      "stats": {
+        "elements": 1024,
+        "exact_half_fraction": 0.0,
+        "max": 25.664371490478516,
+        "min": -57.17179870605469,
+        "nonfinite": 0
+      },
+      "wait_result": 0
+    },
+    {
+      "backend_type": 0,
+      "copy_succeeded": true,
+      "host_format": "NCHW",
+      "host_shape": [
+        1,
+        151936,
+        1,
+        1
+      ],
+      "host_type": "float32",
+      "key": "_lm_lm_head_Linear",
+      "nominal_type_bits": 32,
+      "op_name": "/lm/lm_head/Linear",
+      "op_type": "Convolution",
+      "phase": "after",
+      "source_format": 2,
+      "source_shape": [
+        1,
+        151936,
+        1,
+        1
+      ],
+      "stats": {
+        "elements": 151936,
+        "exact_half_fraction": 0.0024286541701769165,
+        "max": 12.829002380371094,
+        "min": -19.274429321289063,
+        "nonfinite": 0
+      },
+      "wait_result": 0
+    }
+  ],
+  "generated": 0,
+  "kv_history": 8,
+  "order": 2,
+  "prompt_len": 8,
+  "read_twice_identical": true,
+  "repeat": 0,
+  "shape": [
+    1,
+    1,
+    151936
+  ],
+  "stats": {
+    "elements": 151936,
+    "exact_half_fraction": 0.0024286541701769165,
+    "max": 12.829002380371094,
+    "min": -19.274429321289063,
+    "nonfinite": 0
+  },
+  "status": 0,
+  "type": "float32"
+}

@@ -1,0 +1,9 @@
+<|im_start|>system
+你是手机离线短文本助手。直接完成用户任务，只输出要求的答案，不输出分析、解释、Markdown代码块或额外字段。<|im_end|>
+<|im_start|>user
+输出字母Z，然后一个英文冒号，再输出数字8。只输出这一行，不加空格。<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+

@@ -1,0 +1,219 @@
+{
+  "repository": "alibaba/MNN",
+  "tag": "3.6.2",
+  "tag_object": "498882a2781b4a0385e3dcd0042c751cf8708143",
+  "commit": "7e3c6fb5225d3ccf22807ee641332669df34650d",
+  "notice": "Selected upstream snapshots for Gate 0 evidence; not a buildable checkout. Runtime files are unmodified copies.",
+  "files": [
+    {
+      "path": "CMakeLists.txt",
+      "blob_sha": "727efb9bcb10e707f8d334c4cb296b1e3ec80801",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/CMakeLists.txt",
+      "lines": 1150
+    },
+    {
+      "path": "project/android/build_64.sh",
+      "blob_sha": "49e0b6af748739686ad884ceead5281ab0e956d8",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/project/android/build_64.sh",
+      "lines": 23
+    },
+    {
+      "path": "README.md",
+      "blob_sha": "35d0793593b268a3df56de2945d8c5f938794ecc",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/README.md",
+      "lines": 221
+    },
+    {
+      "path": "LICENSE.txt",
+      "blob_sha": "58d9cf1e698014cd1d825eff230e16c1ef6eccb8",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/LICENSE.txt",
+      "lines": 201
+    },
+    {
+      "path": "docs/transformers/llm.md",
+      "blob_sha": "e393312bc76c57cfc91a8934a8dcc5ce9c8048e6",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/docs/transformers/llm.md",
+      "lines": 1517
+    },
+    {
+      "path": "docs/compile/engine.md",
+      "blob_sha": "87d2ec42068192088ecbb48c0d81bad1b85c0283",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/docs/compile/engine.md",
+      "lines": 235
+    },
+    {
+      "path": "docs/compile/cmake.md",
+      "blob_sha": "ed63a3372fd439fded685b4159fcdf029a470b56",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/docs/compile/cmake.md",
+      "lines": 124
+    },
+    {
+      "path": "docs/inference/npu.md",
+      "blob_sha": "b29eb9e66001e69d5d2a7aeb6256690d8b99ea45",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/docs/inference/npu.md",
+      "lines": 310
+    },
+    {
+      "path": "transformers/llm/engine/CMakeLists.txt",
+      "blob_sha": "6e04afccdd0b3c7ae1f28cd468ee714986c0eb3b",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/transformers/llm/engine/CMakeLists.txt",
+      "lines": 209
+    },
+    {
+      "path": "transformers/llm/engine/tools/CMakeLists.txt",
+      "blob_sha": "559efa3925d76a1e55b1f336c3100a17de40b46b",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/transformers/llm/engine/tools/CMakeLists.txt",
+      "lines": 13
+    },
+    {
+      "path": "transformers/llm/engine/tools/llm_bench.cpp",
+      "blob_sha": "eeff0648a2becc33aa978020991672f631070913",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/transformers/llm/engine/tools/llm_bench.cpp",
+      "lines": 1463
+    },
+    {
+      "path": "transformers/llm/engine/demo/llm_demo.cpp",
+      "blob_sha": "99ffb912b0d993e5563097c33e8a13c8cf06a7db",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/transformers/llm/engine/demo/llm_demo.cpp",
+      "lines": 358
+    },
+    {
+      "path": "transformers/llm/engine/src/llm.cpp",
+      "blob_sha": "2477b75bb57aea68ef5473e280218b69d1c9266b",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/transformers/llm/engine/src/llm.cpp",
+      "lines": 1726
+    },
+    {
+      "path": "transformers/llm/engine/src/llmconfig.hpp",
+      "blob_sha": "48ecd243ed1f2f40c348d344dcc1d15c54078053",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/transformers/llm/engine/src/llmconfig.hpp",
+      "lines": 752
+    },
+    {
+      "path": "transformers/llm/engine/src/tokenizer/tokenizer.cpp",
+      "blob_sha": "152881c17f6641a68b40b91b2d92f753e886111c",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/transformers/llm/engine/src/tokenizer/tokenizer.cpp",
+      "lines": 2559
+    },
+    {
+      "path": "transformers/llm/export/requirements.txt",
+      "blob_sha": "d0b77b53efc53cc1cef9d90850af3a13110c3e4e",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/transformers/llm/export/requirements.txt",
+      "lines": 15
+    },
+    {
+      "path": "transformers/llm/export/llmexport.py",
+      "blob_sha": "caf915a212d3fd818f7b346b8833d1d159e10bb0",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/transformers/llm/export/llmexport.py",
+      "lines": 1115
+    },
+    {
+      "path": "transformers/llm/export/utils/model.py",
+      "blob_sha": "bcd4706ed827512f70aa6d0958dc34cda2eebde4",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/transformers/llm/export/utils/model.py",
+      "lines": 843
+    },
+    {
+      "path": "transformers/llm/export/utils/mnn_converter.py",
+      "blob_sha": "c2bdf956ffe20f118c5ad2e3d60f3004ae636a25",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/transformers/llm/export/utils/mnn_converter.py",
+      "lines": 878
+    },
+    {
+      "path": "apps/Android/MnnLlmChat/app/build.gradle",
+      "blob_sha": "d6a923a292bbc70f18c5d4866e37ea6377619f1e",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/apps/Android/MnnLlmChat/app/build.gradle",
+      "lines": 291
+    },
+    {
+      "path": "source/backend/hexagon/README.md",
+      "blob_sha": "80fdf9dbde394bb045203e0ab957e042dce6fff0",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/source/backend/hexagon/README.md",
+      "lines": 59
+    },
+    {
+      "path": "source/backend/qnn/CMakeLists.txt",
+      "blob_sha": "d7af2805e5e66774cfca29c8db08d895bde58288",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/source/backend/qnn/CMakeLists.txt",
+      "lines": 80
+    },
+    {
+      "path": "express/Executor.cpp",
+      "blob_sha": "f6ac86f24ed3746f77688bb072106933d0993cf0",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/express/Executor.cpp",
+      "lines": 722
+    },
+    {
+      "path": "express/CMakeLists.txt",
+      "blob_sha": "07ee94fdf979ad6491af2d9a971916882305dcd5",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/express/CMakeLists.txt",
+      "lines": 35
+    },
+    {
+      "path": "express/module/Module.cpp",
+      "blob_sha": "05eabb355088e4e58af81f56aa60f86e855e0018",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/express/module/Module.cpp",
+      "lines": 539
+    },
+    {
+      "path": "express/module/PipelineModule.cpp",
+      "blob_sha": "b0524c366a4c14e338530de6df95a4998df81c24",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/express/module/PipelineModule.cpp",
+      "lines": 945
+    },
+    {
+      "path": "source/core/Pipeline.cpp",
+      "blob_sha": "08633a0132b6a974d6dcc9daa9234b4a458f883a",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/source/core/Pipeline.cpp",
+      "lines": 1292
+    },
+    {
+      "path": "source/backend/cpu/CPUAttention.cpp",
+      "blob_sha": "fd91166b5a4dbf93ad6271b35d6281da0f1db3f8",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/source/backend/cpu/CPUAttention.cpp",
+      "lines": 1642
+    },
+    {
+      "path": "source/backend/cpu/CPUKVCacheManager.cpp",
+      "blob_sha": "061d40eb1c2764c44d737d76ca3cdf770c0377d9",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/source/backend/cpu/CPUKVCacheManager.cpp",
+      "lines": 1077
+    },
+    {
+      "path": "source/backend/cpu/CPUBackend.cpp",
+      "blob_sha": "2da48922376629be2574c6cccdb9df03e5832476",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/source/backend/cpu/CPUBackend.cpp",
+      "lines": 1035
+    },
+    {
+      "path": "source/backend/cpu/arm/CMakeLists.txt",
+      "blob_sha": "f3ca4861753489c2b335b09112e8003ea7fa6e17",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/source/backend/cpu/arm/CMakeLists.txt",
+      "lines": 59
+    },
+    {
+      "path": "include/MNN/MNNDefine.h",
+      "blob_sha": "505481dc88e4fa8b7e2e60da68258823d128c9da",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/include/MNN/MNNDefine.h",
+      "lines": 80
+    },
+    {
+      "path": "source/backend/cpu/CMakeLists.txt",
+      "blob_sha": "13f53c26da79286226f2585b705fcfc2bbb2a006",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/source/backend/cpu/CMakeLists.txt",
+      "lines": 48
+    },
+    {
+      "path": "source/backend/opencl/CMakeLists.txt",
+      "blob_sha": "887d3015a9f9627ec7f9b84173fe4472d51fbd00",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/source/backend/opencl/CMakeLists.txt",
+      "lines": 57
+    },
+    {
+      "path": "transformers/llm/export/utils/model_mapper.py",
+      "blob_sha": "4b31c7e8f5a0c66e65d24a313ab53727ac206431",
+      "url": "https://github.com/alibaba/MNN/blob/7e3c6fb5225d3ccf22807ee641332669df34650d/transformers/llm/export/utils/model_mapper.py",
+      "lines": 1329
+    }
+  ]
+}

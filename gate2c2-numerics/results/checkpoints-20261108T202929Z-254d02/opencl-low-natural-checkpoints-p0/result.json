@@ -1,0 +1,10 @@
+{
+  "backend": "opencl",
+  "precision": "low",
+  "kind": "natural",
+  "mode": "checkpoints",
+  "process": 0,
+  "exit_code": 0,
+  "directory": "results\\checkpoints-20261108T202929Z-254d02\\opencl-low-natural-checkpoints-p0",
+  "valid": true
+}

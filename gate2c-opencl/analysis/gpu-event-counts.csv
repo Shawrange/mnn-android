@@ -1,0 +1,14 @@
+﻿label,count,nonzero_events
+BinaryOp0,2397,2397
+Cast0,969,969
+Convolution0,3349,3349
+LayerNorm0,1921,1921
+Raster0,7720,7720
+Raster1,952,952
+UnaryOp0,1462,1462
+While0,1904,1904
+flash_attention_prefill,28,28
+flash_decode_partial,448,448
+flash_decode_reduce,448,448
+rearrange_k,28,28
+rearrange_v,28,28

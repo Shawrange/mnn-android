@@ -1,0 +1,73 @@
+001 r1 512+256: success prefill=343.293539443556 decode=80.60658977763602 skin=34.877 battery=32.9
+002 r1 128+64: success prefill=542.285564188817 decode=95.06070517219355 skin=35.784 battery=33.0
+003 r1 32+32: success prefill=365.31348463400155 decode=97.06705817046796 skin=35.605 battery=33.2
+004 r1 128+256: success prefill=336.6339237576762 decode=87.16828381993211 skin=35.488 battery=33.2
+005 r1 512+64: success prefill=345.3744445846029 decode=82.49548852797113 skin=36.154 battery=33.2
+006 r2 512+256: success prefill=337.0532070086001 decode=81.21721766944022 skin=36.357 battery=33.3
+007 r2 128+64: success prefill=346.8054611022453 decode=93.0278531206484 skin=36.817 battery=33.7
+008 r2 512+64: success prefill=366.49229650372075 decode=76.6368860517275 skin=36.458 battery=33.7
+009 r2 32+32: success prefill=366.2207166481649 decode=98.98723683315083 skin=36.711 battery=33.7
+010 r2 128+256: success prefill=347.65887059756585 decode=79.23017976585005 skin=36.452 battery=33.7
+011 r3 128+64: success prefill=347.0725246001209 decode=93.65282604719225 skin=37.102 battery=34.0
+012 r3 512+256: success prefill=303.63358068795543 decode=73.81997614692021 skin=37.193 battery=34.0
+013 r3 512+64: success prefill=445.3211704988641 decode=75.84753696974869 skin=37.742 battery=34.0
+014 r3 128+256: success prefill=477.1205773158986 decode=86.59891879896772 skin=37.724 battery=34.5
+Waiting for declared temperature window...
+015 r3 32+32: success prefill=552.1906438197788 decode=98.5534205736425 skin=37.436 battery=34.5
+016 r4 512+256: success prefill=290.302589419718 decode=72.91291065491174 skin=37.688 battery=34.6
+Waiting for declared temperature window...
+Waiting for declared temperature window...
+017 r4 128+256: success prefill=478.1007447913165 decode=84.44246532416341 skin=37.49 battery=34.9
+018 r4 128+64: success prefill=290.4186793664335 decode=89.13226950255837 skin=37.849 battery=34.9
+019 r4 512+64: success prefill=457.6262248428474 decode=80.02690904816744 skin=37.544 battery=34.9
+020 r4 32+32: success prefill=366.17880969000674 decode=98.46153846153847 skin=37.604 battery=35.0
+021 r5 512+256: success prefill=307.5414940750209 decode=74.36594318674334 skin=37.801 battery=34.9
+Waiting for declared temperature window...
+022 r5 512+64: success prefill=295.75903494751145 decode=78.51469819686089 skin=37.837 battery=35.1
+Waiting for declared temperature window...
+023 r5 128+64: success prefill=342.38605632785607 decode=86.37408345625894 skin=37.544 battery=35.1
+024 r5 32+32: success prefill=361.72906493036714 decode=93.84246782229755 skin=37.688 battery=35.0
+025 r5 128+256: success prefill=432.40175528087536 decode=85.65195861939749 skin=37.634 battery=35.0
+Waiting for declared temperature window...
+026 r6 512+256: success prefill=291.62107714117934 decode=68.85894540911224 skin=37.966 battery=35.1
+Waiting for declared temperature window...
+Waiting for declared temperature window...
+027 r6 512+64: success prefill=374.7909186403581 decode=77.88057743580633 skin=37.544 battery=35.3
+028 r6 128+64: success prefill=337.5171395422424 decode=88.32105808627587 skin=37.789 battery=35.3
+029 r6 32+32: success prefill=314.91413669241746 decode=90.63050509513371 skin=37.819 battery=35.3
+030 r6 128+256: success prefill=305.57896470801694 decode=84.24059244829158 skin=37.676 battery=35.3
+Waiting for declared temperature window...
+031 r7 32+32: success prefill=365.14674334748275 decode=97.01261770359007 skin=37.568 battery=35.3
+032 r7 512+64: success prefill=181.0194719676145 decode=75.50722568755818 skin=37.67 battery=35.2
+Waiting for declared temperature window...
+033 r7 512+256: success prefill=377.3337391636309 decode=77.10606481367138 skin=38.015 battery=35.2
+Waiting for declared temperature window...
+Waiting for declared temperature window...
+Waiting for declared temperature window...
+034 r7 128+256: success prefill=297.39846049828185 decode=84.90597326788497 skin=37.586 battery=35.5
+Waiting for declared temperature window...
+035 r7 128+64: success prefill=536.9397788479286 decode=94.04006400601857 skin=37.544 battery=35.4
+036 r8 128+256: success prefill=303.97230052411476 decode=85.51196783413884 skin=37.646 battery=35.4
+Waiting for declared temperature window...
+037 r8 512+64: success prefill=294.9070927459767 decode=78.45136995704787 skin=37.58 battery=35.4
+038 r8 512+256: success prefill=296.3052128883508 decode=76.41934758773075 skin=38.177 battery=35.4
+Waiting for declared temperature window...
+039 r8 32+32: success prefill=360.498389022824 decode=98.55099243929105 skin=37.891 battery=35.4
+040 r8 128+64: success prefill=346.8092197063501 decode=90.03483222571732 skin=37.568 battery=35.4
+041 r9 512+256: success prefill=409.3550419429014 decode=76.5891958972125 skin=37.819 battery=35.4
+Waiting for declared temperature window...
+042 r9 512+64: success prefill=460.1498542709006 decode=76.65065386600747 skin=37.688 battery=35.4
+043 r9 128+64: success prefill=512.6089794676075 decode=88.89975441442843 skin=37.772 battery=35.4
+044 r9 128+256: success prefill=478.01682768613716 decode=85.64737370357979 skin=37.91 battery=35.4
+Waiting for declared temperature window...
+045 r9 32+32: success prefill=360.73002739293645 decode=96.88602267738469 skin=37.718 battery=35.5
+046 r10 128+64: success prefill=347.8478274457371 decode=94.08029164890411 skin=37.478 battery=35.5
+047 r10 512+256: success prefill=372.572819066414 decode=74.54118589785587 skin=38.121 battery=35.5
+Waiting for declared temperature window...
+Waiting for declared temperature window...
+048 r10 512+64: success prefill=364.69288514097303 decode=79.41983808280511 skin=37.532 battery=35.5
+049 r10 128+256: success prefill=303.3980582524272 decode=86.13044186262464 skin=37.766 battery=35.4
+Waiting for declared temperature window...
+Waiting for declared temperature window...
+050 r10 32+32: success prefill=558.0357142857143 decode=96.95089437200058 skin=37.694 battery=35.4
+{"status": "completed", "started_at_utc": "2026-11-08T14:07:23.636599+00:00", "ended_at_utc": "2026-11-08T14:31:14.054325+00:00", "attempted": 50, "successful": 50, "directory": "E:\\DUANCE\\mobile-llm-runtime-lab\\results\\baseline-20261108T140723-9efc5f25"}

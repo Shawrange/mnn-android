@@ -1,0 +1,182 @@
+[
+  {
+    "block": 1,
+    "mode": "off",
+    "tg": 64
+  },
+  {
+    "block": 1,
+    "mode": "on",
+    "tg": 64
+  },
+  {
+    "block": 1,
+    "mode": "on",
+    "tg": 256
+  },
+  {
+    "block": 1,
+    "mode": "off",
+    "tg": 256
+  },
+  {
+    "block": 1,
+    "mode": "clean",
+    "tg": 64
+  },
+  {
+    "block": 1,
+    "mode": "clean",
+    "tg": 256
+  },
+  {
+    "block": 2,
+    "mode": "on",
+    "tg": 64
+  },
+  {
+    "block": 2,
+    "mode": "on",
+    "tg": 256
+  },
+  {
+    "block": 2,
+    "mode": "clean",
+    "tg": 64
+  },
+  {
+    "block": 2,
+    "mode": "clean",
+    "tg": 256
+  },
+  {
+    "block": 2,
+    "mode": "off",
+    "tg": 64
+  },
+  {
+    "block": 2,
+    "mode": "off",
+    "tg": 256
+  },
+  {
+    "block": 3,
+    "mode": "off",
+    "tg": 64
+  },
+  {
+    "block": 3,
+    "mode": "on",
+    "tg": 64
+  },
+  {
+    "block": 3,
+    "mode": "on",
+    "tg": 256
+  },
+  {
+    "block": 3,
+    "mode": "off",
+    "tg": 256
+  },
+  {
+    "block": 3,
+    "mode": "clean",
+    "tg": 256
+  },
+  {
+    "block": 3,
+    "mode": "clean",
+    "tg": 64
+  },
+  {
+    "block": 4,
+    "mode": "off",
+    "tg": 256
+  },
+  {
+    "block": 4,
+    "mode": "on",
+    "tg": 256
+  },
+  {
+    "block": 4,
+    "mode": "clean",
+    "tg": 64
+  },
+  {
+    "block": 4,
+    "mode": "on",
+    "tg": 64
+  },
+  {
+    "block": 4,
+    "mode": "off",
+    "tg": 64
+  },
+  {
+    "block": 4,
+    "mode": "clean",
+    "tg": 256
+  },
+  {
+    "block": 5,
+    "mode": "clean",
+    "tg": 64
+  },
+  {
+    "block": 5,
+    "mode": "on",
+    "tg": 64
+  },
+  {
+    "block": 5,
+    "mode": "off",
+    "tg": 64
+  },
+  {
+    "block": 5,
+    "mode": "clean",
+    "tg": 256
+  },
+  {
+    "block": 5,
+    "mode": "on",
+    "tg": 256
+  },
+  {
+    "block": 5,
+    "mode": "off",
+    "tg": 256
+  },
+  {
+    "block": 6,
+    "mode": "off",
+    "tg": 64
+  },
+  {
+    "block": 6,
+    "mode": "off",
+    "tg": 256
+  },
+  {
+    "block": 6,
+    "mode": "on",
+    "tg": 64
+  },
+  {
+    "block": 6,
+    "mode": "clean",
+    "tg": 256
+  },
+  {
+    "block": 6,
+    "mode": "clean",
+    "tg": 64
+  },
+  {
+    "block": 6,
+    "mode": "on",
+    "tg": 256
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "path": "CMakeLists.txt",
+    "git_blob_sha1": "727efb9bcb10e707f8d334c4cb296b1e3ec80801",
+    "sha256": "4ef89e2d29e320daae60efd06cf3ef3184d20346f28774d238b85ea175a1f47e",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "project/android/build_64.sh",
+    "git_blob_sha1": "49e0b6af748739686ad884ceead5281ab0e956d8",
+    "sha256": "a68314ce971b5a372326a0ba1e4756699cd946da84c8507941432e04471dfc96",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "README.md",
+    "git_blob_sha1": "35d0793593b268a3df56de2945d8c5f938794ecc",
+    "sha256": "a0b80e613bd936291302c3b087c8c36965b402f3f35d112e7baed27a8c9ba356",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "LICENSE.txt",
+    "git_blob_sha1": "58d9cf1e698014cd1d825eff230e16c1ef6eccb8",
+    "sha256": "a830d59c4f98d110e0540d0581efada06192ba6e798434307d1794b07a290302",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "docs/transformers/llm.md",
+    "git_blob_sha1": "e393312bc76c57cfc91a8934a8dcc5ce9c8048e6",
+    "sha256": "28402789f9d416ce62f0b8e05e211554934a36a35c2938cf664a6054f3464900",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "docs/compile/engine.md",
+    "git_blob_sha1": "87d2ec42068192088ecbb48c0d81bad1b85c0283",
+    "sha256": "60994785263d92b7c37fe996fa3912ad5346cefe6d9488a2f0720639e2aeede3",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "docs/compile/cmake.md",
+    "git_blob_sha1": "ed63a3372fd439fded685b4159fcdf029a470b56",
+    "sha256": "035ce25d629a86f985cd20aa8d6391601595835eaab8373b67ee1a4bce0b9d2b",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "docs/inference/npu.md",
+    "git_blob_sha1": "b29eb9e66001e69d5d2a7aeb6256690d8b99ea45",
+    "sha256": "9e652e2c5bcf8d506823bb6002e2613a9db850e8d135714a64efa18b2399124d",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "transformers/llm/engine/CMakeLists.txt",
+    "git_blob_sha1": "6e04afccdd0b3c7ae1f28cd468ee714986c0eb3b",
+    "sha256": "75257137df1d2c03d909e1561c83cfc480751f56d4dd7b6649102a5d419407cf",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "transformers/llm/engine/tools/CMakeLists.txt",
+    "git_blob_sha1": "559efa3925d76a1e55b1f336c3100a17de40b46b",
+    "sha256": "d588a31ceeceb26b1e5c2c1bd1b753cc71dea047515dafa0057dc42787be0ea0",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "transformers/llm/engine/tools/llm_bench.cpp",
+    "git_blob_sha1": "eeff0648a2becc33aa978020991672f631070913",
+    "sha256": "4102a95e34de32feb63cd83dd6ae04fd74865efc4ff438b6c6d1c50f79b2ab1c",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "transformers/llm/engine/demo/llm_demo.cpp",
+    "git_blob_sha1": "99ffb912b0d993e5563097c33e8a13c8cf06a7db",
+    "sha256": "98cd6e125f894fe67ebc8dd5082ea6daad835694eee642a1aefb540b9fbd2327",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "transformers/llm/engine/src/llm.cpp",
+    "git_blob_sha1": "2477b75bb57aea68ef5473e280218b69d1c9266b",
+    "sha256": "260283e43bc0a7ce233b645602bd83e49f9fbf5964f0be4a477fdacde190fdd7",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "transformers/llm/engine/src/llmconfig.hpp",
+    "git_blob_sha1": "48ecd243ed1f2f40c348d344dcc1d15c54078053",
+    "sha256": "ad524c09be84547d9e011b9b19f20e1c1288848c8698cabe23ac2aecef8c28dc",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "transformers/llm/engine/src/tokenizer/tokenizer.cpp",
+    "git_blob_sha1": "152881c17f6641a68b40b91b2d92f753e886111c",
+    "sha256": "49035f37e0100f377502c642551abc96d2b7b9459f754550d21ea4bf61687fca",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "transformers/llm/export/requirements.txt",
+    "git_blob_sha1": "d0b77b53efc53cc1cef9d90850af3a13110c3e4e",
+    "sha256": "63aced614a39f967a69b1d908759f55db57c7a61b64778f55566fd45832d5988",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "transformers/llm/export/llmexport.py",
+    "git_blob_sha1": "caf915a212d3fd818f7b346b8833d1d159e10bb0",
+    "sha256": "93a6d5cfcc38c71de40cdc11a3a9a82d64b1406ea073bd73775b0ec291dd58cf",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "transformers/llm/export/utils/model.py",
+    "git_blob_sha1": "bcd4706ed827512f70aa6d0958dc34cda2eebde4",
+    "sha256": "d9de0e85c40530e81717a6b0727eb61f259ed58e2910c7c82aaedcb24ea21613",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "transformers/llm/export/utils/mnn_converter.py",
+    "git_blob_sha1": "c2bdf956ffe20f118c5ad2e3d60f3004ae636a25",
+    "sha256": "ed22ca159bbbce913172dab0b0d3d533e443dda676f03087b2253904ec43e022",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "apps/Android/MnnLlmChat/app/build.gradle",
+    "git_blob_sha1": "d6a923a292bbc70f18c5d4866e37ea6377619f1e",
+    "sha256": "9233ecbac052ab606a37deff3c228b47d0c4146ee58f80e202f81ad3dbc22ba8",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "source/backend/hexagon/README.md",
+    "git_blob_sha1": "80fdf9dbde394bb045203e0ab957e042dce6fff0",
+    "sha256": "c75367c6a888c9e53e2a6bc697c168b782c94d0072a22f41bb5e12e335c085d4",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "source/backend/qnn/CMakeLists.txt",
+    "git_blob_sha1": "d7af2805e5e66774cfca29c8db08d895bde58288",
+    "sha256": "efcb4c63da82c838872f16f155ec0fc27ebcfdbe482ef69fba92c069a6cda792",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "express/Executor.cpp",
+    "git_blob_sha1": "f6ac86f24ed3746f77688bb072106933d0993cf0",
+    "sha256": "881c271952bb732b4bbf4bec7abacd2cc2cc4ef83148d1a8a35d425fb822f7f3",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "express/CMakeLists.txt",
+    "git_blob_sha1": "07ee94fdf979ad6491af2d9a971916882305dcd5",
+    "sha256": "2dc53dd9a87b85bc025b3fe9f3db6d2b40bcc255eee7dc33a194e82e6dd96b2c",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "express/module/Module.cpp",
+    "git_blob_sha1": "05eabb355088e4e58af81f56aa60f86e855e0018",
+    "sha256": "8d6d93e84b50bf07f35f0da29f6622bcc35cd9c3d012a9d0b9fd8f35481b287b",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "express/module/PipelineModule.cpp",
+    "git_blob_sha1": "b0524c366a4c14e338530de6df95a4998df81c24",
+    "sha256": "37c148a019a6821b7a3f8c0ae80d21b04b2cadb9981ce0004b2f183010c5f762",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "source/core/Pipeline.cpp",
+    "git_blob_sha1": "08633a0132b6a974d6dcc9daa9234b4a458f883a",
+    "sha256": "8a3211e50d2b7095aca005c7f3b0ef8b24d5c8a438cd340163ec8b4d9bfdc3f2",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "source/backend/cpu/CPUAttention.cpp",
+    "git_blob_sha1": "fd91166b5a4dbf93ad6271b35d6281da0f1db3f8",
+    "sha256": "3978b1b5a2bc3255d477ead3210c2bd997f60001945c23ff2afd9fcd09b8df44",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "source/backend/cpu/CPUKVCacheManager.cpp",
+    "git_blob_sha1": "061d40eb1c2764c44d737d76ca3cdf770c0377d9",
+    "sha256": "5370f6afdb3eb46befd37df4ea9fec77cf1a0f40fdd150c9de70283a58eea92d",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "source/backend/cpu/CPUBackend.cpp",
+    "git_blob_sha1": "2da48922376629be2574c6cccdb9df03e5832476",
+    "sha256": "1f786e1024b0e29eabbaccaa5c67bf2e7c05903853e7bd117cd5d906197e4edc",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "source/backend/cpu/arm/CMakeLists.txt",
+    "git_blob_sha1": "f3ca4861753489c2b335b09112e8003ea7fa6e17",
+    "sha256": "c202981e9c9bee30e3dfe87d3ab1426e459a5fdab2f1e12da11c968fa3baf02f",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "include/MNN/MNNDefine.h",
+    "git_blob_sha1": "505481dc88e4fa8b7e2e60da68258823d128c9da",
+    "sha256": "c20693fb9a7d0e13c1868a9fc436154a5d0bc73e168255a3b95a3eb25ac1b97a",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "source/backend/cpu/CMakeLists.txt",
+    "git_blob_sha1": "13f53c26da79286226f2585b705fcfc2bbb2a006",
+    "sha256": "64b356592e56dd532feacb4272d1bfd5201445c49f85c2442e52101ee38ab944",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "source/backend/opencl/CMakeLists.txt",
+    "git_blob_sha1": "887d3015a9f9627ec7f9b84173fe4472d51fbd00",
+    "sha256": "91f209af0f1a6c2b1caba5cd86874572368f19b697ec6a479d4a93739f9c2e70",
+    "status": "matches_github_blob"
+  },
+  {
+    "path": "transformers/llm/export/utils/model_mapper.py",
+    "git_blob_sha1": "4b31c7e8f5a0c66e65d24a313ab53727ac206431",
+    "sha256": "a5d319a10461929e97e4ad99971814941cc01454b6caacb1165c300d97e87b63",
+    "status": "matches_github_blob"
+  }
+]

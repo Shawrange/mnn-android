@@ -1,0 +1,62 @@
+{
+  "battery_c": 30.4,
+  "battery_percent": 62.0,
+  "usb_powered": true,
+  "thermal_status": 0.0,
+  "hal_temperatures_c": {
+    "socd": 38.0,
+    "nsp6": 34.7,
+    "nsp5": 34.3,
+    "nsp4": 33.9,
+    "nsp3": 34.7,
+    "nsp1": 33.9,
+    "GPU6": 34.7,
+    "GPU4": 35.1,
+    "GPU2": 34.7,
+    "skin": 32.662,
+    "CPU5": 35.7,
+    "CPU4": 34.9,
+    "nsp0": 34.3,
+    "battery": 30.6,
+    "CPU6": 34.7,
+    "GPU5": 34.7,
+    "CPU2": 35.3,
+    "GPU3": 34.7,
+    "vbat": 4.048,
+    "CPU1": 36.1,
+    "GPU0": 35.1,
+    "GPU1": 35.1,
+    "CPU0": 35.3,
+    "nsp2": 34.3,
+    "CPU7": 35.1,
+    "GPU7": 34.7,
+    "CPU3": 34.9
+  },
+  "skin_c": 32.662,
+  "cpu_max_c": 36.1,
+  "policies": {
+    "policy0": {
+      "scaling_cur_freq": "1363200",
+      "scaling_min_freq": "556800",
+      "scaling_max_freq": "2745600",
+      "cpuinfo_max_freq": "3532800",
+      "scaling_governor": "walt",
+      "related_cpus": "0 1 2 3 4 5"
+    },
+    "policy6": {
+      "scaling_cur_freq": "1017600",
+      "scaling_min_freq": "1017600",
+      "scaling_max_freq": "2841600",
+      "cpuinfo_max_freq": "4320000",
+      "scaling_governor": "walt",
+      "related_cpus": "6 7"
+    }
+  },
+  "mem_available_kib": 7732276.0,
+  "mem_free_kib": 1265220.0,
+  "screen_state": [
+    "Dozing"
+  ],
+  "loadavg": "12.71 12.86 13.29 2/10828 22444",
+  "query_exit_code": 0
+}

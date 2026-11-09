@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "started_at_utc": "2026-11-08T14:07:23.636599+00:00",
+  "ended_at_utc": "2026-11-08T14:31:14.054325+00:00",
+  "attempted": 50,
+  "successful": 50,
+  "directory": "E:\\DUANCE\\mobile-llm-runtime-lab\\results\\baseline-20261108T140723-9efc5f25"
+}

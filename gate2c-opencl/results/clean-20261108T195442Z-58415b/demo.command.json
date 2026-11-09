@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "cd /data/local/tmp/mnn-gate2c-20261108/clean && LD_LIBRARY_PATH=. /system/bin/timeout 300 ./llm_demo config.json prompt.txt 16 1"
+  ],
+  "started_at_utc": "2026-11-08T19:54:43.653620+00:00",
+  "ended_at_utc": "2026-11-08T19:54:46.846628+00:00",
+  "elapsed_seconds": 3.1927316999062896,
+  "exit_code": 0
+}

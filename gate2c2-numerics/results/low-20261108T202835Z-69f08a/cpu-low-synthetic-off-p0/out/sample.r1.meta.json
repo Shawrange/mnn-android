@@ -1,0 +1,24 @@
+{
+  "all_seq_len": 8,
+  "checkpoints": [],
+  "generated": 0,
+  "kv_history": 8,
+  "order": 2,
+  "prompt_len": 8,
+  "read_twice_identical": true,
+  "repeat": 1,
+  "shape": [
+    1,
+    1,
+    151936
+  ],
+  "stats": {
+    "elements": 151936,
+    "exact_half_fraction": 1.0,
+    "max": 12.5546875,
+    "min": -19.109375,
+    "nonfinite": 0
+  },
+  "status": 0,
+  "type": "float32"
+}

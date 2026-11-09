@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "pull",
+    "/data/local/tmp/mnn-gate2c3-q-only-20261109T070717Z-360e22/natural-diag-off/out",
+    "E:\\DUANCE\\gate2c3-quant\\results\\q-only-20261109T070717Z-360e22\\natural-diag-off"
+  ],
+  "started_at_utc": "2026-11-09T07:07:26.669154+00:00",
+  "ended_at_utc": "2026-11-09T07:07:26.731751+00:00",
+  "elapsed_seconds": 0.06281439994927496,
+  "exit_code": 0
+}

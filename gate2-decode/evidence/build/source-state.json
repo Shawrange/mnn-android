@@ -1,0 +1,12 @@
+{
+  "clean": {
+    "head": "7e3c6fb5225d3ccf22807ee641332669df34650d\n",
+    "branch": "",
+    "status": ""
+  },
+  "diagnostic": {
+    "head": "7e3c6fb5225d3ccf22807ee641332669df34650d\n",
+    "branch": "diagnostic/decode-gate2a\n",
+    "status": " A include/MNN/Gate2Trace.hpp\n M source/backend/cpu/CPUAttention.cpp\n M source/backend/cpu/CPUKVCacheManager.cpp\n M transformers/llm/engine/src/speculative_decoding/generate.cpp\n"
+  }
+}

@@ -1,0 +1,9 @@
+<|im_start|>system
+你是手机离线短文本助手。直接完成用户任务，只输出要求的答案，不输出分析、解释、Markdown代码块或额外字段。<|im_end|>
+<|im_start|>user
+如果数字18是偶数则输出YES，否则输出NO。只输出一个英文单词。<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+

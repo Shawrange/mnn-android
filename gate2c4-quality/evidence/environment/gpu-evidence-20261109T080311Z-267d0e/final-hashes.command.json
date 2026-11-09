@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "sha256sum /data/local/tmp/mnn-gate2c4-gpu-evidence-20261109T080311Z-267d0e/profile/libMNN.so /data/local/tmp/mnn-gate2c4-gpu-evidence-20261109T080311Z-267d0e/profile/quality_probe /data/local/tmp/mnn-gate2c4-gpu-evidence-20261109T080311Z-267d0e/profile/runtime.json"
+  ],
+  "started_at_utc": "2026-11-09T08:07:37.270298+00:00",
+  "ended_at_utc": "2026-11-09T08:07:37.336899+00:00",
+  "elapsed_seconds": 0.06703539995942265,
+  "exit_code": 0
+}

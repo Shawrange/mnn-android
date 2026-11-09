@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "cd /data/local/tmp/mnn-gate2d-20261109T082806Z-5d76d2/opencl && LD_LIBRARY_PATH=. ./count_probe config.json opencl count-contract.json"
+  ],
+  "started_at_utc": "2026-11-09T08:32:28.439609+00:00",
+  "ended_at_utc": "2026-11-09T08:32:41.774632+00:00",
+  "elapsed_seconds": 13.334946600021794,
+  "exit_code": 0
+}

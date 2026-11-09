@@ -1,0 +1,4 @@
+/mnt/e/DUANCE/gate2c2-numerics/scripts/replay.cpp:25:18: error: no member named 'setHint' in 'MNN::Interpreter'
+   25 |     interpreter->setHint(Interpreter::DYNAMIC_QUANT_OPTIONS,0);
+      |     ~~~~~~~~~~~~~^
+1 error generated.

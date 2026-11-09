@@ -1,0 +1,8 @@
+{
+  "backend": "opencl",
+  "precision": "high",
+  "memory": "low",
+  "kind": "natural",
+  "exit_code": 0,
+  "valid": true
+}

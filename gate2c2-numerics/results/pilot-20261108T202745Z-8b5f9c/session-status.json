@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "runs": [
+    {
+      "backend": "cpu",
+      "precision": "low",
+      "kind": "synthetic",
+      "mode": "checkpoints",
+      "process": 0,
+      "exit_code": 0,
+      "directory": "results\\pilot-20261108T202745Z-8b5f9c\\cpu-low-synthetic-checkpoints-p0",
+      "valid": true
+    },
+    {
+      "backend": "opencl",
+      "precision": "low",
+      "kind": "synthetic",
+      "mode": "checkpoints",
+      "process": 0,
+      "exit_code": 0,
+      "directory": "results\\pilot-20261108T202745Z-8b5f9c\\opencl-low-synthetic-checkpoints-p0",
+      "valid": true
+    }
+  ],
+  "ended_at_utc": "2026-11-08T20:27:51.513265+00:00"
+}

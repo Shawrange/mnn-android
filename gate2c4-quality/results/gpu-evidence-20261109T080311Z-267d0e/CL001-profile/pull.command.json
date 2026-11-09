@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "pull",
+    "/data/local/tmp/mnn-gate2c4-gpu-evidence-20261109T080311Z-267d0e/profile/CL001",
+    "E:\\DUANCE\\gate2c4-quality\\results\\gpu-evidence-20261109T080311Z-267d0e\\CL001-profile\\device"
+  ],
+  "started_at_utc": "2026-11-09T08:03:15.881629+00:00",
+  "ended_at_utc": "2026-11-09T08:03:15.921140+00:00",
+  "elapsed_seconds": 0.03949670004658401,
+  "exit_code": 0
+}

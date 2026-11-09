@@ -1,0 +1,7 @@
+{
+  "status": "completed",
+  "expected_runs": 24,
+  "completed_runs": 24,
+  "runtime_failures": [],
+  "ended_at_utc": "2026-11-09T07:46:45.349358+00:00"
+}

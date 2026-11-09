@@ -1,0 +1,13 @@
+{
+  "id": "IN007",
+  "split": "formal",
+  "category": "instruction",
+  "input": "将字符串AbCD全部转换成小写。只输出结果。",
+  "gold": "abcd",
+  "variants": [
+    "abcd"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "abcd"
+}

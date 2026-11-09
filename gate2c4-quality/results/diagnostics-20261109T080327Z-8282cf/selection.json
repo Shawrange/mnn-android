@@ -1,0 +1,74 @@
+[
+  {
+    "id": "QA022",
+    "common_prefix_ids": [],
+    "first_divergence_index": 0,
+    "original_cpu_next": 16,
+    "original_gpu_next": 17,
+    "cpu_success": true,
+    "gpu_success": false,
+    "input": "一年有几个月？只输出阿拉伯数字。",
+    "reference": "12"
+  },
+  {
+    "id": "IN006",
+    "common_prefix_ids": [],
+    "first_divergence_index": 0,
+    "original_cpu_next": 76,
+    "original_gpu_next": 44,
+    "cpu_success": false,
+    "gpu_success": true,
+    "input": "将字符串mNop全部转换成大写。只输出结果。",
+    "reference": "MNOP"
+  },
+  {
+    "id": "QA023",
+    "common_prefix_ids": [],
+    "first_divergence_index": 0,
+    "original_cpu_next": 101281,
+    "original_gpu_next": 67364,
+    "cpu_success": false,
+    "gpu_success": true,
+    "input": "太阳通常从哪个方向升起？只输出方向，不加标点。",
+    "reference": "东方"
+  },
+  {
+    "id": "CL010",
+    "common_prefix_ids": [
+      100703
+    ],
+    "first_divergence_index": 1,
+    "original_cpu_next": 11,
+    "original_gpu_next": 5373,
+    "cpu_success": false,
+    "gpu_success": false,
+    "input": "将消息分为咨询、投诉、表扬之一。只输出类别，不加标点。消息：等了一个小时还没上菜，服务太差了，我要投诉。",
+    "reference": "投诉"
+  },
+  {
+    "id": "CL013",
+    "common_prefix_ids": [
+      100703
+    ],
+    "first_divergence_index": 1,
+    "original_cpu_next": 5373,
+    "original_gpu_next": 151645,
+    "cpu_success": false,
+    "gpu_success": false,
+    "input": "将消息分为咨询、投诉、表扬之一。只输出类别，不加标点。消息：预约被无故取消，又没人通知，我对此很不满。",
+    "reference": "投诉"
+  },
+  {
+    "id": "CL018",
+    "common_prefix_ids": [
+      100703
+    ],
+    "first_divergence_index": 1,
+    "original_cpu_next": 5373,
+    "original_gpu_next": 151645,
+    "cpu_success": false,
+    "gpu_success": false,
+    "input": "将消息分为咨询、投诉、表扬之一。只输出类别，不加标点。消息：工作人员耐心帮我找回了文件，非常感谢！",
+    "reference": "表扬"
+  }
+]

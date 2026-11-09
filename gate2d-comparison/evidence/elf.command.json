@@ -1,0 +1,8 @@
+{
+  "command": [
+    "bash",
+    "-lc",
+    "for b in cpu opencl; do /home/shawrange/Android/android-ndk-r27c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-readelf -h -d -l /mnt/e/DUANCE/gate2d-comparison/staging/$b/libMNN.so /mnt/e/DUANCE/gate2d-comparison/staging/$b/llm_bench; done"
+  ],
+  "exit_code": 0
+}

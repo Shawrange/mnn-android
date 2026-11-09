@@ -1,0 +1,18 @@
+[
+  {
+    "command": [
+      "python",
+      "-B",
+      "gate2c3-quant\\scripts\\analyze.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "python",
+      "-B",
+      "gate2c3-quant\\scripts\\write_report.py"
+    ],
+    "exit_code": 0
+  }
+]

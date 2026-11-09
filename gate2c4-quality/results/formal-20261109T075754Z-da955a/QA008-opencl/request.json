@@ -1,0 +1,13 @@
+{
+  "id": "QA008",
+  "split": "formal",
+  "category": "qa",
+  "input": "短文：早餐供应豆浆，午餐供应米饭，晚餐供应面条。问：晚餐供应什么？只输出食物名。",
+  "gold": "面条",
+  "variants": [
+    "面条"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "面条"
+}

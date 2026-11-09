@@ -1,0 +1,12 @@
+{
+  "id": "QA012",
+  "category": "qa",
+  "success": false,
+  "answer_matches": false,
+  "format_valid": false,
+  "flags": [
+    "format_error"
+  ],
+  "normalized_text": "20 - 6 = 14\n\n20 - 6 = 14",
+  "parsed_json": null
+}

@@ -1,0 +1,2 @@
+# Preserve archived bytes, including mixed LF/CRLF evidence files.
+* -text

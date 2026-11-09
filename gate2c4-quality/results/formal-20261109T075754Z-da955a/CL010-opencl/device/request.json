@@ -1,0 +1,13 @@
+{
+  "id": "CL010",
+  "split": "formal",
+  "category": "classification",
+  "input": "将消息分为咨询、投诉、表扬之一。只输出类别，不加标点。消息：等了一个小时还没上菜，服务太差了，我要投诉。",
+  "gold": "投诉",
+  "variants": [
+    "投诉"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "投诉"
+}

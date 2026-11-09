@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "pull",
+    "/data/local/tmp/mnn-gate0-20261108T134731469951Z/gate2a-diagnostic/runs/control-20261108T151455Z-f42f6b-036-b06-on-tg256.trace.growth.csv",
+    "E:\\DUANCE\\gate2-decode\\results\\control-20261108T151455Z-f42f6b\\036-b06-on-tg256\\trace.growth.csv"
+  ],
+  "started_at_utc": "2026-11-08T15:26:19.296380+00:00",
+  "ended_at_utc": "2026-11-08T15:26:19.321500+00:00",
+  "elapsed_seconds": 0.024677900015376508,
+  "exit_code": 0
+}

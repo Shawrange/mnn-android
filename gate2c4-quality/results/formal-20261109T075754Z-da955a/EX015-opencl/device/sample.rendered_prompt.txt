@@ -1,0 +1,9 @@
+<|im_start|>system
+你是手机离线短文本助手。直接完成用户任务，只输出要求的答案，不输出分析、解释、Markdown代码块或额外字段。<|im_end|>
+<|im_start|>user
+订单E364的取件日期为2026-02-18。只输出JSON对象，键为code、date，两个值均为原文字符串。<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+

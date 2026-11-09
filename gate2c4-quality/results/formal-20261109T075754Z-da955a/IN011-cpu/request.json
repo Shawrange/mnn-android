@@ -1,0 +1,13 @@
+{
+  "id": "IN011",
+  "split": "formal",
+  "category": "instruction",
+  "input": "将“春夏秋冬”逐字反转顺序，只输出反转结果。",
+  "gold": "冬秋夏春",
+  "variants": [
+    "冬秋夏春"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "冬秋夏春"
+}

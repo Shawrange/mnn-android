@@ -1,0 +1,96 @@
+{
+  "input_name": "/layers.0/self_attn/q_proj/Linear/pre_convert",
+  "input_shape": [
+    8,
+    1024,
+    1,
+    1
+  ],
+  "memory": "low",
+  "op": "/layers.0/self_attn/q_proj/Linear",
+  "output_name": "/layers.0/self_attn/q_proj/Linear",
+  "precision": "low",
+  "runs": [
+    {
+      "exit_code": 0,
+      "ops": [
+        {
+          "backend_type": 3,
+          "name": "/layers.0/self_attn/q_proj/Linear_raster_0",
+          "type": "Raster"
+        },
+        {
+          "backend_type": 3,
+          "name": "/layers.0/self_attn/q_proj/Linear",
+          "type": "Convolution"
+        },
+        {
+          "backend_type": 3,
+          "name": "/layers.0/self_attn/q_proj/Linear_raster_2",
+          "type": "Raster"
+        }
+      ],
+      "shape": [
+        8,
+        2048,
+        1,
+        1
+      ],
+      "wait": 0
+    },
+    {
+      "exit_code": 0,
+      "ops": [
+        {
+          "backend_type": 3,
+          "name": "/layers.0/self_attn/q_proj/Linear_raster_0",
+          "type": "Raster"
+        },
+        {
+          "backend_type": 3,
+          "name": "/layers.0/self_attn/q_proj/Linear",
+          "type": "Convolution"
+        },
+        {
+          "backend_type": 3,
+          "name": "/layers.0/self_attn/q_proj/Linear_raster_2",
+          "type": "Raster"
+        }
+      ],
+      "shape": [
+        8,
+        2048,
+        1,
+        1
+      ],
+      "wait": 0
+    },
+    {
+      "exit_code": 0,
+      "ops": [
+        {
+          "backend_type": 3,
+          "name": "/layers.0/self_attn/q_proj/Linear_raster_0",
+          "type": "Raster"
+        },
+        {
+          "backend_type": 3,
+          "name": "/layers.0/self_attn/q_proj/Linear",
+          "type": "Convolution"
+        },
+        {
+          "backend_type": 3,
+          "name": "/layers.0/self_attn/q_proj/Linear_raster_2",
+          "type": "Raster"
+        }
+      ],
+      "shape": [
+        8,
+        2048,
+        1,
+        1
+      ],
+      "wait": 0
+    }
+  ]
+}

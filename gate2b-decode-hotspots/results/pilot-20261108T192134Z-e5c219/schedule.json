@@ -1,0 +1,14 @@
+[
+  {
+    "block": 1,
+    "mode": "profile",
+    "tg": 64,
+    "tool": "official"
+  },
+  {
+    "block": 1,
+    "mode": "profile",
+    "tg": 256,
+    "tool": "official"
+  }
+]

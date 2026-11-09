@@ -1,0 +1,98 @@
+[
+  {
+    "id": "P04",
+    "backend": "cpu"
+  },
+  {
+    "id": "P04",
+    "backend": "opencl"
+  },
+  {
+    "id": "P02",
+    "backend": "opencl"
+  },
+  {
+    "id": "P02",
+    "backend": "cpu"
+  },
+  {
+    "id": "P09",
+    "backend": "cpu"
+  },
+  {
+    "id": "P09",
+    "backend": "opencl"
+  },
+  {
+    "id": "P10",
+    "backend": "opencl"
+  },
+  {
+    "id": "P10",
+    "backend": "cpu"
+  },
+  {
+    "id": "P05",
+    "backend": "cpu"
+  },
+  {
+    "id": "P05",
+    "backend": "opencl"
+  },
+  {
+    "id": "P06",
+    "backend": "opencl"
+  },
+  {
+    "id": "P06",
+    "backend": "cpu"
+  },
+  {
+    "id": "P11",
+    "backend": "cpu"
+  },
+  {
+    "id": "P11",
+    "backend": "opencl"
+  },
+  {
+    "id": "P03",
+    "backend": "opencl"
+  },
+  {
+    "id": "P03",
+    "backend": "cpu"
+  },
+  {
+    "id": "P01",
+    "backend": "cpu"
+  },
+  {
+    "id": "P01",
+    "backend": "opencl"
+  },
+  {
+    "id": "P07",
+    "backend": "opencl"
+  },
+  {
+    "id": "P07",
+    "backend": "cpu"
+  },
+  {
+    "id": "P08",
+    "backend": "cpu"
+  },
+  {
+    "id": "P08",
+    "backend": "opencl"
+  },
+  {
+    "id": "P12",
+    "backend": "opencl"
+  },
+  {
+    "id": "P12",
+    "backend": "cpu"
+  }
+]

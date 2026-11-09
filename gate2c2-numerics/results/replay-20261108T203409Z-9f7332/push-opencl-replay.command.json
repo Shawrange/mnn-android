@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "push",
+    "E:\\DUANCE\\gate2c2-numerics\\staging\\replay",
+    "/data/local/tmp/mnn-gate2c2-replay-20261108T203409Z-9f7332/opencl/replay"
+  ],
+  "started_at_utc": "2026-11-08T20:34:09.741854+00:00",
+  "ended_at_utc": "2026-11-08T20:34:09.785437+00:00",
+  "elapsed_seconds": 0.04372080008033663,
+  "exit_code": 0
+}

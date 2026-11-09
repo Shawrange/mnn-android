@@ -1,0 +1,9 @@
+<|im_start|>system
+你是手机离线短文本助手。直接完成用户任务，只输出要求的答案，不输出分析、解释、Markdown代码块或额外字段。<|im_end|>
+<|im_start|>user
+姓名：程溪。没有提供联系电话。请输出JSON对象，只有name和phone两个键。姓名和电话均为字符串；未提供电话时phone必须为null，不能编造。<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+

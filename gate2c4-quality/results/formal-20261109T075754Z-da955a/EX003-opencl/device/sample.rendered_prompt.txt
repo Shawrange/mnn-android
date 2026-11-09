@@ -1,0 +1,9 @@
+<|im_start|>system
+你是手机离线短文本助手。直接完成用户任务，只输出要求的答案，不输出分析、解释、Markdown代码块或额外字段。<|im_end|>
+<|im_start|>user
+记录：许安订购了1个水杯。提取订购人和数量，只输出JSON对象，键为name（字符串）、count（整数），不能有其他键。<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+

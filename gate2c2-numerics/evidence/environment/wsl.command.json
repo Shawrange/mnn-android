@@ -1,0 +1,12 @@
+{
+  "command": [
+    "wsl",
+    "-d",
+    "Ubuntu",
+    "--",
+    "bash",
+    "-lc",
+    "cd /home/shawrange/src/MNN-3.6.2 && git rev-parse HEAD && git status --porcelain --untracked-files=no && /home/shawrange/Android/android-ndk-r27c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --version && cmake --version && ninja --version && cat /etc/os-release"
+  ],
+  "exit_code": 0
+}

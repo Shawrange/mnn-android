@@ -1,0 +1,38 @@
+[
+  {
+    "path": "transformers/llm/engine/tools/llm_bench.cpp",
+    "sha256": "4102a95e34de32feb63cd83dd6ae04fd74865efc4ff438b6c6d1c50f79b2ab1c"
+  },
+  {
+    "path": "transformers/llm/engine/src/llm.cpp",
+    "sha256": "260283e43bc0a7ce233b645602bd83e49f9fbf5964f0be4a477fdacde190fdd7"
+  },
+  {
+    "path": "transformers/llm/engine/src/speculative_decoding/generate.cpp",
+    "sha256": "f5194d3447509c577f09e602fb977534c1909bd4a6159b2f54ff52055f0a5601"
+  },
+  {
+    "path": "transformers/llm/engine/include/llm/llm.hpp",
+    "sha256": "ac4e6c65e62b88d9de569a0e6c437b4ebabf6510d4fa70c7249a97695483c462"
+  },
+  {
+    "path": "source/backend/cpu/CPUKVCacheManager.cpp",
+    "sha256": "5370f6afdb3eb46befd37df4ea9fec77cf1a0f40fdd150c9de70283a58eea92d"
+  },
+  {
+    "path": "source/backend/cpu/CPUAttention.cpp",
+    "sha256": "3978b1b5a2bc3255d477ead3210c2bd997f60001945c23ff2afd9fcd09b8df44"
+  },
+  {
+    "path": "include/MNN/AutoTime.hpp",
+    "sha256": "d5df4db8ac56a5a2634f6632401cef2a2d2aaadfd1b0b13a8c6f04f81335f004"
+  },
+  {
+    "path": "source/core/AutoTime.cpp",
+    "sha256": "aec738d8bf58b48d72c0f24961e1bae921831c9373f999c55ef16d8291c4dcf9"
+  },
+  {
+    "path": "transformers/llm/engine/src/llmconfig.hpp",
+    "sha256": "ad524c09be84547d9e011b9b19f20e1c1288848c8698cabe23ac2aecef8c28dc"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "scope": "Gate 1 CPU baseline only",
+  "gate1_tasks_completed": true,
+  "mnn_commit": "7e3c6fb5225d3ccf22807ee641332669df34650d",
+  "model_revision": "34dfccda1187ded6e07ea06426da576b0b793c6b",
+  "pilot_process_samples": 10,
+  "baseline_process_samples": 50,
+  "baseline_samples_per_workload": 10,
+  "baseline_failed_samples": 0,
+  "baseline_warmup_responses": 50,
+  "memory_diagnostic_processes": 5,
+  "memory_diagnostic_snapshots": 51,
+  "pss_readable_without_root": true,
+  "ttft_measured": false,
+  "strict_cold_cache_tested": false,
+  "runtime_core_modified": false,
+  "gpu_npu_tested": false,
+  "optimization_performed": false,
+  "gate2_experiments_started": false,
+  "p95_reported": false,
+  "stable_performance_proven": false,
+  "prefill_cv_percent_range": [
+    12.616427173956161,
+    24.18792677876353
+  ],
+  "decode_cv_percent_range": [
+    2.5970074872769193,
+    4.806910287376813
+  ],
+  "baseline_session": "results/baseline-20261108T140723-9efc5f25",
+  "analysis_directory": "analysis/baseline-20261108T143156-8442118b",
+  "memory_directory": "diagnostics/memory-20261108T143158-80264813",
+  "raw_csv_consistency_verified": true,
+  "parser_tests_passed": 7,
+  "limitations": [
+    "Natural DVFS and variable frequency limits",
+    "Some Awake snapshots despite user idle condition",
+    "Synthetic token id 16; no natural prompt/multiturn coverage",
+    "dynamic_option differs by prompt length under upstream policy",
+    "Single session and n=10 per group; no stability/tail claim",
+    "Memory polling diagnostic excluded from timing baseline"
+  ]
+}

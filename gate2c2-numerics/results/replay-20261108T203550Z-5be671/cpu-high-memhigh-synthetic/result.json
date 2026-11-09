@@ -1,0 +1,8 @@
+{
+  "backend": "cpu",
+  "precision": "high",
+  "memory": "high",
+  "kind": "synthetic",
+  "exit_code": 0,
+  "valid": true
+}

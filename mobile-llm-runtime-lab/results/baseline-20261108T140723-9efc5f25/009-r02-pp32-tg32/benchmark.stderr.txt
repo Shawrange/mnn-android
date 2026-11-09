@@ -1,0 +1,10 @@
+Real time (s): 1.779071
+User time (s): 4.131539
+System time (s): 0.793119
+Max RSS (KiB): 925504
+Major faults: 0
+Minor faults: 109892
+File system inputs: 0
+File system outputs: 24
+Voluntary context switches: 12
+Involuntary context switches: 23

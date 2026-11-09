@@ -1,0 +1,12 @@
+{
+  "id": "CL023",
+  "category": "classification",
+  "success": false,
+  "answer_matches": false,
+  "format_valid": false,
+  "flags": [
+    "format_error"
+  ],
+  "normalized_text": "咨询、投诉、表扬",
+  "parsed_json": null
+}

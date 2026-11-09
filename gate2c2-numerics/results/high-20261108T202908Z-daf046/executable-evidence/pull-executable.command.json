@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "pull",
+    "/data/local/tmp/mnn-gate2c2-high-20261108T202908Z-daf046/cpu/numeric_probe",
+    "E:\\DUANCE\\gate2c2-numerics\\results\\high-20261108T202908Z-daf046\\executable-evidence\\numeric_probe"
+  ],
+  "started_at_utc": "2026-11-08T20:41:31.295555+00:00",
+  "ended_at_utc": "2026-11-08T20:41:31.334210+00:00",
+  "elapsed_seconds": 0.03868739993777126,
+  "exit_code": 0
+}

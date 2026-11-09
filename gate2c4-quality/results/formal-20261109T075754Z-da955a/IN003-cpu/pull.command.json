@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "pull",
+    "/data/local/tmp/mnn-gate2c4-formal-20261109T075754Z-da955a/cpu/IN003",
+    "E:\\DUANCE\\gate2c4-quality\\results\\formal-20261109T075754Z-da955a\\IN003-cpu\\device"
+  ],
+  "started_at_utc": "2026-11-09T07:59:47.982020+00:00",
+  "ended_at_utc": "2026-11-09T07:59:48.012083+00:00",
+  "elapsed_seconds": 0.030524799949489534,
+  "exit_code": 0
+}

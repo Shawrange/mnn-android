@@ -1,0 +1,16 @@
+{
+  "id": "EX003",
+  "split": "formal",
+  "category": "extraction",
+  "input": "记录：许安订购了1个水杯。提取订购人和数量，只输出JSON对象，键为name（字符串）、count（整数），不能有其他键。",
+  "gold": {
+    "name": "许安",
+    "count": 1
+  },
+  "variants": [
+    "{\"name\":\"许安\",\"count\":1}"
+  ],
+  "rule": "json_exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "{\"name\":\"许安\",\"count\":1}"
+}

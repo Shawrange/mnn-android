@@ -1,0 +1,37 @@
+{
+  "shape": [
+    2048,
+    1024
+  ],
+  "header_bytes": 22,
+  "sample_count": 16,
+  "samples": [
+    -8,
+    -7,
+    -6,
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "alpha_shape": [
+    2048,
+    16,
+    2
+  ],
+  "weight_block_channels": 64,
+  "bias": "implicit positive zero",
+  "aMin": 1,
+  "loader_fold_applied": false,
+  "weight_formula": "signed int4 * raw scale + raw offset",
+  "independent_decoder": "Python struct/NumPy only; no MNN loader linked"
+}

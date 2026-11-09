@@ -1,0 +1,6 @@
+32+32: memory samples=4, PSS=562608, RSS=715608
+128+64: memory samples=5, PSS=572859, RSS=899472
+512+64: memory samples=9, PSS=633336, RSS=916520
+128+256: memory samples=14, PSS=615223, RSS=898288
+512+256: memory samples=19, PSS=696530, RSS=731236
+Memory diagnostic: E:\DUANCE\mobile-llm-runtime-lab\diagnostics\memory-20261108T143158-80264813

@@ -1,0 +1,13 @@
+{
+  "id": "QA024",
+  "split": "formal",
+  "category": "qa",
+  "input": "水在标准大气压下的沸点是多少摄氏度？只输出数字，不带单位。",
+  "gold": "100",
+  "variants": [
+    "100"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "100"
+}

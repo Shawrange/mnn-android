@@ -1,0 +1,352 @@
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Deprecation Warning at /home/shawrange/Android/android-ndk-r27c/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:146 (include)
+  CMakeLists.txt:20 (project)
+
+
+CMake Deprecation Warning at /home/shawrange/Android/android-ndk-r27c/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/shawrange/Android/android-ndk-r27c/build/cmake/android.toolchain.cmake:55 (include)
+  /usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:146 (include)
+  CMakeLists.txt:20 (project)
+
+
+CMake Deprecation Warning at /home/shawrange/Android/android-ndk-r27c/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  build-android-arm64-cpu-gate2c3/CMakeFiles/4.2.3/CMakeSystem.cmake:6 (include)
+  CMakeLists.txt:20 (project)
+
+
+-- The C compiler identification is Clang 18.0.3
+-- The CXX compiler identification is Clang 18.0.3
+-- The ASM compiler identification is Clang with GNU-like command-line
+-- Found assembler: /home/shawrange/Android/android-ndk-r27c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+CMake Deprecation Warning at /home/shawrange/Android/android-ndk-r27c/build/cmake/flags.cmake:18 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/share/cmake-4.2/Modules/Platform/Android-Clang.cmake:23 (include)
+  /usr/share/cmake-4.2/Modules/Platform/Android-Clang-C.cmake:1 (include)
+  /usr/share/cmake-4.2/Modules/CMakeCInformation.cmake:48 (include)
+  CMakeLists.txt:20 (project)
+
+
+-- Detecting C compiler ABI info
+CMake Deprecation Warning at /home/shawrange/Android/android-ndk-r27c/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/4.2.3/CMakeSystem.cmake:6 (include)
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/CMakeScratch/TryCompile-Od0L9p/CMakeLists.txt:4 (project)
+
+
+CMake Deprecation Warning at /home/shawrange/Android/android-ndk-r27c/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/shawrange/Android/android-ndk-r27c/build/cmake/android.toolchain.cmake:55 (include)
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/4.2.3/CMakeSystem.cmake:6 (include)
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/CMakeScratch/TryCompile-Od0L9p/CMakeLists.txt:4 (project)
+
+
+CMake Deprecation Warning at /home/shawrange/Android/android-ndk-r27c/build/cmake/flags.cmake:18 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/share/cmake-4.2/Modules/Platform/Android-Clang.cmake:23 (include)
+  /usr/share/cmake-4.2/Modules/Platform/Android-Clang-C.cmake:1 (include)
+  /usr/share/cmake-4.2/Modules/CMakeCInformation.cmake:48 (include)
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/CMakeScratch/TryCompile-Od0L9p/CMakeLists.txt:4 (project)
+
+
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/shawrange/Android/android-ndk-r27c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+CMake Deprecation Warning at /home/shawrange/Android/android-ndk-r27c/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/4.2.3/CMakeSystem.cmake:6 (include)
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/CMakeScratch/TryCompile-s98fnN/CMakeLists.txt:4 (project)
+
+
+CMake Deprecation Warning at /home/shawrange/Android/android-ndk-r27c/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/shawrange/Android/android-ndk-r27c/build/cmake/android.toolchain.cmake:55 (include)
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/4.2.3/CMakeSystem.cmake:6 (include)
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/CMakeScratch/TryCompile-s98fnN/CMakeLists.txt:4 (project)
+
+
+CMake Deprecation Warning at /home/shawrange/Android/android-ndk-r27c/build/cmake/flags.cmake:18 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/share/cmake-4.2/Modules/Platform/Android-Clang.cmake:23 (include)
+  /usr/share/cmake-4.2/Modules/Platform/Android-Clang-CXX.cmake:1 (include)
+  /usr/share/cmake-4.2/Modules/CMakeCXXInformation.cmake:48 (include)
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/CMakeScratch/TryCompile-s98fnN/CMakeLists.txt:4 (project)
+
+
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/shawrange/Android/android-ndk-r27c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Use Threadpool, forbid openmp
+-- >>>>>>>>>>>>>
+-- MNN BUILD INFO:
+-- 	System: Android
+-- 	Processor: aarch64
+-- 	Version: 3.6.2
+-- 	Metal: OFF
+-- 	OpenCL: OFF
+-- 	OpenGL: OFF
+-- 	Vulkan: OFF
+-- 	ARM82: ON
+-- 	KleidiAI: OFF
+-- 	oneDNN: OFF
+-- 	TensorRT: OFF
+-- 	CoreML: OFF
+-- 	NNAPI: OFF
+-- 	QNN: OFF
+-- 	CUDA: OFF
+-- 	MUSA: OFF
+-- 	OpenMP: OFF
+-- 	BF16: OFF
+-- 	ThreadPool: ON
+-- 	Hidden: TRUE
+-- 	Build Path: /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3
+-- 	CUDA PROFILE: OFF
+-- Enabling AArch64 Assemblies
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+CMake Deprecation Warning at /home/shawrange/Android/android-ndk-r27c/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/4.2.3/CMakeSystem.cmake:6 (include)
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/CMakeScratch/TryCompile-bPmRzT/CMakeLists.txt:5 (project)
+
+
+CMake Deprecation Warning at /home/shawrange/Android/android-ndk-r27c/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/shawrange/Android/android-ndk-r27c/build/cmake/android.toolchain.cmake:55 (include)
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/4.2.3/CMakeSystem.cmake:6 (include)
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/CMakeScratch/TryCompile-bPmRzT/CMakeLists.txt:5 (project)
+
+
+CMake Deprecation Warning at /home/shawrange/Android/android-ndk-r27c/build/cmake/flags.cmake:18 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/share/cmake-4.2/Modules/Platform/Android-Clang.cmake:23 (include)
+  /usr/share/cmake-4.2/Modules/Platform/Android-Clang-C.cmake:1 (include)
+  /usr/share/cmake-4.2/Modules/CMakeCInformation.cmake:48 (include)
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/CMakeScratch/TryCompile-bPmRzT/CMakeLists.txt:5 (project)
+
+
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+CMake Deprecation Warning at /home/shawrange/Android/android-ndk-r27c/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/4.2.3/CMakeSystem.cmake:6 (include)
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/CMakeScratch/TryCompile-p43m7Z/CMakeLists.txt:5 (project)
+
+
+CMake Deprecation Warning at /home/shawrange/Android/android-ndk-r27c/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/shawrange/Android/android-ndk-r27c/build/cmake/android.toolchain.cmake:55 (include)
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/4.2.3/CMakeSystem.cmake:6 (include)
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/CMakeScratch/TryCompile-p43m7Z/CMakeLists.txt:5 (project)
+
+
+CMake Deprecation Warning at /home/shawrange/Android/android-ndk-r27c/build/cmake/flags.cmake:18 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/share/cmake-4.2/Modules/Platform/Android-Clang.cmake:23 (include)
+  /usr/share/cmake-4.2/Modules/Platform/Android-Clang-C.cmake:1 (include)
+  /usr/share/cmake-4.2/Modules/CMakeCInformation.cmake:48 (include)
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/CMakeScratch/TryCompile-p43m7Z/CMakeLists.txt:5 (project)
+
+
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+CMake Deprecation Warning at /home/shawrange/Android/android-ndk-r27c/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/4.2.3/CMakeSystem.cmake:6 (include)
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/CMakeScratch/TryCompile-KsSRyi/CMakeLists.txt:5 (project)
+
+
+CMake Deprecation Warning at /home/shawrange/Android/android-ndk-r27c/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/shawrange/Android/android-ndk-r27c/build/cmake/android.toolchain.cmake:55 (include)
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/4.2.3/CMakeSystem.cmake:6 (include)
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/CMakeScratch/TryCompile-KsSRyi/CMakeLists.txt:5 (project)
+
+
+CMake Deprecation Warning at /home/shawrange/Android/android-ndk-r27c/build/cmake/flags.cmake:18 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/share/cmake-4.2/Modules/Platform/Android-Clang.cmake:23 (include)
+  /usr/share/cmake-4.2/Modules/Platform/Android-Clang-C.cmake:1 (include)
+  /usr/share/cmake-4.2/Modules/CMakeCInformation.cmake:48 (include)
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/CMakeScratch/TryCompile-KsSRyi/CMakeLists.txt:5 (project)
+
+
+-- Looking for pthread_create in pthread - not found
+-- Check if compiler accepts -pthread
+CMake Deprecation Warning at /home/shawrange/Android/android-ndk-r27c/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/4.2.3/CMakeSystem.cmake:6 (include)
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/CMakeScratch/TryCompile-KEgtGu/CMakeLists.txt:5 (project)
+
+
+CMake Deprecation Warning at /home/shawrange/Android/android-ndk-r27c/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/shawrange/Android/android-ndk-r27c/build/cmake/android.toolchain.cmake:55 (include)
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/4.2.3/CMakeSystem.cmake:6 (include)
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/CMakeScratch/TryCompile-KEgtGu/CMakeLists.txt:5 (project)
+
+
+CMake Deprecation Warning at /home/shawrange/Android/android-ndk-r27c/build/cmake/flags.cmake:18 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/share/cmake-4.2/Modules/Platform/Android-Clang.cmake:23 (include)
+  /usr/share/cmake-4.2/Modules/Platform/Android-Clang-C.cmake:1 (include)
+  /usr/share/cmake-4.2/Modules/CMakeCInformation.cmake:48 (include)
+  /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3/CMakeFiles/CMakeScratch/TryCompile-KEgtGu/CMakeLists.txt:5 (project)
+
+
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE
+-- Configuring done (6.0s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    MNN_OPENCL_SIZE_CUT
+
+
+-- Build files have been written to: /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3

@@ -1,0 +1,32 @@
+Cloning into '/home/shawrange/src/MNN-3.6.2'...
+Note: switching to '7e3c6fb5225d3ccf22807ee641332669df34650d'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+commit 7e3c6fb5225d3ccf22807ee641332669df34650d
+Author:     wangzhaode <zhaode.wzd@alibaba-inc.com>
+AuthorDate: Thu Oct 29 11:52:37 2026 +0800
+Commit:     王召德 <hi@zhaode.wang>
+CommitDate: Thu Oct 29 11:57:51 2026 +0800
+
+    [Infra:Release] Bump version to 3.6.2
+    
+    Discussed-in: Merge-Request 30801411 , URL: https://code.alibaba-inc.com/AliNN/AliNNPrivate/codereview/30801411
+    GitOrigin-RevId: 164a32a73bd2e6fb3e224de82a08a2ff227c4be7
+origin	https://github.com/alibaba/MNN.git (fetch)
+origin	https://github.com/alibaba/MNN.git (push)
+8575
+Full working tree at pinned commit verified: /home/shawrange/src/MNN-3.6.2

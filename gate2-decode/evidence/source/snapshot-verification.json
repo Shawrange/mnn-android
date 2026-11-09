@@ -1,0 +1,77 @@
+[
+  {
+    "path": "express/module/StaticModule.cpp",
+    "sha256": "28b7e67acac63d1dc547ddf81633070c9b1573057a8dd7361f8d74545d5a9d55",
+    "matches_fixed_commit": true
+  },
+  {
+    "path": "include/MNN/AutoTime.hpp",
+    "sha256": "d5df4db8ac56a5a2634f6632401cef2a2d2aaadfd1b0b13a8c6f04f81335f004",
+    "matches_fixed_commit": true
+  },
+  {
+    "path": "source/backend/cpu/CPUAttention.cpp",
+    "sha256": "3978b1b5a2bc3255d477ead3210c2bd997f60001945c23ff2afd9fcd09b8df44",
+    "matches_fixed_commit": true
+  },
+  {
+    "path": "source/backend/cpu/CPUKVCacheManager.cpp",
+    "sha256": "5370f6afdb3eb46befd37df4ea9fec77cf1a0f40fdd150c9de70283a58eea92d",
+    "matches_fixed_commit": true
+  },
+  {
+    "path": "source/backend/cpu/CPUKVCacheManager.hpp",
+    "sha256": "e06d6776997e1024cabc178057687c964d2ca5e098474522b25d2fa288419f40",
+    "matches_fixed_commit": true
+  },
+  {
+    "path": "source/core/AutoTime.cpp",
+    "sha256": "aec738d8bf58b48d72c0f24961e1bae921831c9373f999c55ef16d8291c4dcf9",
+    "matches_fixed_commit": true
+  },
+  {
+    "path": "source/core/KVCacheManager.hpp",
+    "sha256": "c3fdcff13a93bed41e43cf0b104efd1f500b985bf52d8434793582c9173ad86d",
+    "matches_fixed_commit": true
+  },
+  {
+    "path": "source/core/KVMeta.hpp",
+    "sha256": "5774d74baebfc4463cb7d99b16f635ac7fa2dea8916c867a0ef764b269bf6f82",
+    "matches_fixed_commit": true
+  },
+  {
+    "path": "source/core/Pipeline.cpp",
+    "sha256": "8a3211e50d2b7095aca005c7f3b0ef8b24d5c8a438cd340163ec8b4d9bfdc3f2",
+    "matches_fixed_commit": true
+  },
+  {
+    "path": "source/core/Session.cpp",
+    "sha256": "22aab3db3aae2f79612d3ce80569582a9fdbbde55ef5dbeda2be80fd2a22e93c",
+    "matches_fixed_commit": true
+  },
+  {
+    "path": "transformers/llm/engine/include/llm/llm.hpp",
+    "sha256": "ac4e6c65e62b88d9de569a0e6c437b4ebabf6510d4fa70c7249a97695483c462",
+    "matches_fixed_commit": true
+  },
+  {
+    "path": "transformers/llm/engine/src/kvmeta.hpp",
+    "sha256": "02270d430476f878d74de0d9fd9a754fc5b8ca708a9426726350a266130f4456",
+    "matches_fixed_commit": true
+  },
+  {
+    "path": "transformers/llm/engine/src/llm.cpp",
+    "sha256": "260283e43bc0a7ce233b645602bd83e49f9fbf5964f0be4a477fdacde190fdd7",
+    "matches_fixed_commit": true
+  },
+  {
+    "path": "transformers/llm/engine/src/speculative_decoding/generate.cpp",
+    "sha256": "f5194d3447509c577f09e602fb977534c1909bd4a6159b2f54ff52055f0a5601",
+    "matches_fixed_commit": true
+  },
+  {
+    "path": "transformers/llm/engine/tools/llm_bench.cpp",
+    "sha256": "4102a95e34de32feb63cd83dd6ae04fd74865efc4ff438b6c6d1c50f79b2ab1c",
+    "matches_fixed_commit": true
+  }
+]

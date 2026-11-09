@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "pull",
+    "/data/local/tmp/mnn-gate0-20261108T134731469951Z/gate1-20261108T140723-9efc5f25/s029.json",
+    "E:\\DUANCE\\mobile-llm-runtime-lab\\results\\baseline-20261108T140723-9efc5f25\\029-r06-pp32-tg32\\benchmark.json"
+  ],
+  "started_at_utc": "2026-11-08T14:20:02.220688+00:00",
+  "ended_at_utc": "2026-11-08T14:20:02.245027+00:00",
+  "elapsed_seconds": 0.023951400071382523,
+  "exit_code": 0
+}

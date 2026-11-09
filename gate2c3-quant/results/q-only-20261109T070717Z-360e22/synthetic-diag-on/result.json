@@ -1,0 +1,10 @@
+{
+  "kind": "synthetic",
+  "mode": "diag-on",
+  "backend": "cpu",
+  "precision": "low",
+  "memory": "low",
+  "trace": true,
+  "exit_code": 0,
+  "valid": true
+}

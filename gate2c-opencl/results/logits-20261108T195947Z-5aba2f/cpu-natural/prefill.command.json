@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "cd /data/local/tmp/mnn-gate2c-20261108/oracle-cpu && LD_LIBRARY_PATH=. /system/bin/timeout 180 ./logits_probe /data/local/tmp/mnn-gate0-20261108T134731469951Z/Qwen3-0.6B-MNN/config.cpu.json cpu natural /data/local/tmp/mnn-gate2c-20261108/oracle-cpu/logits-20261108T195947Z-5aba2f-natural"
+  ],
+  "started_at_utc": "2026-11-08T19:59:49.751645+00:00",
+  "ended_at_utc": "2026-11-08T19:59:50.660710+00:00",
+  "elapsed_seconds": 0.9095332000870258,
+  "exit_code": 0
+}

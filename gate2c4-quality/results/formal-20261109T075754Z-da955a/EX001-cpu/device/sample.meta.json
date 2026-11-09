@@ -1,0 +1,15 @@
+{
+  "backend": "cpu",
+  "gen_seq_len": 22,
+  "generated_count": 22,
+  "id": "EX001",
+  "initial_kv": 0,
+  "input_len": 85,
+  "kv_after": 106,
+  "mode": "generate",
+  "prompt_len": 85,
+  "status": 1,
+  "stop_token": 151645,
+  "stopped": true,
+  "thinking": false
+}

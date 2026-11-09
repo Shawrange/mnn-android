@@ -1,0 +1,12 @@
+{
+  "command": [
+    "wsl",
+    "-d",
+    "Ubuntu",
+    "--",
+    "bash",
+    "-lc",
+    "cd /home/shawrange/src/MNN-3.6.2 && git rev-parse HEAD && git status --porcelain --untracked-files=no"
+  ],
+  "exit_code": 0
+}

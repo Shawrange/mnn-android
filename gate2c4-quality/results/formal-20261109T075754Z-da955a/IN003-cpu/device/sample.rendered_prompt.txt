@@ -1,0 +1,9 @@
+<|im_start|>system
+你是手机离线短文本助手。直接完成用户任务，只输出要求的答案，不输出分析、解释、Markdown代码块或额外字段。<|im_end|>
+<|im_start|>user
+将数字15、5、10按升序排列。只输出英文逗号分隔的结果，不加空格。<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+

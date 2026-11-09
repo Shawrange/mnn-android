@@ -1,0 +1,11 @@
+001 r1 512+256: success prefill=331.68828039061475 decode=72.09279469126683 skin=33.797 battery=32.0
+002 r1 128+64: success prefill=339.6234425081191 decode=80.08679406306585 skin=34.766 battery=32.0
+003 r1 32+32: success prefill=320.3107013803389 decode=83.41501053114509 skin=35.096 battery=32.0
+004 r1 128+256: success prefill=345.452975213749 decode=87.94074717344354 skin=35.29 battery=32.4
+005 r1 512+64: success prefill=328.96977204707866 decode=83.90724578398866 skin=35.938 battery=32.4
+006 r2 512+256: success prefill=516.8005604056077 decode=79.90139668265631 skin=36.363 battery=32.9
+007 r2 128+64: success prefill=540.0410937519777 decode=95.01244069145304 skin=36.925 battery=33.1
+008 r2 512+64: success prefill=349.0805953460466 decode=82.84285616279656 skin=36.876 battery=33.1
+009 r2 32+32: success prefill=364.1619154916755 decode=98.13512593496708 skin=36.998 battery=33.1
+010 r2 128+256: success prefill=345.7683892055431 decode=89.50147677436678 skin=36.882 battery=33.4
+{"status": "completed", "started_at_utc": "2026-11-08T14:03:30.999837+00:00", "ended_at_utc": "2026-11-08T14:05:31.869088+00:00", "attempted": 10, "successful": 10, "directory": "E:\\DUANCE\\mobile-llm-runtime-lab\\results\\pilot-20261108T140330-ca3af566"}

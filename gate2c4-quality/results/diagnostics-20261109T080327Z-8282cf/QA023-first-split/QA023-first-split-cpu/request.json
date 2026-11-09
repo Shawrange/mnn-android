@@ -1,0 +1,6 @@
+{
+  "id": "QA023-first-split",
+  "input": "太阳通常从哪个方向升起？只输出方向，不加标点。",
+  "reference": "东方",
+  "prefix_ids": []
+}

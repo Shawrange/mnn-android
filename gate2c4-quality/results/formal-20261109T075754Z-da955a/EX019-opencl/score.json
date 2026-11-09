@@ -1,0 +1,12 @@
+{
+  "id": "EX019",
+  "category": "extraction",
+  "success": false,
+  "answer_matches": false,
+  "format_valid": false,
+  "flags": [
+    "parse_failure"
+  ],
+  "normalized_text": "```json\n{\n  \"item\": \"商品雨衣\",\n  \"price\": 24\n}\n```",
+  "parsed_json": null
+}

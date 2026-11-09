@@ -1,0 +1,15 @@
+{
+  "backend": "opencl",
+  "gen_seq_len": 6,
+  "generated_count": 6,
+  "id": "P07",
+  "initial_kv": 0,
+  "input_len": 72,
+  "kv_after": 77,
+  "mode": "generate",
+  "prompt_len": 72,
+  "status": 1,
+  "stop_token": 151645,
+  "stopped": true,
+  "thinking": false
+}

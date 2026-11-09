@@ -1,0 +1,3 @@
+List of devices attached
+ee19377b               device product:dada model:24129PN74C device:dada transport_id:1
+

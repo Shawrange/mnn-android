@@ -1,0 +1,12 @@
+{
+  "id": "P12",
+  "split": "pilot",
+  "category": "qa",
+  "input": "一周有几天？只输出阿拉伯数字。",
+  "gold": "7",
+  "variants": [
+    "7"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; strict format; natural EOS required"
+}

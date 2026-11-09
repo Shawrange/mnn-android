@@ -1,0 +1,74 @@
+[
+  {
+    "file": "source/backend/cpu/compute/ConvInt8TiledExecutor.cpp",
+    "sha256": "6b0b9fe5bad252d32884446876b1982e4c43be3106b0b940e8640650ae7d3020"
+  },
+  {
+    "file": "source/backend/cpu/compute/ConvInt8TiledExecutor.hpp",
+    "sha256": "10ad7050c4e450a35124b28d5861ee20a069d3f5bc4326cf8a31c210ac27ac12"
+  },
+  {
+    "file": "source/backend/cpu/compute/ConvolutionFloatFactory.cpp",
+    "sha256": "e9f6c66cb91876140772fadb179707a2b6fbb97768e11539d3d9d84f5afd0f44"
+  },
+  {
+    "file": "source/backend/cpu/compute/Int8FunctionsOpt.cpp",
+    "sha256": "ab667b978a675887d8f132dd0eed66552d20349c807c7c0180c44862eced33ec"
+  },
+  {
+    "file": "source/backend/cpu/compute/Int8FunctionsOpt.h",
+    "sha256": "ec5a3581f2eff9187d0eec76c383a587dfe2ebe6c76c146302da27e486b38ee5"
+  },
+  {
+    "file": "source/backend/cpu/compute/CommonOptFunction.h",
+    "sha256": "8177ce6c5a3b990ba7889504354e3b0fbfedcdc00178323719e342096e1d3626"
+  },
+  {
+    "file": "source/backend/cpu/CPUBackend.cpp",
+    "sha256": "1f786e1024b0e29eabbaccaa5c67bf2e7c05903853e7bd117cd5d906197e4edc"
+  },
+  {
+    "file": "source/backend/arm82/Arm82Functions.cpp",
+    "sha256": "6ac64219fc03ca085535b3f2790b6c5ad5956d5a463d6ede933068ca1bd2db85"
+  },
+  {
+    "file": "source/backend/arm82/asm/arm64/low_memory/MNNQuantScaleFP16.S",
+    "sha256": "9e3615d89fab2416b3a373895147d374fbebb8051d55d14be3204f3d2f38ab95"
+  },
+  {
+    "file": "source/backend/arm82/asm/arm64/low_memory/MNNDynamicQuantFP16_Pack8.S",
+    "sha256": "c718f84bbdf1402aca345617334972328547e81e0349181b9e4571d84c950eaf"
+  },
+  {
+    "file": "source/backend/arm82/asm/arm64/low_memory/MNNAbsMaxFP16_pack8.S",
+    "sha256": "cd2264a6a69cd16cf3da8a8e680726cddbb187b623daff3390fd9fc146a11519"
+  },
+  {
+    "file": "source/backend/arm82/asm/arm64/low_memory/MNNGemmInt8AddBiasScale_ARMV86_w4_Unit_FP16.S",
+    "sha256": "c00d57c87837774f7dc963d4cbcc7126e7f5e0164890e124144bcd66627efca8"
+  },
+  {
+    "file": "source/backend/cpu/arm/arm64/MNNPackC4Int8ForMatMulA_ARM86.S",
+    "sha256": "09378165624d30facbd4b2ba6e272a709119d45a1ea3fcf7f7ebdd4689792a2b"
+  },
+  {
+    "file": "source/core/ConvolutionCommon.cpp",
+    "sha256": "b1e63fa342833f1ee371b0ad5e76e21b8cf453ea104190a52a557b9f154f1878"
+  },
+  {
+    "file": "source/core/ConvolutionCommon.hpp",
+    "sha256": "44f7ac4b3bafb47782cd57e20d000e85b32a699b05d121c722d4a6dc335cf115"
+  },
+  {
+    "file": "source/core/Tensor.cpp",
+    "sha256": "456845a11d2365b37e2bf0d4a52b45166b5299a0175c33189eb1dea3c5d516f3"
+  },
+  {
+    "file": "include/MNN/Interpreter.hpp",
+    "sha256": "3a8f13170819eb702eec30200d53febe908337577756601336e3782cdac0d7ad"
+  },
+  {
+    "file": "source/core/Schedule.cpp",
+    "sha256": "2dfd84886e058da20ee19d11f849d882eb346f3e1e733159769452601aefcaf6"
+  }
+]

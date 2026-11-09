@@ -1,0 +1,20 @@
+{
+  "system_prompt": "你是手机离线短文本助手。直接完成用户任务，只输出要求的答案，不输出分析、解释、Markdown代码块或额外字段。",
+  "thread_num": 4,
+  "precision": "low",
+  "memory": "low",
+  "power": "normal",
+  "sampler_type": "greedy",
+  "max_new_tokens": 96,
+  "max_all_tokens": 2048,
+  "ignore_eos": false,
+  "reuse_kv": false,
+  "prompt_cache": false,
+  "async": false,
+  "use_mmap": false,
+  "dynamic_option": 0,
+  "attention_mode": 8,
+  "all_logits": false,
+  "timeout_ms": -1,
+  "tmp_path": "tmp"
+}

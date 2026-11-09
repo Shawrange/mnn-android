@@ -1,0 +1,86 @@
+{
+  "status": "completed",
+  "runs": [
+    {
+      "backend": "cpu",
+      "precision": "low",
+      "memory": "low",
+      "kind": "synthetic",
+      "exit_code": 0,
+      "valid": true
+    },
+    {
+      "backend": "opencl",
+      "precision": "low",
+      "memory": "low",
+      "kind": "synthetic",
+      "exit_code": 0,
+      "valid": true
+    },
+    {
+      "backend": "cpu",
+      "precision": "high",
+      "memory": "low",
+      "kind": "synthetic",
+      "exit_code": 0,
+      "valid": true
+    },
+    {
+      "backend": "opencl",
+      "precision": "high",
+      "memory": "low",
+      "kind": "synthetic",
+      "exit_code": 0,
+      "valid": true
+    },
+    {
+      "backend": "cpu",
+      "precision": "high",
+      "memory": "high",
+      "kind": "synthetic",
+      "exit_code": 0,
+      "valid": true
+    },
+    {
+      "backend": "cpu",
+      "precision": "low",
+      "memory": "low",
+      "kind": "natural",
+      "exit_code": 0,
+      "valid": true
+    },
+    {
+      "backend": "opencl",
+      "precision": "low",
+      "memory": "low",
+      "kind": "natural",
+      "exit_code": 0,
+      "valid": true
+    },
+    {
+      "backend": "cpu",
+      "precision": "high",
+      "memory": "low",
+      "kind": "natural",
+      "exit_code": 0,
+      "valid": true
+    },
+    {
+      "backend": "opencl",
+      "precision": "high",
+      "memory": "low",
+      "kind": "natural",
+      "exit_code": 0,
+      "valid": true
+    },
+    {
+      "backend": "cpu",
+      "precision": "high",
+      "memory": "high",
+      "kind": "natural",
+      "exit_code": 0,
+      "valid": true
+    }
+  ],
+  "ended_at_utc": "2026-11-08T20:36:02.372623+00:00"
+}

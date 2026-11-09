@@ -1,0 +1,13 @@
+{
+  "id": "IN019",
+  "split": "formal",
+  "category": "instruction",
+  "input": "从列表A、B、A、C、B中去重，保留首次出现顺序。只输出英文逗号分隔结果。",
+  "gold": "A,B,C",
+  "variants": [
+    "A,B,C"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "A,B,C"
+}

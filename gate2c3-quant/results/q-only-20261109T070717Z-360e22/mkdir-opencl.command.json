@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "mkdir -p /data/local/tmp/mnn-gate2c3-q-only-20261109T070717Z-360e22/opencl"
+  ],
+  "started_at_utc": "2026-11-09T07:07:18.164738+00:00",
+  "ended_at_utc": "2026-11-09T07:07:18.213182+00:00",
+  "elapsed_seconds": 0.04805899993516505,
+  "exit_code": 0
+}

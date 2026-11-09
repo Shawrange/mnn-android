@@ -1,0 +1,50 @@
+[
+  {
+    "block": 1,
+    "mode": "off",
+    "tg": 64,
+    "tool": "detail"
+  },
+  {
+    "block": 1,
+    "mode": "detail",
+    "tg": 64,
+    "tool": "detail"
+  },
+  {
+    "block": 1,
+    "mode": "off",
+    "tg": 256,
+    "tool": "detail"
+  },
+  {
+    "block": 1,
+    "mode": "detail",
+    "tg": 256,
+    "tool": "detail"
+  },
+  {
+    "block": 2,
+    "mode": "off",
+    "tg": 64,
+    "tool": "detail"
+  },
+  {
+    "block": 2,
+    "mode": "detail",
+    "tg": 64,
+    "tool": "detail"
+  },
+  {
+    "block": 2,
+    "mode": "detail",
+    "tg": 256,
+    "tool": "detail"
+  },
+  {
+    "block": 2,
+    "mode": "off",
+    "tg": 256,
+    "tool": "detail"
+  }
+]

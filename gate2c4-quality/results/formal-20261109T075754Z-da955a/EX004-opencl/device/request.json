@@ -1,0 +1,16 @@
+{
+  "id": "EX004",
+  "split": "formal",
+  "category": "extraction",
+  "input": "记录：陈青订购了6个毛巾。提取订购人和数量，只输出JSON对象，键为name（字符串）、count（整数），不能有其他键。",
+  "gold": {
+    "name": "陈青",
+    "count": 6
+  },
+  "variants": [
+    "{\"name\":\"陈青\",\"count\":6}"
+  ],
+  "rule": "json_exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "{\"name\":\"陈青\",\"count\":6}"
+}

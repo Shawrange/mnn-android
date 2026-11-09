@@ -1,0 +1,19 @@
+{
+  "backend": "cpu",
+  "gen_seq_len": 3,
+  "generated_count": 3,
+  "id": "QA003",
+  "initial_kv": 0,
+  "input_len": 69,
+  "kv_after": 71,
+  "mode": "generate",
+  "prompt_len": 69,
+  "status": 1,
+  "stop_token": 151645,
+  "stopped": true,
+  "thinking": false,
+  "process_exit": 0,
+  "runtime_ok": true,
+  "raw_text": "公园。",
+  "valid_utf8": true
+}

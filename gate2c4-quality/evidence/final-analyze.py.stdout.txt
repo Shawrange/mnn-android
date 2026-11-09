@@ -1,0 +1,196 @@
+{
+  "formal_session": "results\\formal-20261109T075754Z-da955a",
+  "freeze_sha256": "44b6fa25d28ac2f8c63f34d1a94a5cb89224b039cb95b1f6a33138800e901462",
+  "independent_cases": 100,
+  "overall": {
+    "n": 100,
+    "cpu_success": 24,
+    "gpu_success": 25,
+    "cpu_rate": 0.24,
+    "gpu_rate": 0.25,
+    "cpu_wilson95": [
+      0.16691325556948772,
+      0.33232336349814473
+    ],
+    "gpu_wilson95": [
+      0.17545211362287672,
+      0.34304463548061603
+    ],
+    "both_correct": 23,
+    "cpu_only": 1,
+    "gpu_only": 2,
+    "both_wrong": 74,
+    "gpu_minus_cpu": 0.01,
+    "paired_normal95": [
+      -0.02406168182985577,
+      0.04406168182985577
+    ],
+    "descriptive_conservative_delta_interval": [
+      -0.06073503703002643,
+      0.07977832396794177
+    ],
+    "mcnemar_exact_two_sided": 1
+  },
+  "categories": {
+    "classification": {
+      "n": 25,
+      "cpu_success": 9,
+      "gpu_success": 9,
+      "cpu_rate": 0.36,
+      "gpu_rate": 0.36,
+      "cpu_wilson95": [
+        0.20247880774458224,
+        0.5548150225183514
+      ],
+      "gpu_wilson95": [
+        0.20247880774458224,
+        0.5548150225183514
+      ],
+      "both_correct": 9,
+      "cpu_only": 0,
+      "gpu_only": 0,
+      "both_wrong": 16,
+      "gpu_minus_cpu": 0.0,
+      "paired_normal95": [
+        0.0,
+        0.0
+      ],
+      "descriptive_conservative_delta_interval": [
+        -0.16732964400316336,
+        0.16732964400316336
+      ],
+      "mcnemar_exact_two_sided": 1
+    },
+    "extraction": {
+      "n": 25,
+      "cpu_success": 0,
+      "gpu_success": 0,
+      "cpu_rate": 0.0,
+      "gpu_rate": 0.0,
+      "cpu_wilson95": [
+        1.3877787807814457e-17,
+        0.13319225093904846
+      ],
+      "gpu_wilson95": [
+        1.3877787807814457e-17,
+        0.13319225093904846
+      ],
+      "both_correct": 0,
+      "cpu_only": 0,
+      "gpu_only": 0,
+      "both_wrong": 25,
+      "gpu_minus_cpu": 0.0,
+      "paired_normal95": [
+        0.0,
+        0.0
+      ],
+      "descriptive_conservative_delta_interval": [
+        -0.16732964400316336,
+        0.16732964400316336
+      ],
+      "mcnemar_exact_two_sided": 1
+    },
+    "instruction": {
+      "n": 25,
+      "cpu_success": 6,
+      "gpu_success": 7,
+      "cpu_rate": 0.24,
+      "gpu_rate": 0.28,
+      "cpu_wilson95": [
+        0.11496313693401444,
+        0.4342968335542908
+      ],
+      "gpu_wilson95": [
+        0.14283853850956563,
+        0.47576605190361576
+      ],
+      "both_correct": 6,
+      "cpu_only": 0,
+      "gpu_only": 1,
+      "both_wrong": 18,
+      "gpu_minus_cpu": 0.04,
+      "paired_normal95": [
+        -0.03839855938160216,
+        0.11839855938160215
+      ],
+      "descriptive_conservative_delta_interval": [
+        -0.1614889715630195,
+        0.22810260004276645
+      ],
+      "mcnemar_exact_two_sided": 1
+    },
+    "qa": {
+      "n": 25,
+      "cpu_success": 9,
+      "gpu_success": 9,
+      "cpu_rate": 0.36,
+      "gpu_rate": 0.36,
+      "cpu_wilson95": [
+        0.20247880774458224,
+        0.5548150225183514
+      ],
+      "gpu_wilson95": [
+        0.20247880774458224,
+        0.5548150225183514
+      ],
+      "both_correct": 8,
+      "cpu_only": 1,
+      "gpu_only": 1,
+      "both_wrong": 15,
+      "gpu_minus_cpu": 0.0,
+      "paired_normal95": [
+        -0.11315857340761717,
+        0.11315857340761717
+      ],
+      "descriptive_conservative_delta_interval": [
+        -0.2222619276026226,
+        0.2222619276026226
+      ],
+      "mcnemar_exact_two_sided": 1
+    }
+  },
+  "quality_gates": {
+    "cpu": {
+      "successes": 24,
+      "category_gate": {
+        "classification": false,
+        "extraction": false,
+        "instruction": false,
+        "qa": false
+      },
+      "extraction_format_valid": 0,
+      "natural_eos": 100,
+      "no_runtime_error": true,
+      "quality_gate_met": false
+    },
+    "opencl": {
+      "successes": 25,
+      "category_gate": {
+        "classification": false,
+        "extraction": false,
+        "instruction": false,
+        "qa": false
+      },
+      "extraction_format_valid": 0,
+      "natural_eos": 100,
+      "no_runtime_error": true,
+      "quality_gate_met": false
+    }
+  },
+  "difference_guards_met": true,
+  "preliminary_decision": "C",
+  "failure_counts": {
+    "cpu": {
+      "format_error": 14,
+      "content_error": 37,
+      "parse_failure": 25
+    },
+    "opencl": {
+      "format_error": 9,
+      "content_error": 41,
+      "parse_failure": 25
+    }
+  },
+  "text_equal_cases": 75,
+  "tokens_equal_cases": 75
+}

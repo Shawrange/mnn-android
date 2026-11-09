@@ -1,0 +1,13 @@
+{
+  "id": "CL015",
+  "split": "formal",
+  "category": "classification",
+  "input": "将消息分为咨询、投诉、表扬之一。只输出类别，不加标点。消息：客服一直推卸责任，问题到现在没解决，太失望了。",
+  "gold": "投诉",
+  "variants": [
+    "投诉"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "投诉"
+}

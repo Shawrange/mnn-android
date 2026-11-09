@@ -1,0 +1,7 @@
+{
+  "selected_cases": 6,
+  "replays": 12,
+  "discordance_repeats": 6,
+  "replay_original_mismatch_records": 1,
+  "high_margin_divergence_records": 0
+}

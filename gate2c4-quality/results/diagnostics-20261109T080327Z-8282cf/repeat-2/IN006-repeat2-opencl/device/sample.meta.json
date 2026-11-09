@@ -1,0 +1,15 @@
+{
+  "backend": "opencl",
+  "gen_seq_len": 3,
+  "generated_count": 3,
+  "id": "IN006-repeat2",
+  "initial_kv": 0,
+  "input_len": 63,
+  "kv_after": 65,
+  "mode": "generate",
+  "prompt_len": 63,
+  "status": 1,
+  "stop_token": 151645,
+  "stopped": true,
+  "thinking": false
+}

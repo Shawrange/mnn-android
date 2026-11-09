@@ -1,0 +1,6 @@
+{
+  "id": "IN006-first-token",
+  "input": "将字符串mNop全部转换成大写。只输出结果。",
+  "reference": "MNOP",
+  "prefix_ids": []
+}

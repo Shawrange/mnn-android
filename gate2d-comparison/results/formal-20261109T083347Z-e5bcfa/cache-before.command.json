@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "find /data/local/tmp/mnn-gate2d-20261109T082806Z-5d76d2 -type f -exec ls -ln {} \\; ; find /data/local/tmp/mnn-gate2d-20261109T082806Z-5d76d2 -name mnn_cachefile.bin -exec sha256sum {} \\;"
+  ],
+  "started_at_utc": "2026-11-09T08:33:48.115045+00:00",
+  "ended_at_utc": "2026-11-09T08:33:48.330875+00:00",
+  "elapsed_seconds": 0.21588719997089356,
+  "exit_code": 0
+}

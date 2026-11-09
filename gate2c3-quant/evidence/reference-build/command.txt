@@ -1,0 +1,1 @@
+g++ -std=c++17 -O2 -ffp-contract=off /mnt/e/DUANCE/gate2c3-quant/scripts/reference.cpp -o /mnt/e/DUANCE/gate2c3-quant/staging/reference 

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "pull",
+    "/data/local/tmp/mnn-gate2c4-diagnostics-20261109T080327Z-8282cf/cpu/CL018-first-token",
+    "E:\\DUANCE\\gate2c4-quality\\results\\diagnostics-20261109T080327Z-8282cf\\CL018-first-token\\CL018-first-token-cpu\\device"
+  ],
+  "started_at_utc": "2026-11-09T08:04:01.733594+00:00",
+  "ended_at_utc": "2026-11-09T08:04:01.776413+00:00",
+  "elapsed_seconds": 0.0434109999332577,
+  "exit_code": 0
+}

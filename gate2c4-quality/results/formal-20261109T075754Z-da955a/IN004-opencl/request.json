@@ -1,0 +1,13 @@
+{
+  "id": "IN004",
+  "split": "formal",
+  "category": "instruction",
+  "input": "从2、5、8、11中选出偶数，保持原顺序。只输出英文逗号分隔的数字，不加空格。",
+  "gold": "2,8",
+  "variants": [
+    "2,8"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "2,8"
+}

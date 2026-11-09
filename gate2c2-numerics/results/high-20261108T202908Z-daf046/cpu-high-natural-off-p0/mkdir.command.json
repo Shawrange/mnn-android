@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "mkdir -p /data/local/tmp/mnn-gate2c2-high-20261108T202908Z-daf046/cpu-high-natural-off-p0/out"
+  ],
+  "started_at_utc": "2026-11-08T20:29:14.580743+00:00",
+  "ended_at_utc": "2026-11-08T20:29:14.631791+00:00",
+  "elapsed_seconds": 0.05105709994677454,
+  "exit_code": 0
+}

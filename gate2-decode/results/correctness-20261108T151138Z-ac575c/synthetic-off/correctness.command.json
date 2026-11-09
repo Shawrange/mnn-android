@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "cd /data/local/tmp/mnn-gate0-20261108T134731469951Z/gate2a-diagnostic && LD_LIBRARY_PATH=/data/local/tmp/mnn-gate0-20261108T134731469951Z/gate2a-diagnostic/diag /system/bin/time -v ./correctness /data/local/tmp/mnn-gate0-20261108T134731469951Z/Qwen3-0.6B-MNN/config.cpu.json synthetic /data/local/tmp/mnn-gate0-20261108T134731469951Z/gate2a-diagnostic/runs/correctness-20261108T151138Z-ac575c-synthetic-off"
+  ],
+  "started_at_utc": "2026-11-08T15:12:01.115597+00:00",
+  "ended_at_utc": "2026-11-08T15:12:05.185895+00:00",
+  "elapsed_seconds": 4.069934899918735,
+  "exit_code": 0
+}

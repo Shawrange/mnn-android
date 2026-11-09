@@ -1,0 +1,16 @@
+{
+  "id": "EX010",
+  "split": "formal",
+  "category": "extraction",
+  "input": "安排：秦舒将在19:00到海棠教室报到。只提取地点和时间，输出JSON对象，键为place、time，值保持原文字符串，不增加姓名等字段。",
+  "gold": {
+    "place": "海棠教室",
+    "time": "19:00"
+  },
+  "variants": [
+    "{\"place\":\"海棠教室\",\"time\":\"19:00\"}"
+  ],
+  "rule": "json_exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "{\"place\":\"海棠教室\",\"time\":\"19:00\"}"
+}

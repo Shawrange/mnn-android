@@ -1,0 +1,54 @@
+Running device-state
+device-state: exit=0, seconds=0.015
+Running llm-bench-help
+llm-bench-help: exit=0, seconds=0.281
+usage: ./llm_bench [options]
+
+
+
+options:
+
+  -h, --help
+
+  -m, --model <filename>                    (default: ./Qwen2.5-1.5B-Instruct/config.json)
+
+  -a, --backends <cpu,opencl,metal,hexagon> (default: cpu)
+
+  -c, --precision <n>                       (default: 2) | Note: (0:Normal(for cpu bakend, 'Normal' is 'High'),1:High,2:Low)
+
+  -t, --threads <n>                         (default: 4)
+
+  -p, --n-prompt <n>                        (default: 512) | Note: prefill-only test (ppN), no KV-cache reuse
+
+  -n, --n-gen <n>                           (default: 128) | Note: decode-only test (tgN), starts from a 1-token context
+
+  -pg <pp,tg>                               (default: 0,0) | Note: prefill pp tokens then generate tg tokens reusing that KV-cache (llama-bench -pg); reports prefill and decode speed separately
+
+  -mmp, --mmap <0|1>                        (default: 0)
+
+  -rep, --n-repeat <n>                      (default: 5)
+
+  -kv, --kv-cache <true|false>              (default: false) | Note: DEPRECATED, use -pg instead. `-p A -n B -kv true` == `-pg A,B`
+
+  -fp, --file-print <stdout|filename>       (default: stdout)
+
+  -load, --loading-time <true|false>        (default: true)
+
+  -dyo, --dynamicOption <n>                 (default: 0) | Note: if set 8, trades higher memory usage for better decoding performance
+
+  -mr, --mixedSme2NeonRatio <n>             (default: 41) | Note: This parameter is intended to optimize multi-threaded inference performance on backends that support Arm SME instructions. The optimal ratio may vary across different models; we recommend trying values such as 41, 49, 33.
+
+  -qa, --quant-attention <n>               (default: 0) | Note: KV cache quantization mode (0=no-quant, 1=QK-int8, 2=QKV-int8, 3=QK-TQ3, 4=QKV-TQ3, 5=QK-TQ4, 6=QKV-TQ4)
+
+  -fa, --flash-attention <0|1>              (default: 1) | Note: 1=enable flash attention, 0=disable
+
+  -j, --json <filename>                     (default: llm_bench.json) | Note: if set, output result to a JSON file
+
+  --profile                                 Enable operator-level profiling to print detailed timing statistics
+
+
+
+Benchmark uses greedy sampling and ignores EOS for fixed-length workloads.
+
+
+Evidence: E:\DUANCE\gate0\evidence\runtime\20261108T134819702391Z-help

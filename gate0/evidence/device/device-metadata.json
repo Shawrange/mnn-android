@@ -1,0 +1,77 @@
+{
+  "captured_at_utc": "2026-11-08T13:21:11.0569648Z",
+  "device_serial": "ee19377b",
+  "evidence_scope": "Device metadata only; no model inference or benchmark executed",
+  "queries": {
+    "model": {
+      "command": "adb -s ee19377b shell getprop ro.product.model",
+      "exit_code": 0,
+      "output": "24129PN74C"
+    },
+    "product": {
+      "command": "adb -s ee19377b shell getprop ro.product.name",
+      "exit_code": 0,
+      "output": "dada"
+    },
+    "soc": {
+      "command": "adb -s ee19377b shell getprop ro.soc.model",
+      "exit_code": 0,
+      "output": "SM8750"
+    },
+    "soc_manufacturer": {
+      "command": "adb -s ee19377b shell getprop ro.soc.manufacturer",
+      "exit_code": 0,
+      "output": "QTI"
+    },
+    "hardware": {
+      "command": "adb -s ee19377b shell getprop ro.hardware",
+      "exit_code": 0,
+      "output": "qcom"
+    },
+    "android_release": {
+      "command": "adb -s ee19377b shell getprop ro.build.version.release",
+      "exit_code": 0,
+      "output": "16"
+    },
+    "android_sdk": {
+      "command": "adb -s ee19377b shell getprop ro.build.version.sdk",
+      "exit_code": 0,
+      "output": "36"
+    },
+    "build_fingerprint": {
+      "command": "adb -s ee19377b shell getprop ro.build.fingerprint",
+      "exit_code": 0,
+      "output": "Xiaomi/dada/dada:16/BP2A.250605.031.A3/OS3.0.307.0.WOCCNXM:user/release-keys"
+    },
+    "abi_list": {
+      "command": "adb -s ee19377b shell getprop ro.product.cpu.abilist",
+      "exit_code": 0,
+      "output": "arm64-v8a"
+    },
+    "kernel_arch": {
+      "command": "adb -s ee19377b shell uname -m",
+      "exit_code": 0,
+      "output": "aarch64"
+    },
+    "page_size": {
+      "command": "adb -s ee19377b shell getconf PAGESIZE",
+      "exit_code": 0,
+      "output": "4096"
+    },
+    "memory": {
+      "command": "adb -s ee19377b shell cat /proc/meminfo",
+      "exit_code": 0,
+      "output": "MemTotal:       15476168 kB\nMemFree:          888284 kB\nMemAvailable:    8351600 kB\nBuffers:           15280 kB\nCached:          6983824 kB\nSwapCached:         2248 kB\nActive:          3817868 kB\nInactive:        6643592 kB\nActive(anon):    1079040 kB\nInactive(anon):  2439632 kB\nActive(file):    2738828 kB\nInactive(file):  4203960 kB\nUnevictable:       66984 kB\nMlocked:           65612 kB\nSwapTotal:      16777212 kB\nSwapFree:       14546824 kB\nDirty:              1916 kB\nWriteback:             0 kB\nAnonPages:       3402564 kB\nMapped:          3049616 kB\nShmem:             11312 kB\nKReclaimable:     989376 kB\nSlab:             878292 kB\nSReclaimable:     264228 kB\nSUnreclaim:       614064 kB\nKernelStack:      146112 kB\nShadowCallStack:       0 kB\nPageTables:       243036 kB\nSecPageTables:         0 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    24515296 kB\nCommitted_AS:   167070420 kB\nVmallocTotal:   257687552 kB\nVmallocUsed:      464948 kB\nVmallocChunk:          0 kB\nPercpu:            17056 kB\nAnonHugePages:    104448 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nCmaTotal:         712704 kB\nCmaFree:               0 kB"
+    },
+    "data_storage": {
+      "command": "adb -s ee19377b shell df -k /data/local/tmp",
+      "exit_code": 0,
+      "output": "Filesystem        1K-blocks      Used Available Use% Mounted on\n/dev/block/dm-56 1018620908 451195724 567294112  45% /data/user/0"
+    },
+    "shell_identity": {
+      "command": "adb -s ee19377b shell id",
+      "exit_code": 0,
+      "output": "uid=2000(shell) gid=2000(shell) groups=2000(shell),1004(input),1007(log),1011(adb),1015(sdcard_rw),1028(sdcard_r),1078(ext_data_rw),1079(ext_obb_rw),3001(net_bt_admin),3002(net_bt),3003(inet),3006(net_bw_stats),3009(readproc),3011(uhid),3012(readtracefs) context=u:r:shell:s0"
+    }
+  }
+}

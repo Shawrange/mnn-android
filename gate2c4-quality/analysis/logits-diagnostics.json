@@ -1,0 +1,1768 @@
+{
+  "session": "results\\diagnostics-20261109T080327Z-8282cf",
+  "selection": [
+    {
+      "id": "QA022",
+      "common_prefix_ids": [],
+      "first_divergence_index": 0,
+      "original_cpu_next": 16,
+      "original_gpu_next": 17,
+      "cpu_success": true,
+      "gpu_success": false,
+      "input": "一年有几个月？只输出阿拉伯数字。",
+      "reference": "12"
+    },
+    {
+      "id": "IN006",
+      "common_prefix_ids": [],
+      "first_divergence_index": 0,
+      "original_cpu_next": 76,
+      "original_gpu_next": 44,
+      "cpu_success": false,
+      "gpu_success": true,
+      "input": "将字符串mNop全部转换成大写。只输出结果。",
+      "reference": "MNOP"
+    },
+    {
+      "id": "QA023",
+      "common_prefix_ids": [],
+      "first_divergence_index": 0,
+      "original_cpu_next": 101281,
+      "original_gpu_next": 67364,
+      "cpu_success": false,
+      "gpu_success": true,
+      "input": "太阳通常从哪个方向升起？只输出方向，不加标点。",
+      "reference": "东方"
+    },
+    {
+      "id": "CL010",
+      "common_prefix_ids": [
+        100703
+      ],
+      "first_divergence_index": 1,
+      "original_cpu_next": 11,
+      "original_gpu_next": 5373,
+      "cpu_success": false,
+      "gpu_success": false,
+      "input": "将消息分为咨询、投诉、表扬之一。只输出类别，不加标点。消息：等了一个小时还没上菜，服务太差了，我要投诉。",
+      "reference": "投诉"
+    },
+    {
+      "id": "CL013",
+      "common_prefix_ids": [
+        100703
+      ],
+      "first_divergence_index": 1,
+      "original_cpu_next": 5373,
+      "original_gpu_next": 151645,
+      "cpu_success": false,
+      "gpu_success": false,
+      "input": "将消息分为咨询、投诉、表扬之一。只输出类别，不加标点。消息：预约被无故取消，又没人通知，我对此很不满。",
+      "reference": "投诉"
+    },
+    {
+      "id": "CL018",
+      "common_prefix_ids": [
+        100703
+      ],
+      "first_divergence_index": 1,
+      "original_cpu_next": 5373,
+      "original_gpu_next": 151645,
+      "cpu_success": false,
+      "gpu_success": false,
+      "input": "将消息分为咨询、投诉、表扬之一。只输出类别，不加标点。消息：工作人员耐心帮我找回了文件，非常感谢！",
+      "reference": "表扬"
+    }
+  ],
+  "records": [
+    {
+      "id": "QA022",
+      "position": "first-token",
+      "common_output_prefix_len": 0,
+      "input_length": 57,
+      "same_history_verified": true,
+      "cpu_correct": true,
+      "gpu_correct": false,
+      "original_cpu_next": 16,
+      "original_gpu_next": 17,
+      "replay_cpu_matches_original": true,
+      "replay_gpu_matches_original": true,
+      "replay_top1_same": false,
+      "both_margins_ge_1": false,
+      "reference_next_valid": true,
+      "reference_token_reason": "fixed gold prefix matches rendered-token history",
+      "cpu": {
+        "top5": [
+          {
+            "id": 16,
+            "logit": 22.890625,
+            "probability": 0.6310843505342767
+          },
+          {
+            "id": 17,
+            "logit": 22.28125,
+            "probability": 0.34311460995272286
+          },
+          {
+            "id": 24,
+            "logit": 18.421875,
+            "probability": 0.007233257812513942
+          },
+          {
+            "id": 19,
+            "logit": 18.21875,
+            "probability": 0.005903612969231883
+          },
+          {
+            "id": 21,
+            "logit": 17.375,
+            "probability": 0.002539112298479798
+          }
+        ],
+        "top1_top2_margin": 0.609375,
+        "reference_next": {
+          "id": 16,
+          "rank": 1,
+          "logit": 22.890625,
+          "probability": 0.6310843505342767
+        },
+        "top5_text": [
+          {
+            "id": 16,
+            "text": "1"
+          },
+          {
+            "id": 17,
+            "text": "2"
+          },
+          {
+            "id": 24,
+            "text": "9"
+          },
+          {
+            "id": 19,
+            "text": "4"
+          },
+          {
+            "id": 21,
+            "text": "6"
+          }
+        ]
+      },
+      "gpu": {
+        "top5": [
+          {
+            "id": 17,
+            "logit": 22.5625,
+            "probability": 0.501648137249856
+          },
+          {
+            "id": 16,
+            "logit": 22.015625,
+            "probability": 0.2903316679668781
+          },
+          {
+            "id": 19,
+            "logit": 21.09375,
+            "probability": 0.11548595861263135
+          },
+          {
+            "id": 15,
+            "logit": 20.03125,
+            "probability": 0.0399108793490126
+          },
+          {
+            "id": 24,
+            "logit": 19.359375,
+            "probability": 0.02038448255060734
+          }
+        ],
+        "top1_top2_margin": 0.546875,
+        "reference_next": {
+          "id": 16,
+          "rank": 2,
+          "logit": 22.015625,
+          "probability": 0.2903316679668781
+        },
+        "top5_text": [
+          {
+            "id": 17,
+            "text": "2"
+          },
+          {
+            "id": 16,
+            "text": "1"
+          },
+          {
+            "id": 19,
+            "text": "4"
+          },
+          {
+            "id": 15,
+            "text": "0"
+          },
+          {
+            "id": 24,
+            "text": "9"
+          }
+        ]
+      },
+      "top5_overlap": 4
+    },
+    {
+      "id": "QA022",
+      "position": "first-split",
+      "common_output_prefix_len": 0,
+      "input_length": 57,
+      "same_history_verified": true,
+      "cpu_correct": true,
+      "gpu_correct": false,
+      "original_cpu_next": 16,
+      "original_gpu_next": 17,
+      "replay_cpu_matches_original": true,
+      "replay_gpu_matches_original": true,
+      "replay_top1_same": false,
+      "both_margins_ge_1": false,
+      "reference_next_valid": true,
+      "reference_token_reason": "fixed gold prefix matches rendered-token history",
+      "cpu": {
+        "top5": [
+          {
+            "id": 16,
+            "logit": 22.890625,
+            "probability": 0.6310843505342767
+          },
+          {
+            "id": 17,
+            "logit": 22.28125,
+            "probability": 0.34311460995272286
+          },
+          {
+            "id": 24,
+            "logit": 18.421875,
+            "probability": 0.007233257812513942
+          },
+          {
+            "id": 19,
+            "logit": 18.21875,
+            "probability": 0.005903612969231883
+          },
+          {
+            "id": 21,
+            "logit": 17.375,
+            "probability": 0.002539112298479798
+          }
+        ],
+        "top1_top2_margin": 0.609375,
+        "reference_next": {
+          "id": 16,
+          "rank": 1,
+          "logit": 22.890625,
+          "probability": 0.6310843505342767
+        },
+        "top5_text": [
+          {
+            "id": 16,
+            "text": "1"
+          },
+          {
+            "id": 17,
+            "text": "2"
+          },
+          {
+            "id": 24,
+            "text": "9"
+          },
+          {
+            "id": 19,
+            "text": "4"
+          },
+          {
+            "id": 21,
+            "text": "6"
+          }
+        ]
+      },
+      "gpu": {
+        "top5": [
+          {
+            "id": 17,
+            "logit": 22.5625,
+            "probability": 0.501648137249856
+          },
+          {
+            "id": 16,
+            "logit": 22.015625,
+            "probability": 0.2903316679668781
+          },
+          {
+            "id": 19,
+            "logit": 21.09375,
+            "probability": 0.11548595861263135
+          },
+          {
+            "id": 15,
+            "logit": 20.03125,
+            "probability": 0.0399108793490126
+          },
+          {
+            "id": 24,
+            "logit": 19.359375,
+            "probability": 0.02038448255060734
+          }
+        ],
+        "top1_top2_margin": 0.546875,
+        "reference_next": {
+          "id": 16,
+          "rank": 2,
+          "logit": 22.015625,
+          "probability": 0.2903316679668781
+        },
+        "top5_text": [
+          {
+            "id": 17,
+            "text": "2"
+          },
+          {
+            "id": 16,
+            "text": "1"
+          },
+          {
+            "id": 19,
+            "text": "4"
+          },
+          {
+            "id": 15,
+            "text": "0"
+          },
+          {
+            "id": 24,
+            "text": "9"
+          }
+        ]
+      },
+      "top5_overlap": 4
+    },
+    {
+      "id": "IN006",
+      "position": "first-token",
+      "common_output_prefix_len": 0,
+      "input_length": 63,
+      "same_history_verified": true,
+      "cpu_correct": false,
+      "gpu_correct": true,
+      "original_cpu_next": 76,
+      "original_gpu_next": 44,
+      "replay_cpu_matches_original": true,
+      "replay_gpu_matches_original": true,
+      "replay_top1_same": false,
+      "both_margins_ge_1": false,
+      "reference_next_valid": true,
+      "reference_token_reason": "fixed gold prefix matches rendered-token history",
+      "cpu": {
+        "top5": [
+          {
+            "id": 76,
+            "logit": 23.875,
+            "probability": 0.8298463500127599
+          },
+          {
+            "id": 44,
+            "logit": 22.03125,
+            "probability": 0.1313007591628326
+          },
+          {
+            "id": 66558,
+            "logit": 19.8125,
+            "probability": 0.01427829515939326
+          },
+          {
+            "id": 45,
+            "logit": 19.4375,
+            "probability": 0.009813319182464024
+          },
+          {
+            "id": 26288,
+            "logit": 19.125,
+            "probability": 0.007179577685732561
+          }
+        ],
+        "top1_top2_margin": 1.84375,
+        "reference_next": {
+          "id": 55181,
+          "rank": 6,
+          "logit": 18.1875,
+          "probability": 0.002811563018896062
+        },
+        "top5_text": [
+          {
+            "id": 76,
+            "text": "m"
+          },
+          {
+            "id": 44,
+            "text": "M"
+          },
+          {
+            "id": 66558,
+            "text": "字符串"
+          },
+          {
+            "id": 45,
+            "text": "N"
+          },
+          {
+            "id": 26288,
+            "text": "大"
+          }
+        ]
+      },
+      "gpu": {
+        "top5": [
+          {
+            "id": 44,
+            "logit": 23.171875,
+            "probability": 0.5185343786503116
+          },
+          {
+            "id": 76,
+            "logit": 22.90625,
+            "probability": 0.3975740990882511
+          },
+          {
+            "id": 55181,
+            "logit": 20.59375,
+            "probability": 0.039365166627905346
+          },
+          {
+            "id": 26288,
+            "logit": 19.8125,
+            "probability": 0.018022686573953665
+          },
+          {
+            "id": 45,
+            "logit": 19.734375,
+            "probability": 0.016668260288888678
+          }
+        ],
+        "top1_top2_margin": 0.265625,
+        "reference_next": {
+          "id": 55181,
+          "rank": 3,
+          "logit": 20.59375,
+          "probability": 0.039365166627905346
+        },
+        "top5_text": [
+          {
+            "id": 44,
+            "text": "M"
+          },
+          {
+            "id": 76,
+            "text": "m"
+          },
+          {
+            "id": 55181,
+            "text": "MN"
+          },
+          {
+            "id": 26288,
+            "text": "大"
+          },
+          {
+            "id": 45,
+            "text": "N"
+          }
+        ]
+      },
+      "top5_overlap": 4
+    },
+    {
+      "id": "IN006",
+      "position": "first-split",
+      "common_output_prefix_len": 0,
+      "input_length": 63,
+      "same_history_verified": true,
+      "cpu_correct": false,
+      "gpu_correct": true,
+      "original_cpu_next": 76,
+      "original_gpu_next": 44,
+      "replay_cpu_matches_original": true,
+      "replay_gpu_matches_original": true,
+      "replay_top1_same": false,
+      "both_margins_ge_1": false,
+      "reference_next_valid": true,
+      "reference_token_reason": "fixed gold prefix matches rendered-token history",
+      "cpu": {
+        "top5": [
+          {
+            "id": 76,
+            "logit": 23.875,
+            "probability": 0.8298463500127599
+          },
+          {
+            "id": 44,
+            "logit": 22.03125,
+            "probability": 0.1313007591628326
+          },
+          {
+            "id": 66558,
+            "logit": 19.8125,
+            "probability": 0.01427829515939326
+          },
+          {
+            "id": 45,
+            "logit": 19.4375,
+            "probability": 0.009813319182464024
+          },
+          {
+            "id": 26288,
+            "logit": 19.125,
+            "probability": 0.007179577685732561
+          }
+        ],
+        "top1_top2_margin": 1.84375,
+        "reference_next": {
+          "id": 55181,
+          "rank": 6,
+          "logit": 18.1875,
+          "probability": 0.002811563018896062
+        },
+        "top5_text": [
+          {
+            "id": 76,
+            "text": "m"
+          },
+          {
+            "id": 44,
+            "text": "M"
+          },
+          {
+            "id": 66558,
+            "text": "字符串"
+          },
+          {
+            "id": 45,
+            "text": "N"
+          },
+          {
+            "id": 26288,
+            "text": "大"
+          }
+        ]
+      },
+      "gpu": {
+        "top5": [
+          {
+            "id": 44,
+            "logit": 23.171875,
+            "probability": 0.5185343786503116
+          },
+          {
+            "id": 76,
+            "logit": 22.90625,
+            "probability": 0.3975740990882511
+          },
+          {
+            "id": 55181,
+            "logit": 20.59375,
+            "probability": 0.039365166627905346
+          },
+          {
+            "id": 26288,
+            "logit": 19.8125,
+            "probability": 0.018022686573953665
+          },
+          {
+            "id": 45,
+            "logit": 19.734375,
+            "probability": 0.016668260288888678
+          }
+        ],
+        "top1_top2_margin": 0.265625,
+        "reference_next": {
+          "id": 55181,
+          "rank": 3,
+          "logit": 20.59375,
+          "probability": 0.039365166627905346
+        },
+        "top5_text": [
+          {
+            "id": 44,
+            "text": "M"
+          },
+          {
+            "id": 76,
+            "text": "m"
+          },
+          {
+            "id": 55181,
+            "text": "MN"
+          },
+          {
+            "id": 26288,
+            "text": "大"
+          },
+          {
+            "id": 45,
+            "text": "N"
+          }
+        ]
+      },
+      "top5_overlap": 4
+    },
+    {
+      "id": "QA023",
+      "position": "first-token",
+      "common_output_prefix_len": 0,
+      "input_length": 64,
+      "same_history_verified": true,
+      "cpu_correct": false,
+      "gpu_correct": true,
+      "original_cpu_next": 101281,
+      "original_gpu_next": 67364,
+      "replay_cpu_matches_original": true,
+      "replay_gpu_matches_original": true,
+      "replay_top1_same": false,
+      "both_margins_ge_1": false,
+      "reference_next_valid": true,
+      "reference_token_reason": "fixed gold prefix matches rendered-token history",
+      "cpu": {
+        "top5": [
+          {
+            "id": 101281,
+            "logit": 22.15625,
+            "probability": 0.4846158453638163
+          },
+          {
+            "id": 67364,
+            "logit": 21.78125,
+            "probability": 0.33307127485077465
+          },
+          {
+            "id": 113635,
+            "logit": 20.125,
+            "probability": 0.06356776521813601
+          },
+          {
+            "id": 102132,
+            "logit": 19.9375,
+            "probability": 0.05269952834349001
+          },
+          {
+            "id": 60686,
+            "logit": 18.421875,
+            "probability": 0.01157655006221077
+          }
+        ],
+        "top1_top2_margin": 0.375,
+        "reference_next": {
+          "id": 102132,
+          "rank": 4,
+          "logit": 19.9375,
+          "probability": 0.05269952834349001
+        },
+        "top5_text": [
+          {
+            "id": 101281,
+            "text": "太阳"
+          },
+          {
+            "id": 67364,
+            "text": "东"
+          },
+          {
+            "id": 113635,
+            "text": "升起"
+          },
+          {
+            "id": 102132,
+            "text": "东方"
+          },
+          {
+            "id": 60686,
+            "text": "西"
+          }
+        ]
+      },
+      "gpu": {
+        "top5": [
+          {
+            "id": 67364,
+            "logit": 22.9375,
+            "probability": 0.6679591134966322
+          },
+          {
+            "id": 101281,
+            "logit": 21.53125,
+            "probability": 0.16369042054744812
+          },
+          {
+            "id": 113635,
+            "logit": 20.390625,
+            "probability": 0.05231860083405707
+          },
+          {
+            "id": 102132,
+            "logit": 20.15625,
+            "probability": 0.04138741976832575
+          },
+          {
+            "id": 60686,
+            "logit": 19.296875,
+            "probability": 0.01752453614396546
+          }
+        ],
+        "top1_top2_margin": 1.40625,
+        "reference_next": {
+          "id": 102132,
+          "rank": 4,
+          "logit": 20.15625,
+          "probability": 0.04138741976832575
+        },
+        "top5_text": [
+          {
+            "id": 67364,
+            "text": "东"
+          },
+          {
+            "id": 101281,
+            "text": "太阳"
+          },
+          {
+            "id": 113635,
+            "text": "升起"
+          },
+          {
+            "id": 102132,
+            "text": "东方"
+          },
+          {
+            "id": 60686,
+            "text": "西"
+          }
+        ]
+      },
+      "top5_overlap": 5
+    },
+    {
+      "id": "QA023",
+      "position": "first-split",
+      "common_output_prefix_len": 0,
+      "input_length": 64,
+      "same_history_verified": true,
+      "cpu_correct": false,
+      "gpu_correct": true,
+      "original_cpu_next": 101281,
+      "original_gpu_next": 67364,
+      "replay_cpu_matches_original": true,
+      "replay_gpu_matches_original": true,
+      "replay_top1_same": false,
+      "both_margins_ge_1": false,
+      "reference_next_valid": true,
+      "reference_token_reason": "fixed gold prefix matches rendered-token history",
+      "cpu": {
+        "top5": [
+          {
+            "id": 101281,
+            "logit": 22.15625,
+            "probability": 0.4846158453638163
+          },
+          {
+            "id": 67364,
+            "logit": 21.78125,
+            "probability": 0.33307127485077465
+          },
+          {
+            "id": 113635,
+            "logit": 20.125,
+            "probability": 0.06356776521813601
+          },
+          {
+            "id": 102132,
+            "logit": 19.9375,
+            "probability": 0.05269952834349001
+          },
+          {
+            "id": 60686,
+            "logit": 18.421875,
+            "probability": 0.01157655006221077
+          }
+        ],
+        "top1_top2_margin": 0.375,
+        "reference_next": {
+          "id": 102132,
+          "rank": 4,
+          "logit": 19.9375,
+          "probability": 0.05269952834349001
+        },
+        "top5_text": [
+          {
+            "id": 101281,
+            "text": "太阳"
+          },
+          {
+            "id": 67364,
+            "text": "东"
+          },
+          {
+            "id": 113635,
+            "text": "升起"
+          },
+          {
+            "id": 102132,
+            "text": "东方"
+          },
+          {
+            "id": 60686,
+            "text": "西"
+          }
+        ]
+      },
+      "gpu": {
+        "top5": [
+          {
+            "id": 67364,
+            "logit": 22.9375,
+            "probability": 0.6679591134966322
+          },
+          {
+            "id": 101281,
+            "logit": 21.53125,
+            "probability": 0.16369042054744812
+          },
+          {
+            "id": 113635,
+            "logit": 20.390625,
+            "probability": 0.05231860083405707
+          },
+          {
+            "id": 102132,
+            "logit": 20.15625,
+            "probability": 0.04138741976832575
+          },
+          {
+            "id": 60686,
+            "logit": 19.296875,
+            "probability": 0.01752453614396546
+          }
+        ],
+        "top1_top2_margin": 1.40625,
+        "reference_next": {
+          "id": 102132,
+          "rank": 4,
+          "logit": 20.15625,
+          "probability": 0.04138741976832575
+        },
+        "top5_text": [
+          {
+            "id": 67364,
+            "text": "东"
+          },
+          {
+            "id": 101281,
+            "text": "太阳"
+          },
+          {
+            "id": 113635,
+            "text": "升起"
+          },
+          {
+            "id": 102132,
+            "text": "东方"
+          },
+          {
+            "id": 60686,
+            "text": "西"
+          }
+        ]
+      },
+      "top5_overlap": 5
+    },
+    {
+      "id": "CL010",
+      "position": "first-token",
+      "common_output_prefix_len": 0,
+      "input_length": 84,
+      "same_history_verified": true,
+      "cpu_correct": false,
+      "gpu_correct": false,
+      "original_cpu_next": 100703,
+      "original_gpu_next": 100703,
+      "replay_cpu_matches_original": true,
+      "replay_gpu_matches_original": true,
+      "replay_top1_same": true,
+      "both_margins_ge_1": true,
+      "reference_next_valid": true,
+      "reference_token_reason": "fixed gold prefix matches rendered-token history",
+      "cpu": {
+        "top5": [
+          {
+            "id": 100703,
+            "logit": 23.53125,
+            "probability": 0.994342356702578
+          },
+          {
+            "id": 10904,
+            "logit": 16.375,
+            "probability": 0.0007755611637425107
+          },
+          {
+            "id": 16,
+            "logit": 16.25,
+            "probability": 0.00068443032476767
+          },
+          {
+            "id": 104943,
+            "logit": 16.203125,
+            "probability": 0.000653087978284767
+          },
+          {
+            "id": 48412,
+            "logit": 16.078125,
+            "probability": 0.0005763481179515424
+          }
+        ],
+        "top1_top2_margin": 7.15625,
+        "reference_next": {
+          "id": 104943,
+          "rank": 4,
+          "logit": 16.203125,
+          "probability": 0.000653087978284767
+        },
+        "top5_text": [
+          {
+            "id": 100703,
+            "text": "咨询"
+          },
+          {
+            "id": 10904,
+            "text": "【"
+          },
+          {
+            "id": 16,
+            "text": "1"
+          },
+          {
+            "id": 104943,
+            "text": "投诉"
+          },
+          {
+            "id": 48412,
+            "text": "consult"
+          }
+        ]
+      },
+      "gpu": {
+        "top5": [
+          {
+            "id": 100703,
+            "logit": 24.1875,
+            "probability": 0.9911162145101206
+          },
+          {
+            "id": 104943,
+            "logit": 19.21875,
+            "probability": 0.006890073808613715
+          },
+          {
+            "id": 16,
+            "logit": 16.46875,
+            "probability": 0.0004404676821410286
+          },
+          {
+            "id": 51154,
+            "logit": 15.90625,
+            "probability": 0.00025097092013299767
+          },
+          {
+            "id": 32876,
+            "logit": 15.375,
+            "probability": 0.00014753819278179986
+          }
+        ],
+        "top1_top2_margin": 4.96875,
+        "reference_next": {
+          "id": 104943,
+          "rank": 2,
+          "logit": 19.21875,
+          "probability": 0.006890073808613715
+        },
+        "top5_text": [
+          {
+            "id": 100703,
+            "text": "咨询"
+          },
+          {
+            "id": 104943,
+            "text": "投诉"
+          },
+          {
+            "id": 16,
+            "text": "1"
+          },
+          {
+            "id": 51154,
+            "text": "查询"
+          },
+          {
+            "id": 32876,
+            "text": "查"
+          }
+        ]
+      },
+      "top5_overlap": 3
+    },
+    {
+      "id": "CL010",
+      "position": "first-split",
+      "common_output_prefix_len": 1,
+      "input_length": 85,
+      "same_history_verified": true,
+      "cpu_correct": false,
+      "gpu_correct": false,
+      "original_cpu_next": 11,
+      "original_gpu_next": 5373,
+      "replay_cpu_matches_original": true,
+      "replay_gpu_matches_original": true,
+      "replay_top1_same": false,
+      "both_margins_ge_1": false,
+      "reference_next_valid": false,
+      "reference_token_reason": "reference answer does not share the current output prefix, or tokenization boundary mismatch/end",
+      "cpu": {
+        "top5": [
+          {
+            "id": 11,
+            "logit": 20.953125,
+            "probability": 0.6147618706184887
+          },
+          {
+            "id": 5373,
+            "logit": 20.015625,
+            "probability": 0.24074420760055448
+          },
+          {
+            "id": 3837,
+            "logit": 18.953125,
+            "probability": 0.08319897188322302
+          },
+          {
+            "id": 25,
+            "logit": 17.40625,
+            "probability": 0.017714083312514575
+          },
+          {
+            "id": 21515,
+            "logit": 16.765625,
+            "probability": 0.009334665939787129
+          }
+        ],
+        "top1_top2_margin": 0.9375,
+        "reference_next": null,
+        "top5_text": [
+          {
+            "id": 11,
+            "text": ","
+          },
+          {
+            "id": 5373,
+            "text": "、"
+          },
+          {
+            "id": 3837,
+            "text": "，"
+          },
+          {
+            "id": 25,
+            "text": ":"
+          },
+          {
+            "id": 21515,
+            "text": "类"
+          }
+        ]
+      },
+      "gpu": {
+        "top5": [
+          {
+            "id": 5373,
+            "logit": 20.875,
+            "probability": 0.4634736187636778
+          },
+          {
+            "id": 11,
+            "logit": 20.4375,
+            "probability": 0.2992410589929712
+          },
+          {
+            "id": 3837,
+            "logit": 19.6875,
+            "probability": 0.14135146747508043
+          },
+          {
+            "id": 151645,
+            "logit": 18.46875,
+            "probability": 0.04178341397539656
+          },
+          {
+            "id": 25,
+            "logit": 17.09375,
+            "probability": 0.01056450150088166
+          }
+        ],
+        "top1_top2_margin": 0.4375,
+        "reference_next": null,
+        "top5_text": [
+          {
+            "id": 5373,
+            "text": "、"
+          },
+          {
+            "id": 11,
+            "text": ","
+          },
+          {
+            "id": 3837,
+            "text": "，"
+          },
+          {
+            "id": 151645,
+            "text": "<|im_end|>"
+          },
+          {
+            "id": 25,
+            "text": ":"
+          }
+        ]
+      },
+      "top5_overlap": 4
+    },
+    {
+      "id": "CL013",
+      "position": "first-token",
+      "common_output_prefix_len": 0,
+      "input_length": 84,
+      "same_history_verified": true,
+      "cpu_correct": false,
+      "gpu_correct": false,
+      "original_cpu_next": 100703,
+      "original_gpu_next": 100703,
+      "replay_cpu_matches_original": true,
+      "replay_gpu_matches_original": true,
+      "replay_top1_same": true,
+      "both_margins_ge_1": true,
+      "reference_next_valid": true,
+      "reference_token_reason": "fixed gold prefix matches rendered-token history",
+      "cpu": {
+        "top5": [
+          {
+            "id": 100703,
+            "logit": 24.015625,
+            "probability": 0.9960220417199668
+          },
+          {
+            "id": 104943,
+            "logit": 17.34375,
+            "probability": 0.0012609865459556951
+          },
+          {
+            "id": 51154,
+            "logit": 15.9921875,
+            "probability": 0.00032638810080643914
+          },
+          {
+            "id": 48412,
+            "logit": 15.8984375,
+            "probability": 0.0002971797476154139
+          },
+          {
+            "id": 443,
+            "logit": 15.640625,
+            "probability": 0.00022964271005810892
+          }
+        ],
+        "top1_top2_margin": 6.671875,
+        "reference_next": {
+          "id": 104943,
+          "rank": 2,
+          "logit": 17.34375,
+          "probability": 0.0012609865459556951
+        },
+        "top5_text": [
+          {
+            "id": 100703,
+            "text": "咨询"
+          },
+          {
+            "id": 104943,
+            "text": "投诉"
+          },
+          {
+            "id": 51154,
+            "text": "查询"
+          },
+          {
+            "id": 48412,
+            "text": "consult"
+          },
+          {
+            "id": 443,
+            "text": "con"
+          }
+        ]
+      },
+      "gpu": {
+        "top5": [
+          {
+            "id": 100703,
+            "logit": 24.9375,
+            "probability": 0.9965834796776583
+          },
+          {
+            "id": 104943,
+            "logit": 18.8125,
+            "probability": 0.0021800175103226715
+          },
+          {
+            "id": 51154,
+            "logit": 16.3125,
+            "probability": 0.00017894673433491176
+          },
+          {
+            "id": 32876,
+            "logit": 15.8125,
+            "probability": 0.00010853668082957538
+          },
+          {
+            "id": 16,
+            "logit": 15.796875,
+            "probability": 0.00010685397556111017
+          }
+        ],
+        "top1_top2_margin": 6.125,
+        "reference_next": {
+          "id": 104943,
+          "rank": 2,
+          "logit": 18.8125,
+          "probability": 0.0021800175103226715
+        },
+        "top5_text": [
+          {
+            "id": 100703,
+            "text": "咨询"
+          },
+          {
+            "id": 104943,
+            "text": "投诉"
+          },
+          {
+            "id": 51154,
+            "text": "查询"
+          },
+          {
+            "id": 32876,
+            "text": "查"
+          },
+          {
+            "id": 16,
+            "text": "1"
+          }
+        ]
+      },
+      "top5_overlap": 3
+    },
+    {
+      "id": "CL013",
+      "position": "first-split",
+      "common_output_prefix_len": 1,
+      "input_length": 85,
+      "same_history_verified": true,
+      "cpu_correct": false,
+      "gpu_correct": false,
+      "original_cpu_next": 5373,
+      "original_gpu_next": 151645,
+      "replay_cpu_matches_original": false,
+      "replay_gpu_matches_original": true,
+      "replay_top1_same": false,
+      "both_margins_ge_1": false,
+      "reference_next_valid": false,
+      "reference_token_reason": "reference answer does not share the current output prefix, or tokenization boundary mismatch/end",
+      "cpu": {
+        "top5": [
+          {
+            "id": 11,
+            "logit": 20.5625,
+            "probability": 0.46337099139629584
+          },
+          {
+            "id": 5373,
+            "logit": 20.421875,
+            "probability": 0.40258369396054217
+          },
+          {
+            "id": 3837,
+            "logit": 18.3125,
+            "probability": 0.04883894317763189
+          },
+          {
+            "id": 151645,
+            "logit": 18.296875,
+            "probability": 0.048081765545488195
+          },
+          {
+            "id": 25,
+            "logit": 16.40625,
+            "probability": 0.007259260836860349
+          }
+        ],
+        "top1_top2_margin": 0.140625,
+        "reference_next": null,
+        "top5_text": [
+          {
+            "id": 11,
+            "text": ","
+          },
+          {
+            "id": 5373,
+            "text": "、"
+          },
+          {
+            "id": 3837,
+            "text": "，"
+          },
+          {
+            "id": 151645,
+            "text": "<|im_end|>"
+          },
+          {
+            "id": 25,
+            "text": ":"
+          }
+        ]
+      },
+      "gpu": {
+        "top5": [
+          {
+            "id": 151645,
+            "logit": 21.90625,
+            "probability": 0.751667899849287
+          },
+          {
+            "id": 5373,
+            "logit": 20.25,
+            "probability": 0.14345832915503284
+          },
+          {
+            "id": 11,
+            "logit": 19.0625,
+            "probability": 0.04375231842036439
+          },
+          {
+            "id": 1773,
+            "logit": 18.25,
+            "probability": 0.019414973608847582
+          },
+          {
+            "id": 3837,
+            "logit": 18.03125,
+            "probability": 0.015600369562286399
+          }
+        ],
+        "top1_top2_margin": 1.65625,
+        "reference_next": null,
+        "top5_text": [
+          {
+            "id": 151645,
+            "text": "<|im_end|>"
+          },
+          {
+            "id": 5373,
+            "text": "、"
+          },
+          {
+            "id": 11,
+            "text": ","
+          },
+          {
+            "id": 1773,
+            "text": "。"
+          },
+          {
+            "id": 3837,
+            "text": "，"
+          }
+        ]
+      },
+      "top5_overlap": 4
+    },
+    {
+      "id": "CL018",
+      "position": "first-token",
+      "common_output_prefix_len": 0,
+      "input_length": 79,
+      "same_history_verified": true,
+      "cpu_correct": false,
+      "gpu_correct": false,
+      "original_cpu_next": 100703,
+      "original_gpu_next": 100703,
+      "replay_cpu_matches_original": true,
+      "replay_gpu_matches_original": true,
+      "replay_top1_same": true,
+      "both_margins_ge_1": true,
+      "reference_next_valid": true,
+      "reference_token_reason": "fixed gold prefix matches rendered-token history",
+      "cpu": {
+        "top5": [
+          {
+            "id": 100703,
+            "logit": 25.375,
+            "probability": 0.9988707924516325
+          },
+          {
+            "id": 48412,
+            "logit": 17.09375,
+            "probability": 0.00025293453805462176
+          },
+          {
+            "id": 443,
+            "logit": 16.75,
+            "probability": 0.0001793574446864797
+          },
+          {
+            "id": 32876,
+            "logit": 16.59375,
+            "probability": 0.0001534125522303799
+          },
+          {
+            "id": 16,
+            "logit": 16.078125,
+            "probability": 9.160681902197974e-05
+          }
+        ],
+        "top1_top2_margin": 8.28125,
+        "reference_next": {
+          "id": 112339,
+          "rank": 1118,
+          "logit": 6.296875,
+          "probability": 5.175888376437734e-09
+        },
+        "top5_text": [
+          {
+            "id": 100703,
+            "text": "咨询"
+          },
+          {
+            "id": 48412,
+            "text": "consult"
+          },
+          {
+            "id": 443,
+            "text": "con"
+          },
+          {
+            "id": 32876,
+            "text": "查"
+          },
+          {
+            "id": 16,
+            "text": "1"
+          }
+        ]
+      },
+      "gpu": {
+        "top5": [
+          {
+            "id": 100703,
+            "logit": 25.34375,
+            "probability": 0.9989550289518019
+          },
+          {
+            "id": 48412,
+            "logit": 16.625,
+            "probability": 0.00016332058372334906
+          },
+          {
+            "id": 32876,
+            "logit": 16.546875,
+            "probability": 0.00015104684803031722
+          },
+          {
+            "id": 16,
+            "logit": 16.3125,
+            "probability": 0.00011948789158069071
+          },
+          {
+            "id": 51154,
+            "logit": 16.125,
+            "probability": 9.905894139037529e-05
+          }
+        ],
+        "top1_top2_margin": 8.71875,
+        "reference_next": {
+          "id": 112339,
+          "rank": 555,
+          "logit": 7.58984375,
+          "probability": 1.945908526094907e-08
+        },
+        "top5_text": [
+          {
+            "id": 100703,
+            "text": "咨询"
+          },
+          {
+            "id": 48412,
+            "text": "consult"
+          },
+          {
+            "id": 32876,
+            "text": "查"
+          },
+          {
+            "id": 16,
+            "text": "1"
+          },
+          {
+            "id": 51154,
+            "text": "查询"
+          }
+        ]
+      },
+      "top5_overlap": 4
+    },
+    {
+      "id": "CL018",
+      "position": "first-split",
+      "common_output_prefix_len": 1,
+      "input_length": 80,
+      "same_history_verified": true,
+      "cpu_correct": false,
+      "gpu_correct": false,
+      "original_cpu_next": 5373,
+      "original_gpu_next": 151645,
+      "replay_cpu_matches_original": true,
+      "replay_gpu_matches_original": true,
+      "replay_top1_same": false,
+      "both_margins_ge_1": false,
+      "reference_next_valid": false,
+      "reference_token_reason": "reference answer does not share the current output prefix, or tokenization boundary mismatch/end",
+      "cpu": {
+        "top5": [
+          {
+            "id": 5373,
+            "logit": 20.5625,
+            "probability": 0.5026456185338533
+          },
+          {
+            "id": 151645,
+            "logit": 20.265625,
+            "probability": 0.3735345060866875
+          },
+          {
+            "id": 21515,
+            "logit": 17.890625,
+            "probability": 0.034744121286210704
+          },
+          {
+            "id": 3837,
+            "logit": 17.671875,
+            "probability": 0.027917685756460905
+          },
+          {
+            "id": 11,
+            "logit": 17.109375,
+            "probability": 0.01590701785026655
+          }
+        ],
+        "top1_top2_margin": 0.296875,
+        "reference_next": null,
+        "top5_text": [
+          {
+            "id": 5373,
+            "text": "、"
+          },
+          {
+            "id": 151645,
+            "text": "<|im_end|>"
+          },
+          {
+            "id": 21515,
+            "text": "类"
+          },
+          {
+            "id": 3837,
+            "text": "，"
+          },
+          {
+            "id": 11,
+            "text": ","
+          }
+        ]
+      },
+      "gpu": {
+        "top5": [
+          {
+            "id": 151645,
+            "logit": 21.5,
+            "probability": 0.6381994034069893
+          },
+          {
+            "id": 5373,
+            "logit": 20.71875,
+            "probability": 0.29218897834246055
+          },
+          {
+            "id": 3837,
+            "logit": 17.625,
+            "probability": 0.013245406049102258
+          },
+          {
+            "id": 2303,
+            "logit": 17.3125,
+            "probability": 0.009690546077267603
+          },
+          {
+            "id": 21515,
+            "logit": 17.1875,
+            "probability": 0.00855187689754196
+          }
+        ],
+        "top1_top2_margin": 0.78125,
+        "reference_next": null,
+        "top5_text": [
+          {
+            "id": 151645,
+            "text": "<|im_end|>"
+          },
+          {
+            "id": 5373,
+            "text": "、"
+          },
+          {
+            "id": 3837,
+            "text": "，"
+          },
+          {
+            "id": 2303,
+            "text": "  \n"
+          },
+          {
+            "id": 21515,
+            "text": "类"
+          }
+        ]
+      },
+      "top5_overlap": 4
+    }
+  ],
+  "repeats": [
+    {
+      "id": "QA022",
+      "repeat": 1,
+      "cpu": {
+        "success": true,
+        "same_output_ids_as_formal": true,
+        "text": "12",
+        "flags": []
+      },
+      "gpu": {
+        "success": false,
+        "same_output_ids_as_formal": true,
+        "text": "24",
+        "flags": [
+          "content_error"
+        ]
+      }
+    },
+    {
+      "id": "QA022",
+      "repeat": 2,
+      "cpu": {
+        "success": true,
+        "same_output_ids_as_formal": true,
+        "text": "12",
+        "flags": []
+      },
+      "gpu": {
+        "success": false,
+        "same_output_ids_as_formal": true,
+        "text": "24",
+        "flags": [
+          "content_error"
+        ]
+      }
+    },
+    {
+      "id": "IN006",
+      "repeat": 1,
+      "cpu": {
+        "success": false,
+        "same_output_ids_as_formal": true,
+        "text": "mNOP",
+        "flags": [
+          "content_error"
+        ]
+      },
+      "gpu": {
+        "success": true,
+        "same_output_ids_as_formal": true,
+        "text": "MNOP",
+        "flags": []
+      }
+    },
+    {
+      "id": "IN006",
+      "repeat": 2,
+      "cpu": {
+        "success": false,
+        "same_output_ids_as_formal": true,
+        "text": "mNOP",
+        "flags": [
+          "content_error"
+        ]
+      },
+      "gpu": {
+        "success": true,
+        "same_output_ids_as_formal": true,
+        "text": "MNOP",
+        "flags": []
+      }
+    },
+    {
+      "id": "QA023",
+      "repeat": 1,
+      "cpu": {
+        "success": false,
+        "same_output_ids_as_formal": true,
+        "text": "太阳升起的方向是东边。",
+        "flags": [
+          "content_error"
+        ]
+      },
+      "gpu": {
+        "success": true,
+        "same_output_ids_as_formal": true,
+        "text": "东",
+        "flags": []
+      }
+    },
+    {
+      "id": "QA023",
+      "repeat": 2,
+      "cpu": {
+        "success": false,
+        "same_output_ids_as_formal": true,
+        "text": "太阳升起的方向是东边。",
+        "flags": [
+          "content_error"
+        ]
+      },
+      "gpu": {
+        "success": true,
+        "same_output_ids_as_formal": true,
+        "text": "东",
+        "flags": []
+      }
+    }
+  ],
+  "boundary": "Each value comes from a fresh full-Prefill of identical token history; not guaranteed to equal cached incremental Decode arithmetic."
+}

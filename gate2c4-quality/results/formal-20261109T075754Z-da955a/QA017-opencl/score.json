@@ -1,0 +1,12 @@
+{
+  "id": "QA017",
+  "category": "qa",
+  "success": false,
+  "answer_matches": false,
+  "format_valid": true,
+  "flags": [
+    "content_error"
+  ],
+  "normalized_text": "2 + 3 = 5 → 5个水果。",
+  "parsed_json": null
+}

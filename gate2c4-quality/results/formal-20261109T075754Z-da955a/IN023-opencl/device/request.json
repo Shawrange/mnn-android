@@ -1,0 +1,13 @@
+{
+  "id": "IN023",
+  "split": "formal",
+  "category": "instruction",
+  "input": "从数字1、4、7、10中只保留小于6的数。只输出英文逗号分隔结果。",
+  "gold": "1,4",
+  "variants": [
+    "1,4"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "1,4"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "P03",
+  "split": "pilot",
+  "category": "classification",
+  "input": "把下面消息分为咨询、投诉、表扬之一，只输出类别。消息：包装很用心，配送也快，感谢你们。",
+  "gold": "表扬",
+  "variants": [
+    "表扬"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; strict format; natural EOS required"
+}

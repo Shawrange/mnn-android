@@ -1,0 +1,12 @@
+{
+  "id": "EX001",
+  "category": "extraction",
+  "success": false,
+  "answer_matches": false,
+  "format_valid": false,
+  "flags": [
+    "parse_failure"
+  ],
+  "normalized_text": "```json\n{\n  \"name\": \"林雪\",\n  \"count\": 3\n}\n```",
+  "parsed_json": null
+}

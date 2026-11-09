@@ -1,0 +1,11 @@
+{
+  "adb": "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+  "serial": "ee19377b",
+  "mnn_commit": "7e3c6fb5225d3ccf22807ee641332669df34650d",
+  "model_revision": "34dfccda1187ded6e07ea06426da576b0b793c6b",
+  "phase": "checkpoints",
+  "started_at_utc": "2026-11-08T20:29:29.963437+00:00",
+  "remote": "/data/local/tmp/mnn-gate2c2-checkpoints-20261108T202929Z-254d02",
+  "model": "/data/local/tmp/mnn-gate0-20261108T134731469951Z/Qwen3-0.6B-MNN",
+  "scope": "Numerical diagnostics only"
+}

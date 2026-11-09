@@ -1,0 +1,16 @@
+CPU_vs_GPU_same_input synthetic cpu-low-low opencl-low-low 0.012686313531021023 0.03125
+CPU_vs_GPU_same_input synthetic cpu-high-low opencl-high-low 0.012650716742016344 0.03137636184692383
+CPU_float_weight_reference synthetic cpu-high-high cpu-high-low 0.012660215425859163 0.03137826919555664
+CPU_float_weight_reference synthetic cpu-high-high cpu-low-low 0.012658459183624628 0.03139603137969971
+CPU_float_weight_reference synthetic cpu-high-high opencl-high-low 4.797431874430445e-07 3.337860107421875e-06
+CPU_float_weight_reference synthetic cpu-high-high opencl-low-low 0.0008037435928914159 0.0024940967559814453
+replay_vs_full synthetic cpu  0.0 0.0
+replay_vs_full synthetic opencl  0.0 0.0
+CPU_vs_GPU_same_input natural cpu-low-low opencl-low-low 0.017227263204831346 0.111328125
+CPU_vs_GPU_same_input natural cpu-high-low opencl-high-low 0.01715111008811914 0.10951662063598633
+CPU_float_weight_reference natural cpu-high-high cpu-high-low 0.017172855366890196 0.10951066017150879
+CPU_float_weight_reference natural cpu-high-high cpu-low-low 0.017193224462684724 0.11244988441467285
+CPU_float_weight_reference natural cpu-high-high opencl-high-low 6.692688472684437e-07 1.049041748046875e-05
+CPU_float_weight_reference natural cpu-high-high opencl-low-low 0.0008866465687749392 0.01645946502685547
+replay_vs_full natural cpu  0.0 0.0
+replay_vs_full natural opencl  0.0 0.0

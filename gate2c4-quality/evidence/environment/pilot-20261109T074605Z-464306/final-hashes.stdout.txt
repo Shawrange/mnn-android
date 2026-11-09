@@ -1,0 +1,6 @@
+47b5db44b7acdaee876c733473ea9124cf71b645b6e53976d3bfd6ad313d120e  /data/local/tmp/mnn-gate2c4-pilot-20261109T074605Z-464306/cpu/libMNN.so
+92ff4653baf97d9247c9d05643c6e361d530adeac63a212860519894ead88282  /data/local/tmp/mnn-gate2c4-pilot-20261109T074605Z-464306/cpu/quality_probe
+bbadbe4d53d3493620ed7d1dfca2c3977ec59d8ec9c6e9ae88202ad6ef145ea3  /data/local/tmp/mnn-gate2c4-pilot-20261109T074605Z-464306/cpu/runtime.json
+4c66c06bbc083f3d123e62cdd6ec62a644e7a120d5a1509f297ffe856efa8f61  /data/local/tmp/mnn-gate2c4-pilot-20261109T074605Z-464306/opencl/libMNN.so
+92ff4653baf97d9247c9d05643c6e361d530adeac63a212860519894ead88282  /data/local/tmp/mnn-gate2c4-pilot-20261109T074605Z-464306/opencl/quality_probe
+bbadbe4d53d3493620ed7d1dfca2c3977ec59d8ec9c6e9ae88202ad6ef145ea3  /data/local/tmp/mnn-gate2c4-pilot-20261109T074605Z-464306/opencl/runtime.json

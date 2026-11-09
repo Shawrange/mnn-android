@@ -1,0 +1,182 @@
+[
+  {
+    "file": "CMakeLists.txt",
+    "sha256": "4ef89e2d29e320daae60efd06cf3ef3184d20346f28774d238b85ea175a1f47e"
+  },
+  {
+    "file": "project/android/build_64.sh",
+    "sha256": "a68314ce971b5a372326a0ba1e4756699cd946da84c8507941432e04471dfc96"
+  },
+  {
+    "file": "include/MNN/MNNForwardType.h",
+    "sha256": "7a3aa7951b4999d579c0185d9f2b50698595c80d5116ed23e735821493d57153"
+  },
+  {
+    "file": "include/MNN/Interpreter.hpp",
+    "sha256": "3a8f13170819eb702eec30200d53febe908337577756601336e3782cdac0d7ad"
+  },
+  {
+    "file": "transformers/llm/engine/src/llm.cpp",
+    "sha256": "260283e43bc0a7ce233b645602bd83e49f9fbf5964f0be4a477fdacde190fdd7"
+  },
+  {
+    "file": "transformers/llm/engine/src/llmconfig.hpp",
+    "sha256": "ad524c09be84547d9e011b9b19f20e1c1288848c8698cabe23ac2aecef8c28dc"
+  },
+  {
+    "file": "transformers/llm/engine/include/llm/llm.hpp",
+    "sha256": "ac4e6c65e62b88d9de569a0e6c437b4ebabf6510d4fa70c7249a97695483c462"
+  },
+  {
+    "file": "transformers/llm/engine/tools/llm_bench.cpp",
+    "sha256": "4102a95e34de32feb63cd83dd6ae04fd74865efc4ff438b6c6d1c50f79b2ab1c"
+  },
+  {
+    "file": "source/core/Schedule.cpp",
+    "sha256": "2dfd84886e058da20ee19d11f849d882eb346f3e1e733159769452601aefcaf6"
+  },
+  {
+    "file": "source/core/Pipeline.cpp",
+    "sha256": "8a3211e50d2b7095aca005c7f3b0ef8b24d5c8a438cd340163ec8b4d9bfdc3f2"
+  },
+  {
+    "file": "source/core/Interpreter.cpp",
+    "sha256": "ebfc25ef35f325d76713e43603ac67a886294381a612d4f31b04d096754ab290"
+  },
+  {
+    "file": "source/core/Session.cpp",
+    "sha256": "22aab3db3aae2f79612d3ce80569582a9fdbbde55ef5dbeda2be80fd2a22e93c"
+  },
+  {
+    "file": "source/backend/opencl/CMakeLists.txt",
+    "sha256": "91f209af0f1a6c2b1caba5cd86874572368f19b697ec6a479d4a93739f9c2e70"
+  },
+  {
+    "file": "source/backend/opencl/core/OpenCLBackend.cpp",
+    "sha256": "31e3ea4236822f3e3c9b92a7ab9025cdd2bc944d01a80a79f863d693da569e42"
+  },
+  {
+    "file": "source/backend/opencl/core/OpenCLBackend.hpp",
+    "sha256": "011524efaaf6329555e020ed448ebb619cc2e6ac9245cc92502be8183ad7fc29"
+  },
+  {
+    "file": "source/backend/opencl/core/runtime/OpenCLRuntime.cpp",
+    "sha256": "0f37b4731bbfdb3254c954e2c4876b2ee68f5b92c15999289856ec66561f5705"
+  },
+  {
+    "file": "source/backend/opencl/core/runtime/OpenCLRuntime.hpp",
+    "sha256": "df1c397bd928675b7b71580d89a3cddaa179dc05d057296beae55c6b491bf879"
+  },
+  {
+    "file": "source/backend/opencl/core/runtime/OpenCLWrapper.cpp",
+    "sha256": "ca649ab8e87cc6dd88019c5bf672e03d543fa536692c21d900280504326a5ded"
+  },
+  {
+    "file": "source/backend/opencl/core/runtime/OpenCLWrapper.hpp",
+    "sha256": "abb0c62fdaa44f8232c3310215030913a581621296ed410d5d894e4a527d57c1"
+  },
+  {
+    "file": "source/backend/opencl/core/OpenCLRunningUtils.cpp",
+    "sha256": "24e6d6b9f2a277adc7f1bfceea45f307bfffae720f0091186e492bfdd134236c"
+  },
+  {
+    "file": "source/backend/opencl/execution/buffer/ConvBufLowMemoryExecution.cpp",
+    "sha256": "135240f4afdd893641ea3456f825d2831dad3bc9ae5b8c98664393d19b499851"
+  },
+  {
+    "file": "source/backend/opencl/execution/buffer/AttentionBufExecution.cpp",
+    "sha256": "c3cbe5725f61ffcbd7bd6cfa7857c55e32b20bdf91b9ea65e66f2b7ff08c2edc"
+  },
+  {
+    "file": "source/backend/qnn/README.md",
+    "sha256": "e0edad0baf8a1ad7de6cf0e7ab0eaa430e3f44cbc14cb2b7b3c0711829eacdf4"
+  },
+  {
+    "file": "source/backend/qnn/CMakeLists.txt",
+    "sha256": "efcb4c63da82c838872f16f155ec0fc27ebcfdbe482ef69fba92c069a6cda792"
+  },
+  {
+    "file": "source/backend/hexagon/README.md",
+    "sha256": "c75367c6a888c9e53e2a6bc697c168b782c94d0072a22f41bb5e12e335c085d4"
+  },
+  {
+    "file": "source/backend/hexagon/CMakeLists.txt",
+    "sha256": "6b4cccd8616e0d32095582189a81c0939accd7cde337859c76accef075af5756"
+  },
+  {
+    "file": "source/backend/qnn/QnnBackendPlugin.cpp",
+    "sha256": "7054ca069e0da2bad760949c55863f99c492f7a7c1851b24efff3cf1f5bfd828"
+  },
+  {
+    "file": "docs/transformers/llm.md",
+    "sha256": "28402789f9d416ce62f0b8e05e211554934a36a35c2938cf664a6054f3464900"
+  },
+  {
+    "file": "docs/inference/npu.md",
+    "sha256": "9e652e2c5bcf8d506823bb6002e2613a9db850e8d135714a64efa18b2399124d"
+  },
+  {
+    "file": "docs/tools/convert.md",
+    "sha256": "6525f241e97e29c37e64f878709c83cdde5d52ec6df7a4f44174006d52d1e855"
+  },
+  {
+    "file": "source/core/ConvolutionCommon.cpp",
+    "sha256": "b1e63fa342833f1ee371b0ad5e76e21b8cf453ea104190a52a557b9f154f1878"
+  },
+  {
+    "file": "source/backend/qnn/backend/QNNUtils.cpp",
+    "sha256": "e3a0471ce28b545b64ec686654ff25909b6c40788459d33a23c869b3fafb389f"
+  },
+  {
+    "file": "source/backend/hexagon/execution/HexagonConvolution.cpp",
+    "sha256": "e4d78149bdca033c454d11cfb2161652433da4fb8612afa2de9e87fc087a2773"
+  },
+  {
+    "file": "source/backend/hexagon/execution/HexagonAttention.cpp",
+    "sha256": "1650f0496584f6c1164fdf6123a7847b8e87d59567d4b862e270b58d13b14c83"
+  },
+  {
+    "file": "source/backend/cpu/compute/ConvInt8TiledExecutor.cpp",
+    "sha256": "6b0b9fe5bad252d32884446876b1982e4c43be3106b0b940e8640650ae7d3020"
+  },
+  {
+    "file": "source/backend/opencl/execution/image/CommonExecution.cpp",
+    "sha256": "949a8d80eaf8a6eede8111620e95cd2b0799dadf3560cdc664a11e42c2fdb2ba"
+  },
+  {
+    "file": "source/backend/qnn/backend/QNNWrapper.hpp",
+    "sha256": "0e1f909e9de43ea85a8efd51c1c0dda6a165a1b6431b1d141f2289067085f43e"
+  },
+  {
+    "file": "source/backend/qnn/backend/QNNWrapper.cpp",
+    "sha256": "efa8900e78302a01dc05c419ea9330f47ef14fcfddc377aff88440420d200b9a"
+  },
+  {
+    "file": "source/backend/qnn/backend/QNNBackend.hpp",
+    "sha256": "8550241ef261848d594a45df3844de5135393f85f22fcd9514b80ac94e08eb75"
+  },
+  {
+    "file": "source/backend/qnn/backend/QnnBackendConfig.hpp",
+    "sha256": "a2c1706b11daa9cf224e37ca989464bf13c43895f2f2ad9aa4503d1cef6d19f8"
+  },
+  {
+    "file": "source/backend/qnn/backend/QNNBackend.cpp",
+    "sha256": "04d6b4c06b348e388026c923e29f7183c2ec8addfc06b99ebe8d062b436f2daf"
+  },
+  {
+    "file": "source/backend/hexagon/backend/HexagonRuntime.hpp",
+    "sha256": "4fd55527c5456cf26acabb5d9fdae34538d24c4acd4dec703d54495a9383ff1b"
+  },
+  {
+    "file": "source/backend/hexagon/backend/HexagonRuntime.cpp",
+    "sha256": "4811500ca32cf59c2f94dd2c733400f800dc27ff7b99d8931db6c210e8d81cd8"
+  },
+  {
+    "file": "source/backend/hexagon/backend/HexagonBackend.cpp",
+    "sha256": "b1f350275f6f53b6c6bba6b3a9454f7e646fe468351fab60839043da96b6211c"
+  },
+  {
+    "file": "source/backend/hexagon/backend/HexagonBackend.hpp",
+    "sha256": "df5f0a2f7e32f8e5876e960abf6a35aa7605e4594f4d49d989485304d2d224cb"
+  }
+]

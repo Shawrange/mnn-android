@@ -1,0 +1,92 @@
+[
+  {
+    "session": "checkpoints-20261108T202929Z-254d02",
+    "remote": "/data/local/tmp/mnn-gate2c2-checkpoints-20261108T202929Z-254d02",
+    "hashes": {
+      "/data/local/tmp/mnn-gate2c2-checkpoints-20261108T202929Z-254d02/cpu/libMNN.so": "47b5db44b7acdaee876c733473ea9124cf71b645b6e53976d3bfd6ad313d120e",
+      "/data/local/tmp/mnn-gate2c2-checkpoints-20261108T202929Z-254d02/cpu/numeric_probe": "2a34055615d6800efa339cec3bc4e53efa9b80e3ae74f71353d0ccda4a403fea",
+      "/data/local/tmp/mnn-gate2c2-checkpoints-20261108T202929Z-254d02/opencl/libMNN.so": "4c66c06bbc083f3d123e62cdd6ec62a644e7a120d5a1509f297ffe856efa8f61",
+      "/data/local/tmp/mnn-gate2c2-checkpoints-20261108T202929Z-254d02/opencl/numeric_probe": "2a34055615d6800efa339cec3bc4e53efa9b80e3ae74f71353d0ccda4a403fea"
+    }
+  },
+  {
+    "session": "high-20261108T202908Z-daf046",
+    "remote": "/data/local/tmp/mnn-gate2c2-high-20261108T202908Z-daf046",
+    "hashes": {
+      "/data/local/tmp/mnn-gate2c2-high-20261108T202908Z-daf046/cpu/libMNN.so": "47b5db44b7acdaee876c733473ea9124cf71b645b6e53976d3bfd6ad313d120e",
+      "/data/local/tmp/mnn-gate2c2-high-20261108T202908Z-daf046/cpu/numeric_probe": "2a34055615d6800efa339cec3bc4e53efa9b80e3ae74f71353d0ccda4a403fea",
+      "/data/local/tmp/mnn-gate2c2-high-20261108T202908Z-daf046/opencl/libMNN.so": "4c66c06bbc083f3d123e62cdd6ec62a644e7a120d5a1509f297ffe856efa8f61",
+      "/data/local/tmp/mnn-gate2c2-high-20261108T202908Z-daf046/opencl/numeric_probe": "2a34055615d6800efa339cec3bc4e53efa9b80e3ae74f71353d0ccda4a403fea"
+    }
+  },
+  {
+    "session": "low-20261108T202835Z-69f08a",
+    "remote": "/data/local/tmp/mnn-gate2c2-low-20261108T202835Z-69f08a",
+    "hashes": {
+      "/data/local/tmp/mnn-gate2c2-low-20261108T202835Z-69f08a/cpu/libMNN.so": "47b5db44b7acdaee876c733473ea9124cf71b645b6e53976d3bfd6ad313d120e",
+      "/data/local/tmp/mnn-gate2c2-low-20261108T202835Z-69f08a/cpu/numeric_probe": "2a34055615d6800efa339cec3bc4e53efa9b80e3ae74f71353d0ccda4a403fea",
+      "/data/local/tmp/mnn-gate2c2-low-20261108T202835Z-69f08a/opencl/libMNN.so": "4c66c06bbc083f3d123e62cdd6ec62a644e7a120d5a1509f297ffe856efa8f61",
+      "/data/local/tmp/mnn-gate2c2-low-20261108T202835Z-69f08a/opencl/numeric_probe": "2a34055615d6800efa339cec3bc4e53efa9b80e3ae74f71353d0ccda4a403fea"
+    }
+  },
+  {
+    "session": "pilot-20261108T202745Z-8b5f9c",
+    "remote": "/data/local/tmp/mnn-gate2c2-pilot-20261108T202745Z-8b5f9c",
+    "hashes": {
+      "/data/local/tmp/mnn-gate2c2-pilot-20261108T202745Z-8b5f9c/cpu/libMNN.so": "47b5db44b7acdaee876c733473ea9124cf71b645b6e53976d3bfd6ad313d120e",
+      "/data/local/tmp/mnn-gate2c2-pilot-20261108T202745Z-8b5f9c/cpu/numeric_probe": "2a34055615d6800efa339cec3bc4e53efa9b80e3ae74f71353d0ccda4a403fea",
+      "/data/local/tmp/mnn-gate2c2-pilot-20261108T202745Z-8b5f9c/opencl/libMNN.so": "4c66c06bbc083f3d123e62cdd6ec62a644e7a120d5a1509f297ffe856efa8f61",
+      "/data/local/tmp/mnn-gate2c2-pilot-20261108T202745Z-8b5f9c/opencl/numeric_probe": "2a34055615d6800efa339cec3bc4e53efa9b80e3ae74f71353d0ccda4a403fea"
+    }
+  },
+  {
+    "session": "replay-20261108T203300Z-453fd2",
+    "remote": "/data/local/tmp/mnn-gate2c2-replay-20261108T203300Z-453fd2",
+    "hashes": {
+      "/data/local/tmp/mnn-gate2c2-replay-20261108T203300Z-453fd2/cpu/libMNN.so": "47b5db44b7acdaee876c733473ea9124cf71b645b6e53976d3bfd6ad313d120e",
+      "/data/local/tmp/mnn-gate2c2-replay-20261108T203300Z-453fd2/cpu/replay": "377ef6a163412d7f928748babc0d21e7361e05c001e55c443ddbb924d99a8c96",
+      "/data/local/tmp/mnn-gate2c2-replay-20261108T203300Z-453fd2/opencl/libMNN.so": "4c66c06bbc083f3d123e62cdd6ec62a644e7a120d5a1509f297ffe856efa8f61",
+      "/data/local/tmp/mnn-gate2c2-replay-20261108T203300Z-453fd2/opencl/replay": "377ef6a163412d7f928748babc0d21e7361e05c001e55c443ddbb924d99a8c96"
+    }
+  },
+  {
+    "session": "replay-20261108T203330Z-e9a994",
+    "remote": "/data/local/tmp/mnn-gate2c2-replay-20261108T203330Z-e9a994",
+    "hashes": {
+      "/data/local/tmp/mnn-gate2c2-replay-20261108T203330Z-e9a994/cpu/libMNN.so": "47b5db44b7acdaee876c733473ea9124cf71b645b6e53976d3bfd6ad313d120e",
+      "/data/local/tmp/mnn-gate2c2-replay-20261108T203330Z-e9a994/cpu/replay": "efa31a546e4a911db72b78907e99a07ab3106a17987078b8347bf9d2121e36ce",
+      "/data/local/tmp/mnn-gate2c2-replay-20261108T203330Z-e9a994/opencl/libMNN.so": "4c66c06bbc083f3d123e62cdd6ec62a644e7a120d5a1509f297ffe856efa8f61",
+      "/data/local/tmp/mnn-gate2c2-replay-20261108T203330Z-e9a994/opencl/replay": "efa31a546e4a911db72b78907e99a07ab3106a17987078b8347bf9d2121e36ce"
+    }
+  },
+  {
+    "session": "replay-20261108T203409Z-9f7332",
+    "remote": "/data/local/tmp/mnn-gate2c2-replay-20261108T203409Z-9f7332",
+    "hashes": {
+      "/data/local/tmp/mnn-gate2c2-replay-20261108T203409Z-9f7332/cpu/libMNN.so": "47b5db44b7acdaee876c733473ea9124cf71b645b6e53976d3bfd6ad313d120e",
+      "/data/local/tmp/mnn-gate2c2-replay-20261108T203409Z-9f7332/cpu/replay": "da91cf385697bcbd90a68c7ddd8e45c4b329029917c6aa7120376ada116a7417",
+      "/data/local/tmp/mnn-gate2c2-replay-20261108T203409Z-9f7332/opencl/libMNN.so": "4c66c06bbc083f3d123e62cdd6ec62a644e7a120d5a1509f297ffe856efa8f61",
+      "/data/local/tmp/mnn-gate2c2-replay-20261108T203409Z-9f7332/opencl/replay": "da91cf385697bcbd90a68c7ddd8e45c4b329029917c6aa7120376ada116a7417"
+    }
+  },
+  {
+    "session": "replay-20261108T203550Z-5be671",
+    "remote": "/data/local/tmp/mnn-gate2c2-replay-20261108T203550Z-5be671",
+    "hashes": {
+      "/data/local/tmp/mnn-gate2c2-replay-20261108T203550Z-5be671/cpu/libMNN.so": "47b5db44b7acdaee876c733473ea9124cf71b645b6e53976d3bfd6ad313d120e",
+      "/data/local/tmp/mnn-gate2c2-replay-20261108T203550Z-5be671/cpu/replay": "a64e5fde6f79def83126260520cc4c8baebe2a4d73fadb5b6d78c5b344ff534a",
+      "/data/local/tmp/mnn-gate2c2-replay-20261108T203550Z-5be671/opencl/libMNN.so": "4c66c06bbc083f3d123e62cdd6ec62a644e7a120d5a1509f297ffe856efa8f61",
+      "/data/local/tmp/mnn-gate2c2-replay-20261108T203550Z-5be671/opencl/replay": "a64e5fde6f79def83126260520cc4c8baebe2a4d73fadb5b6d78c5b344ff534a"
+    }
+  },
+  {
+    "session": "replay-20261108T203707Z-62dfec",
+    "remote": "/data/local/tmp/mnn-gate2c2-replay-20261108T203707Z-62dfec",
+    "hashes": {
+      "/data/local/tmp/mnn-gate2c2-replay-20261108T203707Z-62dfec/cpu/libMNN.so": "47b5db44b7acdaee876c733473ea9124cf71b645b6e53976d3bfd6ad313d120e",
+      "/data/local/tmp/mnn-gate2c2-replay-20261108T203707Z-62dfec/cpu/replay": "75b92a1afe59d05e2a716cd7cee83774e7cbfc80869df0080e52f82bcc439ae1",
+      "/data/local/tmp/mnn-gate2c2-replay-20261108T203707Z-62dfec/opencl/libMNN.so": "4c66c06bbc083f3d123e62cdd6ec62a644e7a120d5a1509f297ffe856efa8f61",
+      "/data/local/tmp/mnn-gate2c2-replay-20261108T203707Z-62dfec/opencl/replay": "75b92a1afe59d05e2a716cd7cee83774e7cbfc80869df0080e52f82bcc439ae1"
+    }
+  }
+]

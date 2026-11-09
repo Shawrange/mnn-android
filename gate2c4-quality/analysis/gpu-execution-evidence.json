@@ -1,0 +1,42 @@
+{
+  "session": "results\\gpu-evidence-20261109T080311Z-267d0e",
+  "case": "CL001",
+  "event_count": 2574,
+  "event_counts": {
+    "Raster0": 910,
+    "LayerNorm0": 226,
+    "Convolution0": 394,
+    "Cast0": 114,
+    "BinaryOp0": 282,
+    "UnaryOp0": 172,
+    "While0": 224,
+    "Raster1": 112,
+    "rearrange_k": 28,
+    "rearrange_v": 28,
+    "flash_attention_prefill": 28,
+    "flash_decode_partial": 28,
+    "flash_decode_reduce": 28
+  },
+  "fallback_log_lines": [],
+  "nonzero_event_counts": {
+    "Raster0": 910,
+    "LayerNorm0": 226,
+    "Convolution0": 394,
+    "Cast0": 114,
+    "BinaryOp0": 282,
+    "UnaryOp0": 172,
+    "While0": 224,
+    "Raster1": 112,
+    "rearrange_k": 28,
+    "rearrange_v": 28,
+    "flash_attention_prefill": 28,
+    "flash_decode_partial": 28,
+    "flash_decode_reduce": 28
+  },
+  "major_model_gpu_compute_proved": true,
+  "profile_input_output_ids_match_clean_formal": true,
+  "profile_library_sha256": "6a48f53e98de0e9e343346d36e98d01596fea2dfc10f6a4eca616cbab262536d",
+  "macro_evidence": "gate2c-opencl\\evidence\\build\\profile\\ninja-commands.txt",
+  "macro_evidence_sha256": "d0c37ee84757a7c6655b5ac1e0a09c58146230a4d2705bf4910e77b2b894ef00",
+  "boundary": "Separate event diagnostic; proves major OpenCL model math, not all process work or all possible fallback absence; no diagnostic timing used for quality/performance comparison."
+}

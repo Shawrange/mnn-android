@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "pull",
+    "/data/local/tmp/mnn-gate2c2-replay-20261108T203550Z-5be671/cpu-low-memlow-natural/out",
+    "E:\\DUANCE\\gate2c2-numerics\\results\\replay-20261108T203550Z-5be671\\cpu-low-memlow-natural"
+  ],
+  "started_at_utc": "2026-11-08T20:35:57.481119+00:00",
+  "ended_at_utc": "2026-11-08T20:35:57.553641+00:00",
+  "elapsed_seconds": 0.07248049997724593,
+  "exit_code": 0
+}

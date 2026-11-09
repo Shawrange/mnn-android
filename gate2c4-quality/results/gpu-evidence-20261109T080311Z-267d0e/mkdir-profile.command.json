@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "mkdir -p /data/local/tmp/mnn-gate2c4-gpu-evidence-20261109T080311Z-267d0e/profile"
+  ],
+  "started_at_utc": "2026-11-09T08:03:11.283939+00:00",
+  "ended_at_utc": "2026-11-09T08:03:11.342922+00:00",
+  "elapsed_seconds": 0.05975759995635599,
+  "exit_code": 0
+}

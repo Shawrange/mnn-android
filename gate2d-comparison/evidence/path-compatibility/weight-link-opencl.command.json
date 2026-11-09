@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "ln -s /data/local/tmp/mnn-gate0-20261108T134731469951Z/Qwen3-0.6B-MNN/llm.mnn.weight /data/local/tmp/mnn-gate2d-20261109T082806Z-5d76d2/opencl/llm.mnn.weight"
+  ],
+  "started_at_utc": "2026-11-09T08:30:22.483194+00:00",
+  "ended_at_utc": "2026-11-09T08:30:22.730001+00:00",
+  "elapsed_seconds": 0.24637369997799397,
+  "exit_code": 0
+}

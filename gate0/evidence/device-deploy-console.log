@@ -1,0 +1,20 @@
+Running device-state
+device-state: exit=0, seconds=0.032
+Running mkdir
+mkdir: exit=0, seconds=0.046
+Running push-llm_demo
+push-llm_demo: exit=0, seconds=0.032
+Running push-llm_bench
+push-llm_bench: exit=0, seconds=0.031
+Running push-libMNN.so
+push-libMNN.so: exit=0, seconds=0.109
+Running push-model
+push-model: exit=0, seconds=10.297
+Running chmod
+chmod: exit=0, seconds=0.063
+Running push-prompt
+push-prompt: exit=0, seconds=0.031
+Running remote-sha256
+remote-sha256: exit=0, seconds=0.437
+Host/device SHA256 matched for 10 files
+Evidence: E:\DUANCE\gate0\evidence\runtime\20261108T134731469951Z-deploy

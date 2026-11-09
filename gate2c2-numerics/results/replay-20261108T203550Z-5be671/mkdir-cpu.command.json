@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "mkdir -p /data/local/tmp/mnn-gate2c2-replay-20261108T203550Z-5be671/cpu"
+  ],
+  "started_at_utc": "2026-11-08T20:35:50.543775+00:00",
+  "ended_at_utc": "2026-11-08T20:35:50.601311+00:00",
+  "elapsed_seconds": 0.057532800012268126,
+  "exit_code": 0
+}

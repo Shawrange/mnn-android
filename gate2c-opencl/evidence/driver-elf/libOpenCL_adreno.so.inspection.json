@@ -1,0 +1,15 @@
+{
+  "command": [
+    "wsl",
+    "-d",
+    "Ubuntu",
+    "--",
+    "/home/shawrange/Android/android-ndk-r27c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-readelf",
+    "-h",
+    "-d",
+    "/mnt/e/DUANCE/gate2c-opencl/evidence/driver-elf/libOpenCL_adreno.so"
+  ],
+  "exit_code": 0,
+  "sha256": "7571bd91b0bb8cad06ce50873865c4161778aa0bf3d2af159a9098a5aa7497ac",
+  "checked_at_utc": "2026-11-08T20:06:42.570548+00:00"
+}

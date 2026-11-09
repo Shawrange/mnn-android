@@ -1,0 +1,1 @@
+g++ -O2 -std=c++17 -I/home/shawrange/src/MNN-3.6.2/schema/current -I/home/shawrange/src/MNN-3.6.2/3rd_party/flatbuffers/include /mnt/e/DUANCE/gate2c-opencl/scripts/inspect_npu_model.cpp -o /mnt/e/DUANCE/gate2c-opencl/staging/inspect_npu_model_host 

@@ -1,0 +1,12 @@
+{
+  "id": "EX012",
+  "category": "extraction",
+  "success": false,
+  "answer_matches": false,
+  "format_valid": false,
+  "flags": [
+    "parse_failure"
+  ],
+  "normalized_text": "```json\n{\n  \"code\": \"B482\",\n  \"date\": \"2026-07-08\"\n}\n```",
+  "parsed_json": null
+}

@@ -1,0 +1,11 @@
+{
+  "adb": "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+  "serial": "ee19377b",
+  "mnn_commit": "7e3c6fb5225d3ccf22807ee641332669df34650d",
+  "model_revision": "34dfccda1187ded6e07ea06426da576b0b793c6b",
+  "phase": "formal",
+  "remote": "/data/local/tmp/mnn-gate2c4-formal-20261109T075754Z-da955a",
+  "started_at_utc": "2026-11-09T07:57:54.313907+00:00",
+  "dataset_sha256": "07f44c4bdc0a5f843a1cf6be72cf1773e05aca34bbfffc8feeb48dc9af440f57",
+  "freeze_sha256": "44b6fa25d28ac2f8c63f34d1a94a5cb89224b039cb95b1f6a33138800e901462"
+}

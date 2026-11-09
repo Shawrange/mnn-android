@@ -1,0 +1,101 @@
+﻿path,tg,segment,category,ms_per_token
+results\detail-20261108T193019Z-e977c9\002-b01-detail-tg64,64,1,Attention,0.939962921875
+results\detail-20261108T193019Z-e977c9\002-b01-detail-tg64,64,1,Cast,0.0207671875
+results\detail-20261108T193019Z-e977c9\002-b01-detail-tg64,64,1,Elementwise binary,0.04519259375
+results\detail-20261108T193019Z-e977c9\002-b01-detail-tg64,64,1,Elementwise unary,0.18535
+results\detail-20261108T193019Z-e977c9\002-b01-detail-tg64,64,1,Geometry While,0.1146910625
+results\detail-20261108T193019Z-e977c9\002-b01-detail-tg64,64,1,Layout/Raster,0.222781859375
+results\detail-20261108T193019Z-e977c9\002-b01-detail-tg64,64,1,MLP linear,3.483099703125
+results\detail-20261108T193019Z-e977c9\002-b01-detail-tg64,64,1,Norm,0.20407840625
+results\detail-20261108T193019Z-e977c9\002-b01-detail-tg64,64,1,QKV/O linear,2.545480546875
+results\detail-20261108T193019Z-e977c9\002-b01-detail-tg64,64,1,Vocabulary head linear,2.88060953125
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,1,Attention,1.01016625
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,1,Cast,0.022195375
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,1,Elementwise binary,0.04699925
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,1,Elementwise unary,0.22148775
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,1,Geometry While,0.123377734375
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,1,Layout/Raster,0.239159390625
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,1,MLP linear,3.714785265625
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,1,Norm,0.21872840625
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,1,QKV/O linear,2.6956299375
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,1,Vocabulary head linear,2.924397703125
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,2,Attention,1.327992390625
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,2,Cast,0.0224705
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,2,Elementwise binary,0.049567015625
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,2,Elementwise unary,0.24044059375
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,2,Geometry While,0.128145375
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,2,Layout/Raster,0.25251578125
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,2,MLP linear,3.715140046875
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,2,Norm,0.22021959375
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,2,QKV/O linear,2.667783
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,2,Vocabulary head linear,2.92069571875
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,3,Attention,1.601126171875
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,3,Cast,0.027121390625
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,3,Elementwise binary,0.06691875
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,3,Elementwise unary,0.2435456875
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,3,Geometry While,0.1405493125
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,3,Layout/Raster,0.303976890625
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,3,MLP linear,3.6908820625
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,3,Norm,0.24381890625
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,3,QKV/O linear,2.662062578125
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,3,Vocabulary head linear,2.94890209375
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,4,Attention,1.812675125
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,4,Cast,0.0355141875
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,4,Elementwise binary,0.07876196875
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,4,Elementwise unary,0.24433125
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,4,Geometry While,0.15416603125
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,4,Layout/Raster,0.4052015
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,4,MLP linear,3.7327893125
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,4,Norm,0.291485640625
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,4,QKV/O linear,2.659764484375
+results\detail-20261108T193019Z-e977c9\004-b01-detail-tg256,256,4,Vocabulary head linear,3.02538734375
+results\detail-20261108T193019Z-e977c9\006-b02-detail-tg64,64,1,Attention,1.008131234375
+results\detail-20261108T193019Z-e977c9\006-b02-detail-tg64,64,1,Cast,0.0220544375
+results\detail-20261108T193019Z-e977c9\006-b02-detail-tg64,64,1,Elementwise binary,0.049977
+results\detail-20261108T193019Z-e977c9\006-b02-detail-tg64,64,1,Elementwise unary,0.174650453125
+results\detail-20261108T193019Z-e977c9\006-b02-detail-tg64,64,1,Geometry While,0.115924796875
+results\detail-20261108T193019Z-e977c9\006-b02-detail-tg64,64,1,Layout/Raster,0.23902128125
+results\detail-20261108T193019Z-e977c9\006-b02-detail-tg64,64,1,MLP linear,3.664974875
+results\detail-20261108T193019Z-e977c9\006-b02-detail-tg64,64,1,Norm,0.209672390625
+results\detail-20261108T193019Z-e977c9\006-b02-detail-tg64,64,1,QKV/O linear,2.66669175
+results\detail-20261108T193019Z-e977c9\006-b02-detail-tg64,64,1,Vocabulary head linear,2.83569415625
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,1,Attention,1.048672484375
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,1,Cast,0.034005703125
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,1,Elementwise binary,0.0818409375
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,1,Elementwise unary,0.186272078125
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,1,Geometry While,0.163604296875
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,1,Layout/Raster,0.37476390625
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,1,MLP linear,3.618302828125
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,1,Norm,0.26348259375
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,1,QKV/O linear,2.63129425
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,1,Vocabulary head linear,2.921341953125
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,2,Attention,1.298800609375
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,2,Cast,0.0326425625
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,2,Elementwise binary,0.083130328125
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,2,Elementwise unary,0.182068515625
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,2,Geometry While,0.151158984375
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,2,Layout/Raster,0.381226953125
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,2,MLP linear,3.617654265625
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,2,Norm,0.27449678125
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,2,QKV/O linear,2.600901328125
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,2,Vocabulary head linear,3.052981671875
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,3,Attention,1.533876890625
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,3,Cast,0.0329226875
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,3,Elementwise binary,0.074201375
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,3,Elementwise unary,0.180148890625
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,3,Geometry While,0.1483628125
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,3,Layout/Raster,0.383663984375
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,3,MLP linear,3.61022709375
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,3,Norm,0.270942109375
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,3,QKV/O linear,2.60947515625
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,3,Vocabulary head linear,2.993046
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,4,Attention,1.75155884375
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,4,Cast,0.032653125
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,4,Elementwise binary,0.07205778125
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,4,Elementwise unary,0.180279875
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,4,Geometry While,0.14483184375
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,4,Layout/Raster,0.380715640625
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,4,MLP linear,3.619492375
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,4,Norm,0.272165640625
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,4,QKV/O linear,2.602208328125
+results\detail-20261108T193019Z-e977c9\007-b02-detail-tg256,256,4,Vocabulary head linear,3.00346025

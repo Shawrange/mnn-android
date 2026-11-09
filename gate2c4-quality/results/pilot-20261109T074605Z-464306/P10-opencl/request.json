@@ -1,0 +1,12 @@
+{
+  "id": "P10",
+  "split": "pilot",
+  "category": "qa",
+  "input": "短文：旅行包放在卧室的衣柜里。问：旅行包在哪个房间？只输出房间名。",
+  "gold": "卧室",
+  "variants": [
+    "卧室"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; strict format; natural EOS required"
+}

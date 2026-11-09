@@ -1,0 +1,1159 @@
+[
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\001-b01-off-tg64",
+    "ticks": 5,
+    "policy_cur": {
+      "policy0": {
+        "n": 5,
+        "mean": 2641920,
+        "median": 2745600,
+        "min": 2227200,
+        "max": 2745600,
+        "sd": 231835.52790717818
+      },
+      "policy6": {
+        "n": 5,
+        "mean": 2476800,
+        "median": 2841600,
+        "min": 1017600,
+        "max": 2841600,
+        "sd": 815717.5981919232
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2841600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\002-b01-on-tg64",
+    "ticks": 5,
+    "policy_cur": {
+      "policy0": {
+        "n": 5,
+        "mean": 2234880,
+        "median": 2745600,
+        "min": 1152000,
+        "max": 2745600,
+        "sd": 734334.1146916709
+      },
+      "policy6": {
+        "n": 5,
+        "mean": 2476800,
+        "median": 2841600,
+        "min": 1017600,
+        "max": 2841600,
+        "sd": 815717.5981919232
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2841600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\003-b01-on-tg256",
+    "ticks": 12,
+    "policy_cur": {
+      "policy0": {
+        "n": 12,
+        "mean": 2716800,
+        "median": 2745600.0,
+        "min": 2400000,
+        "max": 2745600,
+        "sd": 99766.12651596733
+      },
+      "policy6": {
+        "n": 12,
+        "mean": 2841600,
+        "median": 2841600.0,
+        "min": 2841600,
+        "max": 2841600,
+        "sd": 0.0
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2841600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\004-b01-off-tg256",
+    "ticks": 12,
+    "policy_cur": {
+      "policy0": {
+        "n": 12,
+        "mean": 2584000,
+        "median": 2745600.0,
+        "min": 1152000,
+        "max": 2745600,
+        "sd": 461777.75055657554
+      },
+      "policy6": {
+        "n": 12,
+        "mean": 2641600,
+        "median": 2841600.0,
+        "min": 1017600,
+        "max": 2841600,
+        "sd": 518526.5838718572
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2649600,
+        2841600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\005-b01-clean-tg64",
+    "ticks": 5,
+    "policy_cur": {
+      "policy0": {
+        "n": 5,
+        "mean": 2426880,
+        "median": 2745600,
+        "min": 1152000,
+        "max": 2745600,
+        "sd": 712679.585788733
+      },
+      "policy6": {
+        "n": 5,
+        "mean": 2476800,
+        "median": 2841600,
+        "min": 1017600,
+        "max": 2841600,
+        "sd": 815717.5981919232
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2841600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\006-b01-clean-tg256",
+    "ticks": 12,
+    "policy_cur": {
+      "policy0": {
+        "n": 12,
+        "mean": 2654400,
+        "median": 2745600.0,
+        "min": 1996800,
+        "max": 2745600,
+        "sd": 229689.8145523456
+      },
+      "policy6": {
+        "n": 12,
+        "mean": 2761600,
+        "median": 2841600.0,
+        "min": 2649600,
+        "max": 2841600,
+        "sd": 98866.30090453195
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2649600,
+        2841600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\007-b02-on-tg64",
+    "ticks": 5,
+    "policy_cur": {
+      "policy0": {
+        "n": 5,
+        "mean": 2426880,
+        "median": 2745600,
+        "min": 1152000,
+        "max": 2745600,
+        "sd": 712679.585788733
+      },
+      "policy6": {
+        "n": 5,
+        "mean": 2400000,
+        "median": 2649600,
+        "min": 1017600,
+        "max": 2841600,
+        "sd": 778725.1119618526
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2649600,
+        2841600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\008-b02-on-tg256",
+    "ticks": 12,
+    "policy_cur": {
+      "policy0": {
+        "n": 12,
+        "mean": 2550400,
+        "median": 2745600.0,
+        "min": 1152000,
+        "max": 2745600,
+        "sd": 490178.62421403447
+      },
+      "policy6": {
+        "n": 12,
+        "mean": 2545600,
+        "median": 2649600.0,
+        "min": 1017600,
+        "max": 2841600,
+        "sd": 486860.0694991604
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2649600,
+        2841600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\009-b02-clean-tg64",
+    "ticks": 6,
+    "policy_cur": {
+      "policy0": {
+        "n": 5,
+        "mean": 2323200,
+        "median": 2745600,
+        "min": 1152000,
+        "max": 2745600,
+        "sd": 692132.7040387559
+      },
+      "policy6": {
+        "n": 5,
+        "mean": 2323200,
+        "median": 2649600,
+        "min": 1017600,
+        "max": 2649600,
+        "sd": 729852.5878559314
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\010-b02-clean-tg256",
+    "ticks": 12,
+    "policy_cur": {
+      "policy0": {
+        "n": 12,
+        "mean": 2584000,
+        "median": 2745600.0,
+        "min": 1152000,
+        "max": 2745600,
+        "sd": 461777.75055657554
+      },
+      "policy6": {
+        "n": 12,
+        "mean": 2649600,
+        "median": 2649600.0,
+        "min": 2649600,
+        "max": 2649600,
+        "sd": 0.0
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\011-b02-off-tg64",
+    "ticks": 5,
+    "policy_cur": {
+      "policy0": {
+        "n": 5,
+        "mean": 2357760,
+        "median": 2745600,
+        "min": 1152000,
+        "max": 2745600,
+        "sd": 690452.929604908
+      },
+      "policy6": {
+        "n": 5,
+        "mean": 2323200,
+        "median": 2649600,
+        "min": 1017600,
+        "max": 2649600,
+        "sd": 729852.5878559314
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\012-b02-off-tg256",
+    "ticks": 13,
+    "policy_cur": {
+      "policy0": {
+        "n": 13,
+        "mean": 2473846.153846154,
+        "median": 2745600,
+        "min": 1152000,
+        "max": 2745600,
+        "sd": 594313.9807309834
+      },
+      "policy6": {
+        "n": 13,
+        "mean": 2649600,
+        "median": 2649600,
+        "min": 2649600,
+        "max": 2649600,
+        "sd": 0.0
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\013-b03-off-tg64",
+    "ticks": 5,
+    "policy_cur": {
+      "policy0": {
+        "n": 5,
+        "mean": 2595840,
+        "median": 2745600,
+        "min": 1996800,
+        "max": 2745600,
+        "sd": 334873.5403103685
+      },
+      "policy6": {
+        "n": 5,
+        "mean": 2323200,
+        "median": 2649600,
+        "min": 1017600,
+        "max": 2649600,
+        "sd": 729852.5878559314
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\014-b03-on-tg64",
+    "ticks": 6,
+    "policy_cur": {
+      "policy0": {
+        "n": 5,
+        "mean": 2357760,
+        "median": 2745600,
+        "min": 1555200,
+        "max": 2745600,
+        "sd": 553546.3557824222
+      },
+      "policy6": {
+        "n": 5,
+        "mean": 2323200,
+        "median": 2649600,
+        "min": 1017600,
+        "max": 2649600,
+        "sd": 729852.5878559314
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\015-b03-on-tg256",
+    "ticks": 12,
+    "policy_cur": {
+      "policy0": {
+        "n": 12,
+        "mean": 2612800,
+        "median": 2745600.0,
+        "min": 1152000,
+        "max": 2745600,
+        "sd": 460032.6944902938
+      },
+      "policy6": {
+        "n": 12,
+        "mean": 2649600,
+        "median": 2649600.0,
+        "min": 2649600,
+        "max": 2649600,
+        "sd": 0.0
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\016-b03-off-tg256",
+    "ticks": 13,
+    "policy_cur": {
+      "policy0": {
+        "n": 12,
+        "mean": 2584000,
+        "median": 2745600.0,
+        "min": 1152000,
+        "max": 2745600,
+        "sd": 461777.75055657554
+      },
+      "policy6": {
+        "n": 12,
+        "mean": 2649600,
+        "median": 2649600.0,
+        "min": 2649600,
+        "max": 2649600,
+        "sd": 0.0
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\017-b03-clean-tg256",
+    "ticks": 13,
+    "policy_cur": {
+      "policy0": {
+        "n": 13,
+        "mean": 2665846.153846154,
+        "median": 2745600,
+        "min": 2400000,
+        "max": 2745600,
+        "sd": 151555.62573625465
+      },
+      "policy6": {
+        "n": 12,
+        "mean": 2632000,
+        "median": 2649600.0,
+        "min": 2438400,
+        "max": 2649600,
+        "sd": 60968.18842642448
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2400000,
+        2745600
+      ],
+      "policy6": [
+        2438400,
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\018-b03-clean-tg64",
+    "ticks": 5,
+    "policy_cur": {
+      "policy0": {
+        "n": 5,
+        "mean": 2641920,
+        "median": 2745600,
+        "min": 2227200,
+        "max": 2745600,
+        "sd": 231835.52790717818
+      },
+      "policy6": {
+        "n": 5,
+        "mean": 2323200,
+        "median": 2649600,
+        "min": 1017600,
+        "max": 2649600,
+        "sd": 729852.5878559314
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\019-b04-off-tg256",
+    "ticks": 12,
+    "policy_cur": {
+      "policy0": {
+        "n": 12,
+        "mean": 2558400,
+        "median": 2572800.0,
+        "min": 2227200,
+        "max": 2745600,
+        "sd": 201225.62641789124
+      },
+      "policy6": {
+        "n": 12,
+        "mean": 2313600,
+        "median": 2544000.0,
+        "min": 1017600,
+        "max": 2649600,
+        "sd": 489334.68747232336
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2400000,
+        2745600
+      ],
+      "policy6": [
+        1958400,
+        2246400,
+        2438400,
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\020-b04-on-tg256",
+    "ticks": 13,
+    "policy_cur": {
+      "policy0": {
+        "n": 13,
+        "mean": 2397046.153846154,
+        "median": 2745600,
+        "min": 1152000,
+        "max": 2745600,
+        "sd": 539929.0209761906
+      },
+      "policy6": {
+        "n": 13,
+        "mean": 2407384.6153846155,
+        "median": 2649600,
+        "min": 1017600,
+        "max": 2649600,
+        "sd": 468176.8502146631
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2400000,
+        2745600
+      ],
+      "policy6": [
+        1958400,
+        2246400,
+        2438400,
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\021-b04-clean-tg64",
+    "ticks": 5,
+    "policy_cur": {
+      "policy0": {
+        "n": 5,
+        "mean": 2469120,
+        "median": 2745600,
+        "min": 1363200,
+        "max": 2745600,
+        "sd": 618228.0744191419
+      },
+      "policy6": {
+        "n": 5,
+        "mean": 2649600,
+        "median": 2649600,
+        "min": 2649600,
+        "max": 2649600,
+        "sd": 0.0
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\022-b04-on-tg64",
+    "ticks": 6,
+    "policy_cur": {
+      "policy0": {
+        "n": 5,
+        "mean": 2426880,
+        "median": 2745600,
+        "min": 1152000,
+        "max": 2745600,
+        "sd": 712679.585788733
+      },
+      "policy6": {
+        "n": 5,
+        "mean": 2323200,
+        "median": 2649600,
+        "min": 1017600,
+        "max": 2649600,
+        "sd": 729852.5878559314
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\023-b04-off-tg64",
+    "ticks": 6,
+    "policy_cur": {
+      "policy0": {
+        "n": 6,
+        "mean": 2422400,
+        "median": 2745600.0,
+        "min": 1152000,
+        "max": 2745600,
+        "sd": 637534.4508338353
+      },
+      "policy6": {
+        "n": 5,
+        "mean": 2323200,
+        "median": 2649600,
+        "min": 1017600,
+        "max": 2649600,
+        "sd": 729852.5878559314
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\024-b04-clean-tg256",
+    "ticks": 13,
+    "policy_cur": {
+      "policy0": {
+        "n": 13,
+        "mean": 2490092.3076923075,
+        "median": 2745600,
+        "min": 1152000,
+        "max": 2745600,
+        "sd": 436659.9944685004
+      },
+      "policy6": {
+        "n": 13,
+        "mean": 2464984.6153846155,
+        "median": 2649600,
+        "min": 1958400,
+        "max": 2649600,
+        "sd": 271137.0927721308
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2400000,
+        2745600
+      ],
+      "policy6": [
+        1958400,
+        2246400,
+        2438400,
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\025-b05-clean-tg64",
+    "ticks": 5,
+    "policy_cur": {
+      "policy0": {
+        "n": 5,
+        "mean": 2357760,
+        "median": 2745600,
+        "min": 1152000,
+        "max": 2745600,
+        "sd": 690452.929604908
+      },
+      "policy6": {
+        "n": 5,
+        "mean": 2649600,
+        "median": 2649600,
+        "min": 2649600,
+        "max": 2649600,
+        "sd": 0.0
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\026-b05-on-tg64",
+    "ticks": 5,
+    "policy_cur": {
+      "policy0": {
+        "n": 5,
+        "mean": 2277120,
+        "median": 2745600,
+        "min": 1152000,
+        "max": 2745600,
+        "sd": 707618.337806476
+      },
+      "policy6": {
+        "n": 5,
+        "mean": 2323200,
+        "median": 2649600,
+        "min": 1017600,
+        "max": 2649600,
+        "sd": 729852.5878559314
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\027-b05-off-tg64",
+    "ticks": 5,
+    "policy_cur": {
+      "policy0": {
+        "n": 5,
+        "mean": 2357760,
+        "median": 2745600,
+        "min": 1152000,
+        "max": 2745600,
+        "sd": 690452.929604908
+      },
+      "policy6": {
+        "n": 5,
+        "mean": 2649600,
+        "median": 2649600,
+        "min": 2649600,
+        "max": 2649600,
+        "sd": 0.0
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\028-b05-clean-tg256",
+    "ticks": 12,
+    "policy_cur": {
+      "policy0": {
+        "n": 12,
+        "mean": 2446400,
+        "median": 2745600.0,
+        "min": 1152000,
+        "max": 2745600,
+        "sd": 499566.2991763228
+      },
+      "policy6": {
+        "n": 12,
+        "mean": 2444800,
+        "median": 2649600.0,
+        "min": 1017600,
+        "max": 2649600,
+        "sd": 468254.8490260017
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2400000,
+        2745600
+      ],
+      "policy6": [
+        2246400,
+        2438400,
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\029-b05-on-tg256",
+    "ticks": 12,
+    "policy_cur": {
+      "policy0": {
+        "n": 12,
+        "mean": 2468800,
+        "median": 2572800.0,
+        "min": 1152000,
+        "max": 2745600,
+        "sd": 448972.45106819394
+      },
+      "policy6": {
+        "n": 12,
+        "mean": 2523200,
+        "median": 2649600.0,
+        "min": 1958400,
+        "max": 2649600,
+        "sd": 221115.97943983236
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2400000,
+        2745600
+      ],
+      "policy6": [
+        1958400,
+        2246400,
+        2438400,
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\030-b05-off-tg256",
+    "ticks": 12,
+    "policy_cur": {
+      "policy0": {
+        "n": 12,
+        "mean": 2572800,
+        "median": 2572800.0,
+        "min": 2400000,
+        "max": 2745600,
+        "sd": 180483.71369486753
+      },
+      "policy6": {
+        "n": 12,
+        "mean": 2329600,
+        "median": 2544000.0,
+        "min": 1017600,
+        "max": 2649600,
+        "sd": 490076.0608870275
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2400000,
+        2745600
+      ],
+      "policy6": [
+        1958400,
+        2246400,
+        2438400,
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\031-b06-off-tg64",
+    "ticks": 6,
+    "policy_cur": {
+      "policy0": {
+        "n": 5,
+        "mean": 2357760,
+        "median": 2745600,
+        "min": 1152000,
+        "max": 2745600,
+        "sd": 690452.929604908
+      },
+      "policy6": {
+        "n": 5,
+        "mean": 2649600,
+        "median": 2649600,
+        "min": 2649600,
+        "max": 2649600,
+        "sd": 0.0
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\032-b06-off-tg256",
+    "ticks": 12,
+    "policy_cur": {
+      "policy0": {
+        "n": 12,
+        "mean": 2558400,
+        "median": 2572800.0,
+        "min": 2227200,
+        "max": 2745600,
+        "sd": 201225.62641789124
+      },
+      "policy6": {
+        "n": 12,
+        "mean": 2329600,
+        "median": 2544000.0,
+        "min": 1017600,
+        "max": 2649600,
+        "sd": 490076.0608870275
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2400000,
+        2745600
+      ],
+      "policy6": [
+        1958400,
+        2246400,
+        2438400,
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\033-b06-on-tg64",
+    "ticks": 5,
+    "policy_cur": {
+      "policy0": {
+        "n": 5,
+        "mean": 2676480,
+        "median": 2745600,
+        "min": 2400000,
+        "max": 2745600,
+        "sd": 154557.01860478547
+      },
+      "policy6": {
+        "n": 5,
+        "mean": 2649600,
+        "median": 2649600,
+        "min": 2649600,
+        "max": 2649600,
+        "sd": 0.0
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\034-b06-clean-tg256",
+    "ticks": 13,
+    "policy_cur": {
+      "policy0": {
+        "n": 13,
+        "mean": 2383753.846153846,
+        "median": 2400000,
+        "min": 1152000,
+        "max": 2745600,
+        "sd": 399206.5977564846
+      },
+      "policy6": {
+        "n": 13,
+        "mean": 2342400,
+        "median": 2438400,
+        "min": 1958400,
+        "max": 2649600,
+        "sd": 302565.03433146403
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2400000,
+        2745600
+      ],
+      "policy6": [
+        1958400,
+        2246400,
+        2438400,
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\035-b06-clean-tg64",
+    "ticks": 5,
+    "policy_cur": {
+      "policy0": {
+        "n": 5,
+        "mean": 2277120,
+        "median": 2745600,
+        "min": 1152000,
+        "max": 2745600,
+        "sd": 707618.337806476
+      },
+      "policy6": {
+        "n": 5,
+        "mean": 2323200,
+        "median": 2649600,
+        "min": 1017600,
+        "max": 2649600,
+        "sd": 729852.5878559314
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2745600
+      ],
+      "policy6": [
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\036-b06-on-tg256",
+    "ticks": 13,
+    "policy_cur": {
+      "policy0": {
+        "n": 13,
+        "mean": 2532923.076923077,
+        "median": 2400000,
+        "min": 2400000,
+        "max": 2745600,
+        "sd": 175001.3626320576
+      },
+      "policy6": {
+        "n": 13,
+        "mean": 2373415.3846153845,
+        "median": 2438400,
+        "min": 1958400,
+        "max": 2649600,
+        "sd": 312409.67186840274
+      }
+    },
+    "policy_max": {
+      "policy0": [
+        2400000,
+        2745600
+      ],
+      "policy6": [
+        1958400,
+        2246400,
+        2438400,
+        2649600
+      ]
+    },
+    "tasks_with_schedstat": 4
+  }
+]

@@ -1,0 +1,309 @@
+{
+  "formal_session": "results\\formal-20261109T083347Z-e5bcfa",
+  "snapshots": 72,
+  "all_usb_powered": true,
+  "battery_percent_range": [
+    100.0,
+    100.0
+  ],
+  "thermal_status_values": [
+    0.0
+  ],
+  "screen_states": [
+    "Dozing"
+  ],
+  "overall": {
+    "skin_c": {
+      "n": 72,
+      "median": 33.803,
+      "min": 32.244,
+      "max": 34.766,
+      "mean": 33.69352777777778,
+      "sample_sd": 0.5882801376421677,
+      "cv_pct": 1.7459737119903538,
+      "mad": 0.36150000000000304
+    },
+    "battery_c": {
+      "n": 72,
+      "median": 31.55,
+      "min": 30.8,
+      "max": 32.2,
+      "mean": 31.555555555555557,
+      "sample_sd": 0.41988894872867955,
+      "cv_pct": 1.3306339924500408,
+      "mad": 0.3500000000000014
+    },
+    "cpu_max_c": {
+      "n": 72,
+      "median": 42.650000000000006,
+      "min": 35.3,
+      "max": 64.9,
+      "mean": 45.763888888888886,
+      "sample_sd": 8.791357881233772,
+      "cv_pct": 19.2102509089175,
+      "mad": 5.3500000000000085
+    },
+    "mem_available_kib": {
+      "n": 72,
+      "median": 7040488.0,
+      "min": 6846888.0,
+      "max": 7117224.0,
+      "mean": 7002078.777777778,
+      "sample_sd": 80080.97544294514,
+      "cv_pct": 1.1436742999392548,
+      "mad": 38722.0
+    }
+  },
+  "gpu_hal_max_c": {
+    "n": 72,
+    "median": 42.650000000000006,
+    "min": 34.3,
+    "max": 59.0,
+    "mean": 44.202777777777776,
+    "sample_sd": 8.179448175577862,
+    "cv_pct": 18.5043759392197,
+    "mad": 6.3500000000000085
+  },
+  "cpu_policy_snapshots_khz": {
+    "policy0": {
+      "scaling_cur_freq": {
+        "n": 72,
+        "median": 1785600.0,
+        "min": 748800,
+        "max": 2745600,
+        "mean": 1832800,
+        "sample_sd": 518354.3015851523,
+        "cv_pct": 28.282098515121795,
+        "mad": 422400.0
+      },
+      "scaling_min_freq": {
+        "n": 72,
+        "median": 384000.0,
+        "min": 384000,
+        "max": 556800,
+        "mean": 436800,
+        "sample_sd": 80157.59126009038,
+        "cv_pct": 18.351096900203842,
+        "mad": 0.0
+      },
+      "scaling_max_freq": {
+        "n": 72,
+        "median": 2745600.0,
+        "min": 2745600,
+        "max": 2745600,
+        "mean": 2745600,
+        "sample_sd": 0.0,
+        "cv_pct": 0.0,
+        "mad": 0.0
+      },
+      "cpuinfo_max_freq": {
+        "n": 72,
+        "median": 3532800.0,
+        "min": 3532800,
+        "max": 3532800,
+        "mean": 3532800,
+        "sample_sd": 0.0,
+        "cv_pct": 0.0,
+        "mad": 0.0
+      }
+    },
+    "policy6": {
+      "scaling_cur_freq": {
+        "n": 72,
+        "median": 1017600.0,
+        "min": 1017600,
+        "max": 2841600,
+        "mean": 1042933.3333333334,
+        "sample_sd": 214960.46148071045,
+        "cv_pct": 20.611141154504327,
+        "mad": 0.0
+      },
+      "scaling_min_freq": {
+        "n": 72,
+        "median": 1017600.0,
+        "min": 1017600,
+        "max": 1017600,
+        "mean": 1017600,
+        "sample_sd": 0.0,
+        "cv_pct": 0.0,
+        "mad": 0.0
+      },
+      "scaling_max_freq": {
+        "n": 72,
+        "median": 2841600.0,
+        "min": 2649600,
+        "max": 2841600,
+        "mean": 2820266.6666666665,
+        "sample_sd": 60763.22089952529,
+        "cv_pct": 2.154520408218796,
+        "mad": 0.0
+      },
+      "cpuinfo_max_freq": {
+        "n": 72,
+        "median": 4320000.0,
+        "min": 4320000,
+        "max": 4320000,
+        "mean": 4320000,
+        "sample_sd": 0.0,
+        "cv_pct": 0.0,
+        "mad": 0.0
+      }
+    }
+  },
+  "by_backend": [
+    {
+      "backend": "cpu",
+      "processes": 18,
+      "state_snapshots": 36,
+      "state": {
+        "skin_c": {
+          "n": 36,
+          "median": 33.754999999999995,
+          "min": 32.244,
+          "max": 34.766,
+          "mean": 33.67552777777778,
+          "sample_sd": 0.6303488596964657,
+          "cv_pct": 1.87183067732773,
+          "mad": 0.3689999999999998
+        },
+        "battery_c": {
+          "n": 36,
+          "median": 31.55,
+          "min": 30.8,
+          "max": 32.1,
+          "mean": 31.566666666666666,
+          "sample_sd": 0.4289522117905444,
+          "cv_pct": 1.3588771228845122,
+          "mad": 0.3500000000000014
+        },
+        "cpu_max_c": {
+          "n": 36,
+          "median": 45.45,
+          "min": 35.3,
+          "max": 64.9,
+          "mean": 47.34444444444445,
+          "sample_sd": 10.223039649856577,
+          "cv_pct": 21.592902334829663,
+          "mad": 8.05
+        },
+        "mem_available_kib": {
+          "n": 36,
+          "median": 7038312.0,
+          "min": 6846888.0,
+          "max": 7100268.0,
+          "mean": 6997582.777777778,
+          "sample_sd": 80451.35432727073,
+          "cv_pct": 1.1497020740184751,
+          "mad": 42162.0
+        }
+      },
+      "whole_process_context_switches": {
+        "voluntary_context_switches": {
+          "n": 18,
+          "median": 23.0,
+          "min": 12.0,
+          "max": 48.0,
+          "mean": 24.88888888888889,
+          "sample_sd": 10.747852802736045,
+          "cv_pct": 43.18333715385018,
+          "mad": 8.0
+        },
+        "involuntary_context_switches": {
+          "n": 18,
+          "median": 2917.0,
+          "min": 1187.0,
+          "max": 5996.0,
+          "mean": 2964.3333333333335,
+          "sample_sd": 1414.6749366800093,
+          "cv_pct": 47.72320712965285,
+          "mad": 1177.0
+        }
+      }
+    },
+    {
+      "backend": "opencl",
+      "processes": 18,
+      "state_snapshots": 36,
+      "state": {
+        "skin_c": {
+          "n": 36,
+          "median": 33.811,
+          "min": 32.412,
+          "max": 34.538,
+          "mean": 33.711527777777775,
+          "sample_sd": 0.5513879363471841,
+          "cv_pct": 1.6356064904025271,
+          "mad": 0.3739999999999988
+        },
+        "battery_c": {
+          "n": 36,
+          "median": 31.55,
+          "min": 30.8,
+          "max": 32.2,
+          "mean": 31.544444444444444,
+          "sample_sd": 0.41640944441357863,
+          "cv_pct": 1.3200722084262795,
+          "mad": 0.34999999999999964
+        },
+        "cpu_max_c": {
+          "n": 36,
+          "median": 42.650000000000006,
+          "min": 36.9,
+          "max": 56.9,
+          "mean": 44.18333333333333,
+          "sample_sd": 6.865462215216936,
+          "cv_pct": 15.538579136666021,
+          "mad": 5.350000000000001
+        },
+        "mem_available_kib": {
+          "n": 36,
+          "median": 7047152.0,
+          "min": 6854600.0,
+          "max": 7117224.0,
+          "mean": 7006574.777777778,
+          "sample_sd": 80592.48865570931,
+          "cv_pct": 1.1502408981820673,
+          "mad": 32066.0
+        }
+      },
+      "whole_process_context_switches": {
+        "voluntary_context_switches": {
+          "n": 18,
+          "median": 26704.0,
+          "min": 23176.0,
+          "max": 97009.0,
+          "mean": 46095.833333333336,
+          "sample_sd": 30562.42515448552,
+          "cv_pct": 66.30192567184783,
+          "mad": 2750.0
+        },
+        "involuntary_context_switches": {
+          "n": 18,
+          "median": 6283.0,
+          "min": 156.0,
+          "max": 14270.0,
+          "mean": 5730.333333333333,
+          "sample_sd": 3790.9478715363366,
+          "cv_pct": 66.15580021295452,
+          "mad": 1805.5
+        }
+      }
+    }
+  ],
+  "minimum_gap_seconds": 15,
+  "cooldown_seconds": {
+    "n": 36,
+    "median": 15.453500000061467,
+    "min": 15.327999999979511,
+    "max": 15.672000000020489,
+    "mean": 15.46011111110824,
+    "sample_sd": 0.0806749307131564,
+    "cv_pct": 0.5218263318637515,
+    "mad": 0.0470000000204891
+  },
+  "cooldown_extra_poll_runs": 0,
+  "gpu_sysfs_permission_denied_before_runs": 36,
+  "gpu_frequency_and_busy_available": false,
+  "in_run_frequency_trace_available": false,
+  "limitations": "Before/after snapshots; context switches cover load+tune+warmup+measured+exit. No GPU frequency/busy access, no energy. Correlations do not identify cause."
+}

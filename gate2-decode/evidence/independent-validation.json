@@ -1,0 +1,9 @@
+{
+  "samples_validated": 36,
+  "trace_runs_validated": 12,
+  "warmup_measured_tokens_equal": true,
+  "actual_growth_capacity_past_and_manager_counts_validated": true,
+  "correctness_rechecked": true,
+  "markdown_local_links_and_fences_checked": true,
+  "passed": true
+}

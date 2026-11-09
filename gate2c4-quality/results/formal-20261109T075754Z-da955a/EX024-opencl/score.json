@@ -1,0 +1,12 @@
+{
+  "id": "EX024",
+  "category": "extraction",
+  "success": false,
+  "answer_matches": false,
+  "format_valid": false,
+  "flags": [
+    "parse_failure"
+  ],
+  "normalized_text": "```json\n{\n  \"name\": \"季远\",\n  \"phone\": null\n}\n```",
+  "parsed_json": null
+}

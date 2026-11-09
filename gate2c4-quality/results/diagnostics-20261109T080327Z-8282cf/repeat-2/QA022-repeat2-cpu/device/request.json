@@ -1,0 +1,13 @@
+{
+  "id": "QA022-repeat2",
+  "split": "formal",
+  "category": "qa",
+  "input": "一年有几个月？只输出阿拉伯数字。",
+  "gold": "12",
+  "variants": [
+    "12"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "12"
+}

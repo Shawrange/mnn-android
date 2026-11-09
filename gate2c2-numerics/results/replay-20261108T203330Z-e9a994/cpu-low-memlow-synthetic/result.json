@@ -1,0 +1,8 @@
+{
+  "backend": "cpu",
+  "precision": "low",
+  "memory": "low",
+  "kind": "synthetic",
+  "exit_code": 13,
+  "valid": false
+}

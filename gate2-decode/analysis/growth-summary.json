@@ -1,0 +1,254 @@
+[
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\003-b01-on-tg256",
+    "token": 65,
+    "managers": 28,
+    "capacity_before": 192,
+    "capacity_after": 257,
+    "in_disk": [
+      0
+    ],
+    "wall_ms": 14.416979,
+    "realloc_ms": 2.930836,
+    "nearby_median_wall_ms": 11.196276,
+    "realloc_share_of_whole_decode": 0.0010275062394057403
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\003-b01-on-tg256",
+    "token": 130,
+    "managers": 28,
+    "capacity_before": 257,
+    "capacity_after": 322,
+    "in_disk": [
+      0
+    ],
+    "wall_ms": 14.954375,
+    "realloc_ms": 3.38172,
+    "nearby_median_wall_ms": 11.056146,
+    "realloc_share_of_whole_decode": 0.001185579268141643
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\003-b01-on-tg256",
+    "token": 195,
+    "managers": 28,
+    "capacity_before": 322,
+    "capacity_after": 387,
+    "in_disk": [
+      0
+    ],
+    "wall_ms": 16.097813,
+    "realloc_ms": 4.14849,
+    "nearby_median_wall_ms": 11.2351825,
+    "realloc_share_of_whole_decode": 0.001454397093222657
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\008-b02-on-tg256",
+    "token": 65,
+    "managers": 28,
+    "capacity_before": 192,
+    "capacity_after": 257,
+    "in_disk": [
+      0
+    ],
+    "wall_ms": 14.172031,
+    "realloc_ms": 2.951147,
+    "nearby_median_wall_ms": 11.02513,
+    "realloc_share_of_whole_decode": 0.0010134880444985508
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\008-b02-on-tg256",
+    "token": 130,
+    "managers": 28,
+    "capacity_before": 257,
+    "capacity_after": 322,
+    "in_disk": [
+      0
+    ],
+    "wall_ms": 15.181198,
+    "realloc_ms": 3.487449,
+    "nearby_median_wall_ms": 11.1922395,
+    "realloc_share_of_whole_decode": 0.0011976658117330064
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\008-b02-on-tg256",
+    "token": 195,
+    "managers": 28,
+    "capacity_before": 322,
+    "capacity_after": 387,
+    "in_disk": [
+      0
+    ],
+    "wall_ms": 16.126094,
+    "realloc_ms": 4.169163,
+    "nearby_median_wall_ms": 11.3520055,
+    "realloc_share_of_whole_decode": 0.0014317812213575642
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\015-b03-on-tg256",
+    "token": 65,
+    "managers": 28,
+    "capacity_before": 192,
+    "capacity_after": 257,
+    "in_disk": [
+      0
+    ],
+    "wall_ms": 14.723073,
+    "realloc_ms": 3.061818,
+    "nearby_median_wall_ms": 11.405078,
+    "realloc_share_of_whole_decode": 0.0010409148110994634
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\015-b03-on-tg256",
+    "token": 130,
+    "managers": 28,
+    "capacity_before": 257,
+    "capacity_after": 322,
+    "in_disk": [
+      0
+    ],
+    "wall_ms": 15.155937,
+    "realloc_ms": 3.519689,
+    "nearby_median_wall_ms": 11.455313,
+    "realloc_share_of_whole_decode": 0.0011965755020591881
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\015-b03-on-tg256",
+    "token": 195,
+    "managers": 28,
+    "capacity_before": 322,
+    "capacity_after": 387,
+    "in_disk": [
+      0
+    ],
+    "wall_ms": 16.297812,
+    "realloc_ms": 4.265521,
+    "nearby_median_wall_ms": 11.593828,
+    "realloc_share_of_whole_decode": 0.0014501332169174633
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\020-b04-on-tg256",
+    "token": 65,
+    "managers": 28,
+    "capacity_before": 192,
+    "capacity_after": 257,
+    "in_disk": [
+      0
+    ],
+    "wall_ms": 14.0875,
+    "realloc_ms": 2.883281,
+    "nearby_median_wall_ms": 10.931797,
+    "realloc_share_of_whole_decode": 0.0009671085807543443
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\020-b04-on-tg256",
+    "token": 130,
+    "managers": 28,
+    "capacity_before": 257,
+    "capacity_after": 322,
+    "in_disk": [
+      0
+    ],
+    "wall_ms": 15.729114,
+    "realloc_ms": 3.68125,
+    "nearby_median_wall_ms": 11.6865105,
+    "realloc_share_of_whole_decode": 0.001234762918668673
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\020-b04-on-tg256",
+    "token": 195,
+    "managers": 28,
+    "capacity_before": 322,
+    "capacity_after": 387,
+    "in_disk": [
+      0
+    ],
+    "wall_ms": 16.901511,
+    "realloc_ms": 4.489426,
+    "nearby_median_wall_ms": 11.970104,
+    "realloc_share_of_whole_decode": 0.0015058408830986828
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\029-b05-on-tg256",
+    "token": 65,
+    "managers": 28,
+    "capacity_before": 192,
+    "capacity_after": 257,
+    "in_disk": [
+      0
+    ],
+    "wall_ms": 14.621406,
+    "realloc_ms": 3.003073,
+    "nearby_median_wall_ms": 11.399245,
+    "realloc_share_of_whole_decode": 0.0010067148595469626
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\029-b05-on-tg256",
+    "token": 130,
+    "managers": 28,
+    "capacity_before": 257,
+    "capacity_after": 322,
+    "in_disk": [
+      0
+    ],
+    "wall_ms": 16.280885,
+    "realloc_ms": 3.768335,
+    "nearby_median_wall_ms": 11.915755,
+    "realloc_share_of_whole_decode": 0.0012632522886559547
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\029-b05-on-tg256",
+    "token": 195,
+    "managers": 28,
+    "capacity_before": 322,
+    "capacity_after": 387,
+    "in_disk": [
+      0
+    ],
+    "wall_ms": 17.091406,
+    "realloc_ms": 4.497606,
+    "nearby_median_wall_ms": 11.899922,
+    "realloc_share_of_whole_decode": 0.001507724518380864
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\036-b06-on-tg256",
+    "token": 65,
+    "managers": 28,
+    "capacity_before": 192,
+    "capacity_after": 257,
+    "in_disk": [
+      0
+    ],
+    "wall_ms": 15.841042,
+    "realloc_ms": 3.987447,
+    "nearby_median_wall_ms": 11.771797,
+    "realloc_share_of_whole_decode": 0.0012789844748177456
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\036-b06-on-tg256",
+    "token": 130,
+    "managers": 28,
+    "capacity_before": 257,
+    "capacity_after": 322,
+    "in_disk": [
+      0
+    ],
+    "wall_ms": 17.019843,
+    "realloc_ms": 4.701148,
+    "nearby_median_wall_ms": 11.93263,
+    "realloc_share_of_whole_decode": 0.0015079060124988484
+  },
+  {
+    "path": "results\\control-20261108T151455Z-f42f6b\\036-b06-on-tg256",
+    "token": 195,
+    "managers": 28,
+    "capacity_before": 322,
+    "capacity_after": 387,
+    "in_disk": [
+      0
+    ],
+    "wall_ms": 18.794739,
+    "realloc_ms": 5.597972,
+    "nearby_median_wall_ms": 12.8247135,
+    "realloc_share_of_whole_decode": 0.0017955647506949796
+  }
+]

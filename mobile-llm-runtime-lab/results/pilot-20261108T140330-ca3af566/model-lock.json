@@ -1,0 +1,55 @@
+{
+  "repo_id": "taobao-mnn/Qwen3-0.6B-MNN",
+  "revision": "34dfccda1187ded6e07ea06426da576b0b793c6b",
+  "license_from_card": "apache-2.0",
+  "quantization_from_card": "4-bit; complete original export arguments not disclosed",
+  "export_args": null,
+  "exporter_commit": null,
+  "downloaded_weights": true,
+  "local_weight_sha256": "953afb7e0165818add34a7a6caf0af5d0ed9428da102eb22c9b98ee9da292e9f",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "expected_size": 1642,
+      "git_blob_oid": "c8634f721cafb20b8a2a51dace8bba2ce8fcc32c",
+      "expected_lfs_sha256": null
+    },
+    {
+      "path": "README.md",
+      "expected_size": 1110,
+      "git_blob_oid": "c96b8b8274aef2fb300181ef66a01d2eefe5ebd2",
+      "expected_lfs_sha256": null
+    },
+    {
+      "path": "config.json",
+      "expected_size": 403,
+      "git_blob_oid": "ae3e9965dd86f9b1516f6068f2f77a8a1bbfa09e",
+      "expected_lfs_sha256": null
+    },
+    {
+      "path": "llm.mnn",
+      "expected_size": 461520,
+      "git_blob_oid": "410504c143c4e0005e9a5d119ae08a292cb871f2",
+      "expected_lfs_sha256": "d426c65a5159c938ccc237cdfbd982137f276804f27b414ca0ecf3fc0a660f8c"
+    },
+    {
+      "path": "llm.mnn.weight",
+      "expected_size": 450810338,
+      "git_blob_oid": "4cfe85cece07e60078d0c46dfb3baa961efcc4fb",
+      "expected_lfs_sha256": "953afb7e0165818add34a7a6caf0af5d0ed9428da102eb22c9b98ee9da292e9f"
+    },
+    {
+      "path": "llm_config.json",
+      "expected_size": 4880,
+      "git_blob_oid": "0b8ad5ccde639b15c59b2b9d4c751f65e57c3225",
+      "expected_lfs_sha256": null
+    },
+    {
+      "path": "tokenizer.txt",
+      "expected_size": 3193569,
+      "git_blob_oid": "fa4e59b3ce10a9954f02b5db6c0f48a16be90f93",
+      "expected_lfs_sha256": null
+    }
+  ],
+  "all_files_verified": true
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "block": 0,
+    "backend": "opencl",
+    "pp": 32,
+    "tg": 64
+  },
+  {
+    "block": 0,
+    "backend": "opencl",
+    "pp": 128,
+    "tg": 256
+  },
+  {
+    "block": 0,
+    "backend": "cpu",
+    "pp": 128,
+    "tg": 64
+  }
+]

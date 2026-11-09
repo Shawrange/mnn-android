@@ -1,0 +1,10 @@
+{
+  "backend": "opencl",
+  "precision": "low",
+  "kind": "synthetic",
+  "mode": "off",
+  "process": 1,
+  "exit_code": 0,
+  "directory": "results\\low-20261108T202835Z-69f08a\\opencl-low-synthetic-off-p1",
+  "valid": true
+}

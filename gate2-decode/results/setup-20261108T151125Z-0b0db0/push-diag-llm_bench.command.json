@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "push",
+    "E:\\DUANCE\\gate2-decode\\staging\\llm_bench",
+    "/data/local/tmp/mnn-gate0-20261108T134731469951Z/gate2a-diagnostic/diag/llm_bench"
+  ],
+  "started_at_utc": "2026-11-08T15:11:25.675625+00:00",
+  "ended_at_utc": "2026-11-08T15:11:25.713757+00:00",
+  "elapsed_seconds": 0.03797070006839931,
+  "exit_code": 0
+}

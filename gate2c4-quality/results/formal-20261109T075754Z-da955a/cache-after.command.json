@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "find /data/local/tmp/mnn-gate2c4-formal-20261109T075754Z-da955a -maxdepth 2 -type f -name \"*cache*\" -exec ls -l {} \\;"
+  ],
+  "started_at_utc": "2026-11-09T08:02:37.652828+00:00",
+  "ended_at_utc": "2026-11-09T08:02:37.699598+00:00",
+  "elapsed_seconds": 0.0470152999041602,
+  "exit_code": 0
+}

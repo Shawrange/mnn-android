@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "pull",
+    "/data/local/tmp/mnn-gate2c4-pilot-20261109T074605Z-464306/opencl/P11",
+    "E:\\DUANCE\\gate2c4-quality\\results\\pilot-20261109T074605Z-464306\\P11-opencl\\device"
+  ],
+  "started_at_utc": "2026-11-09T07:46:31.137922+00:00",
+  "ended_at_utc": "2026-11-09T07:46:31.177157+00:00",
+  "elapsed_seconds": 0.039137399988248944,
+  "exit_code": 0
+}

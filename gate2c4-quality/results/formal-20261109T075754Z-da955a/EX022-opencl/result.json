@@ -1,0 +1,19 @@
+{
+  "backend": "opencl",
+  "gen_seq_len": 21,
+  "generated_count": 21,
+  "id": "EX022",
+  "initial_kv": 0,
+  "input_len": 98,
+  "kv_after": 118,
+  "mode": "generate",
+  "prompt_len": 98,
+  "status": 1,
+  "stop_token": 151645,
+  "stopped": true,
+  "thinking": false,
+  "process_exit": 0,
+  "runtime_ok": true,
+  "raw_text": "```json\n{\n  \"name\": \"叶泽\",\n  \"phone\": null\n}\n```",
+  "valid_utf8": true
+}

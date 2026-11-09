@@ -1,0 +1,12 @@
+{
+  "id": "P11",
+  "split": "pilot",
+  "category": "qa",
+  "input": "9减去4等于几？只输出阿拉伯数字。",
+  "gold": "5",
+  "variants": [
+    "5"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; strict format; natural EOS required"
+}

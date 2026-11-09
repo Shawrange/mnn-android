@@ -1,0 +1,154 @@
+[
+  {
+    "file": "transformers/llm/engine/src/llm.cpp",
+    "sha256": "260283e43bc0a7ce233b645602bd83e49f9fbf5964f0be4a477fdacde190fdd7"
+  },
+  {
+    "file": "transformers/llm/engine/src/llmconfig.hpp",
+    "sha256": "ad524c09be84547d9e011b9b19f20e1c1288848c8698cabe23ac2aecef8c28dc"
+  },
+  {
+    "file": "transformers/llm/engine/src/speculative_decoding/generate.cpp",
+    "sha256": "f5194d3447509c577f09e602fb977534c1909bd4a6159b2f54ff52055f0a5601"
+  },
+  {
+    "file": "transformers/llm/engine/include/llm/llm.hpp",
+    "sha256": "ac4e6c65e62b88d9de569a0e6c437b4ebabf6510d4fa70c7249a97695483c462"
+  },
+  {
+    "file": "include/MNN/expr/Expr.hpp",
+    "sha256": "61731668921de87770fc703c4675995c8f92103677432c78768481fa346f072b"
+  },
+  {
+    "file": "include/MNN/expr/Executor.hpp",
+    "sha256": "64a19252e009604e705ace5e6ce7ed8804727401812389a74039831ca7d6c226"
+  },
+  {
+    "file": "include/MNN/Interpreter.hpp",
+    "sha256": "3a8f13170819eb702eec30200d53febe908337577756601336e3782cdac0d7ad"
+  },
+  {
+    "file": "include/MNN/MNNForwardType.h",
+    "sha256": "7a3aa7951b4999d579c0185d9f2b50698595c80d5116ed23e735821493d57153"
+  },
+  {
+    "file": "include/MNN/Tensor.hpp",
+    "sha256": "6f28b4d0338c6760582ed8d5632fa0c3691bdfacc421753b6d86407466a7bf5c"
+  },
+  {
+    "file": "express/Expr.cpp",
+    "sha256": "6d2759abd84ed80122f0f366d13d659891a07c94df4240d52aa36ae9dcc80187"
+  },
+  {
+    "file": "express/Executor.cpp",
+    "sha256": "881c271952bb732b4bbf4bec7abacd2cc2cc4ef83148d1a8a35d425fb822f7f3"
+  },
+  {
+    "file": "express/module/StaticModule.cpp",
+    "sha256": "28b7e67acac63d1dc547ddf81633070c9b1573057a8dd7361f8d74545d5a9d55"
+  },
+  {
+    "file": "source/core/Tensor.cpp",
+    "sha256": "456845a11d2365b37e2bf0d4a52b45166b5299a0175c33189eb1dea3c5d516f3"
+  },
+  {
+    "file": "source/core/TensorUtils.hpp",
+    "sha256": "e3d0b04c93706b6f96b69051489b1e40a56081617c838e5a79fe313f244774eb"
+  },
+  {
+    "file": "source/core/TensorUtils.cpp",
+    "sha256": "93fd19e1940be6b9e39cf194fbdf7266fab066783497531566f1671b54235805"
+  },
+  {
+    "file": "source/core/Pipeline.cpp",
+    "sha256": "8a3211e50d2b7095aca005c7f3b0ef8b24d5c8a438cd340163ec8b4d9bfdc3f2"
+  },
+  {
+    "file": "source/core/Session.cpp",
+    "sha256": "22aab3db3aae2f79612d3ce80569582a9fdbbde55ef5dbeda2be80fd2a22e93c"
+  },
+  {
+    "file": "source/core/Backend.hpp",
+    "sha256": "c30c02a71b305fb5d94631c8d3acf3acd17340851f111e3faa2c4432aab60f63"
+  },
+  {
+    "file": "source/core/Schedule.cpp",
+    "sha256": "2dfd84886e058da20ee19d11f849d882eb346f3e1e733159769452601aefcaf6"
+  },
+  {
+    "file": "source/core/Interpreter.cpp",
+    "sha256": "ebfc25ef35f325d76713e43603ac67a886294381a612d4f31b04d096754ab290"
+  },
+  {
+    "file": "source/backend/cpu/CPUBackend.cpp",
+    "sha256": "1f786e1024b0e29eabbaccaa5c67bf2e7c05903853e7bd117cd5d906197e4edc"
+  },
+  {
+    "file": "source/backend/cpu/CPUBackend.hpp",
+    "sha256": "a41a67d5786f37dd6565a1171ce2ddd3929941e8eb7750f85bbd27b4cc90df80"
+  },
+  {
+    "file": "source/backend/arm82/Arm82Backend.cpp",
+    "sha256": "eccb1c34924a8c3decb419ff095f4113dcc8873c591ce2890bbcf3f45519ce43"
+  },
+  {
+    "file": "source/backend/cpu/compute/ConvolutionFloatFactory.cpp",
+    "sha256": "e9f6c66cb91876140772fadb179707a2b6fbb97768e11539d3d9d84f5afd0f44"
+  },
+  {
+    "file": "source/backend/cpu/compute/ConvInt8TiledExecutor.cpp",
+    "sha256": "6b0b9fe5bad252d32884446876b1982e4c43be3106b0b940e8640650ae7d3020"
+  },
+  {
+    "file": "source/backend/cpu/compute/DenseConvolutionTiledExecutor.cpp",
+    "sha256": "dbdf440db23a8c8e1d8a3c9c49db7c9228589f15a008cec5f694890ec1b8b385"
+  },
+  {
+    "file": "source/backend/opencl/core/OpenCLBackend.cpp",
+    "sha256": "31e3ea4236822f3e3c9b92a7ab9025cdd2bc944d01a80a79f863d693da569e42"
+  },
+  {
+    "file": "source/backend/opencl/core/OpenCLBackend.hpp",
+    "sha256": "011524efaaf6329555e020ed448ebb619cc2e6ac9245cc92502be8183ad7fc29"
+  },
+  {
+    "file": "source/backend/opencl/core/runtime/OpenCLRuntime.cpp",
+    "sha256": "0f37b4731bbfdb3254c954e2c4876b2ee68f5b92c15999289856ec66561f5705"
+  },
+  {
+    "file": "source/backend/opencl/execution/buffer/ConvBufLowMemoryExecution.cpp",
+    "sha256": "135240f4afdd893641ea3456f825d2831dad3bc9ae5b8c98664393d19b499851"
+  },
+  {
+    "file": "source/backend/opencl/execution/cl/gemm_conv1x1_int4_b4_buf.cl",
+    "sha256": "e6dc3a604ae90a8ddd2fce850c3e1bd3725de75a1a23887088e9db5ddb10fc9b"
+  },
+  {
+    "file": "source/backend/opencl/execution/cl/gemm_conv1x1_int4_b8_buf.cl",
+    "sha256": "be1b6b41c66b99f68f750b7d0b92a370f9de767f9adfbe30feac3014c04f27a2"
+  },
+  {
+    "file": "source/backend/opencl/execution/cl/layernorm_buf.cl",
+    "sha256": "983e113db891e2461067e252ec49bb9880ce3f9aa335c05e0c5dfd58aaf0e4f1"
+  },
+  {
+    "file": "source/backend/cpu/CPULayerNorm.cpp",
+    "sha256": "c341a4353376d790f0d22afc4d0d728759c189c470839f0bd7328b8487277d62"
+  },
+  {
+    "file": "source/core/ConvolutionCommon.cpp",
+    "sha256": "b1e63fa342833f1ee371b0ad5e76e21b8cf453ea104190a52a557b9f154f1878"
+  },
+  {
+    "file": "source/core/WrapExecution.cpp",
+    "sha256": "34362b33d5ef8a74d2a0f013fca37b59246b471b9dcf4763ba4f8292687d7e9f"
+  },
+  {
+    "file": "source/backend/opencl/execution/cl/gemv_conv1x1_buf.cl",
+    "sha256": "0cfd91f5e3db07a646b63383407c0b1caa2fbdcb7925aad85769ced9c85e0f0e"
+  },
+  {
+    "file": "source/backend/opencl/execution/cl/gemm_conv1x1_layout_buf.cl",
+    "sha256": "7911c30dfd12e59e48512fb8a0bbbe3b625211f2911dfb167d283ae8e1493157"
+  }
+]

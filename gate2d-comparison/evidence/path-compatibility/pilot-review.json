@@ -1,0 +1,8 @@
+{
+  "session": "results\\pilot-20261109T082814Z-b65e96",
+  "valid_for_comparison": false,
+  "reason": "Native CLI getDirectoryOf requires slash in config path and a colocated weight reference; first pilot reports impossible modelSize. Raw records retained, not formal samples.",
+  "fixed_by": "./config.json and symlink to unchanged original weight",
+  "runtime_source_changed": false,
+  "at_utc": "2026-11-09T08:30:22.731002+00:00"
+}

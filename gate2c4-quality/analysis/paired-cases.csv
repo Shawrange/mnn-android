@@ -1,0 +1,353 @@
+﻿id,category,cpu_success,gpu_success,same_tokens,same_text,cpu_text,gpu_text,cpu_flags,gpu_flags
+CL001,classification,True,True,True,True,咨询,咨询,[],[]
+CL002,classification,True,True,True,True,咨询,咨询,[],[]
+CL003,classification,True,True,True,True,咨询,咨询,[],[]
+CL004,classification,True,True,True,True,咨询,咨询,[],[]
+CL005,classification,True,True,True,True,咨询,咨询,[],[]
+CL006,classification,True,True,True,True,咨询,咨询,[],[]
+CL007,classification,True,True,True,True,咨询,咨询,[],[]
+CL008,classification,True,True,True,True,咨询,咨询,[],[]
+CL009,classification,True,True,True,True,咨询,咨询,[],[]
+CL010,classification,False,False,False,False,"咨询,投诉",咨询、投诉,['format_error'],['format_error']
+CL011,classification,False,False,True,True,咨询,咨询,['content_error'],['content_error']
+CL012,classification,False,False,True,True,咨询,咨询,['content_error'],['content_error']
+CL013,classification,False,False,False,False,咨询、投诉、表扬,咨询,['format_error'],['content_error']
+CL014,classification,False,False,True,True,咨询,咨询,['content_error'],['content_error']
+CL015,classification,False,False,True,True,咨询、投诉、表扬,咨询、投诉、表扬,['format_error'],['format_error']
+CL016,classification,False,False,True,True,咨询,咨询,['content_error'],['content_error']
+CL017,classification,False,False,True,True,咨询,咨询,['content_error'],['content_error']
+CL018,classification,False,False,False,False,咨询、投诉、表扬,咨询,['format_error'],['content_error']
+CL019,classification,False,False,False,False,咨询、投诉、表扬。,咨询、投诉、表扬,['format_error'],['format_error']
+CL020,classification,False,False,True,True,咨询、投诉、表扬,咨询、投诉、表扬,['format_error'],['format_error']
+CL021,classification,False,False,True,True,咨询、投诉、表扬,咨询、投诉、表扬,['format_error'],['format_error']
+CL022,classification,False,False,False,False,咨询、投诉、表扬。,咨询、投诉、表扬,['format_error'],['format_error']
+CL023,classification,False,False,True,True,咨询、投诉、表扬,咨询、投诉、表扬,['format_error'],['format_error']
+CL024,classification,False,False,False,False,咨询、投诉、表扬,咨询,['format_error'],['content_error']
+CL025,classification,False,False,True,True,咨询、投诉、表扬,咨询、投诉、表扬,['format_error'],['format_error']
+EX001,extraction,False,False,True,True,"```json
+{
+  ""name"": ""林雪"",
+  ""count"": 3
+}
+```","```json
+{
+  ""name"": ""林雪"",
+  ""count"": 3
+}
+```",['parse_failure'],['parse_failure']
+EX002,extraction,False,False,False,False,"```json
+{""name"": ""赵航"", ""count"": 12}
+```","```json
+{
+  ""name"": ""赵航"",
+  ""count"": 12
+}
+```",['parse_failure'],['parse_failure']
+EX003,extraction,False,False,False,False,"```json
+{""name"": ""许安"", ""count"": 1}
+```","```json
+{
+  ""name"": ""许安"",
+  ""count"": 1
+}
+```",['parse_failure'],['parse_failure']
+EX004,extraction,False,False,True,True,"```json
+{
+  ""name"": ""陈青"",
+  ""count"": 6
+}
+```","```json
+{
+  ""name"": ""陈青"",
+  ""count"": 6
+}
+```",['parse_failure'],['parse_failure']
+EX005,extraction,False,False,True,True,"```json
+{
+  ""name"": ""顾南"",
+  ""count"": 9
+}
+```","```json
+{
+  ""name"": ""顾南"",
+  ""count"": 9
+}
+```",['parse_failure'],['parse_failure']
+EX006,extraction,False,False,True,True,"```json
+{
+  ""place"": ""松柏"",
+  ""time"": ""14:05""
+}
+```","```json
+{
+  ""place"": ""松柏"",
+  ""time"": ""14:05""
+}
+```",['parse_failure'],['parse_failure']
+EX007,extraction,False,False,True,True,"```json
+{
+  ""place"": ""西楼203"",
+  ""time"": ""08:30""
+}
+```","```json
+{
+  ""place"": ""西楼203"",
+  ""time"": ""08:30""
+}
+```",['parse_failure'],['parse_failure']
+EX008,extraction,False,False,True,True,"```json
+{
+  ""place"": ""星河展厅"",
+  ""time"": ""16:45""
+}
+```","```json
+{
+  ""place"": ""星河展厅"",
+  ""time"": ""16:45""
+}
+```",['parse_failure'],['parse_failure']
+EX009,extraction,False,False,True,True,"```json
+{
+  ""place"": ""南门"",
+  ""time"": ""10:15""
+}
+```","```json
+{
+  ""place"": ""南门"",
+  ""time"": ""10:15""
+}
+```",['parse_failure'],['parse_failure']
+EX010,extraction,False,False,True,True,"```json
+{
+  ""place"": ""海棠教室"",
+  ""time"": ""19:00""
+}
+```","```json
+{
+  ""place"": ""海棠教室"",
+  ""time"": ""19:00""
+}
+```",['parse_failure'],['parse_failure']
+EX011,extraction,False,False,True,True,"```json
+{
+  ""code"": ""A731"",
+  ""date"": ""2026-03-12""
+}
+```","```json
+{
+  ""code"": ""A731"",
+  ""date"": ""2026-03-12""
+}
+```",['parse_failure'],['parse_failure']
+EX012,extraction,False,False,True,True,"```json
+{
+  ""code"": ""B482"",
+  ""date"": ""2026-07-08""
+}
+```","```json
+{
+  ""code"": ""B482"",
+  ""date"": ""2026-07-08""
+}
+```",['parse_failure'],['parse_failure']
+EX013,extraction,False,False,True,True,"```json
+{
+  ""code"": ""C905"",
+  ""date"": ""2026-09-21""
+}
+```","```json
+{
+  ""code"": ""C905"",
+  ""date"": ""2026-09-21""
+}
+```",['parse_failure'],['parse_failure']
+EX014,extraction,False,False,True,True,"```json
+{
+  ""code"": ""D126"",
+  ""date"": ""2026-12-05""
+}
+```","```json
+{
+  ""code"": ""D126"",
+  ""date"": ""2026-12-05""
+}
+```",['parse_failure'],['parse_failure']
+EX015,extraction,False,False,True,True,"```json
+{
+  ""code"": ""E364"",
+  ""date"": ""2026-02-18""
+}
+```","```json
+{
+  ""code"": ""E364"",
+  ""date"": ""2026-02-18""
+}
+```",['parse_failure'],['parse_failure']
+EX016,extraction,False,False,True,True,"```json
+{
+  ""item"": ""商品咖啡"",
+  ""price"": 18
+}
+```","```json
+{
+  ""item"": ""商品咖啡"",
+  ""price"": 18
+}
+```",['parse_failure'],['parse_failure']
+EX017,extraction,False,False,True,True,"```json
+{
+  ""item"": ""商品面包"",
+  ""price"": 7
+}
+```","```json
+{
+  ""item"": ""商品面包"",
+  ""price"": 7
+}
+```",['parse_failure'],['parse_failure']
+EX018,extraction,False,False,True,True,"```json
+{
+  ""item"": ""商品车票"",
+  ""price"": 35
+}
+```","```json
+{
+  ""item"": ""商品车票"",
+  ""price"": 35
+}
+```",['parse_failure'],['parse_failure']
+EX019,extraction,False,False,True,True,"```json
+{
+  ""item"": ""商品雨衣"",
+  ""price"": 24
+}
+```","```json
+{
+  ""item"": ""商品雨衣"",
+  ""price"": 24
+}
+```",['parse_failure'],['parse_failure']
+EX020,extraction,False,False,True,True,"```json
+{
+  ""item"": ""商品画册"",
+  ""price"": 49
+}
+```","```json
+{
+  ""item"": ""商品画册"",
+  ""price"": 49
+}
+```",['parse_failure'],['parse_failure']
+EX021,extraction,False,False,True,True,"```json
+{
+  ""name"": ""罗岚"",
+  ""phone"": null
+}
+```","```json
+{
+  ""name"": ""罗岚"",
+  ""phone"": null
+}
+```",['parse_failure'],['parse_failure']
+EX022,extraction,False,False,False,False,"```json
+{
+  ""name"": ""叶泽"",
+  ""phone"": ""13800138006""
+}
+```","```json
+{
+  ""name"": ""叶泽"",
+  ""phone"": null
+}
+```",['parse_failure'],['parse_failure']
+EX023,extraction,False,False,True,True,"```json
+{
+  ""name"": ""苏禾"",
+  ""phone"": null
+}
+```","```json
+{
+  ""name"": ""苏禾"",
+  ""phone"": null
+}
+```",['parse_failure'],['parse_failure']
+EX024,extraction,False,False,True,True,"```json
+{
+  ""name"": ""季远"",
+  ""phone"": null
+}
+```","```json
+{
+  ""name"": ""季远"",
+  ""phone"": null
+}
+```",['parse_failure'],['parse_failure']
+EX025,extraction,False,False,True,True,"```json
+{
+  ""name"": ""程溪"",
+  ""phone"": null
+}
+```","```json
+{
+  ""name"": ""程溪"",
+  ""phone"": null
+}
+```",['parse_failure'],['parse_failure']
+IN001,instruction,False,False,False,False,"9,1,6,3","6, 9, 1, 3",['content_error'],['content_error']
+IN002,instruction,False,False,True,True,"7, 12, 2","7, 12, 2",['content_error'],['content_error']
+IN003,instruction,False,False,False,False,"10, 15, 5","10, 5, 15",['content_error'],['content_error']
+IN004,instruction,False,False,True,True,"2,5,8,11","2,5,8,11",['content_error'],['content_error']
+IN005,instruction,False,False,False,False,"6,9","9, 6",['content_error'],['content_error']
+IN006,instruction,False,True,False,False,mNOP,MNOP,['content_error'],[]
+IN007,instruction,False,False,True,True,Abcd,Abcd,['content_error'],['content_error']
+IN008,instruction,False,False,True,True,红色|蓝色|白色,红色|蓝色|白色,['content_error'],['content_error']
+IN009,instruction,True,True,True,True,甲乙丙,甲乙丙,[],[]
+IN010,instruction,False,False,True,True,测试成功。,测试成功。,['content_error'],['content_error']
+IN011,instruction,False,False,False,False,春、夏、秋、冬。,春夏秋冬,['content_error'],['content_error']
+IN012,instruction,False,False,True,True,ABCDEFG,ABCDEFG,['content_error'],['content_error']
+IN013,instruction,False,False,False,False,123456,123,['content_error'],['content_error']
+IN014,instruction,True,True,True,True,cat-cat-cat,cat-cat-cat,[],[]
+IN015,instruction,False,False,True,True,“新录备忘”,“新录备忘”,['content_error'],['content_error']
+IN016,instruction,True,True,True,True,YES,YES,[],[]
+IN017,instruction,False,False,True,True,TRUE,TRUE,['content_error'],['content_error']
+IN018,instruction,True,True,True,True,苹果,苹果,[],[]
+IN019,instruction,False,False,True,True,"A, B, A, C, B","A, B, A, C, B",['content_error'],['content_error']
+IN020,instruction,False,False,True,True,0,0,['content_error'],['content_error']
+IN021,instruction,False,False,True,True,2026/04/09,2026/04/09,['content_error'],['content_error']
+IN022,instruction,True,True,True,True,晚上好,晚上好,[],[]
+IN023,instruction,False,False,False,False,"1,4,7,10","7,10",['content_error'],['content_error']
+IN024,instruction,False,False,True,True,火水,火水,['content_error'],['content_error']
+IN025,instruction,True,True,True,True,Z:8,Z:8,[],[]
+QA001,qa,True,True,True,True,厨房,厨房,[],[]
+QA002,qa,True,True,True,True,王琳,王琳,[],[]
+QA003,qa,False,False,True,True,公园。,公园。,['content_error'],['content_error']
+QA004,qa,True,True,True,True,地铁,地铁,[],[]
+QA005,qa,False,False,True,True,周几,周几,['content_error'],['content_error']
+QA006,qa,False,False,True,True,R20放在前台。,R20放在前台。,['content_error'],['content_error']
+QA007,qa,True,True,True,True,雪球,雪球,[],[]
+QA008,qa,True,True,True,True,面条,面条,[],[]
+QA009,qa,True,True,True,True,18:30,18:30,[],[]
+QA010,qa,False,False,True,True,张老师。,张老师。,['content_error'],['content_error']
+QA011,qa,False,False,False,False,"7 + 8 = 15
+
+所以答案是：15。",25,['format_error'],['content_error']
+QA012,qa,False,False,True,True,"20 - 6 = 14
+
+20 - 6 = 14","20 - 6 = 14
+
+20 - 6 = 14",['format_error'],['format_error']
+QA013,qa,False,False,False,False,9,4,['content_error'],['content_error']
+QA014,qa,False,False,False,False,9,2,['content_error'],['content_error']
+QA015,qa,False,False,False,False,25,20,['content_error'],['content_error']
+QA016,qa,True,True,True,True,2,2,[],[]
+QA017,qa,False,False,False,False,"2 + 3 = 5 → 5
+
+5",2 + 3 = 5 → 5个水果。,['format_error'],['content_error']
+QA018,qa,False,False,True,True,2,2,['content_error'],['content_error']
+QA019,qa,False,False,True,True,2,2,['content_error'],['content_error']
+QA020,qa,False,False,False,False,20,2,['content_error'],['content_error']
+QA021,qa,True,True,True,True,北京,北京,[],[]
+QA022,qa,True,False,False,False,12,24,[],['content_error']
+QA023,qa,False,True,False,False,太阳升起的方向是东边。,东,['content_error'],[]
+QA024,qa,False,False,False,False,2.12,212.1,['content_error'],['content_error']
+QA025,qa,False,False,True,True,上,上,['content_error'],['content_error']

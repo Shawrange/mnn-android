@@ -1,0 +1,12 @@
+{
+  "id": "IN004",
+  "category": "instruction",
+  "success": false,
+  "answer_matches": false,
+  "format_valid": true,
+  "flags": [
+    "content_error"
+  ],
+  "normalized_text": "2,5,8,11",
+  "parsed_json": null
+}

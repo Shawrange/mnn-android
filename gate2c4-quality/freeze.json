@@ -1,0 +1,34 @@
+{
+  "frozen_at_utc": "2026-11-09T07:57:54.235571+00:00",
+  "formal_case_count": 100,
+  "per_category": 25,
+  "pilot_separate": true,
+  "pilot_session": "results\\pilot-20261109T074605Z-464306",
+  "scorer_tests_exit_code": 0,
+  "sha256": {
+    "datasets/formal.jsonl": "07f44c4bdc0a5f843a1cf6be72cf1773e05aca34bbfffc8feeb48dc9af440f57",
+    "datasets/pilot.jsonl": "736fe143ce78c3d8ceadb9a674100c2702c785c6334db6469d75f67b61f3f5b4",
+    "protocol.md": "07d288d2eb9cbc5dfeae28ae7a107dfcaa99d194f101a4d25730c0a2ee97c524",
+    "configs/runtime.json": "bbadbe4d53d3493620ed7d1dfca2c3977ec59d8ec9c6e9ae88202ad6ef145ea3",
+    "scripts/score.py": "b922bae6aaed57f7f17917c8bdde5637955f81343fbd7238619c18cdbbb0fa4a",
+    "scripts/test_score.py": "4e25f45867cb8ab7f632be998678e081e19690ce4389d201fa9a375fa2970969",
+    "scripts/quality_probe.cpp": "0641c621e8916a6fd1798d3e55529b51a661c1465f5308b709e09c8564a8ff26",
+    "scripts/run.py": "24bcd7afbcf26b4fbbed5ef4aa719e28e155cc94d8dd086c6b9fd6eb2c792c42",
+    "scripts/make_formal.py": "d73e11229dee80af13fa97c9e9729673cc20cd8088bc9a1928a4eb55add48365",
+    "staging/quality_probe": "92ff4653baf97d9247c9d05643c6e361d530adeac63a212860519894ead88282"
+  },
+  "thresholds": {
+    "classification_min": 23,
+    "extraction_min": 22,
+    "instruction_min": 23,
+    "qa_min": 23,
+    "overall_min": 92,
+    "extraction_format_min": 24,
+    "natural_eos_min": 99,
+    "runtime_errors_max": 0,
+    "gpu_minus_cpu_min": -0.04,
+    "per_category_delta_min": -0.08,
+    "cpu_only_max": 5,
+    "paired_CI_lower_min": -0.1
+  }
+}

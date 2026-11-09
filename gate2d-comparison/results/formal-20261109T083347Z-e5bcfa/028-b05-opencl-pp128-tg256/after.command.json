@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "echo @@BATTERY\ndumpsys battery\necho @@THERMAL\ndumpsys thermalservice\nfor p in /sys/devices/system/cpu/cpufreq/policy*; do\n echo \"@@POLICY ${p##*/}\"\n for f in scaling_cur_freq scaling_min_freq scaling_max_freq cpuinfo_max_freq scaling_governor related_cpus; do\n  printf '%s=' \"$f\"; cat \"$p/$f\"\n done\ndone\necho @@MEMORY\ncat /proc/meminfo\necho @@LOAD\ncat /proc/loadavg\necho @@POWER\ndumpsys power | grep -E 'mWakefulness=|Display Power: state='\necho @@GPU_SYSFS\nfor f in /sys/class/kgsl/kgsl-3d0/gpuclk /sys/class/kgsl/kgsl-3d0/devfreq/cur_freq /sys/class/kgsl/kgsl-3d0/gpubusy; do\n printf '%s=' \"$f\"; cat \"$f\"\ndone\ntrue\n"
+  ],
+  "started_at_utc": "2026-11-09T08:43:45.208717+00:00",
+  "ended_at_utc": "2026-11-09T08:43:45.578741+00:00",
+  "elapsed_seconds": 0.36973160004708916,
+  "exit_code": 0
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "pull",
+    "/data/local/tmp/mnn-gate2d-20261109T082806Z-5d76d2/cpu/sample-010.json",
+    "E:\\DUANCE\\gate2d-comparison\\results\\formal-20261109T083347Z-e5bcfa\\010-b02-cpu-pp128-tg256\\benchmark.json"
+  ],
+  "started_at_utc": "2026-11-09T08:37:22.941008+00:00",
+  "ended_at_utc": "2026-11-09T08:37:22.968020+00:00",
+  "elapsed_seconds": 0.027299500070512295,
+  "exit_code": 0
+}

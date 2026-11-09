@@ -1,0 +1,13 @@
+{
+  "id": "QA003",
+  "split": "formal",
+  "category": "qa",
+  "input": "短文：周六上午参观博物馆，下午去公园。问：下午去哪里？只输出地点。",
+  "gold": "公园",
+  "variants": [
+    "公园"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "公园"
+}

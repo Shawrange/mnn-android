@@ -1,0 +1,13 @@
+{
+  "id": "QA020",
+  "split": "formal",
+  "category": "qa",
+  "input": "小雨原有6张卡片，又得到2张，送出1张，现在几张？只输出阿拉伯数字。",
+  "gold": "7",
+  "variants": [
+    "7"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "7"
+}

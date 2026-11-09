@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "cd /data/local/tmp/mnn-gate2c3-q-only-20261109T070717Z-360e22/natural-cpu-low && LD_LIBRARY_PATH=/data/local/tmp/mnn-gate2c3-q-only-20261109T070717Z-360e22/cpu /system/bin/timeout 90 /data/local/tmp/mnn-gate2c3-q-only-20261109T070717Z-360e22/cpu/replay /data/local/tmp/mnn-gate0-20261108T134731469951Z/Qwen3-0.6B-MNN/llm.mnn cpu low low /data/local/tmp/mnn-gate2c3-q-only-20261109T070717Z-360e22/natural-cpu-low/input.f32 /data/local/tmp/mnn-gate2c3-q-only-20261109T070717Z-360e22/natural-cpu-low/out/sample 13"
+  ],
+  "started_at_utc": "2026-11-09T07:07:25.220993+00:00",
+  "ended_at_utc": "2026-11-09T07:07:25.386936+00:00",
+  "elapsed_seconds": 0.16641689999960363,
+  "exit_code": 0
+}

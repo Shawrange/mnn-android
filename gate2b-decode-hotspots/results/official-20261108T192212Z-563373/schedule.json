@@ -1,0 +1,146 @@
+[
+  {
+    "block": 1,
+    "mode": "off",
+    "tg": 256,
+    "tool": "official"
+  },
+  {
+    "block": 1,
+    "mode": "off",
+    "tg": 64,
+    "tool": "official"
+  },
+  {
+    "block": 1,
+    "mode": "profile",
+    "tg": 256,
+    "tool": "official"
+  },
+  {
+    "block": 1,
+    "mode": "profile",
+    "tg": 64,
+    "tool": "official"
+  },
+  {
+    "block": 2,
+    "mode": "off",
+    "tg": 64,
+    "tool": "official"
+  },
+  {
+    "block": 2,
+    "mode": "off",
+    "tg": 256,
+    "tool": "official"
+  },
+  {
+    "block": 2,
+    "mode": "profile",
+    "tg": 64,
+    "tool": "official"
+  },
+  {
+    "block": 2,
+    "mode": "profile",
+    "tg": 256,
+    "tool": "official"
+  },
+  {
+    "block": 3,
+    "mode": "profile",
+    "tg": 256,
+    "tool": "official"
+  },
+  {
+    "block": 3,
+    "mode": "off",
+    "tg": 256,
+    "tool": "official"
+  },
+  {
+    "block": 3,
+    "mode": "off",
+    "tg": 64,
+    "tool": "official"
+  },
+  {
+    "block": 3,
+    "mode": "profile",
+    "tg": 64,
+    "tool": "official"
+  },
+  {
+    "block": 4,
+    "mode": "off",
+    "tg": 64,
+    "tool": "official"
+  },
+  {
+    "block": 4,
+    "mode": "profile",
+    "tg": 64,
+    "tool": "official"
+  },
+  {
+    "block": 4,
+    "mode": "profile",
+    "tg": 256,
+    "tool": "official"
+  },
+  {
+    "block": 4,
+    "mode": "off",
+    "tg": 256,
+    "tool": "official"
+  },
+  {
+    "block": 5,
+    "mode": "off",
+    "tg": 64,
+    "tool": "official"
+  },
+  {
+    "block": 5,
+    "mode": "profile",
+    "tg": 64,
+    "tool": "official"
+  },
+  {
+    "block": 5,
+    "mode": "profile",
+    "tg": 256,
+    "tool": "official"
+  },
+  {
+    "block": 5,
+    "mode": "off",
+    "tg": 256,
+    "tool": "official"
+  },
+  {
+    "block": 6,
+    "mode": "off",
+    "tg": 256,
+    "tool": "official"
+  },
+  {
+    "block": 6,
+    "mode": "off",
+    "tg": 64,
+    "tool": "official"
+  },
+  {
+    "block": 6,
+    "mode": "profile",
+    "tg": 64,
+    "tool": "official"
+  },
+  {
+    "block": 6,
+    "mode": "profile",
+    "tg": 256,
+    "tool": "official"
+  }
+]

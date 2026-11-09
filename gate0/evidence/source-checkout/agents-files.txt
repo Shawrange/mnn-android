@@ -1,0 +1,2 @@
+/home/shawrange/src/MNN-3.6.2/apps/mnncli/AGENTS.md
+/home/shawrange/src/MNN-3.6.2/AGENTS.md

@@ -1,0 +1,19 @@
+{
+  "backend": "opencl",
+  "gen_seq_len": 14,
+  "generated_count": 14,
+  "id": "QA017",
+  "initial_kv": 0,
+  "input_len": 71,
+  "kv_after": 84,
+  "mode": "generate",
+  "prompt_len": 71,
+  "status": 1,
+  "stop_token": 151645,
+  "stopped": true,
+  "thinking": false,
+  "process_exit": 0,
+  "runtime_ok": true,
+  "raw_text": "2 + 3 = 5 → 5个水果。",
+  "valid_utf8": true
+}

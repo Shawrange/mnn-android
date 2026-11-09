@@ -1,0 +1,13 @@
+{
+  "id": "QA019",
+  "split": "formal",
+  "category": "qa",
+  "input": "从星期一到星期三，包含首尾，一共几天？只输出阿拉伯数字。",
+  "gold": "3",
+  "variants": [
+    "3"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "3"
+}

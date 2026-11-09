@@ -1,0 +1,19 @@
+{
+  "backend": "cpu",
+  "gen_seq_len": 17,
+  "generated_count": 17,
+  "id": "QA011",
+  "initial_kv": 0,
+  "input_len": 59,
+  "kv_after": 75,
+  "mode": "generate",
+  "prompt_len": 59,
+  "status": 1,
+  "stop_token": 151645,
+  "stopped": true,
+  "thinking": false,
+  "process_exit": 0,
+  "runtime_ok": true,
+  "raw_text": "7 + 8 = 15\n\n所以答案是：15。",
+  "valid_utf8": true
+}

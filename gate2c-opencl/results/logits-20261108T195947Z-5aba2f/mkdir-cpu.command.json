@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "mkdir -p /data/local/tmp/mnn-gate2c-20261108/oracle-cpu"
+  ],
+  "started_at_utc": "2026-11-08T19:59:47.608780+00:00",
+  "ended_at_utc": "2026-11-08T19:59:47.666003+00:00",
+  "elapsed_seconds": 0.057614600053057075,
+  "exit_code": 0
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "cd /data/local/tmp/mnn-gate2c4-gpu-evidence-20261109T080311Z-267d0e/profile && LD_LIBRARY_PATH=. /system/bin/timeout 180 ./quality_probe /data/local/tmp/mnn-gate0-20261108T134731469951Z/Qwen3-0.6B-MNN/config.cpu.json opencl runtime.json /data/local/tmp/mnn-gate2c4-gpu-evidence-20261109T080311Z-267d0e/profile/CL001/request.json /data/local/tmp/mnn-gate2c4-gpu-evidence-20261109T080311Z-267d0e/profile/CL001/sample generate"
+  ],
+  "started_at_utc": "2026-11-09T08:03:12.727520+00:00",
+  "ended_at_utc": "2026-11-09T08:03:15.881629+00:00",
+  "elapsed_seconds": 3.153742599999532,
+  "exit_code": 0
+}

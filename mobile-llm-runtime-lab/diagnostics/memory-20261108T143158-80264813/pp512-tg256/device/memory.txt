@@ -1,0 +1,589 @@
+@@SAMPLE 1794148418 4801.80 33378.75
+Name:	llm_bench
+Pid:	30030
+VmHWM:	   19224 kB
+VmRSS:	   19224 kB
+VmSwap:	       0 kB
+status_exit=0
+63cd720000-7ffb5dd000 ---p 00000000 00:00 0                              [rollup]
+Rss:               28260 kB
+Pss:                8622 kB
+Pss_Dirty:          3172 kB
+Pss_Anon:           3172 kB
+Pss_File:           5449 kB
+Pss_Shmem:             1 kB
+Shared_Clean:      21012 kB
+Shared_Dirty:        268 kB
+Private_Clean:      3808 kB
+Private_Dirty:      3172 kB
+Referenced:        27544 kB
+Anonymous:          3172 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+smaps_exit=0
+@@SAMPLE 1794148418 4802.36 33382.51
+Name:	llm_bench
+Pid:	30030
+VmHWM:	  925416 kB
+VmRSS:	  578000 kB
+VmSwap:	       0 kB
+status_exit=0
+63cd720000-7ffb5dd000 ---p 00000000 00:00 0                              [rollup]
+Rss:              586756 kB
+Pss:              552033 kB
+Pss_Dirty:        540174 kB
+Pss_Anon:         540172 kB
+Pss_File:          11855 kB
+Pss_Shmem:             6 kB
+Shared_Clean:      36664 kB
+Shared_Dirty:        640 kB
+Private_Clean:      9280 kB
+Private_Dirty:    540172 kB
+Referenced:       583800 kB
+Anonymous:        540172 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+smaps_exit=0
+@@SAMPLE 1794148419 4802.92 33384.68
+Name:	llm_bench
+Pid:	30030
+VmHWM:	  925416 kB
+VmRSS:	  633472 kB
+VmSwap:	       0 kB
+status_exit=0
+63cd720000-7ffb5dd000 ---p 00000000 00:00 0                              [rollup]
+Rss:              633472 kB
+Pss:              598747 kB
+Pss_Dirty:        586890 kB
+Pss_Anon:         586888 kB
+Pss_File:          11853 kB
+Pss_Shmem:             6 kB
+Shared_Clean:      36664 kB
+Shared_Dirty:        640 kB
+Private_Clean:      9280 kB
+Private_Dirty:    586888 kB
+Referenced:       630520 kB
+Anonymous:        586888 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+smaps_exit=0
+@@SAMPLE 1794148420 4803.46 33386.23
+Name:	llm_bench
+Pid:	30030
+VmHWM:	  925416 kB
+VmRSS:	  667868 kB
+VmSwap:	       0 kB
+status_exit=0
+63cd720000-7ffb5dd000 ---p 00000000 00:00 0                              [rollup]
+Rss:              667868 kB
+Pss:              633145 kB
+Pss_Dirty:        621286 kB
+Pss_Anon:         621284 kB
+Pss_File:          11855 kB
+Pss_Shmem:             6 kB
+Shared_Clean:      36664 kB
+Shared_Dirty:        640 kB
+Private_Clean:      9280 kB
+Private_Dirty:    621284 kB
+Referenced:       664916 kB
+Anonymous:        621284 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+smaps_exit=0
+@@SAMPLE 1794148420 4804.00 33387.71
+Name:	llm_bench
+Pid:	30030
+VmHWM:	  925416 kB
+VmRSS:	  654024 kB
+VmSwap:	       0 kB
+status_exit=0
+63cd720000-7ffb5dd000 ---p 00000000 00:00 0                              [rollup]
+Rss:              654120 kB
+Pss:              619396 kB
+Pss_Dirty:        607538 kB
+Pss_Anon:         607536 kB
+Pss_File:          11854 kB
+Pss_Shmem:             6 kB
+Shared_Clean:      36664 kB
+Shared_Dirty:        640 kB
+Private_Clean:      9280 kB
+Private_Dirty:    607536 kB
+Referenced:       651168 kB
+Anonymous:        607536 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+smaps_exit=0
+@@SAMPLE 1794148421 4804.55 33389.24
+Name:	llm_bench
+Pid:	30030
+VmHWM:	  925416 kB
+VmRSS:	  694016 kB
+VmSwap:	       0 kB
+status_exit=0
+63cd720000-7ffb5dd000 ---p 00000000 00:00 0                              [rollup]
+Rss:              694016 kB
+Pss:              659294 kB
+Pss_Dirty:        647434 kB
+Pss_Anon:         647432 kB
+Pss_File:          11856 kB
+Pss_Shmem:             6 kB
+Shared_Clean:      36664 kB
+Shared_Dirty:        640 kB
+Private_Clean:      9280 kB
+Private_Dirty:    647432 kB
+Referenced:       691064 kB
+Anonymous:        647432 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+smaps_exit=0
+@@SAMPLE 1794148421 4805.11 33390.80
+Name:	llm_bench
+Pid:	30030
+VmHWM:	  925416 kB
+VmRSS:	  694016 kB
+VmSwap:	       0 kB
+status_exit=0
+63cd720000-7ffb5dd000 ---p 00000000 00:00 0                              [rollup]
+Rss:              694016 kB
+Pss:              659295 kB
+Pss_Dirty:        647434 kB
+Pss_Anon:         647432 kB
+Pss_File:          11856 kB
+Pss_Shmem:             6 kB
+Shared_Clean:      36664 kB
+Shared_Dirty:        640 kB
+Private_Clean:      9280 kB
+Private_Dirty:    647432 kB
+Referenced:       691064 kB
+Anonymous:        647432 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+smaps_exit=0
+@@SAMPLE 1794148422 4805.67 33392.38
+Name:	llm_bench
+Pid:	30030
+VmHWM:	  925416 kB
+VmRSS:	  708832 kB
+VmSwap:	       0 kB
+status_exit=0
+63cd720000-7ffb5dd000 ---p 00000000 00:00 0                              [rollup]
+Rss:              708832 kB
+Pss:              674111 kB
+Pss_Dirty:        662250 kB
+Pss_Anon:         662248 kB
+Pss_File:          11856 kB
+Pss_Shmem:             6 kB
+Shared_Clean:      36664 kB
+Shared_Dirty:        640 kB
+Private_Clean:      9280 kB
+Private_Dirty:    662248 kB
+Referenced:       705880 kB
+Anonymous:        662248 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+smaps_exit=0
+@@SAMPLE 1794148422 4806.22 33393.83
+Name:	llm_bench
+Pid:	30030
+VmHWM:	  925416 kB
+VmRSS:	  719968 kB
+VmSwap:	       0 kB
+status_exit=0
+63cd720000-7ffb5dd000 ---p 00000000 00:00 0                              [rollup]
+Rss:              719968 kB
+Pss:              685244 kB
+Pss_Dirty:        673386 kB
+Pss_Anon:         673384 kB
+Pss_File:          11854 kB
+Pss_Shmem:             6 kB
+Shared_Clean:      36664 kB
+Shared_Dirty:        640 kB
+Private_Clean:      9280 kB
+Private_Dirty:    673384 kB
+Referenced:       717016 kB
+Anonymous:        673384 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+smaps_exit=0
+@@SAMPLE 1794148423 4806.78 33394.83
+Name:	llm_bench
+Pid:	30030
+VmHWM:	  925416 kB
+VmRSS:	  719968 kB
+VmSwap:	       0 kB
+status_exit=0
+63cd720000-7ffb5dd000 ---p 00000000 00:00 0                              [rollup]
+Rss:              719968 kB
+Pss:              685260 kB
+Pss_Dirty:        673386 kB
+Pss_Anon:         673384 kB
+Pss_File:          11870 kB
+Pss_Shmem:             6 kB
+Shared_Clean:      36636 kB
+Shared_Dirty:        640 kB
+Private_Clean:      9308 kB
+Private_Dirty:    673384 kB
+Referenced:       717016 kB
+Anonymous:        673384 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+smaps_exit=0
+@@SAMPLE 1794148423 4807.34 33396.47
+Name:	llm_bench
+Pid:	30030
+VmHWM:	  925416 kB
+VmRSS:	  731236 kB
+VmSwap:	       0 kB
+status_exit=0
+63cd720000-7ffb5dd000 ---p 00000000 00:00 0                              [rollup]
+Rss:              731236 kB
+Pss:              696526 kB
+Pss_Dirty:        684654 kB
+Pss_Anon:         684652 kB
+Pss_File:          11868 kB
+Pss_Shmem:             6 kB
+Shared_Clean:      36636 kB
+Shared_Dirty:        640 kB
+Private_Clean:      9308 kB
+Private_Dirty:    684652 kB
+Referenced:       728284 kB
+Anonymous:        684652 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+smaps_exit=0
+@@SAMPLE 1794148424 4807.89 33398.58
+Name:	llm_bench
+Pid:	30030
+VmHWM:	  925416 kB
+VmRSS:	  731236 kB
+VmSwap:	       0 kB
+status_exit=0
+63cd720000-7ffb5dd000 ---p 00000000 00:00 0                              [rollup]
+Rss:              731236 kB
+Pss:              696527 kB
+Pss_Dirty:        684654 kB
+Pss_Anon:         684652 kB
+Pss_File:          11869 kB
+Pss_Shmem:             6 kB
+Shared_Clean:      36636 kB
+Shared_Dirty:        640 kB
+Private_Clean:      9308 kB
+Private_Dirty:    684652 kB
+Referenced:       728284 kB
+Anonymous:        684652 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+smaps_exit=0
+@@SAMPLE 1794148425 4808.43 33400.67
+Name:	llm_bench
+Pid:	30030
+VmHWM:	  925416 kB
+VmRSS:	  731236 kB
+VmSwap:	       0 kB
+status_exit=0
+63cd720000-7ffb5dd000 ---p 00000000 00:00 0                              [rollup]
+Rss:              731236 kB
+Pss:              696530 kB
+Pss_Dirty:        684654 kB
+Pss_Anon:         684652 kB
+Pss_File:          11871 kB
+Pss_Shmem:             6 kB
+Shared_Clean:      36636 kB
+Shared_Dirty:        640 kB
+Private_Clean:      9308 kB
+Private_Dirty:    684652 kB
+Referenced:       728284 kB
+Anonymous:        684652 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+smaps_exit=0
+@@SAMPLE 1794148425 4808.98 33402.80
+Name:	llm_bench
+Pid:	30030
+VmHWM:	  925416 kB
+VmRSS:	  672520 kB
+VmSwap:	       0 kB
+status_exit=0
+63cd720000-7ffb5dd000 ---p 00000000 00:00 0                              [rollup]
+Rss:              672520 kB
+Pss:              637813 kB
+Pss_Dirty:        625938 kB
+Pss_Anon:         625936 kB
+Pss_File:          11871 kB
+Pss_Shmem:             6 kB
+Shared_Clean:      36636 kB
+Shared_Dirty:        640 kB
+Private_Clean:      9308 kB
+Private_Dirty:    625936 kB
+Referenced:       669568 kB
+Anonymous:        625936 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+smaps_exit=0
+@@SAMPLE 1794148426 4809.54 33404.92
+Name:	llm_bench
+Pid:	30030
+VmHWM:	  925416 kB
+VmRSS:	  672520 kB
+VmSwap:	       0 kB
+status_exit=0
+63cd720000-7ffb5dd000 ---p 00000000 00:00 0                              [rollup]
+Rss:              672520 kB
+Pss:              637799 kB
+Pss_Dirty:        625938 kB
+Pss_Anon:         625936 kB
+Pss_File:          11857 kB
+Pss_Shmem:             6 kB
+Shared_Clean:      36664 kB
+Shared_Dirty:        640 kB
+Private_Clean:      9280 kB
+Private_Dirty:    625936 kB
+Referenced:       669568 kB
+Anonymous:        625936 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+smaps_exit=0
+@@SAMPLE 1794148426 4810.10 33407.05
+Name:	llm_bench
+Pid:	30030
+VmHWM:	  925416 kB
+VmRSS:	  673932 kB
+VmSwap:	       0 kB
+status_exit=0
+63cd720000-7ffb5dd000 ---p 00000000 00:00 0                              [rollup]
+Rss:              673932 kB
+Pss:              639211 kB
+Pss_Dirty:        627350 kB
+Pss_Anon:         627348 kB
+Pss_File:          11856 kB
+Pss_Shmem:             6 kB
+Shared_Clean:      36664 kB
+Shared_Dirty:        640 kB
+Private_Clean:      9280 kB
+Private_Dirty:    627348 kB
+Referenced:       670980 kB
+Anonymous:        627348 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+smaps_exit=0
+@@SAMPLE 1794148427 4810.65 33409.19
+Name:	llm_bench
+Pid:	30030
+VmHWM:	  925416 kB
+VmRSS:	  675344 kB
+VmSwap:	       0 kB
+status_exit=0
+63cd720000-7ffb5dd000 ---p 00000000 00:00 0                              [rollup]
+Rss:              675344 kB
+Pss:              640624 kB
+Pss_Dirty:        628762 kB
+Pss_Anon:         628760 kB
+Pss_File:          11857 kB
+Pss_Shmem:             6 kB
+Shared_Clean:      36664 kB
+Shared_Dirty:        640 kB
+Private_Clean:      9280 kB
+Private_Dirty:    628760 kB
+Referenced:       672392 kB
+Anonymous:        628760 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+smaps_exit=0
+@@SAMPLE 1794148427 4811.20 33411.32
+Name:	llm_bench
+Pid:	30030
+VmHWM:	  925416 kB
+VmRSS:	  675344 kB
+VmSwap:	       0 kB
+status_exit=0
+63cd720000-7ffb5dd000 ---p 00000000 00:00 0                              [rollup]
+Rss:              675344 kB
+Pss:              640623 kB
+Pss_Dirty:        628762 kB
+Pss_Anon:         628760 kB
+Pss_File:          11857 kB
+Pss_Shmem:             6 kB
+Shared_Clean:      36664 kB
+Shared_Dirty:        640 kB
+Private_Clean:      9280 kB
+Private_Dirty:    628760 kB
+Referenced:       672392 kB
+Anonymous:        628760 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+smaps_exit=0
+@@SAMPLE 1794148428 4811.76 33413.46
+Name:	llm_bench
+Pid:	30030
+VmHWM:	  925416 kB
+VmRSS:	  678840 kB
+VmSwap:	       0 kB
+status_exit=0
+63cd720000-7ffb5dd000 ---p 00000000 00:00 0                              [rollup]
+Rss:              678840 kB
+Pss:              644117 kB
+Pss_Dirty:        632258 kB
+Pss_Anon:         632256 kB
+Pss_File:          11854 kB
+Pss_Shmem:             6 kB
+Shared_Clean:      36664 kB
+Shared_Dirty:        640 kB
+Private_Clean:      9280 kB
+Private_Dirty:    632256 kB
+Referenced:       675888 kB
+Anonymous:        632256 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+smaps_exit=0

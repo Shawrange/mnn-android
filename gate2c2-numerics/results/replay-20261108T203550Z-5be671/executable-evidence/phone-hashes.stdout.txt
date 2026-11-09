@@ -1,0 +1,4 @@
+47b5db44b7acdaee876c733473ea9124cf71b645b6e53976d3bfd6ad313d120e  /data/local/tmp/mnn-gate2c2-replay-20261108T203550Z-5be671/cpu/libMNN.so
+a64e5fde6f79def83126260520cc4c8baebe2a4d73fadb5b6d78c5b344ff534a  /data/local/tmp/mnn-gate2c2-replay-20261108T203550Z-5be671/cpu/replay
+4c66c06bbc083f3d123e62cdd6ec62a644e7a120d5a1509f297ffe856efa8f61  /data/local/tmp/mnn-gate2c2-replay-20261108T203550Z-5be671/opencl/libMNN.so
+a64e5fde6f79def83126260520cc4c8baebe2a4d73fadb5b6d78c5b344ff534a  /data/local/tmp/mnn-gate2c2-replay-20261108T203550Z-5be671/opencl/replay

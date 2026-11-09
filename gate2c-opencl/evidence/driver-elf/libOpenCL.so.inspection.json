@@ -1,0 +1,15 @@
+{
+  "command": [
+    "wsl",
+    "-d",
+    "Ubuntu",
+    "--",
+    "/home/shawrange/Android/android-ndk-r27c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-readelf",
+    "-h",
+    "-d",
+    "/mnt/e/DUANCE/gate2c-opencl/evidence/driver-elf/libOpenCL.so"
+  ],
+  "exit_code": 0,
+  "sha256": "22f55647ad320fbd0b1a0b453fa964e7ec1a5176044cd67ab05e3da0bad991dd",
+  "checked_at_utc": "2026-11-08T20:06:42.461779+00:00"
+}

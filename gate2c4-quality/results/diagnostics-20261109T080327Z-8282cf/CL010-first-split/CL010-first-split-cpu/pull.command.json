@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "pull",
+    "/data/local/tmp/mnn-gate2c4-diagnostics-20261109T080327Z-8282cf/cpu/CL010-first-split",
+    "E:\\DUANCE\\gate2c4-quality\\results\\diagnostics-20261109T080327Z-8282cf\\CL010-first-split\\CL010-first-split-cpu\\device"
+  ],
+  "started_at_utc": "2026-11-09T08:03:52.695666+00:00",
+  "ended_at_utc": "2026-11-09T08:03:52.739122+00:00",
+  "elapsed_seconds": 0.04359959997236729,
+  "exit_code": 0
+}

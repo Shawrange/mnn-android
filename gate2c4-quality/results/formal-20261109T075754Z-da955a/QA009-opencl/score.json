@@ -1,0 +1,10 @@
+{
+  "id": "QA009",
+  "category": "qa",
+  "success": true,
+  "answer_matches": true,
+  "format_valid": true,
+  "flags": [],
+  "normalized_text": "18:30",
+  "parsed_json": null
+}

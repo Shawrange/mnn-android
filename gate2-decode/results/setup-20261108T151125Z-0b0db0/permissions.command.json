@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "cat /sys/class/thermal/thermal_zone0/temp; cat /proc/self/schedstat; ls /data/local/tmp"
+  ],
+  "started_at_utc": "2026-11-08T15:11:26.001819+00:00",
+  "ended_at_utc": "2026-11-08T15:11:26.073840+00:00",
+  "elapsed_seconds": 0.07124120008666068,
+  "exit_code": 0
+}

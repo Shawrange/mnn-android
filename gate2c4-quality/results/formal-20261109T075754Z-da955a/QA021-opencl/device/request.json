@@ -1,0 +1,14 @@
+{
+  "id": "QA021",
+  "split": "formal",
+  "category": "qa",
+  "input": "中国的首都是哪座城市？只输出城市名，不加标点。",
+  "gold": "北京",
+  "variants": [
+    "北京",
+    "北京市"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "北京"
+}

@@ -1,0 +1,6 @@
+{
+  "staging\\cpu\\libMNN.so": "47b5db44b7acdaee876c733473ea9124cf71b645b6e53976d3bfd6ad313d120e",
+  "staging\\cpu\\llm_bench": "fd85bf65a75656d023feb9e2ad315f6ee7c6033c8f1591a835e54d2985db4676",
+  "staging\\opencl\\libMNN.so": "4c66c06bbc083f3d123e62cdd6ec62a644e7a120d5a1509f297ffe856efa8f61",
+  "staging\\opencl\\llm_bench": "fd85bf65a75656d023feb9e2ad315f6ee7c6033c8f1591a835e54d2985db4676"
+}

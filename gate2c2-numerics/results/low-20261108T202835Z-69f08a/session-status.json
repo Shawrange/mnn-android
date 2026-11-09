@@ -1,0 +1,86 @@
+{
+  "status": "completed",
+  "runs": [
+    {
+      "backend": "cpu",
+      "precision": "low",
+      "kind": "synthetic",
+      "mode": "off",
+      "process": 0,
+      "exit_code": 0,
+      "directory": "results\\low-20261108T202835Z-69f08a\\cpu-low-synthetic-off-p0",
+      "valid": true
+    },
+    {
+      "backend": "opencl",
+      "precision": "low",
+      "kind": "synthetic",
+      "mode": "off",
+      "process": 0,
+      "exit_code": 0,
+      "directory": "results\\low-20261108T202835Z-69f08a\\opencl-low-synthetic-off-p0",
+      "valid": true
+    },
+    {
+      "backend": "cpu",
+      "precision": "low",
+      "kind": "natural",
+      "mode": "off",
+      "process": 0,
+      "exit_code": 0,
+      "directory": "results\\low-20261108T202835Z-69f08a\\cpu-low-natural-off-p0",
+      "valid": true
+    },
+    {
+      "backend": "opencl",
+      "precision": "low",
+      "kind": "natural",
+      "mode": "off",
+      "process": 0,
+      "exit_code": 0,
+      "directory": "results\\low-20261108T202835Z-69f08a\\opencl-low-natural-off-p0",
+      "valid": true
+    },
+    {
+      "backend": "cpu",
+      "precision": "low",
+      "kind": "synthetic",
+      "mode": "off",
+      "process": 1,
+      "exit_code": 0,
+      "directory": "results\\low-20261108T202835Z-69f08a\\cpu-low-synthetic-off-p1",
+      "valid": true
+    },
+    {
+      "backend": "opencl",
+      "precision": "low",
+      "kind": "synthetic",
+      "mode": "off",
+      "process": 1,
+      "exit_code": 0,
+      "directory": "results\\low-20261108T202835Z-69f08a\\opencl-low-synthetic-off-p1",
+      "valid": true
+    },
+    {
+      "backend": "cpu",
+      "precision": "low",
+      "kind": "natural",
+      "mode": "off",
+      "process": 1,
+      "exit_code": 0,
+      "directory": "results\\low-20261108T202835Z-69f08a\\cpu-low-natural-off-p1",
+      "valid": true
+    },
+    {
+      "backend": "opencl",
+      "precision": "low",
+      "kind": "natural",
+      "mode": "off",
+      "process": 1,
+      "exit_code": 0,
+      "directory": "results\\low-20261108T202835Z-69f08a\\opencl-low-natural-off-p1",
+      "valid": true
+    }
+  ],
+  "ended_at_utc": "2026-11-08T20:28:55.401971+00:00"
+}

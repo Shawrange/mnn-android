@@ -1,0 +1,34 @@
+{
+  "CMAKE_CACHEFILE_DIR": {
+    "cpu": "/home/shawrange/src/MNN-3.6.2/build-android-arm64-cpu-gate0",
+    "gpu": "/home/shawrange/src/MNN-3.6.2/build-android-arm64-opencl-gate2c-profile"
+  },
+  "CMAKE_CXX_FLAGS": {
+    "cpu": "",
+    "gpu": "-DOPENCL_FALLBACK_LOG"
+  },
+  "CMAKE_FIND_PACKAGE_REDIRECTS_DIR": {
+    "cpu": "/home/shawrange/src/MNN-3.6.2/build-android-arm64-cpu-gate0/CMakeFiles/pkgRedirects",
+    "gpu": "/home/shawrange/src/MNN-3.6.2/build-android-arm64-opencl-gate2c-profile/CMakeFiles/pkgRedirects"
+  },
+  "CMAKE_NUMBER_OF_MAKEFILES": {
+    "cpu": "4",
+    "gpu": "5"
+  },
+  "MNN_BINARY_DIR": {
+    "cpu": "/home/shawrange/src/MNN-3.6.2/build-android-arm64-cpu-gate0",
+    "gpu": "/home/shawrange/src/MNN-3.6.2/build-android-arm64-opencl-gate2c-profile"
+  },
+  "MNN_GPU_TIME_PROFILE": {
+    "cpu": "OFF",
+    "gpu": "ON"
+  },
+  "MNN_OPENCL": {
+    "cpu": "OFF",
+    "gpu": "ON"
+  },
+  "MNN_OPENCL_SIZE_CUT": {
+    "cpu": null,
+    "gpu": "OFF"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "scope": "Two small prefill-only numerical capability probes; not a performance baseline",
+  "model": "/data/local/tmp/mnn-gate0-20261108T134731469951Z/Qwen3-0.6B-MNN",
+  "criteria_file": "GPU正确性对照计划.md",
+  "started_at_utc": "2026-11-08T19:59:47.607781+00:00"
+}

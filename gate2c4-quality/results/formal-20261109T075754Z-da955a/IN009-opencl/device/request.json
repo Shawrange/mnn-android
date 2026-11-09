@@ -1,0 +1,13 @@
+{
+  "id": "IN009",
+  "split": "formal",
+  "category": "instruction",
+  "input": "把“甲 乙 丙”中的空格全部删除。只输出结果。",
+  "gold": "甲乙丙",
+  "variants": [
+    "甲乙丙"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "甲乙丙"
+}

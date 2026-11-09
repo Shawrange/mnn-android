@@ -1,0 +1,196 @@
+[
+  {
+    "uptime": 7478.5,
+    "policies": {
+      "policy0": {
+        "cur": 2400000,
+        "max": 2745600
+      },
+      "policy6": {
+        "cur": 1017600,
+        "max": 2649600
+      }
+    },
+    "tasks": {
+      "25337": {
+        "cpu_ns": 70053652,
+        "wait_ns": 97656,
+        "slices": 4,
+        "vol": 0,
+        "invol": 3
+      }
+    }
+  },
+  {
+    "uptime": 7479.09,
+    "policies": {
+      "policy0": {
+        "cur": 1152000,
+        "max": 2745600
+      },
+      "policy6": {
+        "cur": 2649600,
+        "max": 2649600
+      }
+    },
+    "tasks": {
+      "25337": {
+        "cpu_ns": 685815005,
+        "wait_ns": 97656,
+        "slices": 5,
+        "vol": 1,
+        "invol": 3
+      },
+      "25348": {
+        "cpu_ns": 38142294,
+        "wait_ns": 109844,
+        "slices": 9,
+        "vol": 2,
+        "invol": 6
+      },
+      "25349": {
+        "cpu_ns": 52937757,
+        "wait_ns": 319531,
+        "slices": 9,
+        "vol": 2,
+        "invol": 6
+      },
+      "25350": {
+        "cpu_ns": 66866875,
+        "wait_ns": 987970,
+        "slices": 15,
+        "vol": 1,
+        "invol": 13
+      }
+    }
+  },
+  {
+    "uptime": 7479.75,
+    "policies": {
+      "policy0": {
+        "cur": 2745600,
+        "max": 2745600
+      },
+      "policy6": {
+        "cur": 2649600,
+        "max": 2649600
+      }
+    },
+    "tasks": {
+      "25337": {
+        "cpu_ns": 1317642606,
+        "wait_ns": 121927,
+        "slices": 6,
+        "vol": 1,
+        "invol": 4
+      },
+      "25348": {
+        "cpu_ns": 671241038,
+        "wait_ns": 109844,
+        "slices": 9,
+        "vol": 2,
+        "invol": 6
+      },
+      "25349": {
+        "cpu_ns": 686255468,
+        "wait_ns": 319531,
+        "slices": 9,
+        "vol": 2,
+        "invol": 6
+      },
+      "25350": {
+        "cpu_ns": 697612294,
+        "wait_ns": 1759373,
+        "slices": 41,
+        "vol": 1,
+        "invol": 39
+      }
+    }
+  },
+  {
+    "uptime": 7480.38,
+    "policies": {
+      "policy0": {
+        "cur": 2745600,
+        "max": 2745600
+      },
+      "policy6": {
+        "cur": 2649600,
+        "max": 2649600
+      }
+    },
+    "tasks": {
+      "25337": {
+        "cpu_ns": 1926781365,
+        "wait_ns": 121927,
+        "slices": 6,
+        "vol": 1,
+        "invol": 4
+      },
+      "25348": {
+        "cpu_ns": 1278934645,
+        "wait_ns": 109844,
+        "slices": 9,
+        "vol": 2,
+        "invol": 6
+      },
+      "25349": {
+        "cpu_ns": 1288803551,
+        "wait_ns": 319531,
+        "slices": 9,
+        "vol": 2,
+        "invol": 6
+      },
+      "25350": {
+        "cpu_ns": 1294845834,
+        "wait_ns": 1988280,
+        "slices": 52,
+        "vol": 1,
+        "invol": 50
+      }
+    }
+  },
+  {
+    "uptime": 7480.98,
+    "policies": {
+      "policy0": {
+        "cur": 2745600,
+        "max": 2745600
+      },
+      "policy6": {
+        "cur": 2649600,
+        "max": 2649600
+      }
+    },
+    "tasks": {
+      "25337": {
+        "cpu_ns": 2541463240,
+        "wait_ns": 145990,
+        "slices": 7,
+        "vol": 1,
+        "invol": 5
+      },
+      "25348": {
+        "cpu_ns": 1901578180,
+        "wait_ns": 132187,
+        "slices": 10,
+        "vol": 2,
+        "invol": 7
+      },
+      "25349": {
+        "cpu_ns": 1915104335,
+        "wait_ns": 337968,
+        "slices": 10,
+        "vol": 2,
+        "invol": 7
+      },
+      "25350": {
+        "cpu_ns": 1922001671,
+        "wait_ns": 2775625,
+        "slices": 69,
+        "vol": 1,
+        "invol": 68
+      }
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "id": "EX009",
+  "split": "formal",
+  "category": "extraction",
+  "input": "安排：何川将在10:15到南门接待处报到。只提取地点和时间，输出JSON对象，键为place、time，值保持原文字符串，不增加姓名等字段。",
+  "gold": {
+    "place": "南门接待处",
+    "time": "10:15"
+  },
+  "variants": [
+    "{\"place\":\"南门接待处\",\"time\":\"10:15\"}"
+  ],
+  "rule": "json_exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "{\"place\":\"南门接待处\",\"time\":\"10:15\"}"
+}

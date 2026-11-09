@@ -1,0 +1,12 @@
+{
+  "id": "CL024",
+  "category": "classification",
+  "success": false,
+  "answer_matches": false,
+  "format_valid": true,
+  "flags": [
+    "content_error"
+  ],
+  "normalized_text": "咨询",
+  "parsed_json": null
+}

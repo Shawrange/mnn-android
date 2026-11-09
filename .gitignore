@@ -1,0 +1,18 @@
+# Downloaded dependencies and upstream Git database; acquire from pinned sources.
+/gate0/downloads/
+/gate0/source-transfer/
+/gate0/assets/Qwen3-0.6B-MNN/llm.mnn.weight
+/gate2c-opencl/evidence/driver-elf/*.so
+
+# Duplicate delivery archives and generated Python caches.
+/*.zip
+**/__pycache__/
+*.py[cod]
+
+# Local editor and authentication files.
+.vscode/
+.idea/
+.env
+.env.*
+.DS_Store
+Thumbs.db

@@ -1,0 +1,13 @@
+{
+  "id": "QA007",
+  "split": "formal",
+  "category": "qa",
+  "input": "短文：猫叫团团，狗叫点点，兔子叫雪球。问：兔子叫什么？只输出名字。",
+  "gold": "雪球",
+  "variants": [
+    "雪球"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "雪球"
+}

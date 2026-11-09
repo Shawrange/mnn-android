@@ -1,0 +1,46 @@
+{
+  "status": "completed",
+  "runs": [
+    {
+      "backend": "cpu",
+      "precision": "high",
+      "kind": "synthetic",
+      "mode": "off",
+      "process": 0,
+      "exit_code": 0,
+      "directory": "results\\high-20261108T202908Z-daf046\\cpu-high-synthetic-off-p0",
+      "valid": true
+    },
+    {
+      "backend": "opencl",
+      "precision": "high",
+      "kind": "synthetic",
+      "mode": "off",
+      "process": 0,
+      "exit_code": 0,
+      "directory": "results\\high-20261108T202908Z-daf046\\opencl-high-synthetic-off-p0",
+      "valid": true
+    },
+    {
+      "backend": "cpu",
+      "precision": "high",
+      "kind": "natural",
+      "mode": "off",
+      "process": 0,
+      "exit_code": 0,
+      "directory": "results\\high-20261108T202908Z-daf046\\cpu-high-natural-off-p0",
+      "valid": true
+    },
+    {
+      "backend": "opencl",
+      "precision": "high",
+      "kind": "natural",
+      "mode": "off",
+      "process": 0,
+      "exit_code": 0,
+      "directory": "results\\high-20261108T202908Z-daf046\\opencl-high-natural-off-p0",
+      "valid": true
+    }
+  ],
+  "ended_at_utc": "2026-11-08T20:29:19.028988+00:00"
+}

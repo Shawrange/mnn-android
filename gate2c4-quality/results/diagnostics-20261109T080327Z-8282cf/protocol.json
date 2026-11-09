@@ -1,0 +1,11 @@
+{
+  "adb": "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+  "serial": "ee19377b",
+  "mnn_commit": "7e3c6fb5225d3ccf22807ee641332669df34650d",
+  "model_revision": "34dfccda1187ded6e07ea06426da576b0b793c6b",
+  "remote": "/data/local/tmp/mnn-gate2c4-diagnostics-20261109T080327Z-8282cf",
+  "started_at_utc": "2026-11-09T08:03:27.925745+00:00",
+  "freeze_sha256": "44b6fa25d28ac2f8c63f34d1a94a5cb89224b039cb95b1f6a33138800e901462",
+  "selection_sha256": "da31e030185211051d3df2f02b00b3ee0386ff6bc61407f62e5bf7c1e2e9666b",
+  "scope": "fixed-prefix full-Prefill replay; not incremental teacher forcing"
+}

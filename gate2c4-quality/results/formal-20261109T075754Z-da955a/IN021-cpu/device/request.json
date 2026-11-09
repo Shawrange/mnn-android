@@ -1,0 +1,13 @@
+{
+  "id": "IN021",
+  "split": "formal",
+  "category": "instruction",
+  "input": "把日期2026/04/09中的斜线改成连字符，只输出日期。",
+  "gold": "2026-04-09",
+  "variants": [
+    "2026-04-09"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "2026-04-09"
+}

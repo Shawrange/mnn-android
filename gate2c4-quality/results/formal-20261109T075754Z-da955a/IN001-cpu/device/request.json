@@ -1,0 +1,13 @@
+{
+  "id": "IN001",
+  "split": "formal",
+  "category": "instruction",
+  "input": "将数字9、1、6、3按升序排列。只输出一行，用英文逗号分隔，不加空格。",
+  "gold": "1,3,6,9",
+  "variants": [
+    "1,3,6,9"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "1,3,6,9"
+}

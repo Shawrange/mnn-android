@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "simpleperf stat -e task-clock -- /system/bin/sleep 0.05"
+  ],
+  "started_at_utc": "2026-11-08T19:21:22.159943+00:00",
+  "ended_at_utc": "2026-11-08T19:21:22.244006+00:00",
+  "elapsed_seconds": 0.08382199995685369,
+  "exit_code": 1
+}

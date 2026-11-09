@@ -1,0 +1,125 @@
+[
+  {
+    "label": "device-state",
+    "command": [
+      "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "ee19377b",
+      "get-state"
+    ],
+    "started_at_utc": "2026-11-08T13:47:31.471458+00:00",
+    "elapsed_seconds": 0.032,
+    "exit_code": 0
+  },
+  {
+    "label": "mkdir",
+    "command": [
+      "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "ee19377b",
+      "shell",
+      "mkdir",
+      "-p",
+      "/data/local/tmp/mnn-gate0-20261108T134731469951Z"
+    ],
+    "started_at_utc": "2026-11-08T13:47:31.496791+00:00",
+    "elapsed_seconds": 0.046,
+    "exit_code": 0
+  },
+  {
+    "label": "push-llm_demo",
+    "command": [
+      "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "ee19377b",
+      "push",
+      "E:\\DUANCE\\gate0\\staging\\llm_demo",
+      "/data/local/tmp/mnn-gate0-20261108T134731469951Z/"
+    ],
+    "started_at_utc": "2026-11-08T13:47:31.543007+00:00",
+    "elapsed_seconds": 0.032,
+    "exit_code": 0
+  },
+  {
+    "label": "push-llm_bench",
+    "command": [
+      "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "ee19377b",
+      "push",
+      "E:\\DUANCE\\gate0\\staging\\llm_bench",
+      "/data/local/tmp/mnn-gate0-20261108T134731469951Z/"
+    ],
+    "started_at_utc": "2026-11-08T13:47:31.583613+00:00",
+    "elapsed_seconds": 0.031,
+    "exit_code": 0
+  },
+  {
+    "label": "push-libMNN.so",
+    "command": [
+      "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "ee19377b",
+      "push",
+      "E:\\DUANCE\\gate0\\staging\\libMNN.so",
+      "/data/local/tmp/mnn-gate0-20261108T134731469951Z/"
+    ],
+    "started_at_utc": "2026-11-08T13:47:31.613759+00:00",
+    "elapsed_seconds": 0.109,
+    "exit_code": 0
+  },
+  {
+    "label": "push-model",
+    "command": [
+      "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "ee19377b",
+      "push",
+      "E:\\DUANCE\\gate0\\assets\\Qwen3-0.6B-MNN",
+      "/data/local/tmp/mnn-gate0-20261108T134731469951Z/"
+    ],
+    "started_at_utc": "2026-11-08T13:47:31.712166+00:00",
+    "elapsed_seconds": 10.297,
+    "exit_code": 0
+  },
+  {
+    "label": "chmod",
+    "command": [
+      "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "ee19377b",
+      "shell",
+      "chmod 755 /data/local/tmp/mnn-gate0-20261108T134731469951Z/llm_demo /data/local/tmp/mnn-gate0-20261108T134731469951Z/llm_bench"
+    ],
+    "started_at_utc": "2026-11-08T13:47:42.018011+00:00",
+    "elapsed_seconds": 0.063,
+    "exit_code": 0
+  },
+  {
+    "label": "push-prompt",
+    "command": [
+      "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "ee19377b",
+      "push",
+      "E:\\DUANCE\\gate0\\staging\\prompt.txt",
+      "/data/local/tmp/mnn-gate0-20261108T134731469951Z/"
+    ],
+    "started_at_utc": "2026-11-08T13:47:42.071390+00:00",
+    "elapsed_seconds": 0.031,
+    "exit_code": 0
+  },
+  {
+    "label": "remote-sha256",
+    "command": [
+      "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "ee19377b",
+      "shell",
+      "cd /data/local/tmp/mnn-gate0-20261108T134731469951Z && sha256sum llm_demo llm_bench libMNN.so prompt.txt Qwen3-0.6B-MNN/config.json Qwen3-0.6B-MNN/config.cpu.json Qwen3-0.6B-MNN/llm_config.json Qwen3-0.6B-MNN/llm.mnn Qwen3-0.6B-MNN/llm.mnn.weight Qwen3-0.6B-MNN/tokenizer.txt"
+    ],
+    "started_at_utc": "2026-11-08T13:47:42.107007+00:00",
+    "elapsed_seconds": 0.437,
+    "exit_code": 0
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "prompt_tokens": 128,
+  "generated_tokens": 64,
+  "process_exit": 0,
+  "sample_count": 5,
+  "pss_available": true,
+  "identity_confirmed_snapshots": 5,
+  "max_observed_pss_kib": 572859,
+  "max_observed_rss_kib": 899472,
+  "max_observed_vmhwm_kib": 925624,
+  "samples": [
+    {
+      "device_time_and_uptime": "1794148354 4738.13 32938.29",
+      "process_name": "llm_bench",
+      "pid": 28668,
+      "target_identity_confirmed": true,
+      "VmRSS_kib": 19340,
+      "VmHWM_kib": 19340,
+      "Pss_kib": 8604,
+      "Rss_kib": 28552,
+      "SwapPss_kib": 0,
+      "VmSwap_kib": 0
+    },
+    {
+      "device_time_and_uptime": "1794148355 4738.69 32942.05",
+      "process_name": "llm_bench",
+      "pid": 28668,
+      "target_identity_confirmed": true,
+      "VmRSS_kib": 899472,
+      "VmHWM_kib": 899472,
+      "Pss_kib": 540231,
+      "Rss_kib": 575248,
+      "SwapPss_kib": 0,
+      "VmSwap_kib": 0
+    },
+    {
+      "device_time_and_uptime": "1794148355 4739.27 32944.44",
+      "process_name": "llm_bench",
+      "pid": 28668,
+      "target_identity_confirmed": true,
+      "VmRSS_kib": 607572,
+      "VmHWM_kib": 925624,
+      "Pss_kib": 572520,
+      "Rss_kib": 607572,
+      "SwapPss_kib": 0,
+      "VmSwap_kib": 0
+    },
+    {
+      "device_time_and_uptime": "1794148356 4739.82 32946.58",
+      "process_name": "llm_bench",
+      "pid": 28668,
+      "target_identity_confirmed": true,
+      "VmRSS_kib": 607912,
+      "VmHWM_kib": 925624,
+      "Pss_kib": 572859,
+      "Rss_kib": 607912,
+      "SwapPss_kib": 0,
+      "VmSwap_kib": 0
+    },
+    {
+      "device_time_and_uptime": "1794148356 4740.37 32948.71",
+      "process_name": "llm_bench",
+      "pid": 28668,
+      "target_identity_confirmed": true,
+      "VmRSS_kib": 600920,
+      "VmHWM_kib": 925624,
+      "Pss_kib": 565870,
+      "Rss_kib": 600920,
+      "SwapPss_kib": 0,
+      "VmSwap_kib": 0
+    }
+  ],
+  "warning": "PSS/RSS polling maxima are sampled lower bounds; no stage labels; diagnostic throughput excluded"
+}

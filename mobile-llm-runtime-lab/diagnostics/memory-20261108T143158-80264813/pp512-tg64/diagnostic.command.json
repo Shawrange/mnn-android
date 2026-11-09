@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "sh /data/local/tmp/mnn-gate0-20261108T134731469951Z/gate1-memory-20261108T143158-80264813/sample_memory.sh /data/local/tmp/mnn-gate0-20261108T134731469951Z 512 64 /data/local/tmp/mnn-gate0-20261108T134731469951Z/gate1-memory-20261108T143158-80264813/pp512-tg64"
+  ],
+  "started_at_utc": "2026-11-08T14:32:51.867103+00:00",
+  "ended_at_utc": "2026-11-08T14:32:56.875736+00:00",
+  "elapsed_seconds": 5.009030899964273,
+  "exit_code": 0
+}

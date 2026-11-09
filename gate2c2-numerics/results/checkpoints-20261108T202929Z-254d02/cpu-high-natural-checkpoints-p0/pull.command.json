@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "pull",
+    "/data/local/tmp/mnn-gate2c2-checkpoints-20261108T202929Z-254d02/cpu-high-natural-checkpoints-p0/out",
+    "E:\\DUANCE\\gate2c2-numerics\\results\\checkpoints-20261108T202929Z-254d02\\cpu-high-natural-checkpoints-p0"
+  ],
+  "started_at_utc": "2026-11-08T20:29:47.057912+00:00",
+  "ended_at_utc": "2026-11-08T20:29:47.233977+00:00",
+  "elapsed_seconds": 0.17506609996780753,
+  "exit_code": 0
+}

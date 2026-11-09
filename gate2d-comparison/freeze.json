@@ -1,0 +1,27 @@
+{
+  "frozen_at_utc": "2026-11-09T08:33:47.551684+00:00",
+  "seed": 20261109,
+  "formal_process_count": 36,
+  "successful_pilot": "results\\pilot-20261109T083022Z-baaae6",
+  "functional_session": "results\\functional-20261109T083146Z",
+  "sha256": {
+    "protocol.md": "df2699d1cccd68635e9a1a2a206f133c286daba706982a6e32b7f89951cc2b46",
+    "scripts/run.py": "08fd956b8f74af70b9cd5f48d667757c5d35a15eaa08329963f7f12dbe3ac17c",
+    "scripts/adb_utils.py": "1ac3ca7c6e6bfdafacfd16e6e3b8ddd6f9f9e82aa8c5f8d1dd0b2c808a265ddf",
+    "scripts/count_probe.cpp": "38cdf87b25ab4c96207a1262d593685fd08c0b5629efa7b4023d8845ea69d85e",
+    "scripts/analyze.py": "2c25dc9c269eb37b2b9f3a6387f673f391941cc827a396fa5de11517db1f540e",
+    "scripts/test_analysis.py": "665a92e40530e13c794f57b6febbfceed82daca30ff4dbfc8859ece7d412a176",
+    "deployment.json": "aeeb0b4559531f6b5992f2d6741601c1df03864939d651b3593c8cfa735b078f",
+    "configs\\cpu.json": "6349a1a1dc7309c53cdf87ce4ebdb4fc27cf25ce04d70c05f4f90391fb33c560",
+    "configs\\experiment.json": "6841e0c256e772944e0a5fa19a2f034f6f8d7fda4b4a7fae423d29ad2f250d6f",
+    "configs\\input-128.json": "0e8693cc33f3010eaf620634d3460f39c47f3600d311def6d9c6ad7acc9b9f5d",
+    "configs\\input-32.json": "3907bb5668810edd86513f56a78070cda3b03c98998d3199c77a393752c9ea57",
+    "configs\\opencl.json": "8a2e57c2917402e25482c87cdae955eeb94df2089d21d1afd04a926e847f7c16",
+    "configs\\schedule.json": "fe8ada6f552e94220ba23d0c71210debd66d407fc2b1131f355fb7ec505377b6",
+    "staging\\count_probe": "4aed19b2402f0f8e824db69756e25f185944ade30bc1f694aab4d690ba1994dc",
+    "staging\\cpu\\libMNN.so": "47b5db44b7acdaee876c733473ea9124cf71b645b6e53976d3bfd6ad313d120e",
+    "staging\\cpu\\llm_bench": "fd85bf65a75656d023feb9e2ad315f6ee7c6033c8f1591a835e54d2985db4676",
+    "staging\\opencl\\libMNN.so": "4c66c06bbc083f3d123e62cdd6ec62a644e7a120d5a1509f297ffe856efa8f61",
+    "staging\\opencl\\llm_bench": "fd85bf65a75656d023feb9e2ad315f6ee7c6033c8f1591a835e54d2985db4676"
+  }
+}

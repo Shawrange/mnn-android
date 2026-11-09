@@ -1,0 +1,11 @@
+{
+  "path": "results\\clean-20261108T195442Z-58415b",
+  "kind": "clean",
+  "exit_code": 0,
+  "semantic_success": true,
+  "generated_tokens": 16,
+  "failure_layer": null,
+  "kernel_events": 0,
+  "event_label_counts": {},
+  "fallback_log_lines": []
+}

@@ -1,0 +1,13 @@
+{
+  "id": "QA004",
+  "split": "formal",
+  "category": "qa",
+  "input": "短文：小林先坐地铁，再换乘公交到公司。问：小林先乘坐什么交通工具？只输出交通工具名。",
+  "gold": "地铁",
+  "variants": [
+    "地铁"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "地铁"
+}

@@ -1,0 +1,22 @@
+{
+  "synthetic": {
+    "equal_tokens_text_and_final_state": true,
+    "tokens_sha256": "7ee344838f3b3752c6f5185cb1457ba142c9da17f2d7f0d80da3b4c498dff032",
+    "state": {
+      "status": 2,
+      "prompt": 128,
+      "generated": 256,
+      "kv": 384
+    }
+  },
+  "natural": {
+    "equal_tokens_text_and_final_state": true,
+    "tokens_sha256": "5b79bc2ea6f98007100e513bc8b9a443fccd8f30a33949f68d94ec1f23cb758a",
+    "state": {
+      "status": 2,
+      "prompt": 43,
+      "generated": 256,
+      "kv": 299
+    }
+  }
+}

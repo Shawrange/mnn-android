@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "push",
+    "E:\\DUANCE\\gate2c4-quality\\results\\diagnostics-20261109T080327Z-8282cf\\CL010-first-token\\CL010-first-token-opencl\\request.json",
+    "/data/local/tmp/mnn-gate2c4-diagnostics-20261109T080327Z-8282cf/opencl/CL010-first-token/request.json"
+  ],
+  "started_at_utc": "2026-11-09T08:03:50.049057+00:00",
+  "ended_at_utc": "2026-11-09T08:03:50.073187+00:00",
+  "elapsed_seconds": 0.024106699973344803,
+  "exit_code": 0
+}

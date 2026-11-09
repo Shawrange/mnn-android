@@ -1,0 +1,16 @@
+{
+  "id": "EX008",
+  "split": "formal",
+  "category": "extraction",
+  "input": "安排：温言将在16:45到星河展厅报到。只提取地点和时间，输出JSON对象，键为place、time，值保持原文字符串，不增加姓名等字段。",
+  "gold": {
+    "place": "星河展厅",
+    "time": "16:45"
+  },
+  "variants": [
+    "{\"place\":\"星河展厅\",\"time\":\"16:45\"}"
+  ],
+  "rule": "json_exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "{\"place\":\"星河展厅\",\"time\":\"16:45\"}"
+}

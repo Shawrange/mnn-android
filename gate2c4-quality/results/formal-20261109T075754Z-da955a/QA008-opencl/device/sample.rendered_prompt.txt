@@ -1,0 +1,9 @@
+<|im_start|>system
+你是手机离线短文本助手。直接完成用户任务，只输出要求的答案，不输出分析、解释、Markdown代码块或额外字段。<|im_end|>
+<|im_start|>user
+短文：早餐供应豆浆，午餐供应米饭，晚餐供应面条。问：晚餐供应什么？只输出食物名。<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+

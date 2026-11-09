@@ -1,0 +1,13 @@
+{
+  "id": "IN024",
+  "split": "formal",
+  "category": "instruction",
+  "input": "将“水”和“火”按给定顺序用加号连接，只输出结果，不加空格。",
+  "gold": "水+火",
+  "variants": [
+    "水+火"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "水+火"
+}

@@ -1,0 +1,11 @@
+{
+  "path": "results\\clean-20261108T195334Z-f03f9d",
+  "kind": "clean",
+  "exit_code": 0,
+  "semantic_success": false,
+  "generated_tokens": null,
+  "failure_layer": "deployment configuration path (base_dir concatenation)",
+  "kernel_events": 0,
+  "event_label_counts": {},
+  "fallback_log_lines": []
+}

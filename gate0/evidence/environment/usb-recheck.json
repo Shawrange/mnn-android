@@ -1,0 +1,58 @@
+[
+  {
+    "Status": "OK",
+    "Class": "USB",
+    "FriendlyName": "USB Composite Device",
+    "InstanceId": "USB\\VID_1532&PID_00A6\\000000000000",
+    "Problem": 0
+  },
+  {
+    "Status": "OK",
+    "Class": "USB",
+    "FriendlyName": "USB 根集线器(USB 3.0)",
+    "InstanceId": "USB\\ROOT_HUB30\\4&3362E24A&0&0",
+    "Problem": 0
+  },
+  {
+    "Status": "OK",
+    "Class": "USB",
+    "FriendlyName": "USB Composite Device",
+    "InstanceId": "USB\\VID_0DB0&PID_D1D7\\5&14876EA3&0&5",
+    "Problem": 0
+  },
+  {
+    "Status": "OK",
+    "Class": "USB",
+    "FriendlyName": "USB Composite Device",
+    "InstanceId": "USB\\VID_0B05&PID_1AFA\\0000000000000000",
+    "Problem": 0
+  },
+  {
+    "Status": "OK",
+    "Class": "USB",
+    "FriendlyName": "USB Composite Device",
+    "InstanceId": "USB\\VID_320F&PID_5055\\5&14876EA3&0&3",
+    "Problem": 0
+  },
+  {
+    "Status": "OK",
+    "Class": "USB",
+    "FriendlyName": "USB Composite Device",
+    "InstanceId": "USB\\VID_046D&PID_0825\\200901010001",
+    "Problem": 0
+  },
+  {
+    "Status": "OK",
+    "Class": "USB",
+    "FriendlyName": "通用 USB 集线器",
+    "InstanceId": "USB\\VID_05E3&PID_0608\\5&14876EA3&0&12",
+    "Problem": 0
+  },
+  {
+    "Status": "OK",
+    "Class": "USB",
+    "FriendlyName": "通用 USB 集线器",
+    "InstanceId": "USB\\VID_05E3&PID_0608\\5&14876EA3&0&13",
+    "Problem": 0
+  }
+]

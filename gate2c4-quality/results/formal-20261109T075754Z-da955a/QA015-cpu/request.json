@@ -1,0 +1,13 @@
+{
+  "id": "QA015",
+  "split": "formal",
+  "category": "qa",
+  "input": "每盒有5支铅笔，2盒共有多少支？只输出阿拉伯数字。",
+  "gold": "10",
+  "variants": [
+    "10"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "10"
+}

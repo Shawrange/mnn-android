@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "cd /data/local/tmp/mnn-gate2c2-checkpoints-20261108T202929Z-254d02/opencl-high-synthetic-checkpoints-p0 && LD_LIBRARY_PATH=/data/local/tmp/mnn-gate2c2-checkpoints-20261108T202929Z-254d02/opencl /system/bin/timeout 180 /data/local/tmp/mnn-gate2c2-checkpoints-20261108T202929Z-254d02/opencl/numeric_probe /data/local/tmp/mnn-gate0-20261108T134731469951Z/Qwen3-0.6B-MNN/config.cpu.json opencl high synthetic checkpoints /data/local/tmp/mnn-gate2c2-checkpoints-20261108T202929Z-254d02/opencl-high-synthetic-checkpoints-p0/out/sample 2"
+  ],
+  "started_at_utc": "2026-11-08T20:29:42.834732+00:00",
+  "ended_at_utc": "2026-11-08T20:29:44.935501+00:00",
+  "elapsed_seconds": 2.1007467000745237,
+  "exit_code": 0
+}

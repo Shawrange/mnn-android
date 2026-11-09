@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "sha256sum /data/local/tmp/mnn-gate2c4-diagnostics-20261109T080327Z-8282cf/cpu/libMNN.so /data/local/tmp/mnn-gate2c4-diagnostics-20261109T080327Z-8282cf/cpu/quality_probe /data/local/tmp/mnn-gate2c4-diagnostics-20261109T080327Z-8282cf/cpu/runtime.json /data/local/tmp/mnn-gate2c4-diagnostics-20261109T080327Z-8282cf/opencl/libMNN.so /data/local/tmp/mnn-gate2c4-diagnostics-20261109T080327Z-8282cf/opencl/quality_probe /data/local/tmp/mnn-gate2c4-diagnostics-20261109T080327Z-8282cf/opencl/runtime.json /data/local/tmp/mnn-gate0-20261108T134731469951Z/Qwen3-0.6B-MNN/llm.mnn /data/local/tmp/mnn-gate0-20261108T134731469951Z/Qwen3-0.6B-MNN/llm.mnn.weight /data/local/tmp/mnn-gate0-20261108T134731469951Z/Qwen3-0.6B-MNN/tokenizer.txt /data/local/tmp/mnn-gate0-20261108T134731469951Z/Qwen3-0.6B-MNN/llm_config.json /data/local/tmp/mnn-gate0-20261108T134731469951Z/Qwen3-0.6B-MNN/config.cpu.json"
+  ],
+  "started_at_utc": "2026-11-09T08:03:28.816646+00:00",
+  "ended_at_utc": "2026-11-09T08:03:29.206917+00:00",
+  "elapsed_seconds": 0.3899167999625206,
+  "exit_code": 0
+}

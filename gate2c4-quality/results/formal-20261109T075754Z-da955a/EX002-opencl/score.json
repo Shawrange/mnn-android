@@ -1,0 +1,12 @@
+{
+  "id": "EX002",
+  "category": "extraction",
+  "success": false,
+  "answer_matches": false,
+  "format_valid": false,
+  "flags": [
+    "parse_failure"
+  ],
+  "normalized_text": "```json\n{\n  \"name\": \"赵航\",\n  \"count\": 12\n}\n```",
+  "parsed_json": null
+}

@@ -1,0 +1,1 @@
+cmake --build /home/shawrange/src/MNN-decode-gate2a/build-gate2 --target llm_demo llm_bench --parallel 4 

@@ -1,0 +1,34 @@
+bytes	2
+pack	8
+plane	8
+ic	1024
+oc	2048
+dynamicOption	0
+blockNum	16
+inputBlockNum	1
+im2colBasedInt8	1
+useBatchQuan	1
+splitByOc	1
+weightQuantInfoMode	0
+weightBits	4
+UNIT	8
+SRC_UNIT	8
+DST_XUNIT	10
+MNNAbsMax_offset	2990764
+MNNAbsMax_symbol	
+MNNQuantScale_offset	3126400
+MNNQuantScale_symbol	
+MNNDynamicQuant_offset	3006092
+MNNDynamicQuant_symbol	
+mGemmKernel_offset	3120960
+mGemmKernel_symbol	
+SumByAxis_offset	2907712
+SumByAxis_symbol	
+FPCR	0
+q0_LU	128
+q0_EP	8
+q0_LP	8
+q0_threads	1
+q0_tId	0
+q0_zero	0
+quant_calls	1

@@ -1,0 +1,1 @@
+cmake --build /home/shawrange/src/MNN-3.6.2/build-android-arm64-opencl-gate2c-profile --target llm_demo llm_bench --parallel 4 

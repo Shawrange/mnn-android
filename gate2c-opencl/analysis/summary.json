@@ -1,0 +1,182 @@
+{
+  "standalone_opencl_probes": {
+    "probes": [
+      {
+        "library": "libOpenCL.so",
+        "exit_code": 0,
+        "arithmetic_kernel_passed": true
+      },
+      {
+        "library": "/vendor/lib64/libOpenCL.so",
+        "exit_code": 0,
+        "arithmetic_kernel_passed": true
+      }
+    ],
+    "scope": "Standalone GPU arithmetic is not proof of LLM placement"
+  },
+  "smokes": [
+    {
+      "path": "results\\clean-20261108T195334Z-f03f9d",
+      "kind": "clean",
+      "exit_code": 0,
+      "semantic_success": false,
+      "generated_tokens": null,
+      "failure_layer": "deployment configuration path (base_dir concatenation)",
+      "kernel_events": 0,
+      "event_label_counts": {},
+      "fallback_log_lines": []
+    },
+    {
+      "path": "results\\clean-20261108T195442Z-58415b",
+      "kind": "clean",
+      "exit_code": 0,
+      "semantic_success": true,
+      "generated_tokens": 16,
+      "failure_layer": null,
+      "kernel_events": 0,
+      "event_label_counts": {},
+      "fallback_log_lines": []
+    },
+    {
+      "path": "results\\profile-20261108T195615Z-85267b",
+      "kind": "profile",
+      "exit_code": 0,
+      "semantic_success": true,
+      "generated_tokens": 16,
+      "failure_layer": null,
+      "kernel_events": 21654,
+      "event_label_counts": {
+        "Raster0": 7720,
+        "LayerNorm0": 1921,
+        "Convolution0": 3349,
+        "Cast0": 969,
+        "BinaryOp0": 2397,
+        "UnaryOp0": 1462,
+        "While0": 1904,
+        "Raster1": 952,
+        "rearrange_k": 28,
+        "rearrange_v": 28,
+        "flash_attention_prefill": 28,
+        "flash_decode_partial": 448,
+        "flash_decode_reduce": 448
+      },
+      "fallback_log_lines": [],
+      "major_model_gpu_execution_proved": true
+    }
+  ],
+  "numerical_prefill_probes": [
+    {
+      "session": "results\\logits-20261108T195947Z-5aba2f",
+      "kind": "synthetic",
+      "elements": 151936,
+      "ids_equal": true,
+      "shape_equal": true,
+      "finite": true,
+      "relative_rmse": 0.06679873654071326,
+      "cosine": 0.9978193900830238,
+      "abs_rel_bound_fraction": 0.4730083719460826,
+      "max_abs_error": 1.3961181640625,
+      "mean_abs_error": 0.20601766286206,
+      "cpu_top5": [
+        28361,
+        22322,
+        11779,
+        8883,
+        861
+      ],
+      "gpu_top5": [
+        28361,
+        11779,
+        8883,
+        22322,
+        105534
+      ],
+      "top5_overlap": 4,
+      "cpu_top1_top2_margin": 1.0,
+      "top1_equal": true,
+      "screening_passed": false,
+      "thresholds": {
+        "relative_rmse_max": 0.02,
+        "cosine_min": 0.999,
+        "abs": 0.1,
+        "rel": 0.02,
+        "element_fraction_min": 0.999
+      }
+    },
+    {
+      "session": "results\\logits-20261108T195947Z-5aba2f",
+      "kind": "natural",
+      "elements": 151936,
+      "ids_equal": true,
+      "shape_equal": true,
+      "finite": true,
+      "relative_rmse": 0.11435550374575601,
+      "cosine": 0.9939418579005408,
+      "abs_rel_bound_fraction": 0.24959193344566133,
+      "max_abs_error": 3.38671875,
+      "mean_abs_error": 0.5673053960246054,
+      "cpu_top5": [
+        151667,
+        151644,
+        151645,
+        80135,
+        47611
+      ],
+      "gpu_top5": [
+        151667,
+        151644,
+        151645,
+        47611,
+        30076
+      ],
+      "top5_overlap": 4,
+      "cpu_top1_top2_margin": 7.453125,
+      "top1_equal": true,
+      "screening_passed": false,
+      "thresholds": {
+        "relative_rmse_max": 0.02,
+        "cosine_min": 0.999,
+        "abs": 0.1,
+        "rel": 0.02,
+        "element_fraction_min": 0.999
+      }
+    }
+  ],
+  "npu_static": {
+    "convolutions": 197,
+    "weight_bits": {
+      "4": 196,
+      "8": 1
+    },
+    "loader_asymmetric_convolutions": 197,
+    "attentions": 28,
+    "attention_output_c4": {
+      "0": 28
+    },
+    "sdk_state": {
+      "QNN_SDK_ROOT": {
+        "configured_value": null,
+        "path_exists": false
+      },
+      "QNN_ROOT": {
+        "configured_value": null,
+        "path_exists": false
+      },
+      "HEXAGON_SDK_ROOT": {
+        "configured_value": null,
+        "path_exists": false
+      },
+      "default_hexagon_custom_outputs_exists": false,
+      "boundary": "Only configured locations and default output directory checked; no filesystem-wide absence claim, no download/build/run of NPU libraries."
+    },
+    "runtime_tested": false,
+    "compatibility": "Does not match documented recommended Hexagon LLM export; source supports additional quant branches, so no blanket unsupported claim without runtime/layout validation. QNN unconverted and untested."
+  },
+  "decision": {
+    "device_opencl_usable": true,
+    "clean_llm_execution_smoke": true,
+    "actual_major_gpu_kernels_proved": true,
+    "all_prefill_numeric_screening_passed": false,
+    "next_step": "GPU numerical correctness and path investigation first; independent GPU performance baseline deferred; no optimization or NPU runtime tests."
+  }
+}

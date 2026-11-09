@@ -1,0 +1,16 @@
+{
+  "id": "EX014",
+  "split": "formal",
+  "category": "extraction",
+  "input": "订单D126的取件日期为2026-12-05。只输出JSON对象，键为code、date，两个值均为原文字符串。",
+  "gold": {
+    "code": "D126",
+    "date": "2026-12-05"
+  },
+  "variants": [
+    "{\"code\":\"D126\",\"date\":\"2026-12-05\"}"
+  ],
+  "rule": "json_exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "{\"code\":\"D126\",\"date\":\"2026-12-05\"}"
+}

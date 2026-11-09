@@ -1,0 +1,162 @@
+{
+  "input_name": "/layers.0/self_attn/q_proj/Linear/pre_convert",
+  "input_shape": [
+    8,
+    1024,
+    1,
+    1
+  ],
+  "memory": "low",
+  "op": "/layers.0/self_attn/q_proj/Linear",
+  "output_name": "/layers.0/self_attn/q_proj/Linear",
+  "precision": "high",
+  "runs": [
+    {
+      "diagnostic_wall_ns": 32238125,
+      "exit_code": 0,
+      "ops": [
+        {
+          "backend_type": 3,
+          "format": 2,
+          "name": "/layers.0/self_attn/q_proj/Linear_raster_0",
+          "shape": [
+            8,
+            1024,
+            1,
+            1
+          ],
+          "type": "Raster"
+        },
+        {
+          "backend_type": 3,
+          "format": 2,
+          "name": "/layers.0/self_attn/q_proj/Linear",
+          "shape": [
+            8,
+            2048,
+            1,
+            1
+          ],
+          "type": "Convolution"
+        },
+        {
+          "backend_type": 3,
+          "format": 0,
+          "name": "/layers.0/self_attn/q_proj/Linear_raster_2",
+          "shape": [
+            8,
+            2048,
+            1,
+            1
+          ],
+          "type": "Raster"
+        }
+      ],
+      "shape": [
+        8,
+        2048,
+        1,
+        1
+      ],
+      "wait": 0
+    },
+    {
+      "diagnostic_wall_ns": 1775052,
+      "exit_code": 0,
+      "ops": [
+        {
+          "backend_type": 3,
+          "format": 2,
+          "name": "/layers.0/self_attn/q_proj/Linear_raster_0",
+          "shape": [
+            8,
+            1024,
+            1,
+            1
+          ],
+          "type": "Raster"
+        },
+        {
+          "backend_type": 3,
+          "format": 2,
+          "name": "/layers.0/self_attn/q_proj/Linear",
+          "shape": [
+            8,
+            2048,
+            1,
+            1
+          ],
+          "type": "Convolution"
+        },
+        {
+          "backend_type": 3,
+          "format": 0,
+          "name": "/layers.0/self_attn/q_proj/Linear_raster_2",
+          "shape": [
+            8,
+            2048,
+            1,
+            1
+          ],
+          "type": "Raster"
+        }
+      ],
+      "shape": [
+        8,
+        2048,
+        1,
+        1
+      ],
+      "wait": 0
+    },
+    {
+      "diagnostic_wall_ns": 1907916,
+      "exit_code": 0,
+      "ops": [
+        {
+          "backend_type": 3,
+          "format": 2,
+          "name": "/layers.0/self_attn/q_proj/Linear_raster_0",
+          "shape": [
+            8,
+            1024,
+            1,
+            1
+          ],
+          "type": "Raster"
+        },
+        {
+          "backend_type": 3,
+          "format": 2,
+          "name": "/layers.0/self_attn/q_proj/Linear",
+          "shape": [
+            8,
+            2048,
+            1,
+            1
+          ],
+          "type": "Convolution"
+        },
+        {
+          "backend_type": 3,
+          "format": 0,
+          "name": "/layers.0/self_attn/q_proj/Linear_raster_2",
+          "shape": [
+            8,
+            2048,
+            1,
+            1
+          ],
+          "type": "Raster"
+        }
+      ],
+      "shape": [
+        8,
+        2048,
+        1,
+        1
+      ],
+      "wait": 0
+    }
+  ]
+}

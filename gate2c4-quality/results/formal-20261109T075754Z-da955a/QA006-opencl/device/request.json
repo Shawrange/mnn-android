@@ -1,0 +1,13 @@
+{
+  "id": "QA006",
+  "split": "formal",
+  "category": "qa",
+  "input": "短文：包裹编号R19交给了保安，包裹编号R20放在前台。问：R20在哪里？只输出地点。",
+  "gold": "前台",
+  "variants": [
+    "前台"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "前台"
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "push",
+    "E:\\DUANCE\\gate2c4-quality\\results\\pilot-20261109T074605Z-464306\\P12-cpu\\request.json",
+    "/data/local/tmp/mnn-gate2c4-pilot-20261109T074605Z-464306/cpu/P12/request.json"
+  ],
+  "started_at_utc": "2026-11-09T07:46:43.782879+00:00",
+  "ended_at_utc": "2026-11-09T07:46:43.812277+00:00",
+  "elapsed_seconds": 0.029561799950897694,
+  "exit_code": 0
+}

@@ -1,0 +1,2 @@
+build_android_cpu.sh syntax exit=0
+check_wsl_environment.sh syntax exit=0

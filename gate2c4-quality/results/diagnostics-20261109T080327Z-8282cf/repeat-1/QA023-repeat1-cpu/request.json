@@ -1,0 +1,15 @@
+{
+  "id": "QA023-repeat1",
+  "split": "formal",
+  "category": "qa",
+  "input": "太阳通常从哪个方向升起？只输出方向，不加标点。",
+  "gold": "东方",
+  "variants": [
+    "东方",
+    "东边",
+    "东"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "东方"
+}

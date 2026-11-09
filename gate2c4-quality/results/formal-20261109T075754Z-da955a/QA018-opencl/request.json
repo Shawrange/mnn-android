@@ -1,0 +1,13 @@
+{
+  "id": "QA018",
+  "split": "formal",
+  "category": "qa",
+  "input": "名单为陈平、林晓、何东、宋雨，共有几个人？只输出阿拉伯数字。",
+  "gold": "4",
+  "variants": [
+    "4"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "4"
+}

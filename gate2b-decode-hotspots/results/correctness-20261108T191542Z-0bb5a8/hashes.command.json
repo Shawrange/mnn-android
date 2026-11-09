@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "sha256sum /data/local/tmp/mnn-gate2b-20261108/op_probe /data/local/tmp/mnn-gate2b-20261108/llm_bench /data/local/tmp/mnn-gate2b-20261108/libMNN.so /data/local/tmp/mnn-gate0-20261108T134731469951Z/Qwen3-0.6B-MNN/llm.mnn /data/local/tmp/mnn-gate0-20261108T134731469951Z/Qwen3-0.6B-MNN/llm.mnn.weight /data/local/tmp/mnn-gate0-20261108T134731469951Z/Qwen3-0.6B-MNN/config.cpu.json /data/local/tmp/mnn-gate0-20261108T134731469951Z/Qwen3-0.6B-MNN/llm_config.json /data/local/tmp/mnn-gate0-20261108T134731469951Z/Qwen3-0.6B-MNN/tokenizer.txt"
+  ],
+  "started_at_utc": "2026-11-08T19:15:42.561722+00:00",
+  "ended_at_utc": "2026-11-08T19:15:43.043136+00:00",
+  "elapsed_seconds": 0.4810087999794632,
+  "exit_code": 0
+}

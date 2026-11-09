@@ -1,0 +1,1 @@
+E:\DUANCE\gate2b-decode-hotspots\scripts\monitor.sh: 1 file pushed, 0 skipped. 3.9 MB/s (529 bytes in 0.000s)

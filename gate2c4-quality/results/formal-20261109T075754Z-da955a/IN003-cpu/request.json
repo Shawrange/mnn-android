@@ -1,0 +1,13 @@
+{
+  "id": "IN003",
+  "split": "formal",
+  "category": "instruction",
+  "input": "将数字15、5、10按升序排列。只输出英文逗号分隔的结果，不加空格。",
+  "gold": "5,10,15",
+  "variants": [
+    "5,10,15"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "5,10,15"
+}

@@ -1,0 +1,23 @@
+{
+  "aMaxOrBits": 4,
+  "aMin": 1,
+  "external": [
+    8192,
+    1048598,
+    262144,
+    0,
+    0
+  ],
+  "has_scaleInt": false,
+  "ic": 1024,
+  "inline_bias_elements": 0,
+  "oc": 2048,
+  "op": "/layers.0/self_attn/q_proj/Linear",
+  "quantScale": 1.0,
+  "quant_type": 1,
+  "readType": 32768,
+  "relu": false,
+  "relu6": false,
+  "scaleStorage": 0,
+  "shapeInt32": false
+}

@@ -1,0 +1,9 @@
+<|im_start|>system
+你是手机离线短文本助手。直接完成用户任务，只输出要求的答案，不输出分析、解释、Markdown代码块或额外字段。<|im_end|>
+<|im_start|>user
+将消息分为咨询、投诉、表扬之一。只输出类别，不加标点。消息：新买的台灯用了两天就坏了，请给我退款。<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "ls -l /vendor/lib64/libOpenCL.so /vendor/lib64/libOpenCL*.so /vendor/lib64/libGLES*.so /vendor/lib64/egl/* /system/vendor/lib64/libOpenCL.so /system/lib64/libOpenCL.so; cat /vendor/etc/public.libraries.txt /system/etc/public.libraries.txt"
+  ],
+  "started_at_utc": "2026-11-08T19:52:36.519723+00:00",
+  "ended_at_utc": "2026-11-08T19:52:36.585229+00:00",
+  "elapsed_seconds": 0.06528490001801401,
+  "exit_code": 0
+}

@@ -1,0 +1,16 @@
+{
+  "QNN_SDK_ROOT": {
+    "configured_value": null,
+    "path_exists": false
+  },
+  "QNN_ROOT": {
+    "configured_value": null,
+    "path_exists": false
+  },
+  "HEXAGON_SDK_ROOT": {
+    "configured_value": null,
+    "path_exists": false
+  },
+  "default_hexagon_custom_outputs_exists": false,
+  "boundary": "Only configured locations and default output directory checked; no filesystem-wide absence claim, no download/build/run of NPU libraries."
+}

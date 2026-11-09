@@ -1,0 +1,40 @@
+{
+  "prior_files_checked": 3915,
+  "prior_changed_files": [],
+  "clean-head": true,
+  "clean-status": true,
+  "gate2a_live_patch_unchanged": true,
+  "source_snapshots_valid": true,
+  "probe_build_exit_zero": true,
+  "graph_verified_flatbuffer": true,
+  "correctness_equal_and_matches_gate2a": true,
+  "sample_counts": {
+    "pilot": 2,
+    "official": 24,
+    "detail": 8
+  },
+  "formal_counts_valid": true,
+  "validated_detail_decode_calls": 760320,
+  "retained_failed_correctness_sessions": 2,
+  "final_phone_assets_match": true,
+  "artifact_hashes": {
+    "inspect_graph_host": "8ad029d479bdc1e6b3cb9e01cd7f6f075611361f3e17c998cd1ada3bd9c8bf69",
+    "op_probe": "43c934ada53e089844c564cd1bff11cbaee96336012ff50a47472a42f34e1dcb"
+  },
+  "model_graph_invariants": {
+    "convolution_nodes": 197,
+    "weight_bits_counts": {
+      "4": 196,
+      "8": 1
+    },
+    "all_28_layers_share_qkv_and_gate_up_input_indices": true
+  },
+  "markdown_checked": [
+    "Gate2B_Decode热点归因报告.md",
+    "Profiling方法与源码映射.md",
+    "protocol.md",
+    "README.md",
+    "工程候选与下一阶段决策.md"
+  ],
+  "passed": true
+}

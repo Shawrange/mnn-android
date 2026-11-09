@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "cd /data/local/tmp/mnn-gate2c-20261108/profile && LD_LIBRARY_PATH=. ./llm_bench --help"
+  ],
+  "started_at_utc": "2026-11-08T20:06:42.571546+00:00",
+  "ended_at_utc": "2026-11-08T20:06:42.734155+00:00",
+  "elapsed_seconds": 0.16244619991630316,
+  "exit_code": 0
+}

@@ -1,0 +1,13 @@
+{
+  "id": "IN005",
+  "split": "formal",
+  "category": "instruction",
+  "input": "从3、6、9、12中选出大于7的数字，保持原顺序。只输出英文逗号分隔的结果。",
+  "gold": "9,12",
+  "variants": [
+    "9,12"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "9,12"
+}

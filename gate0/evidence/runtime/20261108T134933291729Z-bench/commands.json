@@ -1,0 +1,41 @@
+[
+  {
+    "label": "device-state",
+    "command": [
+      "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "ee19377b",
+      "get-state"
+    ],
+    "started_at_utc": "2026-11-08T13:49:33.292236+00:00",
+    "elapsed_seconds": 0.016,
+    "exit_code": 0
+  },
+  {
+    "label": "llm-bench-smoke",
+    "command": [
+      "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "ee19377b",
+      "shell",
+      "cd /data/local/tmp/mnn-gate0-20261108T134731469951Z && LD_LIBRARY_PATH=. ./llm_bench -m Qwen3-0.6B-MNN/config.cpu.json -a cpu -t 4 -p 0 -n 0 -pg 128,64 -rep 1 -c 2 -mmp 0 -qa 0 -fa 1 -load false -j bench-smoke.json"
+    ],
+    "started_at_utc": "2026-11-08T13:49:33.313670+00:00",
+    "elapsed_seconds": 4.031,
+    "exit_code": 0
+  },
+  {
+    "label": "pull-bench-json",
+    "command": [
+      "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "ee19377b",
+      "pull",
+      "/data/local/tmp/mnn-gate0-20261108T134731469951Z/bench-smoke.json",
+      "E:\\DUANCE\\gate0\\evidence\\runtime\\20261108T134933291729Z-bench\\bench-smoke.json"
+    ],
+    "started_at_utc": "2026-11-08T13:49:37.344945+00:00",
+    "elapsed_seconds": 0.032,
+    "exit_code": 0
+  }
+]

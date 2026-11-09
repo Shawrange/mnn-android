@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "chmod 755 /data/local/tmp/mnn-gate2c4-formal-20261109T075754Z-da955a/cpu/quality_probe"
+  ],
+  "started_at_utc": "2026-11-09T07:57:54.571546+00:00",
+  "ended_at_utc": "2026-11-09T07:57:54.629880+00:00",
+  "elapsed_seconds": 0.058333000051788986,
+  "exit_code": 0
+}

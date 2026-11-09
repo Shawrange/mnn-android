@@ -1,0 +1,13 @@
+{
+  "id": "IN006-repeat1",
+  "split": "formal",
+  "category": "instruction",
+  "input": "将字符串mNop全部转换成大写。只输出结果。",
+  "gold": "MNOP",
+  "variants": [
+    "MNOP"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "MNOP"
+}

@@ -1,0 +1,802 @@
+[
+  {
+    "id": "EX010",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX010",
+    "backend": "opencl"
+  },
+  {
+    "id": "EX004",
+    "backend": "opencl"
+  },
+  {
+    "id": "EX004",
+    "backend": "cpu"
+  },
+  {
+    "id": "CL021",
+    "backend": "cpu"
+  },
+  {
+    "id": "CL021",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL017",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL017",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX001",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX001",
+    "backend": "opencl"
+  },
+  {
+    "id": "EX019",
+    "backend": "opencl"
+  },
+  {
+    "id": "EX019",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN019",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN019",
+    "backend": "opencl"
+  },
+  {
+    "id": "EX020",
+    "backend": "opencl"
+  },
+  {
+    "id": "EX020",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN021",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN021",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA010",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA010",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX016",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX016",
+    "backend": "opencl"
+  },
+  {
+    "id": "EX018",
+    "backend": "opencl"
+  },
+  {
+    "id": "EX018",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX006",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX006",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL012",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL012",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX007",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX007",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL008",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL008",
+    "backend": "cpu"
+  },
+  {
+    "id": "QA001",
+    "backend": "cpu"
+  },
+  {
+    "id": "QA001",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL013",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL013",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN017",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN017",
+    "backend": "opencl"
+  },
+  {
+    "id": "EX021",
+    "backend": "opencl"
+  },
+  {
+    "id": "EX021",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX002",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX002",
+    "backend": "opencl"
+  },
+  {
+    "id": "EX008",
+    "backend": "opencl"
+  },
+  {
+    "id": "EX008",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN025",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN025",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA018",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA018",
+    "backend": "cpu"
+  },
+  {
+    "id": "CL004",
+    "backend": "cpu"
+  },
+  {
+    "id": "CL004",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL010",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL010",
+    "backend": "cpu"
+  },
+  {
+    "id": "CL014",
+    "backend": "cpu"
+  },
+  {
+    "id": "CL014",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA002",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA002",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX014",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX014",
+    "backend": "opencl"
+  },
+  {
+    "id": "IN014",
+    "backend": "opencl"
+  },
+  {
+    "id": "IN014",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN016",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN016",
+    "backend": "opencl"
+  },
+  {
+    "id": "IN024",
+    "backend": "opencl"
+  },
+  {
+    "id": "IN024",
+    "backend": "cpu"
+  },
+  {
+    "id": "QA024",
+    "backend": "cpu"
+  },
+  {
+    "id": "QA024",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL009",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL009",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN005",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN005",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA012",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA012",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN020",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN020",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL022",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL022",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN003",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN003",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL011",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL011",
+    "backend": "cpu"
+  },
+  {
+    "id": "CL005",
+    "backend": "cpu"
+  },
+  {
+    "id": "CL005",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA005",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA005",
+    "backend": "cpu"
+  },
+  {
+    "id": "QA013",
+    "backend": "cpu"
+  },
+  {
+    "id": "QA013",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA006",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA006",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX005",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX005",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL023",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL023",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX009",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX009",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL015",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL015",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN002",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN002",
+    "backend": "opencl"
+  },
+  {
+    "id": "IN004",
+    "backend": "opencl"
+  },
+  {
+    "id": "IN004",
+    "backend": "cpu"
+  },
+  {
+    "id": "QA023",
+    "backend": "cpu"
+  },
+  {
+    "id": "QA023",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL018",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL018",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX003",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX003",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA011",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA011",
+    "backend": "cpu"
+  },
+  {
+    "id": "CL019",
+    "backend": "cpu"
+  },
+  {
+    "id": "CL019",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA003",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA003",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX024",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX024",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA016",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA016",
+    "backend": "cpu"
+  },
+  {
+    "id": "CL006",
+    "backend": "cpu"
+  },
+  {
+    "id": "CL006",
+    "backend": "opencl"
+  },
+  {
+    "id": "IN009",
+    "backend": "opencl"
+  },
+  {
+    "id": "IN009",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX017",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX017",
+    "backend": "opencl"
+  },
+  {
+    "id": "IN007",
+    "backend": "opencl"
+  },
+  {
+    "id": "IN007",
+    "backend": "cpu"
+  },
+  {
+    "id": "QA015",
+    "backend": "cpu"
+  },
+  {
+    "id": "QA015",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL002",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL002",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN011",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN011",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL003",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL003",
+    "backend": "cpu"
+  },
+  {
+    "id": "CL020",
+    "backend": "cpu"
+  },
+  {
+    "id": "CL020",
+    "backend": "opencl"
+  },
+  {
+    "id": "EX023",
+    "backend": "opencl"
+  },
+  {
+    "id": "EX023",
+    "backend": "cpu"
+  },
+  {
+    "id": "CL016",
+    "backend": "cpu"
+  },
+  {
+    "id": "CL016",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA008",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA008",
+    "backend": "cpu"
+  },
+  {
+    "id": "QA022",
+    "backend": "cpu"
+  },
+  {
+    "id": "QA022",
+    "backend": "opencl"
+  },
+  {
+    "id": "IN015",
+    "backend": "opencl"
+  },
+  {
+    "id": "IN015",
+    "backend": "cpu"
+  },
+  {
+    "id": "QA017",
+    "backend": "cpu"
+  },
+  {
+    "id": "QA017",
+    "backend": "opencl"
+  },
+  {
+    "id": "EX012",
+    "backend": "opencl"
+  },
+  {
+    "id": "EX012",
+    "backend": "cpu"
+  },
+  {
+    "id": "QA009",
+    "backend": "cpu"
+  },
+  {
+    "id": "QA009",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL025",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL025",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX022",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX022",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA019",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA019",
+    "backend": "cpu"
+  },
+  {
+    "id": "QA025",
+    "backend": "cpu"
+  },
+  {
+    "id": "QA025",
+    "backend": "opencl"
+  },
+  {
+    "id": "IN018",
+    "backend": "opencl"
+  },
+  {
+    "id": "IN018",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN012",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN012",
+    "backend": "opencl"
+  },
+  {
+    "id": "IN022",
+    "backend": "opencl"
+  },
+  {
+    "id": "IN022",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX011",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX011",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL007",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL007",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN008",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN008",
+    "backend": "opencl"
+  },
+  {
+    "id": "IN001",
+    "backend": "opencl"
+  },
+  {
+    "id": "IN001",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN006",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN006",
+    "backend": "opencl"
+  },
+  {
+    "id": "IN023",
+    "backend": "opencl"
+  },
+  {
+    "id": "IN023",
+    "backend": "cpu"
+  },
+  {
+    "id": "QA020",
+    "backend": "cpu"
+  },
+  {
+    "id": "QA020",
+    "backend": "opencl"
+  },
+  {
+    "id": "IN013",
+    "backend": "opencl"
+  },
+  {
+    "id": "IN013",
+    "backend": "cpu"
+  },
+  {
+    "id": "QA021",
+    "backend": "cpu"
+  },
+  {
+    "id": "QA021",
+    "backend": "opencl"
+  },
+  {
+    "id": "EX013",
+    "backend": "opencl"
+  },
+  {
+    "id": "EX013",
+    "backend": "cpu"
+  },
+  {
+    "id": "QA004",
+    "backend": "cpu"
+  },
+  {
+    "id": "QA004",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA007",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA007",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX015",
+    "backend": "cpu"
+  },
+  {
+    "id": "EX015",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL024",
+    "backend": "opencl"
+  },
+  {
+    "id": "CL024",
+    "backend": "cpu"
+  },
+  {
+    "id": "CL001",
+    "backend": "cpu"
+  },
+  {
+    "id": "CL001",
+    "backend": "opencl"
+  },
+  {
+    "id": "EX025",
+    "backend": "opencl"
+  },
+  {
+    "id": "EX025",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN010",
+    "backend": "cpu"
+  },
+  {
+    "id": "IN010",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA014",
+    "backend": "opencl"
+  },
+  {
+    "id": "QA014",
+    "backend": "cpu"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "status": "frozen",
+  "frozen_at_utc": "2026-11-09T08:51:48.449572+00:00",
+  "mnn_commit": "7e3c6fb5225d3ccf22807ee641332669df34650d",
+  "model_revision": "34dfccda1187ded6e07ea06426da576b0b793c6b",
+  "formal_gate2d_processes": 36,
+  "project_manifest_sha256": "bea72467ec1abd598e2f44a2713803b723abb4a203042a2eebd849cc10427ebe",
+  "files_hashed": 18412,
+  "final_decision": "OpenCL Prefill scope cheaper; CPU Decode scope cheaper in this fixed experiment. Fixed application quality failed. No Runtime optimization warranted. End project.",
+  "no_further_experiments_in_this_project": true,
+  "reproduction_policy": "Read-only offline verification allowed. Re-execution requires a separate copy/session and must not alter this archive.",
+  "acceptance": {
+    "mnn_commit": "7e3c6fb5225d3ccf22807ee641332669df34650d",
+    "model_revision": "34dfccda1187ded6e07ea06426da576b0b793c6b",
+    "gate2d_formal_runs": 36,
+    "gate2d_clean_cpu_gpu_runs_completed": true,
+    "prior_evidence_unchanged": true,
+    "runtime_optimization_implemented": false,
+    "upstream_pr_claimed": false,
+    "npu_executed": false,
+    "fixed_application_quality_passed": false,
+    "product_performance_acceptance_claimed": false,
+    "further_inference_planned": false
+  }
+}

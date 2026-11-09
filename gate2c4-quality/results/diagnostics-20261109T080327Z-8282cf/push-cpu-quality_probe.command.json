@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "push",
+    "E:\\DUANCE\\gate2c4-quality\\staging\\quality_probe",
+    "/data/local/tmp/mnn-gate2c4-diagnostics-20261109T080327Z-8282cf/cpu/quality_probe"
+  ],
+  "started_at_utc": "2026-11-09T08:03:28.103470+00:00",
+  "ended_at_utc": "2026-11-09T08:03:28.143243+00:00",
+  "elapsed_seconds": 0.039144800044596195,
+  "exit_code": 0
+}

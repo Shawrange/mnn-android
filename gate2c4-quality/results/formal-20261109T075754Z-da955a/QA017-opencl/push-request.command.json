@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "push",
+    "E:\\DUANCE\\gate2c4-quality\\results\\formal-20261109T075754Z-da955a\\QA017-opencl\\request.json",
+    "/data/local/tmp/mnn-gate2c4-formal-20261109T075754Z-da955a/opencl/QA017/request.json"
+  ],
+  "started_at_utc": "2026-11-09T08:01:20.767846+00:00",
+  "ended_at_utc": "2026-11-09T08:01:20.796701+00:00",
+  "elapsed_seconds": 0.02906940004322678,
+  "exit_code": 0
+}

@@ -1,0 +1,13 @@
+{
+  "id": "IN016",
+  "split": "formal",
+  "category": "instruction",
+  "input": "如果数字18是偶数则输出YES，否则输出NO。只输出一个英文单词。",
+  "gold": "YES",
+  "variants": [
+    "YES"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "YES"
+}

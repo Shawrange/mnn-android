@@ -1,0 +1,19 @@
+{
+  "backend": "opencl",
+  "gen_seq_len": 3,
+  "generated_count": 3,
+  "id": "IN022",
+  "initial_kv": 0,
+  "input_len": 66,
+  "kv_after": 68,
+  "mode": "generate",
+  "prompt_len": 66,
+  "status": 1,
+  "stop_token": 151645,
+  "stopped": true,
+  "thinking": false,
+  "process_exit": 0,
+  "runtime_ok": true,
+  "raw_text": "晚上好",
+  "valid_utf8": true
+}

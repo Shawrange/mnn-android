@@ -1,0 +1,1 @@
+g++ -std=c++17 -O2 -I/home/shawrange/src/MNN-3.6.2/schema/current -I/home/shawrange/src/MNN-3.6.2/3rd_party/flatbuffers/include -I/home/shawrange/src/MNN-3.6.2/transformers/llm/engine/app/jsonhpp /mnt/e/DUANCE/gate2c3-quant/scripts/extract_weight.cpp -o /mnt/e/DUANCE/gate2c3-quant/staging/extract_weight 

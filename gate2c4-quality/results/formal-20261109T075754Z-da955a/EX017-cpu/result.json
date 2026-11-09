@@ -1,0 +1,19 @@
+{
+  "backend": "cpu",
+  "gen_seq_len": 22,
+  "generated_count": 22,
+  "id": "EX017",
+  "initial_kv": 0,
+  "input_len": 81,
+  "kv_after": 102,
+  "mode": "generate",
+  "prompt_len": 81,
+  "status": 1,
+  "stop_token": 151645,
+  "stopped": true,
+  "thinking": false,
+  "process_exit": 0,
+  "runtime_ok": true,
+  "raw_text": "```json\n{\n  \"item\": \"商品面包\",\n  \"price\": 7\n}\n```",
+  "valid_utf8": true
+}

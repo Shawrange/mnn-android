@@ -1,0 +1,124 @@
+diff --git a/source/backend/cpu/compute/ConvInt8TiledExecutor.cpp b/source/backend/cpu/compute/ConvInt8TiledExecutor.cpp
+index 2c93651..19d37c2 100644
+--- a/source/backend/cpu/compute/ConvInt8TiledExecutor.cpp
++++ b/source/backend/cpu/compute/ConvInt8TiledExecutor.cpp
+@@ -19,6 +19,10 @@
+ #include "core/TensorUtils.hpp"
+ #include "half.hpp"
+ 
++#ifdef MNN_GATEC3_CAPTURE
++#include "GateC3Capture.hpp"
++#endif
++
+ #define WEIGHT_ONLINE_REORDER 8
+ namespace MNN {
+ 
+@@ -514,6 +518,19 @@ DenseConvInt8TiledExecutor::DenseConvInt8TiledExecutor(Backend* backend, const O
+         blockNum = dequantCnt / oc;
+     }
+     mBlockNum = blockNum;
++#ifdef MNN_GATEC3_CAPTURE
++    if (oc == 2048 && ic == 1024 && quanCommon) {
++        GateC3Capture record("load");
++        record.number("ic", ic); record.number("oc", oc); record.number("blockNum", blockNum);
++        record.number("canUseInt4", quanCommon->canUseInt4); record.number("originBits", quanCommon->originBits);
++        record.number("asymmetric", quanCommon->asymmetric); record.number("alphaSize", quanCommon->alphaSize);
++        record.number("alphaIsFp16", quanCommon->alphaIsFp16);
++        record.blob("decoded_weight", quanCommon->weight.get(), quanCommon->weight.size());
++        if (quanCommon->alpha.get()) record.blob("alpha", quanCommon->alpha.get(), quanCommon->alphaSize * 4);
++        if (quanCommon->alphaHalf.get()) record.blob("alpha_half", quanCommon->alphaHalf.get(), quanCommon->alphaSize * 2);
++        record.flush();
++    }
++#endif
+ 
+     // backend info
+     auto core = static_cast<CPUBackend*>(backend)->int8Functions();
+@@ -2222,6 +2239,23 @@ ErrorCode DenseConvInt8TiledExecutor::onExecute(const std::vector<Tensor*>& inpu
+     auto core = static_cast<CPUBackend*>(backend())->int8Functions();
+     auto gcore = static_cast<CPUBackend*>(backend())->functions();
+     auto dynamicOption = static_cast<CPUBackend*>(backend())->getRuntime()->hint().dynamicQuantOption % 8;
++#ifdef MNN_GATEC3_CAPTURE
++    GateC3Capture c3("exec", input->channel() == 1024 && output->channel() == 2048);
++    c3.number("bytes", gcore->bytes); c3.number("pack", gcore->pack);
++    c3.number("plane", input->batch()*input->width()*input->height());
++    c3.number("ic", input->channel()); c3.number("oc", output->channel());
++    c3.number("dynamicOption", dynamicOption); c3.number("blockNum", mBlockNum); c3.number("inputBlockNum", mInputBlockNum);
++    c3.number("im2colBasedInt8", mIm2ColBasedInt8); c3.number("useBatchQuan", mUseBatchQuan); c3.number("splitByOc", mSplitByOc);
++    c3.number("weightQuantInfoMode", weightQuantInfoMode); c3.number("weightBits", mResourceInt8->mWeightBits);
++    c3.number("UNIT", mGemmUnits[0]); c3.number("SRC_UNIT", mGemmUnits[1]); c3.number("DST_XUNIT", mGemmUnits[2]);
++    c3.symbol("MNNAbsMax", (const void*)gcore->MNNAbsMax);
++    c3.symbol("MNNQuantScale", (const void*)gcore->MNNQuantScale);
++    c3.symbol("MNNDynamicQuant", (const void*)gcore->MNNDynamicQuant);
++    c3.symbol("mGemmKernel", (const void*)mGemmKernel);
++    c3.symbol("SumByAxis", (const void*)mRelatedFunctions.MNNSumByAxisLForMatmul_A);
++    uint64_t fpcr=0; __asm__ volatile("mrs %0, fpcr" : "=r"(fpcr)); c3.number("FPCR", fpcr);
++    c3.blob("entry_packed", input->host<uint8_t>(), size_t(input->batch())*input->width()*input->height()*ROUND_UP(input->channel(), gcore->pack)*gcore->bytes);
++#endif
+ 
+     int UNIT = mGemmUnits[0];
+     int SRC_UNIT = mGemmUnits[1];
+@@ -2389,6 +2423,18 @@ ErrorCode DenseConvInt8TiledExecutor::onExecute(const std::vector<Tensor*>& inpu
+         auto scale_ptr = reinterpret_cast<float*>(quantPtr);
+         gcore->MNNDynamicQuant((float*)floatPtr, dstInt8, scale_ptr, LU, EP, LP, nullptr);
+         inputZero = 0;
++#ifdef MNN_GATEC3_CAPTURE
++        if (c3.enabled()) {
++            const auto tag = "q" + std::to_string(c3.nextQuant());
++            c3.number(tag+"_LU", LU); c3.number(tag+"_EP", EP); c3.number(tag+"_LP", LP);
++            c3.number(tag+"_threads", availableThreads); c3.number(tag+"_tId", tId); c3.number(tag+"_zero", inputZero);
++            c3.blob(tag+"_pre", floatPtr, size_t(LU)*EP*LP*gcore->bytes);
++            c3.blob(tag+"_absmax", maxPtr, availableThreads*EP*gcore->bytes);
++            c3.blob(tag+"_qscale", quantPtr, EP*sizeof(float));
++            c3.blob(tag+"_dscale", inputDequantScale, EP*sizeof(float));
++            c3.blob(tag+"_integer", dstInt8, size_t(LU)*EP*LP);
++        }
++#endif
+     };
+ 
+     if (mResourceInt8->mDynamicQuant) {
+@@ -2962,6 +3008,13 @@ ErrorCode DenseConvInt8TiledExecutor::onExecute(const std::vector<Tensor*>& inpu
+     } else {
+         ocSplitFunction(threads);
+     }
++#ifdef MNN_GATEC3_CAPTURE
++    c3.blob("output_packed", output->host<uint8_t>(), size_t(plane)*ROUND_UP(output->channel(), PackUnit)*dstBytes);
++    c3.blob("bias", mResourceInt8->mOriginBias->host<uint8_t>(), mResourceInt8->mOriginBias->size());
++    c3.blob("relu", mResourceInt8->mReluThreshold.data(), 2*gcore->bytes);
++    c3.blob("weight_packed", mResourceInt8->mWeightInt8->host<uint8_t>(), mResourceInt8->mWeightInt8->size());
++    c3.flush();
++#endif
+     if (compactWorkerFailed.load(std::memory_order_relaxed)) {
+         return NOT_SUPPORT;
+     }
+diff --git a/source/backend/cpu/compute/GateC3Capture.hpp b/source/backend/cpu/compute/GateC3Capture.hpp
+new file mode 100644
+index 0000000..b6c334a
+--- /dev/null
++++ b/source/backend/cpu/compute/GateC3Capture.hpp
+@@ -0,0 +1,26 @@
++#ifndef GATE_C3_CAPTURE_HPP
++#define GATE_C3_CAPTURE_HPP
++#include <cstdlib>
++#include <cstdint>
++#include <cstring>
++#include <dlfcn.h>
++#include <fstream>
++#include <string>
++#include <vector>
++#include <mutex>
++// Diagnostic build only. Copy during execution, write only once execution has ended.
++class GateC3Capture {
++    struct Blob {std::string name;std::vector<char> bytes;};
++    std::string mPrefix,mMeta;std::vector<Blob> mBlobs;std::mutex mMutex;int mQuant=0;
++public:
++    GateC3Capture(const char* phase,bool allowed=true) {
++        const char* p=std::getenv("MNN_GATEC3_PREFIX");if(p && *p && allowed)mPrefix=std::string(p)+"."+phase;
++    }
++    bool enabled()const{return !mPrefix.empty();}
++    int nextQuant(){std::lock_guard<std::mutex> lock(mMutex);return mQuant++;}
++    template<class T>void number(const std::string& name,T value){if(!enabled())return;std::lock_guard<std::mutex> lock(mMutex);mMeta+=name+"\t"+std::to_string(value)+"\n";}
++    void symbol(const char* name,const void* ptr){if(!enabled())return;Dl_info info{};dladdr(ptr,&info);number(std::string(name)+"_offset",uintptr_t(ptr)-uintptr_t(info.dli_fbase));std::lock_guard<std::mutex> lock(mMutex);mMeta+=std::string(name)+"_symbol\t"+(info.dli_sname?info.dli_sname:"")+"\n";}
++    void blob(const std::string& name,const void* data,size_t size){if(!enabled()||!data||!size)return;Blob b;b.name=name;b.bytes.resize(size);std::memcpy(b.bytes.data(),data,size);std::lock_guard<std::mutex> lock(mMutex);mBlobs.push_back(std::move(b));}
++    void flush(){if(!enabled())return;for(auto& b:mBlobs){std::ofstream f(mPrefix+"."+b.name+".bin",std::ios::binary);f.write(b.bytes.data(),b.bytes.size());}std::ofstream meta(mPrefix+".meta.tsv");meta<<mMeta;meta<<"quant_calls\t"<<mQuant<<'\n';}
++};
++#endif

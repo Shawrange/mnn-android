@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "cd /data/local/tmp/mnn-gate0-20261108T134731469951Z/gate2a-diagnostic && ( LD_LIBRARY_PATH=/data/local/tmp/mnn-gate0-20261108T134731469951Z/gate2a-diagnostic/clean /system/bin/time -v /data/local/tmp/mnn-gate0-20261108T134731469951Z/gate2a-diagnostic/clean/llm_bench -m /data/local/tmp/mnn-gate0-20261108T134731469951Z/Qwen3-0.6B-MNN/config.cpu.json -a cpu -t 4 -p 0 -n 0 -pg 128,64 -rep 1 -c 2 --memory 2 --power 0 -dyo 0 -mmp 0 -qa 0 -fa 1 -load false -j /data/local/tmp/mnn-gate0-20261108T134731469951Z/gate2a-diagnostic/runs/control-20261108T151455Z-f42f6b-009-b02-clean-tg64.json & job=$!; sh ./monitor.sh \"$job\" > /data/local/tmp/mnn-gate0-20261108T134731469951Z/gate2a-diagnostic/runs/control-20261108T151455Z-f42f6b-009-b02-clean-tg64.device.txt 2>&1 & observer=$!; wait \"$job\"; rc=$?; kill \"$observer\" 2>/dev/null; wait \"$observer\" 2>/dev/null; exit \"$rc\" )"
+  ],
+  "started_at_utc": "2026-11-08T15:17:36.531273+00:00",
+  "ended_at_utc": "2026-11-08T15:17:39.734178+00:00",
+  "elapsed_seconds": 3.2036680999444798,
+  "exit_code": 0
+}

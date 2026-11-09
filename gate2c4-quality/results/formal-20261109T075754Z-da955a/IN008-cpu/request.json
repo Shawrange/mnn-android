@@ -1,0 +1,13 @@
+{
+  "id": "IN008",
+  "split": "formal",
+  "category": "instruction",
+  "input": "把“红色|蓝色|白色”中的竖线替换为英文逗号。只输出一行结果。",
+  "gold": "红色,蓝色,白色",
+  "variants": [
+    "红色,蓝色,白色"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "红色,蓝色,白色"
+}

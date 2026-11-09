@@ -1,0 +1,56 @@
+{
+  "scope": "Gate2-C0/C1 OpenCL feasibility only",
+  "adb": "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+  "serial": "ee19377b",
+  "mnn_commit": "7e3c6fb5225d3ccf22807ee641332669df34650d",
+  "model_revision": "34dfccda1187ded6e07ea06426da576b0b793c6b",
+  "gate0_root": "E:\\DUANCE\\gate0",
+  "remote_root": "/data/local/tmp/mnn-gate2c-20261108",
+  "remote_config": "Qwen3-0.6B-MNN/config.cpu.json",
+  "backend": "CPU",
+  "threads": 4,
+  "precision": 2,
+  "memory": 2,
+  "power": 0,
+  "dynamic_option_requested": 0,
+  "use_mmap": false,
+  "quant_kv": 0,
+  "flash_attention": 1,
+  "repetitions_per_process": 1,
+  "warmup_per_process": 1,
+  "workloads": [
+    [
+      32,
+      32
+    ],
+    [
+      128,
+      64
+    ],
+    [
+      512,
+      64
+    ],
+    [
+      128,
+      256
+    ],
+    [
+      512,
+      256
+    ]
+  ],
+  "order_seed": 20261108,
+  "timeout_seconds": 180,
+  "user_condition": "User confirmed USB connected, screen off and idle; actual screen/power recorded per sample",
+  "cooling": {
+    "max_skin_c": 38.0,
+    "max_battery_c": 36.0,
+    "max_current_cpu_c": 80.0,
+    "max_wait_seconds": 300,
+    "poll_seconds": 15
+  },
+  "failure_policy": "Keep every run; nonzero exit, timeout, missing/invalid JSON, wrong config, nonpositive/nonfinite throughput or benchmark error => failed, never silently include. No speed-based deletion.",
+  "phase": "probe",
+  "started_at_utc": "2026-11-08T19:52:36.287926+00:00"
+}

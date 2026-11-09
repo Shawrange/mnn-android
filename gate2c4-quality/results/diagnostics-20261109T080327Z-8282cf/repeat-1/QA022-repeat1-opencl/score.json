@@ -1,0 +1,12 @@
+{
+  "id": "QA022-repeat1",
+  "category": "qa",
+  "success": false,
+  "answer_matches": false,
+  "format_valid": true,
+  "flags": [
+    "content_error"
+  ],
+  "normalized_text": "24",
+  "parsed_json": null
+}

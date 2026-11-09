@@ -1,0 +1,13 @@
+{
+  "id": "IN025",
+  "split": "formal",
+  "category": "instruction",
+  "input": "输出字母Z，然后一个英文冒号，再输出数字8。只输出这一行，不加空格。",
+  "gold": "Z:8",
+  "variants": [
+    "Z:8"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "Z:8"
+}

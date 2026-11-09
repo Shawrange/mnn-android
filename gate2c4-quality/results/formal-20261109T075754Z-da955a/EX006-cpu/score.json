@@ -1,0 +1,12 @@
+{
+  "id": "EX006",
+  "category": "extraction",
+  "success": false,
+  "answer_matches": false,
+  "format_valid": false,
+  "flags": [
+    "parse_failure"
+  ],
+  "normalized_text": "```json\n{\n  \"place\": \"松柏\",\n  \"time\": \"14:05\"\n}\n```",
+  "parsed_json": null
+}

@@ -1,0 +1,1 @@
+{"model":"Qwen3-0.6B-MNN","modelSize":0.4198498446494341,"backend":"CPU","threads":4,"useMmap":false,"precision":2,"memory":2,"power":0,"quantKv":0,"flashAttention":1,"results":[{"type":"prefill_and_decode","prompt_len":512,"generate_len":256,"prefill_tps":516.8005604056077,"prefill_std":0.0,"decode_tps":79.90139668265631,"decode_std":0.0}]}

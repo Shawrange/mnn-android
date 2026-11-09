@@ -1,0 +1,12 @@
+status=2
+prompt=128
+generated=256
+kv=384
+prefill_us=431034
+decode_us=3118848
+response_wall_ns=3556939895
+records=305318
+nested=0
+foreign=0
+dropped=0
+new_metadata_measured=0

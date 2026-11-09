@@ -1,0 +1,9 @@
+<|im_start|>system
+你是手机离线短文本助手。直接完成用户任务，只输出要求的答案，不输出分析、解释、Markdown代码块或额外字段。<|im_end|>
+<|im_start|>user
+短文：小林先坐地铁，再换乘公交到公司。问：小林先乘坐什么交通工具？只输出交通工具名。<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+

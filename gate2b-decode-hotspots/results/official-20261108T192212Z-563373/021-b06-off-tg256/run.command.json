@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "cd /data/local/tmp/mnn-gate2b-20261108 && ( LD_LIBRARY_PATH=. MNN_LLM_BENCH_PROFILE_NAME=1 /system/bin/time -v ./llm_bench -m /data/local/tmp/mnn-gate0-20261108T134731469951Z/Qwen3-0.6B-MNN/config.cpu.json -a cpu -t 4 -p 0 -n 0 -pg 128,256 -rep 1 -c 2 --memory 2 --power 0 -dyo 0 -mmp 0 -qa 0 -fa 1 -load false -j /data/local/tmp/mnn-gate2b-20261108/runs/official-20261108T192212Z-563373-021-b06-off-tg256.json & job=$!; sh ./monitor.sh \"$job\" > /data/local/tmp/mnn-gate2b-20261108/runs/official-20261108T192212Z-563373-021-b06-off-tg256.device.txt 2>&1 & observer=$!; wait \"$job\"; rc=$?; kill \"$observer\" 2>/dev/null; wait \"$observer\" 2>/dev/null; exit \"$rc\" )"
+  ],
+  "started_at_utc": "2026-11-08T19:29:03.429868+00:00",
+  "ended_at_utc": "2026-11-08T19:29:11.158559+00:00",
+  "elapsed_seconds": 7.729182500042953,
+  "exit_code": 0
+}

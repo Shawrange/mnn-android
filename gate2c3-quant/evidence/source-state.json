@@ -1,0 +1,6 @@
+{
+  "base_head": "7e3c6fb5225d3ccf22807ee641332669df34650d\n",
+  "base_status": "",
+  "diagnostic_branch": "feature/quant-gate2c3-diagnostic\n",
+  "diagnostic_status": " M source/backend/cpu/compute/ConvInt8TiledExecutor.cpp\n?? source/backend/cpu/compute/GateC3Capture.hpp\n"
+}

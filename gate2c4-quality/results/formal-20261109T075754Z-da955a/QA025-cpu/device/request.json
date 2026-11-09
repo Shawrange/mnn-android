@@ -1,0 +1,13 @@
+{
+  "id": "QA025",
+  "split": "formal",
+  "category": "qa",
+  "input": "汉字“上”的反义字是什么？只输出一个汉字。",
+  "gold": "下",
+  "variants": [
+    "下"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "下"
+}

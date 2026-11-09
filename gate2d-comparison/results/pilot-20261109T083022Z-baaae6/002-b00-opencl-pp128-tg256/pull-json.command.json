@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "pull",
+    "/data/local/tmp/mnn-gate2d-20261109T082806Z-5d76d2/opencl/sample-002.json",
+    "E:\\DUANCE\\gate2d-comparison\\results\\pilot-20261109T083022Z-baaae6\\002-b00-opencl-pp128-tg256\\benchmark.json"
+  ],
+  "started_at_utc": "2026-11-09T08:31:08.667902+00:00",
+  "ended_at_utc": "2026-11-09T08:31:08.692520+00:00",
+  "elapsed_seconds": 0.02515020000282675,
+  "exit_code": 0
+}

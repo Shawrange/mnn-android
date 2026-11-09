@@ -1,0 +1,13 @@
+{
+  "id": "IN017",
+  "split": "formal",
+  "category": "instruction",
+  "input": "如果数字13大于20则输出TRUE，否则输出FALSE。只输出一个英文单词。",
+  "gold": "FALSE",
+  "variants": [
+    "FALSE"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "FALSE"
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "pull",
+    "/data/local/tmp/mnn-gate2c-20261108/oracle-opencl/logits-20261108T195947Z-5aba2f-natural.ids.txt",
+    "E:\\DUANCE\\gate2c-opencl\\results\\logits-20261108T195947Z-5aba2f\\opencl-natural\\ids.txt"
+  ],
+  "started_at_utc": "2026-11-08T19:59:55.476714+00:00",
+  "ended_at_utc": "2026-11-08T19:59:55.505224+00:00",
+  "elapsed_seconds": 0.028521400061435997,
+  "exit_code": 0
+}

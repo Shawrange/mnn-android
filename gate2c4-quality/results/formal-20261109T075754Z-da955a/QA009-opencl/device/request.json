@@ -1,0 +1,13 @@
+{
+  "id": "QA009",
+  "split": "formal",
+  "category": "qa",
+  "input": "短文：演出于18:30开始，观众须提前20分钟到场。问：演出开始时间是什么？只输出HH:MM。",
+  "gold": "18:30",
+  "variants": [
+    "18:30"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "18:30"
+}

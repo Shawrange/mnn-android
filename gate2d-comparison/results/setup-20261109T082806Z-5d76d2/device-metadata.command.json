@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "id; getprop ro.build.fingerprint; getprop ro.soc.model; getprop ro.build.version.release; getprop ro.build.version.sdk; uname -a; getconf PAGESIZE; getenforce"
+  ],
+  "started_at_utc": "2026-11-09T08:28:08.225270+00:00",
+  "ended_at_utc": "2026-11-09T08:28:08.309620+00:00",
+  "elapsed_seconds": 0.0843682000413537,
+  "exit_code": 0
+}

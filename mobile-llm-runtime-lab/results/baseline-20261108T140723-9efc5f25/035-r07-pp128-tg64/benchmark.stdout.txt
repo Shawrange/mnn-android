@@ -1,0 +1,9 @@
+CPU Group: [ 0  1  2  3  4  5 ], 384000 - 3532800
+CPU Group: [ 6  7 ], 1017600 - 4320000
+(last_midr & (CPUINFO_ARM_MIDR_IMPLEMENTER_MASK | CPUINFO_ARM_MIDR_PART_MASK))=0x 51000010 in _getInfoArm, 1250 
+The device supports: i8sdot:1, fp16:1, i8mm: 1, sve2: 0, sme2: 0, perfCores: 0
+| model                          |  modelSize | backend    | threads | precision  | test          | speed(tok/s) |
+| ------------------------------ | ---------: | ---------- | ----: | ---------- | ------------- | ------------ |
+| Qwen3-0.6B-MNN                 | 429.93 MiB | CPU        |     4 | Low        | pp128+tg64    | 536.94 ± 0.00<br>94.04 ± 0.00 |
+decode wall speed (incl. sampling): 93.92 ± 0.00 tok/s
+

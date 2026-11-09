@@ -1,0 +1,16 @@
+{
+  "id": "EX006",
+  "split": "formal",
+  "category": "extraction",
+  "input": "安排：魏宁将在14:05到松柏会议室报到。只提取地点和时间，输出JSON对象，键为place、time，值保持原文字符串，不增加姓名等字段。",
+  "gold": {
+    "place": "松柏会议室",
+    "time": "14:05"
+  },
+  "variants": [
+    "{\"place\":\"松柏会议室\",\"time\":\"14:05\"}"
+  ],
+  "rule": "json_exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "{\"place\":\"松柏会议室\",\"time\":\"14:05\"}"
+}

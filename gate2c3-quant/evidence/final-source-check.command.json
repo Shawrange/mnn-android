@@ -1,0 +1,12 @@
+{
+  "command": [
+    "wsl",
+    "-d",
+    "Ubuntu",
+    "--",
+    "python3",
+    "-c",
+    "from pathlib import Path; import subprocess,json,hashlib; s=Path('/home/shawrange/src/MNN-3.6.2'); q=Path('/home/shawrange/src/MNN-quant-gate2c3'); r=Path('/mnt/e/DUANCE/gate2c3-quant'); assert subprocess.check_output(['git','-C',str(s),'rev-parse','HEAD']).decode().strip()=='7e3c6fb5225d3ccf22807ee641332669df34650d'; assert not subprocess.check_output(['git','-C',str(s),'status','--porcelain','--untracked-files=no']).strip(); subprocess.run(['git','-C',str(s),'apply','--check',str(r/'evidence/diagnostic.patch')],check=True); subprocess.run(['git','-C',str(q),'diff','--check'],check=True); assert hashlib.sha256((q/'build-android-arm64-cpu-gate2c3/libMNN.so').read_bytes()).hexdigest()==hashlib.sha256((r/'staging/libMNN-diagnostic.so').read_bytes()).hexdigest(); assert all((q/f).read_bytes()==(r/'evidence/diagnostic-source'/f).read_bytes() for f in ['source/backend/cpu/compute/ConvInt8TiledExecutor.cpp','source/backend/cpu/compute/GateC3Capture.hpp']); print('Fixed base clean, diagnostic patch replayable, live source and map-linked binary match')"
+  ],
+  "exit_code": 0
+}

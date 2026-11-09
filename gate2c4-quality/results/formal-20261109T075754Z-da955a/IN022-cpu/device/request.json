@@ -1,0 +1,13 @@
+{
+  "id": "IN022",
+  "split": "formal",
+  "category": "instruction",
+  "input": "将“早上好”替换为“晚上好”。只输出替换后的三个字。",
+  "gold": "晚上好",
+  "variants": [
+    "晚上好"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "晚上好"
+}

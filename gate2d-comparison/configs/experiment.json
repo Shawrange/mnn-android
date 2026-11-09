@@ -1,0 +1,36 @@
+{
+  "adb": "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+  "serial": "ee19377b",
+  "mnn_commit": "7e3c6fb5225d3ccf22807ee641332669df34650d",
+  "model_revision": "34dfccda1187ded6e07ea06426da576b0b793c6b",
+  "cooling": {
+    "max_skin_c": 38.0,
+    "max_battery_c": 36.0,
+    "max_current_cpu_c": 80.0,
+    "max_wait_seconds": 300,
+    "poll_seconds": 15
+  },
+  "formal_processes": 36,
+  "independent_processes_per_cell": 6,
+  "minimum_gap_seconds": 15,
+  "seed": 20261109,
+  "requested_runtime": {
+    "precision": 2,
+    "memory": 2,
+    "power": 0,
+    "t": 4,
+    "dyo": 0,
+    "qa": 0,
+    "fa": 1,
+    "ignore_eos": true,
+    "async": false,
+    "greedy": true,
+    "reuse_kv": false
+  },
+  "effective_runtime": {
+    "dynamic_option": 0,
+    "attention_mode": 8,
+    "cpu_threads": 4,
+    "opencl_mode_bits": 580
+  }
+}

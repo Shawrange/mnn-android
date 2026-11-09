@@ -1,0 +1,10 @@
+{
+  "id": "IN009",
+  "category": "instruction",
+  "success": true,
+  "answer_matches": true,
+  "format_valid": true,
+  "flags": [],
+  "normalized_text": "甲乙丙",
+  "parsed_json": null
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "push",
+    "E:\\DUANCE\\gate2c-opencl\\staging\\clean\\libMNN.so",
+    "/data/local/tmp/mnn-gate2c-20261108/oracle-opencl/libMNN.so"
+  ],
+  "started_at_utc": "2026-11-08T19:59:51.151195+00:00",
+  "ended_at_utc": "2026-11-08T19:59:51.298134+00:00",
+  "elapsed_seconds": 0.1466521000256762,
+  "exit_code": 0
+}

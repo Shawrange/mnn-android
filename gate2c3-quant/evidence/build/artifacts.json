@@ -1,0 +1,5 @@
+{
+  "staging/libMNN-diagnostic.so": "217d09f705d640b0a6286df12e7111deb9746222f59a70d37c6eb927f7f8a316",
+  "staging/replay": "8398ccd6552db6cce29e1c1fbdc264d8ba726b8fc179d8dcff312a6a831ba0ca",
+  "evidence/diagnostic.patch": "94f64627a22ef6dca0d036beb251406d96d900fa9d5b436dc56eaf68f5adc44a"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "IN014",
+  "split": "formal",
+  "category": "instruction",
+  "input": "将单词cat重复3次，用英文连字符连接。只输出一行。",
+  "gold": "cat-cat-cat",
+  "variants": [
+    "cat-cat-cat"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "cat-cat-cat"
+}

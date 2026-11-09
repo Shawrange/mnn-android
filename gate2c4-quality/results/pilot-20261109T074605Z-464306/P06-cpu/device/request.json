@@ -1,0 +1,15 @@
+{
+  "id": "P06",
+  "split": "pilot",
+  "category": "extraction",
+  "input": "从“周月的快递单号是K825”提取姓名和单号，只输出JSON，键为name、code，值为字符串。",
+  "gold": {
+    "name": "周月",
+    "code": "K825"
+  },
+  "variants": [
+    "{\"name\":\"周月\",\"code\":\"K825\"}"
+  ],
+  "rule": "json_exact",
+  "scoring": "binary deterministic; strict format; natural EOS required"
+}

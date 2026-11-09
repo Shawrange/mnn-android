@@ -1,0 +1,126 @@
+[
+  {
+    "file": "transformers/llm/engine/tools/llm_bench.cpp",
+    "sha256": "4102a95e34de32feb63cd83dd6ae04fd74865efc4ff438b6c6d1c50f79b2ab1c"
+  },
+  {
+    "file": "transformers/llm/engine/src/llm.cpp",
+    "sha256": "260283e43bc0a7ce233b645602bd83e49f9fbf5964f0be4a477fdacde190fdd7"
+  },
+  {
+    "file": "transformers/llm/engine/src/speculative_decoding/generate.cpp",
+    "sha256": "f5194d3447509c577f09e602fb977534c1909bd4a6159b2f54ff52055f0a5601"
+  },
+  {
+    "file": "tools/cpp/Profiler.cpp",
+    "sha256": "29279668a9a043975e07bc95e117d1d0a7d3d8e534fc2323fa245fb22e6f2c78"
+  },
+  {
+    "file": "source/core/Pipeline.cpp",
+    "sha256": "8a3211e50d2b7095aca005c7f3b0ef8b24d5c8a438cd340163ec8b4d9bfdc3f2"
+  },
+  {
+    "file": "source/core/Session.cpp",
+    "sha256": "22aab3db3aae2f79612d3ce80569582a9fdbbde55ef5dbeda2be80fd2a22e93c"
+  },
+  {
+    "file": "source/core/TensorUtils.hpp",
+    "sha256": "e3d0b04c93706b6f96b69051489b1e40a56081617c838e5a79fe313f244774eb"
+  },
+  {
+    "file": "source/core/Backend.hpp",
+    "sha256": "c30c02a71b305fb5d94631c8d3acf3acd17340851f111e3faa2c4432aab60f63"
+  },
+  {
+    "file": "source/backend/cpu/CPUBackend.cpp",
+    "sha256": "1f786e1024b0e29eabbaccaa5c67bf2e7c05903853e7bd117cd5d906197e4edc"
+  },
+  {
+    "file": "source/backend/cpu/CPUBackend.hpp",
+    "sha256": "a41a67d5786f37dd6565a1171ce2ddd3929941e8eb7750f85bbd27b4cc90df80"
+  },
+  {
+    "file": "source/backend/arm82/Arm82Backend.cpp",
+    "sha256": "eccb1c34924a8c3decb419ff095f4113dcc8873c591ce2890bbcf3f45519ce43"
+  },
+  {
+    "file": "source/backend/arm82/Arm82Functions.cpp",
+    "sha256": "6ac64219fc03ca085535b3f2790b6c5ad5956d5a463d6ede933068ca1bd2db85"
+  },
+  {
+    "file": "source/backend/cpu/compute/ConvolutionFloatFactory.cpp",
+    "sha256": "e9f6c66cb91876140772fadb179707a2b6fbb97768e11539d3d9d84f5afd0f44"
+  },
+  {
+    "file": "source/backend/cpu/compute/ConvInt8TiledExecutor.cpp",
+    "sha256": "6b0b9fe5bad252d32884446876b1982e4c43be3106b0b940e8640650ae7d3020"
+  },
+  {
+    "file": "source/backend/cpu/compute/ConvInt8TiledExecutor.hpp",
+    "sha256": "10ad7050c4e450a35124b28d5861ee20a069d3f5bc4326cf8a31c210ac27ac12"
+  },
+  {
+    "file": "source/backend/cpu/compute/DenseConvolutionTiledExecutor.cpp",
+    "sha256": "dbdf440db23a8c8e1d8a3c9c49db7c9228589f15a008cec5f694890ec1b8b385"
+  },
+  {
+    "file": "source/backend/cpu/compute/Int8FunctionsOpt.cpp",
+    "sha256": "ab667b978a675887d8f132dd0eed66552d20349c807c7c0180c44862eced33ec"
+  },
+  {
+    "file": "source/backend/cpu/CPULayerNorm.cpp",
+    "sha256": "c341a4353376d790f0d22afc4d0d728759c189c470839f0bd7328b8487277d62"
+  },
+  {
+    "file": "source/backend/cpu/CPURaster.cpp",
+    "sha256": "9e96f1ef3c03b45ed9488e870bfe4253b168af4fab186f946e5c211f8e7b2a77"
+  },
+  {
+    "file": "source/backend/cpu/CPUBinary.cpp",
+    "sha256": "027356ffcc94aa7e64eefc229c757b8c72e5184804dd69e6bc434774c6eddda0"
+  },
+  {
+    "file": "source/backend/cpu/CPUUnary.cpp",
+    "sha256": "e6a63fcc043ce491b9dbac4d7d6513593b9cfa783ae38d32527341401c810e91"
+  },
+  {
+    "file": "source/backend/cpu/CPUAttention.cpp",
+    "sha256": "3978b1b5a2bc3255d477ead3210c2bd997f60001945c23ff2afd9fcd09b8df44"
+  },
+  {
+    "file": "express/module/StaticModule.cpp",
+    "sha256": "28b7e67acac63d1dc547ddf81633070c9b1573057a8dd7361f8d74545d5a9d55"
+  },
+  {
+    "file": "source/backend/cpu/ThreadPool.cpp",
+    "sha256": "cd2a9b3920c1a35b744a8ea3c9fbd1c098ed27be4c60ac2fa25cd67a8e5bcccb"
+  },
+  {
+    "file": "source/core/Concurrency.h",
+    "sha256": "db2ad05d626a39c3c41838874f0fbe795712d5526dd68101922a802f385c556e"
+  },
+  {
+    "file": "transformers/llm/export/utils/model.py",
+    "sha256": "d9de0e85c40530e81717a6b0727eb61f259ed58e2910c7c82aaedcb24ea21613"
+  },
+  {
+    "file": "transformers/llm/export/utils/transformers.py",
+    "sha256": "7783309603ce7acd93548891281213dbf513ff089fb7394cd267988dca2c97f9"
+  },
+  {
+    "file": "source/backend/cpu/CPUConvolution.cpp",
+    "sha256": "97eace40a899a97c4e9dd67097e3daf78ef1f1ecc3dd4249ed8102c39523f317"
+  },
+  {
+    "file": "source/backend/cpu/CPUCast.cpp",
+    "sha256": "61b8b5dc1e96a9269fccb6b33d16c5e9f0628d0e48a5fc981c3311aaeacc54fb"
+  },
+  {
+    "file": "source/backend/cpu/compute/CommonOptFunction.h",
+    "sha256": "8177ce6c5a3b990ba7889504354e3b0fbfedcdc00178323719e342096e1d3626"
+  },
+  {
+    "file": "source/backend/cpu/compute/CPUExtension.hpp",
+    "sha256": "3c875f15d4d4f5ab4031d0f9f0412ed9e8a57851177bbb5f8d17d3449305073d"
+  }
+]

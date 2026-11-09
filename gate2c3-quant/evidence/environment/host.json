@@ -1,0 +1,8 @@
+{
+  "platform": "Windows-11-10.0.26100-SP0",
+  "python": "3.12.4",
+  "numpy": "2.3.0",
+  "mnn_commit": "7e3c6fb5225d3ccf22807ee641332669df34650d",
+  "model_revision": "34dfccda1187ded6e07ea06426da576b0b793c6b",
+  "timestamp_utc": "2026-11-09T07:16:49.881248+00:00"
+}

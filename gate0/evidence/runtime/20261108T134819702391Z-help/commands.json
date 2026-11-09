@@ -1,0 +1,27 @@
+[
+  {
+    "label": "device-state",
+    "command": [
+      "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "ee19377b",
+      "get-state"
+    ],
+    "started_at_utc": "2026-11-08T13:48:19.702391+00:00",
+    "elapsed_seconds": 0.015,
+    "exit_code": 0
+  },
+  {
+    "label": "llm-bench-help",
+    "command": [
+      "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "ee19377b",
+      "shell",
+      "cd /data/local/tmp/mnn-gate0-20261108T134731469951Z && LD_LIBRARY_PATH=. ./llm_bench --help"
+    ],
+    "started_at_utc": "2026-11-08T13:48:19.727640+00:00",
+    "elapsed_seconds": 0.281,
+    "exit_code": 0
+  }
+]

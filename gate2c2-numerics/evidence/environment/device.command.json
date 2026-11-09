@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "id; getprop ro.build.fingerprint; getprop ro.soc.model; getprop ro.build.version.release; getprop ro.build.version.sdk; uname -a; getconf PAGESIZE; getenforce; ps -A | grep -E \"numeric_probe|replay\""
+  ],
+  "started_at_utc": "2026-11-08T20:41:30.591533+00:00",
+  "ended_at_utc": "2026-11-08T20:41:30.752560+00:00",
+  "elapsed_seconds": 0.16095109994057566,
+  "exit_code": 1
+}

@@ -1,0 +1,79 @@
+{
+  "configure_exit": 0,
+  "build_exit": 0,
+  "tracked_source_unchanged": true,
+  "flags": {
+    "CMAKE_GENERATOR": "Ninja",
+    "CMAKE_BUILD_TYPE": "Release",
+    "CMAKE_CXX_STANDARD": "17",
+    "CMAKE_CXX_COMPILER": "/home/shawrange/Android/android-ndk-r27c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++",
+    "CMAKE_TOOLCHAIN_FILE": "/home/shawrange/Android/android-ndk-r27c/build/cmake/android.toolchain.cmake",
+    "ANDROID_ABI": "arm64-v8a",
+    "ANDROID_PLATFORM": "android-21",
+    "ANDROID_STL": "c++_static",
+    "MNN_BUILD_LLM": "ON",
+    "MNN_LOW_MEMORY": "ON",
+    "MNN_SUPPORT_TRANSFORMER_FUSE": "ON",
+    "MNN_ARM82": "ON",
+    "MNN_SME2": "OFF",
+    "MNN_SEP_BUILD": "OFF",
+    "MNN_OPENCL": "OFF",
+    "MNN_VULKAN": "OFF",
+    "MNN_CUDA": "OFF",
+    "MNN_QNN": "OFF",
+    "MNN_HEXAGON": "OFF",
+    "MNN_WITH_PLUGIN": "OFF"
+  },
+  "artifacts": [
+    {
+      "file": "llm_demo",
+      "size": 35096,
+      "sha256": "37e65f0a8881699ec22bc96dd3ec2457c00ec3699ff2e4a7ef810ca8b1b915d9",
+      "class": "ELF64",
+      "machine": "AArch64",
+      "needed": [
+        "libMNN.so",
+        "liblog.so",
+        "libm.so",
+        "libandroid.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "load_alignment": "0x4000",
+      "android_interpreter": "/system/bin/linker64"
+    },
+    {
+      "file": "llm_bench",
+      "size": 120944,
+      "sha256": "fd85bf65a75656d023feb9e2ad315f6ee7c6033c8f1591a835e54d2985db4676",
+      "class": "ELF64",
+      "machine": "AArch64",
+      "needed": [
+        "libMNN.so",
+        "liblog.so",
+        "libm.so",
+        "libandroid.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "load_alignment": "0x4000",
+      "android_interpreter": "/system/bin/linker64"
+    },
+    {
+      "file": "libMNN.so",
+      "size": 5014312,
+      "sha256": "47b5db44b7acdaee876c733473ea9124cf71b645b6e53976d3bfd6ad313d120e",
+      "class": "ELF64",
+      "machine": "AArch64",
+      "needed": [
+        "liblog.so",
+        "libm.so",
+        "libandroid.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "load_alignment": "0x4000",
+      "android_interpreter": null
+    }
+  ]
+}

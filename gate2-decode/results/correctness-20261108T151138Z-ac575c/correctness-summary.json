@@ -1,0 +1,24 @@
+{
+  "synthetic": {
+    "matched_modes": [
+      "clean",
+      "off",
+      "on"
+    ],
+    "generated_tokens": 256,
+    "tokens_sha256": "7ee344838f3b3752c6f5185cb1457ba142c9da17f2d7f0d80da3b4c498dff032",
+    "meta": "status=2\nprompt=128\ngenerated=256\nkv=384\n",
+    "text_sha256": "a19a5a635f7527b729633bcf1ef64ae18866a961e45ce1700c34d75ea87cc8a8"
+  },
+  "natural": {
+    "matched_modes": [
+      "clean",
+      "off",
+      "on"
+    ],
+    "generated_tokens": 256,
+    "tokens_sha256": "5b79bc2ea6f98007100e513bc8b9a443fccd8f30a33949f68d94ec1f23cb758a",
+    "meta": "status=2\nprompt=43\ngenerated=256\nkv=299\n",
+    "text_sha256": "2f7c23af7aecb4b93fd92050bb2b9eca2bee9dbee99ad23eda35b04a4da104f1"
+  }
+}

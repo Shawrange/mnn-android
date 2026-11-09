@@ -1,0 +1,12 @@
+{
+  "id": "P02",
+  "split": "pilot",
+  "category": "classification",
+  "input": "把下面消息分为咨询、投诉、表扬之一，只输出类别。消息：收到的杯子裂了，客服还不处理，我很不满。",
+  "gold": "投诉",
+  "variants": [
+    "投诉"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; strict format; natural EOS required"
+}

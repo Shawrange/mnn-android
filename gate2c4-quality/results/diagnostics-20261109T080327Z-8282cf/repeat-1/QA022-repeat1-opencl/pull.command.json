@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "pull",
+    "/data/local/tmp/mnn-gate2c4-diagnostics-20261109T080327Z-8282cf/opencl/QA022-repeat1",
+    "E:\\DUANCE\\gate2c4-quality\\results\\diagnostics-20261109T080327Z-8282cf\\repeat-1\\QA022-repeat1-opencl\\device"
+  ],
+  "started_at_utc": "2026-11-09T08:04:08.453907+00:00",
+  "ended_at_utc": "2026-11-09T08:04:08.481534+00:00",
+  "elapsed_seconds": 0.028124900069087744,
+  "exit_code": 0
+}

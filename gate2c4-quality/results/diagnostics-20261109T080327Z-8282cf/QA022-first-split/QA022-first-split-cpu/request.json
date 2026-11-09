@@ -1,0 +1,6 @@
+{
+  "id": "QA022-first-split",
+  "input": "一年有几个月？只输出阿拉伯数字。",
+  "reference": "12",
+  "prefix_ids": []
+}

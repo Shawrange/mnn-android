@@ -1,0 +1,13 @@
+{
+  "id": "IN010",
+  "split": "formal",
+  "category": "instruction",
+  "input": "只输出四个字符：测试成功。不要引号、标点或其他内容。",
+  "gold": "测试成功",
+  "variants": [
+    "测试成功"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "测试成功"
+}

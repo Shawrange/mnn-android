@@ -1,0 +1,77 @@
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Deprecation Warning at /home/shawrange/Android/android-ndk-r27c/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  build-android-arm64-cpu-gate2c3/CMakeFiles/4.2.3/CMakeSystem.cmake:6 (include)
+  CMakeLists.txt:20 (project)
+
+
+CMake Deprecation Warning at /home/shawrange/Android/android-ndk-r27c/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/shawrange/Android/android-ndk-r27c/build/cmake/android.toolchain.cmake:55 (include)
+  build-android-arm64-cpu-gate2c3/CMakeFiles/4.2.3/CMakeSystem.cmake:6 (include)
+  CMakeLists.txt:20 (project)
+
+
+CMake Deprecation Warning at /home/shawrange/Android/android-ndk-r27c/build/cmake/flags.cmake:18 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/share/cmake-4.2/Modules/Platform/Android-Clang.cmake:23 (include)
+  /usr/share/cmake-4.2/Modules/Platform/Android-Clang-C.cmake:1 (include)
+  /usr/share/cmake-4.2/Modules/CMakeCInformation.cmake:48 (include)
+  CMakeLists.txt:20 (project)
+
+
+-- Use Threadpool, forbid openmp
+-- >>>>>>>>>>>>>
+-- MNN BUILD INFO:
+-- 	System: Android
+-- 	Processor: aarch64
+-- 	Version: 3.6.2
+-- 	Metal: OFF
+-- 	OpenCL: OFF
+-- 	OpenGL: OFF
+-- 	Vulkan: OFF
+-- 	ARM82: ON
+-- 	KleidiAI: OFF
+-- 	oneDNN: OFF
+-- 	TensorRT: OFF
+-- 	CoreML: OFF
+-- 	NNAPI: OFF
+-- 	QNN: OFF
+-- 	CUDA: OFF
+-- 	MUSA: OFF
+-- 	OpenMP: OFF
+-- 	BF16: OFF
+-- 	ThreadPool: ON
+-- 	Hidden: TRUE
+-- 	Build Path: /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3
+-- 	CUDA PROFILE: OFF
+-- Enabling AArch64 Assemblies
+-- Configuring done (0.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3

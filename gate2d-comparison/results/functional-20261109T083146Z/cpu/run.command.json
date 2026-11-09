@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "cd /data/local/tmp/mnn-gate2d-20261109T082806Z-5d76d2/cpu && LD_LIBRARY_PATH=. ./count_probe config.json cpu count-contract.json"
+  ],
+  "started_at_utc": "2026-11-09T08:32:01.752883+00:00",
+  "ended_at_utc": "2026-11-09T08:32:12.921129+00:00",
+  "elapsed_seconds": 11.168266499997117,
+  "exit_code": 0
+}

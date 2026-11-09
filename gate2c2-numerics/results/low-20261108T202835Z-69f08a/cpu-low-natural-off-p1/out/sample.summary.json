@@ -1,0 +1,55 @@
+{
+  "backend": "cpu",
+  "mode": "off",
+  "precision": "low",
+  "repeats": [
+    {
+      "all_seq_len": 13,
+      "checkpoints": [],
+      "generated": 0,
+      "kv_history": 13,
+      "order": 2,
+      "prompt_len": 13,
+      "read_twice_identical": true,
+      "repeat": 0,
+      "shape": [
+        1,
+        1,
+        151936
+      ],
+      "stats": {
+        "elements": 151936,
+        "exact_half_fraction": 1.0,
+        "max": 28.984375,
+        "min": -15.578125,
+        "nonfinite": 0
+      },
+      "status": 0,
+      "type": "float32"
+    },
+    {
+      "all_seq_len": 13,
+      "checkpoints": [],
+      "generated": 0,
+      "kv_history": 13,
+      "order": 2,
+      "prompt_len": 13,
+      "read_twice_identical": true,
+      "repeat": 1,
+      "shape": [
+        1,
+        1,
+        151936
+      ],
+      "stats": {
+        "elements": 151936,
+        "exact_half_fraction": 1.0,
+        "max": 28.984375,
+        "min": -15.578125,
+        "nonfinite": 0
+      },
+      "status": 0,
+      "type": "float32"
+    }
+  ]
+}

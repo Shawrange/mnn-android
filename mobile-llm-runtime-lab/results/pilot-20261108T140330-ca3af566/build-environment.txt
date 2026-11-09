@@ -1,0 +1,14 @@
+2026-11-08T13:40:53Z
+mnn_commit=7e3c6fb5225d3ccf22807ee641332669df34650d
+Pkg.Desc = Android NDK
+Pkg.Revision = 27.2.12479018
+Pkg.BaseRevision = 27.2.12479018
+Pkg.ReleaseName = r27c
+cmake version 4.2.3
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+1.13.2
+Android (12470979, +pgo, +bolt, +lto, +mlgo, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /home/shawrange/Android/android-ndk-r27c/toolchains/llvm/prebuilt/linux-x86_64/bin

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "push",
+    "E:\\DUANCE\\gate0\\staging\\llm_bench",
+    "/data/local/tmp/mnn-gate2b-20261108/llm_bench"
+  ],
+  "started_at_utc": "2026-11-08T19:18:57.502580+00:00",
+  "ended_at_utc": "2026-11-08T19:18:57.526670+00:00",
+  "elapsed_seconds": 0.024228899972513318,
+  "exit_code": 0
+}

@@ -1,0 +1,13 @@
+{
+  "id": "IN018",
+  "split": "formal",
+  "category": "instruction",
+  "input": "从“梨、苹果、桃”中选择第2项，只输出水果名。",
+  "gold": "苹果",
+  "variants": [
+    "苹果"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "苹果"
+}

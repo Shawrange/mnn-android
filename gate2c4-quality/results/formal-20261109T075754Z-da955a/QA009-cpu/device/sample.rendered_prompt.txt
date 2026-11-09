@@ -1,0 +1,9 @@
+<|im_start|>system
+你是手机离线短文本助手。直接完成用户任务，只输出要求的答案，不输出分析、解释、Markdown代码块或额外字段。<|im_end|>
+<|im_start|>user
+短文：演出于18:30开始，观众须提前20分钟到场。问：演出开始时间是什么？只输出HH:MM。<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+

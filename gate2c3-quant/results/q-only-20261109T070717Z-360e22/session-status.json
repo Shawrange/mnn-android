@@ -1,0 +1,106 @@
+{
+  "status": "completed",
+  "runs": [
+    {
+      "kind": "synthetic",
+      "mode": "cpu-low",
+      "backend": "cpu",
+      "precision": "low",
+      "memory": "low",
+      "trace": false,
+      "exit_code": 0,
+      "valid": true
+    },
+    {
+      "kind": "synthetic",
+      "mode": "diag-off",
+      "backend": "cpu",
+      "precision": "low",
+      "memory": "low",
+      "trace": false,
+      "exit_code": 0,
+      "valid": true
+    },
+    {
+      "kind": "synthetic",
+      "mode": "diag-on",
+      "backend": "cpu",
+      "precision": "low",
+      "memory": "low",
+      "trace": true,
+      "exit_code": 0,
+      "valid": true
+    },
+    {
+      "kind": "synthetic",
+      "mode": "cpu-float",
+      "backend": "cpu",
+      "precision": "high",
+      "memory": "high",
+      "trace": false,
+      "exit_code": 0,
+      "valid": true
+    },
+    {
+      "kind": "synthetic",
+      "mode": "gpu-high",
+      "backend": "opencl",
+      "precision": "high",
+      "memory": "low",
+      "trace": false,
+      "exit_code": 0,
+      "valid": true
+    },
+    {
+      "kind": "natural",
+      "mode": "cpu-low",
+      "backend": "cpu",
+      "precision": "low",
+      "memory": "low",
+      "trace": false,
+      "exit_code": 0,
+      "valid": true
+    },
+    {
+      "kind": "natural",
+      "mode": "diag-off",
+      "backend": "cpu",
+      "precision": "low",
+      "memory": "low",
+      "trace": false,
+      "exit_code": 0,
+      "valid": true
+    },
+    {
+      "kind": "natural",
+      "mode": "diag-on",
+      "backend": "cpu",
+      "precision": "low",
+      "memory": "low",
+      "trace": true,
+      "exit_code": 0,
+      "valid": true
+    },
+    {
+      "kind": "natural",
+      "mode": "cpu-float",
+      "backend": "cpu",
+      "precision": "high",
+      "memory": "high",
+      "trace": false,
+      "exit_code": 0,
+      "valid": true
+    },
+    {
+      "kind": "natural",
+      "mode": "gpu-high",
+      "backend": "opencl",
+      "precision": "high",
+      "memory": "low",
+      "trace": false,
+      "exit_code": 0,
+      "valid": true
+    }
+  ],
+  "ended_at_utc": "2026-11-09T07:07:30.275159+00:00"
+}

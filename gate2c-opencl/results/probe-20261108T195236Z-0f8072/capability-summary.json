@@ -1,0 +1,15 @@
+{
+  "probes": [
+    {
+      "library": "libOpenCL.so",
+      "exit_code": 0,
+      "arithmetic_kernel_passed": true
+    },
+    {
+      "library": "/vendor/lib64/libOpenCL.so",
+      "exit_code": 0,
+      "arithmetic_kernel_passed": true
+    }
+  ],
+  "scope": "Standalone GPU arithmetic is not proof of LLM placement"
+}

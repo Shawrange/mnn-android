@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "mkdir -p /data/local/tmp/mnn-gate2c2-replay-20261108T203409Z-9f7332/opencl-high-memlow-natural/out"
+  ],
+  "started_at_utc": "2026-11-08T20:34:18.109768+00:00",
+  "ended_at_utc": "2026-11-08T20:34:18.175400+00:00",
+  "elapsed_seconds": 0.06564359995536506,
+  "exit_code": 0
+}

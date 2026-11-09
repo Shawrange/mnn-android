@@ -1,0 +1,28 @@
+{
+  "llm_model": "/data/local/tmp/mnn-gate0-20261108T134731469951Z/Qwen3-0.6B-MNN/llm.mnn",
+  "llm_weight": "/data/local/tmp/mnn-gate0-20261108T134731469951Z/Qwen3-0.6B-MNN/llm.mnn.weight",
+  "backend_type": "opencl",
+  "thread_num": 4,
+  "precision": "low",
+  "memory": "low",
+  "sampler_type": "greedy",
+  "mixed_samplers": [
+    "penalty",
+    "topK",
+    "topP",
+    "min_p",
+    "temperature"
+  ],
+  "penalty": 1.1,
+  "temperature": 0.6,
+  "topP": 0.95,
+  "topK": 20,
+  "min_p": 0,
+  "max_new_tokens": 16,
+  "reuse_kv": false,
+  "async": false,
+  "power": "normal",
+  "use_mmap": false,
+  "tmp_path": "tmp",
+  "tokenizer_file": "/data/local/tmp/mnn-gate0-20261108T134731469951Z/Qwen3-0.6B-MNN/tokenizer.txt"
+}

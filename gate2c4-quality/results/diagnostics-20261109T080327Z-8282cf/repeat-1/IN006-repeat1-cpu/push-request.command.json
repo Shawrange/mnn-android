@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "push",
+    "E:\\DUANCE\\gate2c4-quality\\results\\diagnostics-20261109T080327Z-8282cf\\repeat-1\\IN006-repeat1-cpu\\request.json",
+    "/data/local/tmp/mnn-gate2c4-diagnostics-20261109T080327Z-8282cf/cpu/IN006-repeat1/request.json"
+  ],
+  "started_at_utc": "2026-11-09T08:04:08.517856+00:00",
+  "ended_at_utc": "2026-11-09T08:04:08.545362+00:00",
+  "elapsed_seconds": 0.028035600087605417,
+  "exit_code": 0
+}

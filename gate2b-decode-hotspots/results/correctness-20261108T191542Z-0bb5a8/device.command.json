@@ -1,0 +1,12 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "get-state"
+  ],
+  "started_at_utc": "2026-11-08T19:15:42.542723+00:00",
+  "ended_at_utc": "2026-11-08T19:15:42.561722+00:00",
+  "elapsed_seconds": 0.018807699903845787,
+  "exit_code": 0
+}

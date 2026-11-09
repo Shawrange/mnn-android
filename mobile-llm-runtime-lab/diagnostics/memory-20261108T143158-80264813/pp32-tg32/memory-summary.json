@@ -1,0 +1,62 @@
+{
+  "prompt_tokens": 32,
+  "generated_tokens": 32,
+  "process_exit": 0,
+  "sample_count": 4,
+  "pss_available": true,
+  "identity_confirmed_snapshots": 4,
+  "max_observed_pss_kib": 562608,
+  "max_observed_rss_kib": 715608,
+  "max_observed_vmhwm_kib": 925200,
+  "samples": [
+    {
+      "device_time_and_uptime": "1794148336 4719.57 32799.60",
+      "process_name": "llm_bench",
+      "pid": 28415,
+      "target_identity_confirmed": true,
+      "VmRSS_kib": 18212,
+      "VmHWM_kib": 18212,
+      "Pss_kib": 9285,
+      "Rss_kib": 29712,
+      "SwapPss_kib": 0,
+      "VmSwap_kib": 0
+    },
+    {
+      "device_time_and_uptime": "1794148336 4720.13 32803.33",
+      "process_name": "llm_bench",
+      "pid": 28415,
+      "target_identity_confirmed": true,
+      "VmRSS_kib": 715608,
+      "VmHWM_kib": 925200,
+      "Pss_kib": 547877,
+      "Rss_kib": 582636,
+      "SwapPss_kib": 0,
+      "VmSwap_kib": 0
+    },
+    {
+      "device_time_and_uptime": "1794148337 4720.70 32805.64",
+      "process_name": "llm_bench",
+      "pid": 28415,
+      "target_identity_confirmed": true,
+      "VmRSS_kib": 597364,
+      "VmHWM_kib": 925200,
+      "Pss_kib": 562608,
+      "Rss_kib": 597364,
+      "SwapPss_kib": 0,
+      "VmSwap_kib": 0
+    },
+    {
+      "device_time_and_uptime": "1794148337 4721.25 32807.78",
+      "process_name": "llm_bench",
+      "pid": 28415,
+      "target_identity_confirmed": true,
+      "VmRSS_kib": 498264,
+      "VmHWM_kib": 925200,
+      "Pss_kib": 177101,
+      "Rss_kib": 211856,
+      "SwapPss_kib": 0,
+      "VmSwap_kib": 0
+    }
+  ],
+  "warning": "PSS/RSS polling maxima are sampled lower bounds; no stage labels; diagnostic throughput excluded"
+}

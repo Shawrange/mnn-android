@@ -1,0 +1,19 @@
+{
+  "backend": "opencl",
+  "gen_seq_len": 11,
+  "generated_count": 11,
+  "id": "IN001",
+  "initial_kv": 0,
+  "input_len": 78,
+  "kv_after": 88,
+  "mode": "generate",
+  "prompt_len": 78,
+  "status": 1,
+  "stop_token": 151645,
+  "stopped": true,
+  "thinking": false,
+  "process_exit": 0,
+  "runtime_ok": true,
+  "raw_text": "6, 9, 1, 3",
+  "valid_utf8": true
+}

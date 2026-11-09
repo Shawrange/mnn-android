@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "pull",
+    "/data/local/tmp/mnn-gate2b-20261108/runs/detail-20261108T193019Z-e977c9-001-b01-off-tg64.text.txt",
+    "E:\\DUANCE\\gate2b-decode-hotspots\\results\\detail-20261108T193019Z-e977c9\\001-b01-off-tg64\\text.txt"
+  ],
+  "started_at_utc": "2026-11-08T19:30:36.182452+00:00",
+  "ended_at_utc": "2026-11-08T19:30:36.205574+00:00",
+  "elapsed_seconds": 0.023733000038191676,
+  "exit_code": 0
+}

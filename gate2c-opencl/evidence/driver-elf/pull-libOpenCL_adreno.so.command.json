@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "pull",
+    "/vendor/lib64/libOpenCL_adreno.so",
+    "E:\\DUANCE\\gate2c-opencl\\evidence\\driver-elf\\libOpenCL_adreno.so"
+  ],
+  "started_at_utc": "2026-11-08T20:06:42.461779+00:00",
+  "ended_at_utc": "2026-11-08T20:06:42.494791+00:00",
+  "elapsed_seconds": 0.0325584999518469,
+  "exit_code": 0
+}

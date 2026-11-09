@@ -1,0 +1,9 @@
+{
+  "adb": "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+  "serial": "ee19377b",
+  "mnn_commit": "7e3c6fb5225d3ccf22807ee641332669df34650d",
+  "model_revision": "34dfccda1187ded6e07ea06426da576b0b793c6b",
+  "started_at_utc": "2026-11-09T07:07:17.649941+00:00",
+  "remote": "/data/local/tmp/mnn-gate2c3-q-only-20261109T070717Z-360e22",
+  "scope": "First Q projection independent quantization validation"
+}

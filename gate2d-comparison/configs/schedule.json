@@ -1,0 +1,218 @@
+[
+  {
+    "block": 1,
+    "backend": "cpu",
+    "pp": 128,
+    "tg": 64
+  },
+  {
+    "block": 1,
+    "backend": "opencl",
+    "pp": 128,
+    "tg": 64
+  },
+  {
+    "block": 1,
+    "backend": "cpu",
+    "pp": 128,
+    "tg": 256
+  },
+  {
+    "block": 1,
+    "backend": "opencl",
+    "pp": 128,
+    "tg": 256
+  },
+  {
+    "block": 1,
+    "backend": "opencl",
+    "pp": 32,
+    "tg": 64
+  },
+  {
+    "block": 1,
+    "backend": "cpu",
+    "pp": 32,
+    "tg": 64
+  },
+  {
+    "block": 2,
+    "backend": "opencl",
+    "pp": 32,
+    "tg": 64
+  },
+  {
+    "block": 2,
+    "backend": "cpu",
+    "pp": 32,
+    "tg": 64
+  },
+  {
+    "block": 2,
+    "backend": "opencl",
+    "pp": 128,
+    "tg": 256
+  },
+  {
+    "block": 2,
+    "backend": "cpu",
+    "pp": 128,
+    "tg": 256
+  },
+  {
+    "block": 2,
+    "backend": "cpu",
+    "pp": 128,
+    "tg": 64
+  },
+  {
+    "block": 2,
+    "backend": "opencl",
+    "pp": 128,
+    "tg": 64
+  },
+  {
+    "block": 3,
+    "backend": "cpu",
+    "pp": 128,
+    "tg": 64
+  },
+  {
+    "block": 3,
+    "backend": "opencl",
+    "pp": 128,
+    "tg": 64
+  },
+  {
+    "block": 3,
+    "backend": "opencl",
+    "pp": 128,
+    "tg": 256
+  },
+  {
+    "block": 3,
+    "backend": "cpu",
+    "pp": 128,
+    "tg": 256
+  },
+  {
+    "block": 3,
+    "backend": "cpu",
+    "pp": 32,
+    "tg": 64
+  },
+  {
+    "block": 3,
+    "backend": "opencl",
+    "pp": 32,
+    "tg": 64
+  },
+  {
+    "block": 4,
+    "backend": "cpu",
+    "pp": 128,
+    "tg": 256
+  },
+  {
+    "block": 4,
+    "backend": "opencl",
+    "pp": 128,
+    "tg": 256
+  },
+  {
+    "block": 4,
+    "backend": "opencl",
+    "pp": 128,
+    "tg": 64
+  },
+  {
+    "block": 4,
+    "backend": "cpu",
+    "pp": 128,
+    "tg": 64
+  },
+  {
+    "block": 4,
+    "backend": "cpu",
+    "pp": 32,
+    "tg": 64
+  },
+  {
+    "block": 4,
+    "backend": "opencl",
+    "pp": 32,
+    "tg": 64
+  },
+  {
+    "block": 5,
+    "backend": "opencl",
+    "pp": 32,
+    "tg": 64
+  },
+  {
+    "block": 5,
+    "backend": "cpu",
+    "pp": 32,
+    "tg": 64
+  },
+  {
+    "block": 5,
+    "backend": "cpu",
+    "pp": 128,
+    "tg": 256
+  },
+  {
+    "block": 5,
+    "backend": "opencl",
+    "pp": 128,
+    "tg": 256
+  },
+  {
+    "block": 5,
+    "backend": "opencl",
+    "pp": 128,
+    "tg": 64
+  },
+  {
+    "block": 5,
+    "backend": "cpu",
+    "pp": 128,
+    "tg": 64
+  },
+  {
+    "block": 6,
+    "backend": "cpu",
+    "pp": 128,
+    "tg": 64
+  },
+  {
+    "block": 6,
+    "backend": "opencl",
+    "pp": 128,
+    "tg": 64
+  },
+  {
+    "block": 6,
+    "backend": "opencl",
+    "pp": 128,
+    "tg": 256
+  },
+  {
+    "block": 6,
+    "backend": "cpu",
+    "pp": 128,
+    "tg": 256
+  },
+  {
+    "block": 6,
+    "backend": "cpu",
+    "pp": 32,
+    "tg": 64
+  },
+  {
+    "block": 6,
+    "backend": "opencl",
+    "pp": 32,
+    "tg": 64
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "cd /data/local/tmp/mnn-gate0-20261108T134731469951Z && LD_LIBRARY_PATH=. /system/bin/time -v ./llm_bench -m Qwen3-0.6B-MNN/config.cpu.json -a cpu -t 4 -p 0 -n 0 -pg 128,256 -rep 1 -c 2 --memory 2 --power 0 -dyo 0 -mmp 0 -qa 0 -fa 1 -load false -j /data/local/tmp/mnn-gate0-20261108T134731469951Z/gate1-20261108T140723-9efc5f25/s034.json"
+  ],
+  "started_at_utc": "2026-11-08T14:23:06.072343+00:00",
+  "ended_at_utc": "2026-11-08T14:23:13.874327+00:00",
+  "elapsed_seconds": 7.802065899944864,
+  "exit_code": 0
+}

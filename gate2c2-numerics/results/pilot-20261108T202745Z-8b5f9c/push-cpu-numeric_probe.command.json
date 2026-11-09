@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "push",
+    "E:\\DUANCE\\gate2c2-numerics\\staging\\numeric_probe",
+    "/data/local/tmp/mnn-gate2c2-pilot-20261108T202745Z-8b5f9c/cpu/numeric_probe"
+  ],
+  "started_at_utc": "2026-11-08T20:27:46.129996+00:00",
+  "ended_at_utc": "2026-11-08T20:27:46.165442+00:00",
+  "elapsed_seconds": 0.03584169992245734,
+  "exit_code": 0
+}

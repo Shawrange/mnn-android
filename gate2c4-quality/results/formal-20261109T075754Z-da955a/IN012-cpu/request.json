@@ -1,0 +1,13 @@
+{
+  "id": "IN012",
+  "split": "formal",
+  "category": "instruction",
+  "input": "取字符串“ABCDEFG”的前3个字符，只输出结果。",
+  "gold": "ABC",
+  "variants": [
+    "ABC"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "ABC"
+}

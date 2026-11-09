@@ -1,0 +1,13 @@
+{
+  "id": "QA002",
+  "split": "formal",
+  "category": "qa",
+  "input": "短文：李明负责设计，王琳负责测试，周辰负责采购。问：谁负责测试？只输出姓名。",
+  "gold": "王琳",
+  "variants": [
+    "王琳"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "王琳"
+}

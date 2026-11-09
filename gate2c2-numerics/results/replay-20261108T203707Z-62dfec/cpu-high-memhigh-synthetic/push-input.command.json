@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "push",
+    "E:\\DUANCE\\gate2c2-numerics\\results\\checkpoints-20261108T202929Z-254d02\\cpu-low-synthetic-checkpoints-p0\\out\\sample.r0.q_input.f32",
+    "/data/local/tmp/mnn-gate2c2-replay-20261108T203707Z-62dfec/cpu-high-memhigh-synthetic/input.f32"
+  ],
+  "started_at_utc": "2026-11-08T20:37:12.434000+00:00",
+  "ended_at_utc": "2026-11-08T20:37:12.470608+00:00",
+  "elapsed_seconds": 0.03726369992364198,
+  "exit_code": 0
+}

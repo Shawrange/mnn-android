@@ -1,0 +1,39 @@
+{
+  "check_date": "2026-11-08 (America/Los_Angeles)",
+  "tools": [
+    {
+      "Name": "git.exe",
+      "Source": "E:\\Git\\cmd\\git.exe"
+    },
+    {
+      "Name": "wsl.exe",
+      "Source": "C:\\Windows\\system32\\wsl.exe"
+    },
+    {
+      "Name": "python.exe",
+      "Source": "E:\\python\\python.exe"
+    }
+  ],
+  "sdk_path": "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk",
+  "sdk_children": [
+    ".temp",
+    "build-tools",
+    "emulator",
+    "licenses",
+    "platform-tools",
+    "platforms",
+    "sources",
+    ".knownPackages"
+  ],
+  "android_env": {
+    "ANDROID_NDK": null,
+    "ANDROID_NDK_HOME": null,
+    "ANDROID_HOME": null
+  },
+  "sdk_platforms": [
+    "android-36.1"
+  ],
+  "build_tools": [
+    "36.0.0"
+  ]
+}

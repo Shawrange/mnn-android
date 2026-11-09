@@ -1,0 +1,13 @@
+{
+  "id": "QA014",
+  "split": "formal",
+  "category": "qa",
+  "input": "18除以3等于几？只输出阿拉伯数字。",
+  "gold": "6",
+  "variants": [
+    "6"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "6"
+}

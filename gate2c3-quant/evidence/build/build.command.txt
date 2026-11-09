@@ -1,0 +1,1 @@
+cmake --build /home/shawrange/src/MNN-quant-gate2c3/build-android-arm64-cpu-gate2c3 --target MNN --parallel 4 

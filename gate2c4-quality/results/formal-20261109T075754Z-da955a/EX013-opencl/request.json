@@ -1,0 +1,16 @@
+{
+  "id": "EX013",
+  "split": "formal",
+  "category": "extraction",
+  "input": "订单C905的取件日期为2026-09-21。只输出JSON对象，键为code、date，两个值均为原文字符串。",
+  "gold": {
+    "code": "C905",
+    "date": "2026-09-21"
+  },
+  "variants": [
+    "{\"code\":\"C905\",\"date\":\"2026-09-21\"}"
+  ],
+  "rule": "json_exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "{\"code\":\"C905\",\"date\":\"2026-09-21\"}"
+}

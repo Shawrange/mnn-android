@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "push",
+    "E:\\DUANCE\\gate0\\staging\\libMNN.so",
+    "/data/local/tmp/mnn-gate2c4-pilot-20261109T074605Z-464306/cpu/libMNN.so"
+  ],
+  "started_at_utc": "2026-11-09T07:46:06.025123+00:00",
+  "ended_at_utc": "2026-11-09T07:46:06.144931+00:00",
+  "elapsed_seconds": 0.12013009993825108,
+  "exit_code": 0
+}

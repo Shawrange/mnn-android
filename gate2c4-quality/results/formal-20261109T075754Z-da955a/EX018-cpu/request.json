@@ -1,0 +1,16 @@
+{
+  "id": "EX018",
+  "split": "formal",
+  "category": "extraction",
+  "input": "小票写着：商品车票，单价35元。只输出JSON对象，键为item（商品名字符串）、price（整数，不带单位）。",
+  "gold": {
+    "item": "车票",
+    "price": 35
+  },
+  "variants": [
+    "{\"item\":\"车票\",\"price\":35}"
+  ],
+  "rule": "json_exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "{\"item\":\"车票\",\"price\":35}"
+}

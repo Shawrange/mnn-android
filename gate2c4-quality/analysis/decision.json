@@ -1,0 +1,12 @@
+{
+  "decision": "C",
+  "enter_independent_gpu_performance_baseline": false,
+  "frozen_quality_protocol_satisfied_by_gpu": false,
+  "frozen_quality_protocol_satisfied_by_cpu": false,
+  "major_gpu_execution_proved": true,
+  "repeated_discordance_outputs_identical": true,
+  "runtime_defect_claimed": false,
+  "old_logits_threshold_failure_retained": true,
+  "scope": "This fixed quantized asset + no-thinking fixed prompt/config + 100 authored short tasks; no claim all Qwen3-0.6B models or all prompts fail.",
+  "next_step": "Re-scope tasks or define a separate asset/prompt/postprocessing experiment with a new frozen dataset; no optimization/NPU/performance baseline now."
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "cd /data/local/tmp/mnn-gate2c-20261108 && ./cl_probe /vendor/lib64/libOpenCL.so"
+  ],
+  "started_at_utc": "2026-11-08T19:52:37.038381+00:00",
+  "ended_at_utc": "2026-11-08T19:52:37.148084+00:00",
+  "elapsed_seconds": 0.109784199972637,
+  "exit_code": 0
+}

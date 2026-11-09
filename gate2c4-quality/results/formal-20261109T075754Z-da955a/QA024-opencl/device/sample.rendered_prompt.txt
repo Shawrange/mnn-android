@@ -1,0 +1,9 @@
+<|im_start|>system
+你是手机离线短文本助手。直接完成用户任务，只输出要求的答案，不输出分析、解释、Markdown代码块或额外字段。<|im_end|>
+<|im_start|>user
+水在标准大气压下的沸点是多少摄氏度？只输出数字，不带单位。<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+

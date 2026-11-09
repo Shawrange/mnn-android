@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "/system/bin/time -v sleep 0.01"
+  ],
+  "started_at_utc": "2026-11-08T14:07:28.240040+00:00",
+  "ended_at_utc": "2026-11-08T14:07:28.333974+00:00",
+  "elapsed_seconds": 0.09403189999284223,
+  "exit_code": 0
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "file": "transformers/llm/engine/src/llm.cpp",
+    "sha256": "260283e43bc0a7ce233b645602bd83e49f9fbf5964f0be4a477fdacde190fdd7"
+  },
+  {
+    "file": "transformers/llm/engine/src/llmconfig.hpp",
+    "sha256": "ad524c09be84547d9e011b9b19f20e1c1288848c8698cabe23ac2aecef8c28dc"
+  },
+  {
+    "file": "transformers/llm/engine/include/llm/llm.hpp",
+    "sha256": "ac4e6c65e62b88d9de569a0e6c437b4ebabf6510d4fa70c7249a97695483c462"
+  },
+  {
+    "file": "transformers/llm/engine/src/tokenizer/tokenizer.cpp",
+    "sha256": "49035f37e0100f377502c642551abc96d2b7b9459f754550d21ea4bf61687fca"
+  },
+  {
+    "file": "transformers/llm/engine/src/tokenizer/tokenizer.hpp",
+    "sha256": "625cb01f3ee2b465fc36e155e30373211fa26ae8c648730dab8e09cc0f8185e5"
+  },
+  {
+    "file": "transformers/llm/engine/src/speculative_decoding/generate.cpp",
+    "sha256": "f5194d3447509c577f09e602fb977534c1909bd4a6159b2f54ff52055f0a5601"
+  },
+  {
+    "file": "transformers/llm/engine/src/sampler.cpp",
+    "sha256": "e84b328a565731ac26217feae92b6b76b12f4b94b19b3cffefa74ec8e70ac821"
+  },
+  {
+    "file": "express/Expr.cpp",
+    "sha256": "6d2759abd84ed80122f0f366d13d659891a07c94df4240d52aa36ae9dcc80187"
+  },
+  {
+    "file": "source/backend/opencl/core/runtime/OpenCLRuntime.cpp",
+    "sha256": "0f37b4731bbfdb3254c954e2c4876b2ee68f5b92c15999289856ec66561f5705"
+  },
+  {
+    "file": "source/backend/opencl/core/OpenCLBackend.cpp",
+    "sha256": "31e3ea4236822f3e3c9b92a7ab9025cdd2bc944d01a80a79f863d693da569e42"
+  },
+  {
+    "file": "include/MNN/MNNForwardType.h",
+    "sha256": "7a3aa7951b4999d579c0185d9f2b50698595c80d5116ed23e735821493d57153"
+  }
+]

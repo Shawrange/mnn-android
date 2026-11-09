@@ -1,0 +1,6 @@
+{
+  "reason": "Validator rejected zero-duration callbacks; these are allowed for operations below clock resolution, not missing records. Native exit code 0. Original session retained as failed; rerun with nonnegative-duration validator.",
+  "zero_ns_calls": 50,
+  "min_ns": 0,
+  "records": 305318
+}

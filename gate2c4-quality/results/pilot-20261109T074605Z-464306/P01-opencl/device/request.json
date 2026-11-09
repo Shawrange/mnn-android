@@ -1,0 +1,12 @@
+{
+  "id": "P01",
+  "split": "pilot",
+  "category": "classification",
+  "input": "把下面消息分为咨询、投诉、表扬之一，只输出类别。消息：请问这家店周末几点开门？",
+  "gold": "咨询",
+  "variants": [
+    "咨询"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; strict format; natural EOS required"
+}

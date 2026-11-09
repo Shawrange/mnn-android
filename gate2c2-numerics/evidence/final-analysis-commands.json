@@ -1,0 +1,26 @@
+[
+  {
+    "command": [
+      "python",
+      "-B",
+      "gate2c2-numerics\\scripts\\analyze.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "python",
+      "-B",
+      "gate2c2-numerics\\scripts\\analyze_replay.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "python",
+      "-B",
+      "gate2c2-numerics\\scripts\\write_report.py"
+    ],
+    "exit_code": 0
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "id": "QA001",
+  "split": "formal",
+  "category": "qa",
+  "input": "短文：蓝色钥匙放在厨房抽屉里，红色钥匙放在客厅茶几上。问：蓝色钥匙在哪个房间？只输出房间名。",
+  "gold": "厨房",
+  "variants": [
+    "厨房"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "厨房"
+}

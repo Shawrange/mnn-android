@@ -1,0 +1,1 @@
+{"model":".","modelSize":0.4198498446494341,"backend":"OPENCL","threads":4,"useMmap":false,"precision":2,"memory":2,"power":0,"quantKv":0,"flashAttention":1,"results":[{"type":"prefill_and_decode","prompt_len":32,"generate_len":64,"prefill_tps":471.7189734215841,"prefill_std":0.0,"decode_tps":68.4175867406717,"decode_std":0.0}]}

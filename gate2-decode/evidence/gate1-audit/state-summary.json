@@ -1,0 +1,35 @@
+{
+  "short": {
+    "voluntary": {
+      "median": 12.5,
+      "min": 8,
+      "max": 35
+    },
+    "involuntary": {
+      "median": 117.0,
+      "min": 38,
+      "max": 3331
+    }
+  },
+  "long": {
+    "voluntary": {
+      "median": 8.5,
+      "min": 7,
+      "max": 64
+    },
+    "involuntary": {
+      "median": 1362.5,
+      "min": 38,
+      "max": 20492
+    }
+  },
+  "long_started_cooler_skin_blocks": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    8
+  ],
+  "limits": "Whole-process switches include initialization/tuning/warmup; long process duration is greater. No decode-only scheduling measurement exists in Gate1. Endpoint frequencies are not residency or effective frequency."
+}

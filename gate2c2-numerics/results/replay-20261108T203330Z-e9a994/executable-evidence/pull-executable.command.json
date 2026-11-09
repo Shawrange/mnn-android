@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "pull",
+    "/data/local/tmp/mnn-gate2c2-replay-20261108T203330Z-e9a994/cpu/replay",
+    "E:\\DUANCE\\gate2c2-numerics\\results\\replay-20261108T203330Z-e9a994\\executable-evidence\\replay"
+  ],
+  "started_at_utc": "2026-11-08T20:41:31.795070+00:00",
+  "ended_at_utc": "2026-11-08T20:41:31.838023+00:00",
+  "elapsed_seconds": 0.043192300014197826,
+  "exit_code": 0
+}

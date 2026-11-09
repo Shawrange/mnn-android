@@ -1,0 +1,26 @@
+{
+  "path": "results\\profile-20261108T195615Z-85267b",
+  "kind": "profile",
+  "exit_code": 0,
+  "semantic_success": true,
+  "generated_tokens": 16,
+  "failure_layer": null,
+  "kernel_events": 21654,
+  "event_label_counts": {
+    "Raster0": 7720,
+    "LayerNorm0": 1921,
+    "Convolution0": 3349,
+    "Cast0": 969,
+    "BinaryOp0": 2397,
+    "UnaryOp0": 1462,
+    "While0": 1904,
+    "Raster1": 952,
+    "rearrange_k": 28,
+    "rearrange_v": 28,
+    "flash_attention_prefill": 28,
+    "flash_decode_partial": 448,
+    "flash_decode_reduce": 448
+  },
+  "fallback_log_lines": [],
+  "major_model_gpu_execution_proved": true
+}

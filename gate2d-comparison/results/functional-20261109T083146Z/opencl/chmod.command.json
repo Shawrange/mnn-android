@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "chmod 755 /data/local/tmp/mnn-gate2d-20261109T082806Z-5d76d2/opencl/count_probe"
+  ],
+  "started_at_utc": "2026-11-09T08:32:12.980114+00:00",
+  "ended_at_utc": "2026-11-09T08:32:13.038069+00:00",
+  "elapsed_seconds": 0.05766539997421205,
+  "exit_code": 0
+}

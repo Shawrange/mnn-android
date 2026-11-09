@@ -1,0 +1,13 @@
+{
+  "id": "CL009",
+  "split": "formal",
+  "category": "classification",
+  "input": "将消息分为咨询、投诉、表扬之一。只输出类别，不加标点。消息：我想改为周日取货，应该怎样操作？",
+  "gold": "咨询",
+  "variants": [
+    "咨询"
+  ],
+  "rule": "exact",
+  "scoring": "binary deterministic; trim outer whitespace only; require natural EOS; no explanation/code fences",
+  "reference_answer": "咨询"
+}

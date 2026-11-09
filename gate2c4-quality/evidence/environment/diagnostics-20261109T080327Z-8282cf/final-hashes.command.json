@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\12761\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+    "-s",
+    "ee19377b",
+    "shell",
+    "sha256sum /data/local/tmp/mnn-gate2c4-diagnostics-20261109T080327Z-8282cf/cpu/libMNN.so /data/local/tmp/mnn-gate2c4-diagnostics-20261109T080327Z-8282cf/cpu/quality_probe /data/local/tmp/mnn-gate2c4-diagnostics-20261109T080327Z-8282cf/cpu/runtime.json /data/local/tmp/mnn-gate2c4-diagnostics-20261109T080327Z-8282cf/opencl/libMNN.so /data/local/tmp/mnn-gate2c4-diagnostics-20261109T080327Z-8282cf/opencl/quality_probe /data/local/tmp/mnn-gate2c4-diagnostics-20261109T080327Z-8282cf/opencl/runtime.json"
+  ],
+  "started_at_utc": "2026-11-09T08:07:37.073953+00:00",
+  "ended_at_utc": "2026-11-09T08:07:37.162714+00:00",
+  "elapsed_seconds": 0.0886689000762999,
+  "exit_code": 0
+}

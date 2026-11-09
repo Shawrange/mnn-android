@@ -1,0 +1,16 @@
+{
+  "command": [
+    "wsl",
+    "-d",
+    "Ubuntu",
+    "--",
+    "/mnt/e/DUANCE/gate2c3-quant/staging/reference",
+    "/mnt/e/DUANCE/gate2c3-quant/evidence/inputs/synthetic/x.f32",
+    "/mnt/e/DUANCE/gate2c3-quant/evidence/weight/q.decoded.i8",
+    "/mnt/e/DUANCE/gate2c3-quant/evidence/weight/q.alpha.f32",
+    "/mnt/e/DUANCE/gate2c3-quant/evidence/weight/q.bias.f32",
+    "/mnt/e/DUANCE/gate2c3-quant/references/synthetic/reference",
+    "8"
+  ],
+  "exit_code": 0
+}

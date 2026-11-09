@@ -1,0 +1,15 @@
+{
+  "status": "failed",
+  "runs": [
+    {
+      "backend": "cpu",
+      "precision": "low",
+      "memory": "low",
+      "kind": "synthetic",
+      "exit_code": 11,
+      "valid": false
+    }
+  ],
+  "error": "Replay failed: cpu-low-memlow-synthetic",
+  "ended_at_utc": "2026-11-08T20:33:01.925393+00:00"
+}

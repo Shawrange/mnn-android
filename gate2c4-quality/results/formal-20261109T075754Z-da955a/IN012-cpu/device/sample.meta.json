@@ -1,0 +1,15 @@
+{
+  "backend": "cpu",
+  "gen_seq_len": 2,
+  "generated_count": 2,
+  "id": "IN012",
+  "initial_kv": 0,
+  "input_len": 62,
+  "kv_after": 63,
+  "mode": "generate",
+  "prompt_len": 62,
+  "status": 1,
+  "stop_token": 151645,
+  "stopped": true,
+  "thinking": false
+}
