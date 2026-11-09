@@ -1,6 +1,6 @@
 # MNN Android LLM Runtime
 
-在小米 15 上运行 Qwen3-0.6B，并跟进到 MNN 的 C++ 执行层，分析一个 Token 从生成到计算完成经过了哪些环节。
+把 Qwen3-0.6B 部署到小米 15，沿着 MNN 的 C++ 调用链分析模型的执行过程。
 
 这个项目里，我完成了 CPU / OpenCL 的构建部署，编写了真机测试、执行追踪和数值对照工具。除了跑出吞吐数据，我更关心两个问题：时间实际花在哪里，以及不同后端的计算结果为什么不同。
 
@@ -60,9 +60,10 @@ OpenCL 执行由设备 Kernel 事件确认，相关记录见[GPU 执行验证](g
 - [Decode 追踪](gate2-decode/README.md)：C++ 采集点、补丁、逐 Token 原始记录。
 - [量化独立复算](gate2c3-quant/README.md)：输入、权重解析、参照程序和误差对照。
 
-本地安装 Python 3.12 后，可以先运行不依赖手机的检查：
+克隆仓库需要 Git LFS 取回模型图，离线检查使用 Python 3.12，不需要连接手机：
 
 ```powershell
+git lfs pull
 python -B gate2d-comparison/scripts/test_analysis.py
 python -B gate2c4-quality/scripts/test_score.py
 python -B verify_project.py --available

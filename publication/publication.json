@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/Shawrange/mnn-android",
-  "created_at_utc": "2026-11-09T09:51:48.143069+00:00",
+  "created_at_utc": "2026-11-09T09:57:50.311445+00:00",
   "change_scope": "GitHub presentation and packaging only; no inference, model or experiment changes",
   "original_project_manifest_sha256": "bea72467ec1abd598e2f44a2713803b723abb4a203042a2eebd849cc10427ebe",
   "frozen_path_overrides": {
@@ -8,12 +8,12 @@
     "verify_project.py": "publication/frozen/verify_project.py"
   },
   "updated_sha256": {
-    "README.md": "e6264596da7c0c4bd7cbbebefee08cbd828a8f3c7cb151568265041359e92e25",
+    "README.md": "b0865b69048bab620e40a35d50f936ecaab72d3c913cfb97e7cbb0fa69e0571a",
     "verify_project.py": "a57115f15ed90cc424e16b1662627c08542e571400bcc9c7c67d7e19c5af30dd",
     ".gitignore": "e6bc808590a35379aa07b9eedfeda632afff6a8e4b08c720fa900caa866984c1",
     ".gitattributes": "e3a6477ef4ed53f5283c2d6c3beb4cb10456804aa0b132e04c45c60489fb1446",
     "THIRD_PARTY_NOTICES.md": "152cf9e03ed619add02e46d27dcc739e7cf241316094b772476386c0d921419a",
-    "publication/README.md": "d3dc1b95827d2db65f001ec42807059eaba5677a32c88bec9de5072576e1bdb6",
+    "publication/README.md": "123b27921ec4b23f02f782e7309c53080442448326163631226346d434e7e883",
     "publication/prepare.py": "6486ccb5f513db5732a7d2df6ff87b70fb86ea7b648b2caaea7b8478a869d9f4"
   },
   "omitted_from_git": [

@@ -6,6 +6,8 @@ GitHub 展示版对应冻结实验归档，目标仓库为 `Shawrange/mnn-androi
 
 保留实验脚本、C++ 诊断工具和补丁、报告、原始测量/数值/质量结果、clean 与诊断二进制。模型图和 Tokenizer 随原模型文件保留，完整大权重不上传。没有将上游 MNN 的完整 Git 数据库纳入项目历史。
 
+原模型目录保留发布者的 `.gitattributes`，因此约 462 KB 的 `llm.mnn` 模型图通过 Git LFS 保存。克隆后执行 `git lfs pull` 获取实际文件；仅下载 GitHub 源码 zip 可能拿到 LFS 指针。大权重不在本仓库的 LFS 中，仍按固定模型 revision 单独获取。
+
 以下文件仍留在原开发环境，由 `.gitignore` 排除：
 
 |内容|获取方式|
